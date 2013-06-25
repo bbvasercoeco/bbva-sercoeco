@@ -203,7 +203,9 @@ margin-top:-19px;
 .cabeceramenu ul li.op6{
 	width: 139px;
 }
-
+.cabeceramenu ul li.op8{
+	width: 139px;
+}
 .cabeceramenu ul li.op7{
 	width: 170px;
 	border-bottom-right-radius: 5px;
@@ -278,9 +280,9 @@ Español <a target="_parent" href="https://sites.google.com/a/bbva.com/help-site
 	<li id="home" class="op1"><a class="enlace" href="https://sites.google.com/a/bbva.com/sercoeco/"   target="_parent"  title="home"/></li>
 	<li id="consumo" class="op2"><span class="enlace" tabindex="0"><span><a href="https://sites.google.com/a/bbva.com/sercoeco/"  target="_parent">Consumo</a></span></span></li>
 	<li id="personal" class="op3" ><span class="enlace" tabindex="0"><span><a href="https://sites.google.com/a/bbva.com/sercoeco/"  target="_parent">Personal</a></span></span></li>
-	<li id="success-stories" class="op4"><span class="enlace" tabindex="0"><span><a href="https://sites.google.com/a/bbva.com/sercoeco/"  target="_parent">Reciclado</a></span></span></li>
-	<li id="events" class="op5"><span class="enlace" tabindex="0"><span><a href="https://sites.google.com/a/bbva.com/sercoeco/"  target="_parent">Factores de conversión</a></span></span></li> 
-	<li id="network" class="op6"><span class="enlace" tabindex="0"><span><a href="https://sites.google.com/a/bbva.com/sercoeco/"  target="_parent">Tipo de cambio</a></span></span></li> 
+	<li id="reciclado" class="op4"><span class="enlace" tabindex="0"><span><a href="https://sites.google.com/a/bbva.com/sercoeco/"  target="_parent">Reciclado</a></span></span></li>
+	<li id="factores" class="op5"><span class="enlace" tabindex="0"><span><a href="https://sites.google.com/a/bbva.com/sercoeco/"  target="_parent">Factores de conversión</a></span></span></li> 
+	<li id="cambio" class="op6"><span class="enlace" tabindex="0"><span><a href="https://sites.google.com/a/bbva.com/sercoeco/"  target="_parent">Tipo de cambio</a></span></span></li> 
 	<li id="empleados" class="op7"><span class="enlace" tabindex="0"><span><a href="https://sites.google.com/a/bbva.com/sercoeco/"  target="_parent" >Empleados</a></span></span></li> 
 	<li id="admin" class="op8"><span class="enlace" tabindex="0"><span><a href="https://sites.google.com/a/bbva.com/sercoeco/"  target="_parent" >Administración</a></span></span></li> 
 
@@ -396,31 +398,30 @@ if (!Array.prototype.indexOf) {
 	document.getElementById('home').onclick = function(){ Go('home');};
 	document.getElementById('news').onclick = function() {Go('news');};
 	document.getElementById('reports').onclick = function() {Go('reports');};
-	
 	document.getElementById('success-stories').onclick = function() {Go('success-stories');};
-	
 	document.getElementById('events').onclick = function() {Go('events');};
-	
 	document.getElementById('network').onclick = function (){Go('network');};
 	document.getElementById('about').onclick = function (){Go('about');};
-	
+	document.getElementById('admin').onclick = function (){Go('admin');};
 	
 	function Go(destination)
 	{
-		if(destination=='home'){window.parent.location.href="https://sites.google.com/a/bbva.com/leanobservatory";}
+		if(destination=='home'){window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/";}
 		
-		else if(destination=='news'){window.parent.location.href="https://sites.google.com/a/bbva.com/leanobservatory/news";}
+		else if(destination=='consumo'){window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/";}
 		
-		else if(destination=='reports'){window.parent.location.href="https://sites.google.com/a/bbva.com/leanobservatory";}
+		else if(destination=='personal'){window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/";}
 		
-		else if(destination=='success-stories'){window.parent.location.href="https://sites.google.com/a/bbva.com/leanobservatory/key-studies";}
+		else if(destination=='reciclado){window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/";}
 		
-		else if(destination=='events'){window.parent.location.href="https://sites.google.com/a/bbva.com/leanobservatory/events";}
+		else if(destination=='factores'){window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/";}
 		
-		else if(destination=='network'){window.parent.location.href="https://sites.google.com/a/bbva.com/leanobservatory/network";}
+		else if(destination=='cambio'){window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/";}
 		
-		else if(destination=='about'){window.parent.location.href="https://sites.google.com/a/bbva.com/leanobservatory/about-us";}
-	
+		else if(destination=='empleados'){window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/";}
+		
+		else if(destination=='admin'){window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/";}
+		
 		return false;
 	}
 	
@@ -438,33 +439,38 @@ if (!Array.prototype.indexOf) {
 			document.getElementsByClassName("op1")[0].style.backgroundColor = "rgb(0, 80, 152)";
 			document.getElementsByClassName("op1")[0].style.boxShadow = "0 0 5px rgba(0, 0, 0, 0.5) inset";	
 		}
-		if(parametros.indexOf("news")!=-1){
+		if(parametros.indexOf("consumo")!=-1){
 			document.getElementsByClassName("op2")[0].style.backgroundColor = "rgb(0, 80, 152)";
 			document.getElementsByClassName("op2")[0].style.boxShadow = "0 0 5px rgba(0, 0, 0, 0.5) inset";
 		
 		}
-		if(parametros.indexOf("reports")!=-1){
+		if(parametros.indexOf("personal")!=-1){
 			document.getElementsByClassName("op3")[0].style.backgroundColor = "rgb(0, 80, 152)";
 			document.getElementsByClassName("op3")[0].style.boxShadow = "0 0 5px rgba(0, 0, 0, 0.5) inset";
 		
 		}
-		if(parametros.indexOf("key-studies")!=-1){
+		if(parametros.indexOf("reciclado")!=-1){
 			document.getElementsByClassName("op4")[0].style.backgroundColor = "rgb(0, 80, 152)";
 			document.getElementsByClassName("op4")[0].style.boxShadow = "0 0 5px rgba(0, 0, 0, 0.5) inset";
 		
 		}
-		if(parametros.indexOf("events")!=-1){
+		if(parametros.indexOf("factores")!=-1){
 			document.getElementsByClassName("op5")[0].style.backgroundColor = "rgb(0, 80, 152)";
 			document.getElementsByClassName("op5")[0].style.boxShadow = "0 0 5px rgba(0, 0, 0, 0.5) inset";		
 		}
-		if(parametros.indexOf("network")!=-1){
+		if(parametros.indexOf("cambio")!=-1){
 		
 			document.getElementsByClassName("op6")[0].style.backgroundColor = "rgb(0, 80, 152)";
 			document.getElementsByClassName("op6")[0].style.boxShadow = "0 0 5px rgba(0, 0, 0, 0.5) inset";		
 		}	
-		if(parametros.indexOf("about")!=-1){
+		if(parametros.indexOf("empleados")!=-1){
 			document.getElementsByClassName("op7")[0].style.backgroundColor = "rgb(0, 80, 152)";
 			document.getElementsByClassName("op7")[0].style.boxShadow = "0 0 5px rgba(0, 0, 0, 0.5) inset";
+		
+		}
+		if(parametros.indexOf("admin")!=-1){
+			document.getElementsByClassName("op8")[0].style.backgroundColor = "rgb(0, 80, 152)";
+			document.getElementsByClassName("op8")[0].style.boxShadow = "0 0 5px rgba(0, 0, 0, 0.5) inset";
 		
 		}
 	}
