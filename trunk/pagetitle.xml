@@ -90,12 +90,23 @@
 	}
  .breadmax{
 	position:relative;
-	top:4px;
+	top:2px;
+    margin-right:3px;
+    border: none;
+    border: 0;
+	
+ }
+ @-moz-document url-prefix(){
+ .breadmax{
+	position:relative;
+	top:px;
     margin-right:3px;
     border: none;
     border: 0;
 	width:9px;
  }
+
+}
 	</style>
 
 	<!--[if IE 7]>
