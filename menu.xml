@@ -202,15 +202,15 @@ margin-top:-19px;
 }
 
 .cabeceramenu ul li.op6{
-	width: 130px;
+	width: 145px;
 }
 .cabeceramenu ul li.op8{
-	width: 200px;
+	width: 150px;
 	border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
 }
 .cabeceramenu ul li.op7{
-	width: 100px;
+	width: 115px;
 	
 }
 
