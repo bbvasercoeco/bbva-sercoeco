@@ -90,10 +90,11 @@
 	}
  .breadmax{
 	position:relative;
-	top:2px;
+	top:4px;
     margin-right:3px;
     border: none;
     border: 0;
+	width:9px;
  }
 	</style>
 
