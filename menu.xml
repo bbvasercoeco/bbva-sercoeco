@@ -219,7 +219,7 @@ margin-top:-19px;
     border-top-left-radius: 5px;
 }
 
-.cabeceramenu ul li.op7 span.enlace:hover{
+.cabeceramenu ul li.op8 span.enlace:hover{
 	border-bottom-right-radius: 5px !important;
     border-top-right-radius: 5px !important;
 }
