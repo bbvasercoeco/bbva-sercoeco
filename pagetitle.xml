@@ -22,11 +22,11 @@
 
 		@font-face {
 			font-family: 'BBVA Web Light';
-			src:url('https://sites.google.com/a/bbva.com/implantaciones-eyp/web-light.eot');
-			src:url('https://sites.google.com/a/bbva.com/implantaciones-eyp/web-light.eot?iefix') format("embedded-opentype"),
-				url('https://sites.google.com/a/bbva.com/implantaciones-eyp/web-light.woff') format("woff"),
-				url('https://sites.google.com/a/bbva.com/implantaciones-eyp/web-light.ttf') format("truetype"),
-				url('https://sites.google.com/a/bbva.com/implantaciones-eyp/web-light.svg#BBVA Web Light') format("svg");
+			src:url('https://sites.google.com/a/bbva.com/sercoeco/web-light.eot');
+			src:url('https://sites.google.com/a/bbva.com/sercoeco/web-light.eot?iefix') format("embedded-opentype"),
+				url('https://sites.google.com/a/bbva.com/sercoeco/web-light.woff') format("woff"),
+				url('https://sites.google.com/a/bbva.com/sercoeco/web-light.ttf') format("truetype"),
+				url('https://sites.google.com/a/bbva.com/sercoeco/web-light.svg#BBVA Web Light') format("svg");
 			font-style: normal;
 			font-weight: normal;
 		}
@@ -37,7 +37,7 @@
 			background-attachment: scroll;
 			background-clip: border-box;
 			background-color: transparent;
-			background-image: url("https://bbvaportaldeayuda.googlecode.com/svn/trunk/img/bg-separador-doble.png");
+			background-image: url("https://sites.google.com/a/bbva.com/sercoeco/bg-separador-doble.png?attredirects=0");
 			background-origin: padding-box;
 			background-position: left bottom;
 			background-repeat: repeat-x;
@@ -334,12 +334,12 @@ if (!Array.prototype.indexOf) {
 					//console.log("para length: " + parametros.length);
 					if (j<parametros.length-1)
 					{
-						s = s + "<a class=\'linkBreadCrumb\' href=\'"+ base  + rootSite + barra  + parametros[j] + barra + "\' target=\'_parent\' title=\'" + litEnlace + "\'> <img class='breadmax' src='https://bbva-implantaciones-eyp.googlecode.com/svn/trunk/img/separatorbreadcrumb.png'/>&nbsp;" + litEnlace + "</a>";
+						s = s + "<a class=\'linkBreadCrumb\' href=\'"+ base  + rootSite + barra  + parametros[j] + barra + "\' target=\'_parent\' title=\'" + litEnlace + "\'> <img class='breadmax' src='https://sites.google.com/a/bbva.com/sercoeco/separatorbreadcrumb.png?attredirects=0'/>&nbsp;" + litEnlace + "</a>";
 						rootSite = rootSite + "/" + parametros[j];
 					}
 					else
 					{
-						s = s + " <img class='breadmax' src='https://bbva-implantaciones-eyp.googlecode.com/svn/trunk/img/separatorbreadcrumb.png'/><span class=\'currentBreadCrumb\' + parametros[j] + barra + \' >&nbsp;" + litEnlace + "</span>";
+						s = s + " <img class='breadmax' src='https://sites.google.com/a/bbva.com/sercoeco/separatorbreadcrumb.png?attredirects=0'/><span class=\'currentBreadCrumb\' + parametros[j] + barra + \' >&nbsp;" + litEnlace + "</span>";
 					}
 				}
 			}
@@ -406,7 +406,7 @@ if (!Array.prototype.indexOf) {
 									category = category.toString();
 									category = category.charAt(0).toUpperCase()+category.slice(1);
 									categorybreadcrumb = "&nbsp;"+category;
-									document.querySelectorAll('.linkBreadCrumb')[2].innerHTML = "<a class=\'linkBreadCrumb\' href='https://sites.google.com/a/bbva.com/implantaciones-eyp/home/aplicaciones/aplicacion?appId="+appId+"' target=\'_parent\' title=\'" + appName + "\'> <img class='breadmax' src='https://bbva-implantaciones-eyp.googlecode.com/svn/trunk/img/separatorbreadcrumb.png'/>&nbsp;" + appName + "</a>";
+									document.querySelectorAll('.linkBreadCrumb')[2].innerHTML = "<a class=\'linkBreadCrumb\' href='https://sites.google.com/a/bbva.com/implantaciones-eyp/home/aplicaciones/aplicacion?appId="+appId+"' target=\'_parent\' title=\'" + appName + "\'> <img class='breadmax' src='https://sites.google.com/a/bbva.com/sercoeco/separatorbreadcrumb.png?attredirects=0'/>&nbsp;" + appName + "</a>";
 									document.querySelectorAll('.currentBreadCrumb')[0].innerHTML = categorybreadcrumb;
 									document.getElementById('titlepage').innerHTML = category;
 								}
@@ -505,8 +505,8 @@ if (!Array.prototype.indexOf) {
 										subcategoryName = subcategoryName.toString();
 										subcategoryName = subcategoryName.charAt(0).toUpperCase()+subcategoryName.slice(1);
 										subcategoryName = "&nbsp;"+subcategoryName;
-										document.querySelectorAll('.linkBreadCrumb')[2].innerHTML = "<a class=\'linkBreadCrumb\' href='https://sites.google.com/a/bbva.com/implantaciones-eyp/home/aplicaciones/aplicacion?appId="+appId+"' target=\'_parent\' title=\'" + appName + "\'> <img class='breadmax' src='https://bbva-implantaciones-eyp.googlecode.com/svn/trunk/img/separatorbreadcrumb.png'/>&nbsp;" + appName + "</a>";
-										document.querySelectorAll('.linkBreadCrumb')[4].innerHTML = "<a class=\'linkBreadCrumb\' href='https://sites.google.com/a/bbva.com/implantaciones-eyp/home/aplicaciones/aplicacion/categoria?appId="+appId+"&categoriaId="+categoryId+"' target=\'_parent\' title=\'" + categorybreadcrumb + "\'> <img class='breadmax' src='https://bbva-implantaciones-eyp.googlecode.com/svn/trunk/img/separatorbreadcrumb.png'/>&nbsp;" + categorybreadcrumb + "</a>";
+										document.querySelectorAll('.linkBreadCrumb')[2].innerHTML = "<a class=\'linkBreadCrumb\' href='https://sites.google.com/a/bbva.com/implantaciones-eyp/home/aplicaciones/aplicacion?appId="+appId+"' target=\'_parent\' title=\'" + appName + "\'> <img class='breadmax' src='https://sites.google.com/a/bbva.com/sercoeco/separatorbreadcrumb.png?attredirects=0'/>&nbsp;" + appName + "</a>";
+										document.querySelectorAll('.linkBreadCrumb')[4].innerHTML = "<a class=\'linkBreadCrumb\' href='https://sites.google.com/a/bbva.com/implantaciones-eyp/home/aplicaciones/aplicacion/categoria?appId="+appId+"&categoriaId="+categoryId+"' target=\'_parent\' title=\'" + categorybreadcrumb + "\'> <img class='breadmax' src='https://sites.google.com/a/bbva.com/sercoeco/separatorbreadcrumb.png?attredirects=0'/>&nbsp;" + categorybreadcrumb + "</a>";
 										document.querySelectorAll('.currentBreadCrumb')[0].innerHTML = subcategoryName;
 										document.getElementById('titlepage').innerHTML = subcategoryName;
 									}
