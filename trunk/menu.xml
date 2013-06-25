@@ -414,7 +414,7 @@ if (!Array.prototype.indexOf) {
 		
 		else if(destination=='personal'){window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/";}
 		
-		else if(destination=='reciclado){window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/";}
+		else if(destination=='reciclado'){window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/";}
 		
 		else if(destination=='factores'){window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/";}
 		
