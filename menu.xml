@@ -179,37 +179,38 @@ margin-top:-19px;
 }
 
 .cabeceramenu  ul li.op1 {
-	width: 82px;
+	width: 50px;
 	border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
 }
 
 .cabeceramenu ul li.op2{
-	width: 120px;
+	width: 100px;
 }
 
 .cabeceramenu ul li.op3{
-	width: 143px;
+	width: 100px;
 }
 
 .cabeceramenu ul li.op4{
-	width: 173px;
+	width: 100px;
 }
 
 .cabeceramenu ul li.op5{
-	width: 133px;
+	width: 200px;
 }
 
 .cabeceramenu ul li.op6{
-	width: 139px;
+	width: 100px;
 }
 .cabeceramenu ul li.op8{
-	width: 139px;
+	width: 200px;
+	border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .cabeceramenu ul li.op7{
 	width: 170px;
-	border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
+	
 }
 
 .cabeceramenu ul li.op1 a:hover{
@@ -223,7 +224,7 @@ margin-top:-19px;
 }
 
 .cabeceramenu  ul li.op1 a{
-	background: url('https://sites.google.com/a/bbva.com/leanobservatory/ico-spritegraficos24.png?attredirects=0') no-repeat scroll 28px -3150px;
+	background: url('https://sites.google.com/a/bbva.com/leanobservatory/ico-spritegraficos24.png?attredirects=0') no-repeat scroll 15px -3150px;
 	border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
 }
