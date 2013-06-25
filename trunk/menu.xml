@@ -16,11 +16,11 @@
   /* @group fonts */
 @font-face {
 				font-family: 'BBVA Web Light';
-				src:url('https://sites.google.com/a/bbva.com/leanobservatory/web-light.eot');
-				src:url('https://sites.google.com/a/bbva.com/leanobservatory/web-light.eot?iefix') format("embedded-opentype"),
-					url('https://sites.google.com/a/bbva.com/leanobservatory/web-light.woff') format("woff"),
-					url('https://sites.google.com/a/bbva.com/leanobservatory/web-light.ttf') format("truetype"),
-					url('https://sites.google.com/a/bbva.com/leanobservatory/web-light.svg#BBVA Web Light') format("svg");
+				src:url('https://sites.google.com/a/bbva.com/sercoeco/web-light.eot');
+				src:url('https://sites.google.com/a/bbva.com/sercoeco/web-light.eot?iefix') format("embedded-opentype"),
+					url('https://sites.google.com/a/bbva.com/sercoeco/web-light.woff') format("woff"),
+					url('https://sites.google.com/a/bbva.com/sercoeco/web-light.ttf') format("truetype"),
+					url('https://sites.google.com/a/bbva.com/sercoeco/web-light.svg#BBVA Web Light') format("svg");
 				font-style: normal;
 				font-weight: normal;
 				
@@ -28,22 +28,22 @@
 
   @font-face {
 			font-family: 'BBVA Web Book';
-			src:url('https://sites.google.com/a/bbva.com/leanobservatory/web-book.eot');
-			src:url('https://sites.google.com/a/bbva.com/leanobservatory/web-book.eot?iefix') format("embedded-opentype"),
-			url('https://sites.google.com/a/bbva.com/leanobservatory/web-book.woff') format("woff"),
-			url('https://sites.google.com/a/bbva.com/leanobservatory/web-book.ttf') format("truetype"),
-			url('https://sites.google.com/a/bbva.com/leanobservatory/web-book.svg?#BBVA Web Book') format("svg");
+			src:url('https://sites.google.com/a/bbva.com/sercoeco/web-book.eot');
+			src:url('https://sites.google.com/a/bbva.com/sercoeco/web-book.eot?iefix') format("embedded-opentype"),
+			url('https://sites.google.com/a/bbva.com/sercoeco/web-book.woff') format("woff"),
+			url('https://sites.google.com/a/bbva.com/sercoeco/web-book.ttf') format("truetype"),
+			url('https://sites.google.com/a/bbva.com/sercoeco/web-book.svg?#BBVA Web Book') format("svg");
 			font-style: normal;
 			font-weight: normal;
 		}
 
 @font-face {
 	font-family: 'BBVA Web Medium';
-	src:url('https://sites.google.com/a/bbva.com/leanobservatory/web-medium.eot');
-	src:url('https://sites.google.com/a/bbva.com/leanobservatory/web-medium.eot?iefix') format("embedded-opentype"),
-		url('https://sites.google.com/a/bbva.com/leanobservatory/web-medium.woff') format("woff"),
-		url('https://sites.google.com/a/bbva.com/leanobservatory/web-medium.ttf') format("truetype"),
-		url('https://sites.google.com/a/bbva.com/leanobservatory/web-medium.svg?#BBVA Web Medium') format("svg");
+	src:url('https://sites.google.com/a/bbva.com/sercoeco/web-medium.eot');
+	src:url('https://sites.google.com/a/bbva.com/sercoeco/web-medium.eot?iefix') format("embedded-opentype"),
+		url('https://sites.google.com/a/bbva.com/sercoeco/web-medium.woff') format("woff"),
+		url('https://sites.google.com/a/bbva.com/sercoeco/web-medium.ttf') format("truetype"),
+		url('https://sites.google.com/a/bbva.com/sercoeco/web-medium.svg?#BBVA Web Medium') format("svg");
 	font-style: normal;
 	font-weight: normal;
 }
@@ -103,7 +103,7 @@ ol, ul {
 .cabeceramenu ul li.op7{
   float: left;
   text-align: center;
-  background: url('https://sites.google.com/a/bbva.com/leanobservatory/separador-menu.png?attredirects=0') no-repeat scroll right top transparent;
+  background: url('https://sites.google.com/a/bbva.com/sercoeco/separador-menu.png?attredirects=0') no-repeat scroll right top transparent;
 }
 
 .cabeceramenu ul li.op8{
@@ -225,7 +225,7 @@ margin-top:-19px;
 }
 
 .cabeceramenu  ul li.op1 a{
-	background: url('https://sites.google.com/a/bbva.com/leanobservatory/ico-spritegraficos24.png?attredirects=0') no-repeat scroll 15px -3150px;
+	background: url('https://sites.google.com/a/bbva.com/sercoeco/ico-spritegraficos24.png?attredirects=0') no-repeat scroll 15px -3150px;
 	border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
 }
@@ -269,7 +269,7 @@ margin-top:-19px;
 <style type="text/css">
 	
 	.cabeceramenu {
-		background:url('https://sites.google.com/a/bbva.com/leanobservatory/backcabeceraHomeIE2.png?attredirects=0');
+		background:url('https://sites.google.com/a/bbva.com/sercoeco/backcabeceraHomeIE2.png?attredirects=0');
 	
 	}
 </style>
