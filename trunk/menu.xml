@@ -99,13 +99,14 @@ ol, ul {
 .cabeceramenu ul li.op3,
 .cabeceramenu ul li.op4,
 .cabeceramenu ul li.op5,
-.cabeceramenu ul li.op6{
+.cabeceramenu ul li.op6,
+.cabeceramenu ul li.op7{
   float: left;
   text-align: center;
   background: url('https://sites.google.com/a/bbva.com/leanobservatory/separador-menu.png?attredirects=0') no-repeat scroll right top transparent;
 }
 
-.cabeceramenu ul li.op7{
+.cabeceramenu ul li.op8{
   float: left;
   text-align: center;
 }
