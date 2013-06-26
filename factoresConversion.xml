@@ -65,7 +65,7 @@
 	
 	}
 	.dato2{
-	width:110px;
+	/*width:110px;*/
 
 	}
 	.dato3{
@@ -79,7 +79,7 @@
 	 width:115px;
 	}
 	.col2{
-	 width:158px;
+	 width:115px;
 	}
 	.col3{
 	 width:115px;
