@@ -344,13 +344,14 @@ if (!Array.prototype.indexOf) {
 						}
 					}
 					//console.log("para length: " + parametros.length);
+					
 					if (j<parametros.length-1)
 					{
 						s = s + "<a class=\'linkBreadCrumb\' href=\'"+ base  + rootSite + barra  + parametros[j] + barra + "\' target=\'_parent\' title=\'" + litEnlace + "\'> <img class='breadmax' src='https://sites.google.com/a/bbva.com/sercoeco/separatorbreadcrumb.png?attredirects=0'/>&nbsp;" + litEnlace + "</a>";
 						rootSite = rootSite + "/" + parametros[j];
 					}
 					else
-					{
+					{	console.log("litEnlace en else "+litEnlace);
 						s = s + " <img class='breadmax' src='https://sites.google.com/a/bbva.com/sercoeco/separatorbreadcrumb.png?attredirects=0'/><span class=\'currentBreadCrumb\' + parametros[j] + barra + \' >&nbsp;" + litEnlace + "</span>";
 					}
 				}
