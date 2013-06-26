@@ -1,46 +1,124 @@
 <?xml version="1.0" encoding="UTF-8" ?> 
 <Module>
-	<ModulePrefs title="News.xml - the far site"
-    	description=""
-    	author_affiliation="Capgemini">
-    	<Require feature="idi"/>
-    	<Require feature="locked-domain" />
-		<Require feature="dynamic-height"/>   
-		<Require feature="setprefs" />   
-  	</ModulePrefs>
-	<UserPref name="_table_query_url" default_value="" display_name="Data source url: " required="true" />
+  <ModulePrefs title="Google plus"    
+  scrolling="true"> 
+	<Require feature="idi"/>
+    <Require feature="locked-domain" />
+	<Require feature="dynamic-height"/>
+	<Require feature="setprefs" />
+  </ModulePrefs>
 <Content type="html">
 <![CDATA[
-<head>
-<title>+1 Demo: Async load</title>
-<link rel="canonical" href="https://plus.google.com/u/0/communities/101740579695890074431" target="_blank" />
-<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-</head>
 
-
-
+  
+    <script src="https://www.google.com/jsapi" type="text/javascript"></script>
+    <!--<script src="https://leanobservatory.googlecode.com/svn/trunk/js/common.js"></script>-->
+    <title>GetUser</title>
+  
+  	<script type="text/javascript">
+	console.log("version 13 jor");
+  	var entorno;
+  	var llave;
+	var url = window.location.host;
+	var urlparent = gadgets.util.getUrlParameters()["parent"];
+	var returnedJSON;
 		
+		
+	llave = "703896943360-34l2deo4bnvakiv5toa0nlin0p5788ss.apps.googleusercontent.com";
+		 		
+	
+	
+	
+	function createb(){
+		// 'Getting' data-attributes using getAttribute
+		var zombi = document.getElementById('signp');
+		//var fruitCount = plant.getAttribute('data-clientid'); // fruitCount = '12'
+
+		// 'Setting' data-attributes using setAttribute
+		zombi.setAttribute('data-clientid',llave); // Pesky birds
+
+	  
+       var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+       po.src = 'https://apis.google.com/js/client:plusone.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+    
+	}
+	
+	function newpostReq(url,callBack){
+		console.log("entro en function newpostReq (url,callBack)");
+		    var xmlhttp;
+		    if (window.XDomainRequest)
+		    {
+		        xmlhttp=new XDomainRequest();
+		        xmlhttp.onload = function(){callBack(xmlhttp.responseText)};
+		    }
+		    else if (window.XMLHttpRequest)
+		        xmlhttp=new XMLHttpRequest();
+		    else
+		        xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+		    xmlhttp.onreadystatechange=function()
+		    {
+		        if (xmlhttp.readyState==4 && xmlhttp.status==200)
+		            callBack(xmlhttp.responseText);
+		    }
+
+		    xmlhttp.open("GET",url,true);
+		    xmlhttp.send();
+		}
+	
+  	
+  	
+  	function signinCallback(authResult) {
+	  console.log("entro en signinCallback");
+	  console.log("authResult['access_token'] "+authResult['access_token']);
+  	    var martincito;
+  	    
+		gapi.client.load('oauth2', 'v2', function() {
+			gapi.client.oauth2.userinfo.get().execute(function(resp) {
+				// Shows user email
+				martincito = resp.email;
+				console.log("entro en gapi.client.oauth2.userinfo.get().execute(function(resp)");
+			})
+  		});		
+		console.log("martincito "+martincito);	
+		var urlaux = "https://script.google.com/a/macros/bbva.com/s/AKfycbyCvKr4gZa9ER4_Q063fbYbK-_NC2l1CUy4EXa-JaIh/dev?email="+martincito+"&url="+urlparent;
+		console.log("urlaux "+urlaux);
+		newpostReq(urlaux, function(jsonString) {
+			returnedJSON = String(jsonString);
+			console.log("returnedJSON "+returnedJSON);
+		});
+
+  		  
+  	  
+  	}
+
+  	</script>
+    
+        
+    
+   <!--<script src="https://sites.google.com/a/bbva.com/leanobservatory/jquery.js?attredirects=0&d=1" language="JavaScript"></script>-->
 	
 
 
- <g:plusone expandTo="top"></g:plusone>
 
-  <script type="text/javascript">
-      window.___gcfg = {
-        lang: 'en-US',
-		google_analytics: true,
-		expandTo: top,
-      };
-
-      (function() {
-        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-        po.src = 'https://apis.google.com/js/plusone.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-      })(); 
-  </script>
-
-
-
-]]>
-</Content>  
+	<body onload="createb()">
+		<p id="text"></p>
+		<span id="signinButton">
+		  <span
+		  	id="signp"
+		    class="g-signin"
+		    data-clientid="xxx"
+		    data-callback="signinCallback"
+		    data-cookiepolicy="single_host_origin"
+		    data-requestvisibleactions="http://schemas.google.com/AddActivity"
+		    data-scope="https://www.googleapis.com/auth/userinfo.email">
+		  </span>
+		</span>
+		<script type="text/javascript">
+    
+		</script>
+		
+	</body>
+ ]]>	
+</Content>
 </Module>
