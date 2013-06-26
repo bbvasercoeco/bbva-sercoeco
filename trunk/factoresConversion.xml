@@ -53,6 +53,7 @@
 	 margin-bottom:25px;
 	 width:100%;
 	 display:block;
+	 height:1px;
 	}
 	
 	.dato0{
@@ -60,7 +61,7 @@
 	
 	}
 	.dato1{
-	width:175px;
+	/*width:175px;*/
 	
 	}
 	.dato2{
@@ -68,20 +69,32 @@
 
 	}
 	.dato3{
-	width:150px;
+	/*width:150px;*/
 	}
 	
 	.col0{	
 	 width:83px;
 	}
 	.col1{
-	 width:167px;
+	 width:115px;
 	}
 	.col2{
 	 width:158px;
 	}
 	.col3{
-	 width:150px;
+	 width:115px;
+	
+	}
+	.col4{
+	 width:115px;
+	
+	}
+	.col5{
+	 width:115px;
+	
+	}
+	.col6{
+	 width:115px;
 	
 	}
 	#tablasoporte tr.datosfila{
@@ -141,7 +154,7 @@
 				var html= "";
 				html += "<table id='tablasoporte'>";
 				html += "<thead><tr><th class='col0'>Pa&iacute;s</th><th class='col1'>Electricidad</th><th class='col2'>Gas natural</th><th class='col3'>Gasóleo</th><th class='col4'>Km Avión corto</th><th class='col5'>Km Avión medio</th><th class='col5'>Km Avión largo</th></tr></thead>";
-			    html += "<tbody><tr><td colspan='4'><img src='https://bbvaportaldeayuda.googlecode.com/svn/trunk/img/linepagetitledown.png' class='linedownheadertable' /></td></tr>";
+			    html += "<tbody><tr><td colspan='7'><img src='https://bbvaportaldeayuda.googlecode.com/svn/trunk/img/linepagetitledown.png' class='linedownheadertable' /></td></tr>";
 				for(var i=1;i<filas;i++){
 					
 					html += "<tr class='datosfila'><td class='dato0'>"+data.getValue(i,0)+"</td><td class='dato1'>"+data.getValue(i,1)+"</td><td class='dato2'>"+data.getValue(i,2)+"</td><td class='dato3'>"+data.getValue(i,3)+"</td><td class='dato4'>"+data.getValue(i,4)+"</td><td class='dato5'>"+data.getValue(i,5)+"</td><td class='dato6'>"+data.getValue(i,6)+"</td></tr>";
