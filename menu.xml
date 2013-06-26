@@ -436,7 +436,7 @@ if (!Array.prototype.indexOf) {
 	   
 		var parametros = gadgets.util.getUrlParameters()["parent"];
 	    console.log("parametros "+parametros);
-		if (parametros.indexOf("home")!=-1 || parametros == "https://sites.google.com/a/bbva.com/sercoeco")
+		if (parametros == "https://sites.google.com/a/bbva.com/sercoeco/home" || parametros == "https://sites.google.com/a/bbva.com/sercoeco")
 		{   			
 			document.getElementsByClassName("op1")[0].style.backgroundColor = "rgb(0, 80, 152)";
 			document.getElementsByClassName("op1")[0].style.boxShadow = "0 0 5px rgba(0, 0, 0, 0.5) inset";	
