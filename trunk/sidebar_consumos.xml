@@ -108,10 +108,10 @@
 		}  
 				        
   		ul li.op1 {
-        	background: url('https://sites.google.com/a/bbva.com/sercoeco/inmuebles%20corporativos.png?attredirects=0') no-repeat -0px 15px; 
+        	background: url('https://sites.google.com/a/bbva.com/sercoeco/inmuebles%20corporativos.png?attredirects=0') no-repeat 0px 8px; 
         }
         ul li.op2 {
-        	background: url('https://sites.google.com/a/bbva.com/sercoeco/inmuebles%20resto%20espa%C3%B1a.png?attredirects=0') no-repeat -0px -55px; 
+        	background: url('https://sites.google.com/a/bbva.com/sercoeco/inmuebles%20resto%20espa%C3%B1a.png?attredirects=0') no-repeat 6px 8px; 
         }
        /* ul li.op3 {
         	background: url('http://bbvaportaldeayuda.googlecode.com/svn/trunk/img/result.png') no-repeat -0px -125px;  
