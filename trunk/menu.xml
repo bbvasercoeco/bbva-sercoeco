@@ -398,12 +398,12 @@ if (!Array.prototype.indexOf) {
 	 // End Hack indexOf Explorer
 	 
 	document.getElementById('home').onclick = function(){ Go('home');};
-	document.getElementById('news').onclick = function() {Go('news');};
-	document.getElementById('reports').onclick = function() {Go('reports');};
-	document.getElementById('success-stories').onclick = function() {Go('success-stories');};
-	document.getElementById('events').onclick = function() {Go('events');};
-	document.getElementById('network').onclick = function (){Go('network');};
-	document.getElementById('about').onclick = function (){Go('about');};
+	document.getElementById('consumo').onclick = function() {Go('consumo');};
+	document.getElementById('personal').onclick = function() {Go('personal');};
+	document.getElementById('reciclado').onclick = function() {Go('reciclado');};
+	document.getElementById('factores').onclick = function() {Go('factores');};
+	document.getElementById('cambio').onclick = function (){Go('cambio');};
+	document.getElementById('empleados').onclick = function (){Go('empleados');};
 	document.getElementById('admin').onclick = function (){Go('admin');};
 	
 	function Go(destination)
