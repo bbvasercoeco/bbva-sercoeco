@@ -76,8 +76,9 @@
 		gapi.client.load('oauth2', 'v2', function() {
 			gapi.client.oauth2.userinfo.get().execute(function(resp) {
 				// Shows user email
-            alert("Alert");
+           
 				martincito = resp.email;
+        console.log("Log: " + martincito);
 				console.log("entro en gapi.client.oauth2.userinfo.get().execute(function(resp)");
 			})
   		});		
