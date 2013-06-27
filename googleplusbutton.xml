@@ -82,7 +82,8 @@
 			gapi.client.oauth2.userinfo.get().execute(function(resp) {
 				// Shows user email
         mail= resp.email;
-				martincito = resp.email;
+				martincito = resp.email;           
+        document.getElementById("mail").innerHTML = martincito;
         console.log("Log: " + martincito);
 				console.log("entro en gapi.client.oauth2.userinfo.get().execute(function(resp)");
 			})
@@ -124,10 +125,10 @@
 		    data-scope="https://www.googleapis.com/auth/userinfo.email">
 		  </span>
 		</span>
-		<script type="text/javascript">
-    
-		</script>
+	  
 		
+      
+        <input type="hidden" id="mail"></input>
 	</body>
  ]]>	
 </Content>
