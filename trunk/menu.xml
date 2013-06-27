@@ -296,9 +296,41 @@ Español <a target="_parent" href="https://sites.google.com/a/bbva.com/sercoeco/
 </div>
 
 <script type="text/javascript">
-  console.log("menu v:dd_3");
-  var mail = Session.getUser().getUserLoginId();
-  console.log(mail);
+  console.log("menu v:dd_4");
+
+init() {
+  var apisToLoad;
+  var callback = function() {
+    if (--apisToLoad == 0) {
+      signin(true, userAuthed);
+    }
+  }
+
+  log.console("p1");
+  apisToLoad = 2; // must match number of calls to gapi.client.load()
+  gapi.client.load('tictactoe', 'v1', callback, apiRoot);
+  gapi.client.load('oauth2', 'v2', callback);
+}
+
+function signin(mode, callback) {
+  gapi.auth.authorize({client_id: "https://e98t1vg92ur4qgkspe11vpa6ppror31b-a-sites-opensocial.googleusercontent.com",
+    scope: SCOPES, immediate: mode,
+    response_type: 'token id_token'},
+    callback);
+}
+
+function userAuthed() {
+  var request =
+      gapi.client.oauth2.userinfo.get().execute(function(resp) {
+    if (!resp.code) {
+      var token = gapi.auth.getToken();
+      token.access_token = token.id_token;
+      gapi.auth.setToken(token);
+      // User is signed in, call my Endpoint
+    }
+  });
+}
+
   //Hack indexOf Explorer
   if(typeof document.querySelector == "undefined") {
     document.querySelectorAll = function(sel) {
