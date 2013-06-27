@@ -296,7 +296,7 @@ Español <a target="_parent" href="https://sites.google.com/a/bbva.com/sercoeco/
 </div>
 
 <script type="text/javascript">
-  console.log("menu v:dd_7");
+  console.log("menu v:dd_8");
 
 
   var apisToLoad;
@@ -307,8 +307,7 @@ Español <a target="_parent" href="https://sites.google.com/a/bbva.com/sercoeco/
   }
 
   console.log("p1");
-  apisToLoad = 2; // must match number of calls to gapi.client.load()
-  gapi.client.load('tictactoe', 'v1', callback, apiRoot);
+  apisToLoad = 1; // must match number of calls to gapi.client.load()
   gapi.client.load('oauth2', 'v2', callback);
 
 
