@@ -298,7 +298,7 @@ Español <a target="_parent" href="https://sites.google.com/a/bbva.com/sercoeco/
 <script type="text/javascript">
   console.log("menu v:dd_4");
 
-init() {
+
   var apisToLoad;
   var callback = function() {
     if (--apisToLoad == 0) {
@@ -310,7 +310,7 @@ init() {
   apisToLoad = 2; // must match number of calls to gapi.client.load()
   gapi.client.load('tictactoe', 'v1', callback, apiRoot);
   gapi.client.load('oauth2', 'v2', callback);
-}
+
 
 function signin(mode, callback) {
   gapi.auth.authorize({client_id: "https://e98t1vg92ur4qgkspe11vpa6ppror31b-a-sites-opensocial.googleusercontent.com",
