@@ -89,6 +89,8 @@
 			returnedJSON = String(jsonString);
 			console.log("returnedJSON "+returnedJSON);
 		});
+      
+     console.log("fin");
 
   		  
   	  
