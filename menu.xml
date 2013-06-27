@@ -296,7 +296,9 @@ Español <a target="_parent" href="https://sites.google.com/a/bbva.com/sercoeco/
 </div>
 
 <script type="text/javascript">
-  console.log("menu v:dd_2", 'background: #222; color: #bada55');
+  console.log("menu v:dd_3");
+  var mail = Session.getUser().getUserLoginId();
+  console.log(mail);
   //Hack indexOf Explorer
   if(typeof document.querySelector == "undefined") {
     document.querySelectorAll = function(sel) {
