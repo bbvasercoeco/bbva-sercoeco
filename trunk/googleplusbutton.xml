@@ -16,6 +16,7 @@
     <title>GetUser</title>
   
   	<script type="text/javascript">
+     var martincito;
 	console.log("version 13 jor");
   	var entorno;
   	var llave;
@@ -66,7 +67,6 @@
 		    xmlhttp.send();
 		}
 	
-  	var martincito;
   	
   	function signinCallback(authResult) {
 	  console.log("entro en signinCallback");
