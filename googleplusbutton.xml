@@ -66,12 +66,12 @@
 		    xmlhttp.send();
 		}
 	
-  	
+  	var martincito;
   	
   	function signinCallback(authResult) {
 	  console.log("entro en signinCallback");
 	  console.log("authResult['access_token'] "+authResult['access_token']);
-  	    var martincito;
+  	    
   	    
 		gapi.client.load('oauth2', 'v2', function() {
 			gapi.client.oauth2.userinfo.get().execute(function(resp) {
