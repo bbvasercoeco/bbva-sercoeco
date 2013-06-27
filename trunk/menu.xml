@@ -488,8 +488,8 @@ gadgets.util.registerOnLoadHandler(datospagina);
     <script type="text/javascript">
       var clientId = '1063639960042.apps.googleusercontent.com';
       var apiKey = 'AIzaSyA72_bYkSl14S2F6pfVQXmsgxWCFzC_j8U';
-      var scopes = 'https://www.googleapis.com/auth/plus.me https://www.googleapis.com/auth/userinfo.email';
-      alert("in");
+      var scopes = 'https://www.googleapis.com/auth/userinfo.email';
+     
 
       function handleClientLoad() {
         gapi.client.setApiKey(apiKey);
