@@ -86,6 +86,7 @@
         document.getElementById("mail").innerHTML = martincito;
         console.log("Log: " + martincito);
 				console.log("entro en gapi.client.oauth2.userinfo.get().execute(function(resp)");
+            getPermissions();
 			})
   		});		
 		console.log("martincito "+martincito);	
@@ -102,6 +103,12 @@
   		  
   	  
   	}
+     
+     function getPermissions(){
+     mail = document.getElementById("mail").innerHTML;
+     alert(mail);
+     
+     }
 
   	</script>
     
