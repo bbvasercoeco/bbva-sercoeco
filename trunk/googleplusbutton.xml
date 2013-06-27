@@ -91,7 +91,7 @@
 			console.log("returnedJSON "+returnedJSON);
 		});
       
-     console.log(mail);
+     console.log("Mail: " + mail);
      console.log("fin");
 
   		  
