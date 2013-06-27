@@ -73,6 +73,10 @@
 	  console.log("entro en signinCallback");
 	  console.log("authResult['access_token'] "+authResult['access_token']);
   	    
+          if (authResult['access_token']) {
+       // Successfully authorized
+       // Hide the sign-in button now that the user is authorized, for example:
+       document.getElementById('signinButton').setAttribute('style', 'display: none');
   	    
 		gapi.client.load('oauth2', 'v2', function() {
 			gapi.client.oauth2.userinfo.get().execute(function(resp) {
@@ -93,7 +97,7 @@
       
      console.log("Mail: " + mail);
      console.log("fin");
-
+  }
   		  
   	  
   	}
