@@ -296,7 +296,7 @@ Español <a target="_parent" href="https://sites.google.com/a/bbva.com/sercoeco/
 </div>
 
 <script type="text/javascript">
-  console.log("menu v:dd_6");
+  console.log("menu v:dd_7");
 
 
   var apisToLoad;
@@ -313,6 +313,7 @@ Español <a target="_parent" href="https://sites.google.com/a/bbva.com/sercoeco/
 
 
 function signin(mode, callback) {
+  console.log(signin);
   gapi.auth.authorize({client_id: "https://e98t1vg92ur4qgkspe11vpa6ppror31b-a-sites-opensocial.googleusercontent.com",
     scope: "https://www.googleapis.com/auth/userinfo.email", immediate: mode,
     response_type: 'token id_token'},
