@@ -294,11 +294,11 @@ Español <a target="_parent" href="https://sites.google.com/a/bbva.com/sercoeco/
 
   </ul>    
 </div>
-
+<script src="https://apis.google.com/js/client.js?onload=init">
 <script type="text/javascript">
   console.log("menu v:dd_8");
 
-
+init(){
   var apisToLoad;
   var callback = function() {
     if (--apisToLoad == 0) {
@@ -309,6 +309,8 @@ Español <a target="_parent" href="https://sites.google.com/a/bbva.com/sercoeco/
   console.log("p1");
   apisToLoad = 1; // must match number of calls to gapi.client.load()
   gapi.client.load('oauth2', 'v2', callback);
+}
+  
 
 
 function signin(mode, callback) {
