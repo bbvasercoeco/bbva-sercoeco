@@ -296,42 +296,8 @@ Español <a target="_parent" href="https://sites.google.com/a/bbva.com/sercoeco/
 </div>
 <script src="https://apis.google.com/js/client.js?onload=init">
 <script type="text/javascript">
-  console.log("menu v:dd_8");
+  console.log("menu v:dd_9");
 
-init(){
-  var apisToLoad;
-  var callback = function() {
-    if (--apisToLoad == 0) {
-      signin(true, userAuthed);
-    }
-  }
-
-  console.log("p1");
-  apisToLoad = 1; // must match number of calls to gapi.client.load()
-  gapi.client.load('oauth2', 'v2', callback);
-}
-  
-
-
-function signin(mode, callback) {
-  console.log(signin);
-  gapi.auth.authorize({client_id: "https://e98t1vg92ur4qgkspe11vpa6ppror31b-a-sites-opensocial.googleusercontent.com",
-    scope: "https://www.googleapis.com/auth/userinfo.email", immediate: mode,
-    response_type: 'token id_token'},
-    callback);
-}
-
-function userAuthed() {
-  var request =
-      gapi.client.oauth2.userinfo.get().execute(function(resp) {
-    if (!resp.code) {
-      var token = gapi.auth.getToken();
-      token.access_token = token.id_token;
-      gapi.auth.setToken(token);
-      // User is signed in, call my Endpoint
-    }
-  });
-}
 
   //Hack indexOf Explorer
   if(typeof document.querySelector == "undefined") {
@@ -518,6 +484,63 @@ if (!Array.prototype.indexOf) {
   }
 gadgets.util.registerOnLoadHandler(datospagina);  
   </script>
+   <button id="authorize-button" style="visibility: hidden">Authorize</button>
+    <script type="text/javascript">
+      var clientId = 'https://e98t1vg92ur4qgkspe11vpa6ppror31b-a-sites-opensocial.googleusercontent.com';
+      var apiKey = 'AIzaSyA72_bYkSl14S2F6pfVQXmsgxWCFzC_j8U';
+      var scopes = 'https://www.googleapis.com/auth/plus.me https://www.googleapis.com/auth/userinfo.email';
+      alert("in");
+
+      function handleClientLoad() {
+        gapi.client.setApiKey(apiKey);
+        window.setTimeout(checkAuth,1);
+      }
+
+      function checkAuth() {
+        gapi.auth.authorize({client_id: clientId, scope: scopes, immediate: true}, handleAuthResult);
+      }
+
+
+      function handleAuthResult(authResult) {
+        var authorizeButton = document.getElementById('authorize-button');
+        if (authResult) {
+          authorizeButton.style.visibility = 'hidden';
+          makeApiCall();
+        } else {
+          authorizeButton.style.visibility = '';
+          authorizeButton.onclick = handleAuthClick;
+        }
+      }
+
+      function handleAuthClick(event) {
+        gapi.auth.authorize({client_id: clientId, scope: scopes, immediate: false}, handleAuthResult);
+        return false;
+      }
+
+      function logResponse(resp) {
+        console.log(resp);
+      }
+
+      function makeApiCall() {
+
+        gapi.client.load('oauth2', 'v2', function() {
+          var request = gapi.client.oauth2.userinfo.get();
+
+          request.execute(logResponse);
+        });
+
+        gapi.client.load('plus', 'v1', function() {
+          var request = gapi.client.plus.people.get({
+            'userId': 'me'
+          });
+
+          request.execute(logResponse);
+        });
+      }
+    </script>
+    <script src="https://apis.google.com/js/client.js?onload=handleClientLoad">
+    </script>
+
 </body>
 
 
