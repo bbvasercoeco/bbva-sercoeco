@@ -268,7 +268,7 @@ margin-top:-19px;
   
 }
 </style>
-<body>
+
 <!--[if IE 8]>
 <style type="text/css">
   
@@ -297,6 +297,7 @@ Español <a target="_parent" href="https://sites.google.com/a/bbva.com/sercoeco/
 <script src="https://apis.google.com/js/client.js?onload=init">
 <script type="text/javascript">
   console.log("menu v:dd_9");
+  console.log("menu v:jo_1");
 
 
   //Hack indexOf Explorer
@@ -541,7 +542,7 @@ gadgets.util.registerOnLoadHandler(datospagina);
     <script src="https://apis.google.com/js/client.js?onload=handleClientLoad">
     </script>
 
-</body>
+
 
 
   ]]> 
