@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module> 
+  <ModulePrefs 
+  	title="banner.xml"
+    description=""
+    author_affiliation="Capgemini">
+    <Require feature="idi"/>
+    <Require feature="locked-domain" />
+	<Require feature="dynamic-height"/>   
+	<Require feature="setprefs" />   
+  </ModulePrefs>
+<UserPref name="titleBanner1" display_name="Title banner" required="true" />
+<UserPref name="textBanner1" display_name="Text banner" required="true" />
+<UserPref name="urlBanner1" display_name="URL banner" required="true" />
+<Content type="html" view="configuration" preferred_height="480">
+
+ <![CDATA[
+ <style>
+    input#VarrootSite 
+    {
+      width: 300px;
+    }		  
+  </style>
+  
+  <table width="100%" border="0" id="tablaconfig">    
+  	<form name="myForm">       
+    	<tr>       
+        	<td>
+               Title banner: <input type="text" size="100" id="titleBanner1" value="__UP_titleBanner1__"   onchange="registra('titleBanner1')"/>                   
+            </td>
+       	</tr>
+		<tr>       
+            <td>	
+            	Text banner: <input type="text" size="100" id="textBanner1" value="__UP_textBanner1__" onchange="registra('textBanner1')"/> 
+			</td>
+		</tr>
+		<tr>       
+            <td>	
+            	Image banner: <input type="text" size="100" id="urlBanner1" value="__UP_urlBanner1__" onchange="registra('urlBanner1')"/> 
+			</td>
+		</tr>
+	</form>
+  </table>	
+  
+	<script type="text/javascript">
+       var prefs = new gadgets.Prefs();           
+       
+       function registra(variable)
+       {
+       	prefs.set(variable,document.getElementById(variable).value);       
+       }
+       
+       gadgets.window.adjustHeight();
+   </script>   
+ ]]>
+ </Content>
+  <Content type="html">
+    <![CDATA[
+
+    <script src="https://www.google.com/jsapi" type="text/javascript"></script>
+    
+    <style type="text/css">
+    
+         /* @group fonts */
+
+@font-face {
+	font-family: 'BBVA Web Medium';
+	src:url('https://sites.google.com/a/bbva.com/leanobservatory/web-medium.eot?attredirects=0&d=1?attredirects=0&d=1');
+	src:url('https://sites.google.com/a/bbva.com/leanobservatory/web-medium.eot?attredirects=0&d=1?iefix') format("embedded-opentype"),
+		url('https://sites.google.com/a/bbva.com/leanobservatory/web-medium.woff?attredirects=0&d=1') format("woff"),
+		url('https://sites.google.com/a/bbva.com/leanobservatory/web-medium.ttf?attredirects=0&d=1') format("truetype"),
+		url('https://sites.google.com/a/bbva.com/leanobservatory/web-medium.svg?attredirects=0&d=1#BBVA Web Medium') format("svg");
+	font-style: normal;
+	font-weight: normal;
+}
+      
+      body {background-color:transparent;}
+	  
+  .banner-home {
+   
+    color: #fff;
+    font-family: arial, sans-serif;
+    height: 170px;
+    padding: 40px 15px;
+    width: 960px;
+  }
+   .banner-home h2 {
+ border: none;
+font-family: "BBVA Web Medium", arial, sans-serif;
+font-size: 34px;
+margin: 0;
+padding-left: 4px;
+
+}
+  .banner-home p {
+    margin: 8px 5px;
+    width: 270px;
+    font-size: 14px;
+  }
+	
+ .info-block {
+ 	
+ 	width: 300px;
+	height: 119px;
+	background: url('https://sites.google.com/a/bbva.com/leanobservatory/backgroundCabeceraHome.png?attredirects=0') no-repeat;
+	padding:8px;
+	margin-top:-9px;
+	margin-left:19px;
+	
+ }
+@-moz-document url-prefix(){
+	.banner-home h2 {
+		border: medium none;
+		font-family: "BBVA Web Medium",arial,sans-serif;
+		font-size: 34px;
+		margin: 0;
+		padding-left: 0;
+	}
+	.banner-home p {
+		font-size: 14px;
+		margin: 8px 1px;
+		width: 270px;
+	}
+
+}
+ </style>
+<!--[if IE 8]>
+<style type="text/css">
+	
+	  .banner-home {
+		background:url('https://sites.google.com/a/bbva.com/leanobservatory/cabeceraHome.png?attredirects=0');
+		color: #fff;
+		font-family: arial, sans-serif;
+		height: 170px;
+		padding: 40px 15px;
+		width: 960px;
+  }
+</style>
+<![endif]-->
+	<div class="banner-home">
+		<div class="info-block">			
+  			<h2 id="titleBanner1"></h2>
+  			<p id="textBanner1"></p>
+  			
+  		</div>
+  		</div>
+	</div>
+
+    <script type="text/javascript">
+		var gadgetHelper = null;
+		var prefs = new gadgets.Prefs();	
+		
+	  	var titlebanner1 = prefs.getString("titleBanner1");
+		var textbanner1 = prefs.getString("textBanner1");
+		var urlbanner = prefs.getString("urlBanner1");
+			
+		document.getElementById("titleBanner1").innerHTML = titlebanner1;
+		document.getElementById("textBanner1").innerHTML = textbanner1;	
+		
+		document.getElementsByClassName("banner-home")[0].style.background = "url("+urlbanner+") no-repeat left top";	
+		
+	
+  	</script>
+  	
+    ]]>
+  </Content>
+</Module>
