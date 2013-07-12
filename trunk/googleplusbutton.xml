@@ -278,16 +278,32 @@ margin-top:-19px;
 <![endif]-->
 
 
+	<body onload="createb()">
+		<p id="text"></p>
+		<span id="signinButton">
+		  <span
+		  	id="signp"
+		    class="g-signin"
+		    data-clientid="xxx"
+		    data-callback="signinCallback"
+		    data-cookiepolicy="single_host_origin"
+		    data-requestvisibleactions="http://schemas.google.com/AddActivity"
+		    data-scope="https://www.googleapis.com/auth/userinfo.email">
+		  </span>
+		</span>
+	  
+		
+      
+        <input type="hidden" id="mail"></input>
+		
+	<div id="insertmenu"></div>	
+	</body>
 
 
 
 
   
-    
-
-
-	<body onload="createb()">
-	<script src="https://www.google.com/jsapi" type="text/javascript"></script>
+    <script src="https://www.google.com/jsapi" type="text/javascript"></script>
     <!--<script src="https://leanobservatory.googlecode.com/svn/trunk/js/common.js"></script>-->
     <title>GetUser</title>
   
@@ -474,29 +490,8 @@ function handleQueryResponse(response) {
 
 }
 </script>
-	
-	
-	
-	
-		<p id="text"></p>
-		<span id="signinButton">
-		  <span
-		  	id="signp"
-		    class="g-signin"
-		    data-clientid="xxx"
-		    data-callback="signinCallback"
-		    data-cookiepolicy="single_host_origin"
-		    data-requestvisibleactions="http://schemas.google.com/AddActivity"
-		    data-scope="https://www.googleapis.com/auth/userinfo.email">
-		  </span>
-		</span>
-	  
-		
-      
-        <input type="hidden" id="mail"></input>
-		
-	<div id="insertmenu"></div>	
-	</body>
+
+
  ]]>	
 </Content>
 </Module>
