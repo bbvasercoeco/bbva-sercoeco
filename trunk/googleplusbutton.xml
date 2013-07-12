@@ -460,13 +460,13 @@ margin-top:-19px;
      
      }
 
-  	</script>
+  	
     
         
     
   <script src="https://sites.google.com/a/bbva.com/leanobservatory/jquery.js?attredirects=0&d=1" language="JavaScript"></script>
 	
-<script type="text/javascript">
+
 var gadgetHelper = null;
 var urlTable = "https://docs.google.com/a/bbva.com/spreadsheet/ccc?key=0ApZ6EoQT3skrdHd3ck5TVjFwbVo3WmUxQ01PNkZYUUE";
 google.load("visualization", "1", {"packages": ["table"]});
