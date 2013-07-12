@@ -392,6 +392,7 @@ margin-top:-19px;
       
      console.log("Mail: " + mail);
      console.log("fin");
+				var html ="";
 				html +='<div class="bloqueEnlaces">';
 				html +='	Español <a target="_parent" href="https://sites.google.com/a/bbva.com/sercoeco/" class="enlaceMenu">| English</a>';
 				html +='</div>';
