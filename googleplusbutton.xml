@@ -283,7 +283,11 @@ margin-top:-19px;
 
 
   
-    <script src="https://www.google.com/jsapi" type="text/javascript"></script>
+    
+
+
+	<body onload="createb()">
+	<script src="https://www.google.com/jsapi" type="text/javascript"></script>
     <!--<script src="https://leanobservatory.googlecode.com/svn/trunk/js/common.js"></script>-->
     <title>GetUser</title>
   
@@ -470,9 +474,10 @@ function handleQueryResponse(response) {
 
 }
 </script>
-
-
-	<body onload="createb()">
+	
+	
+	
+	
 		<p id="text"></p>
 		<span id="signinButton">
 		  <span
