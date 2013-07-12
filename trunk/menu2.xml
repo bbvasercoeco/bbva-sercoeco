@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?> 
 <Module>
-  <ModulePrefs title="menu2.xml"    
+  <ModulePrefs title="Google plus"    
   scrolling="true"> 
 	<Require feature="idi"/>
     <Require feature="locked-domain" />
@@ -82,7 +82,7 @@
 			gapi.client.oauth2.userinfo.get().execute(function(resp) {
 				// Shows user email
         mail= resp.email;
-		martincito = resp.email;           
+				martincito = resp.email;           
         document.getElementById("mail").innerHTML = martincito;
         console.log("Log: " + martincito);
 				console.log("entro en gapi.client.oauth2.userinfo.get().execute(function(resp)");
