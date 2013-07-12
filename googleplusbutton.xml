@@ -393,6 +393,7 @@ margin-top:-19px;
       
      console.log("Mail: " + mail);
      console.log("fin");
+	 console.log("permiso "+permiso);
 		if(permiso.indexOf("ADMIN") != -1){
 				var html ="";
 				html +='<div class="bloqueEnlaces">';
