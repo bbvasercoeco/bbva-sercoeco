@@ -281,7 +281,7 @@ margin-top:-19px;
 
 <script>
 function getUser(){
-  alert("alert");
+  alert(arguments[0].user);
   alert("b");
 }
 
