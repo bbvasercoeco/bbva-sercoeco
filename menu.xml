@@ -279,7 +279,7 @@ margin-top:-19px;
 </style>
 <![endif]-->
 
-<script src="https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec&prefix=getUser"></script>
+<script src="https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec?prefix=getUser"></script>
 <script>
 function getUser(data){
   alert("alert");
