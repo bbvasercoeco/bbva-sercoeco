@@ -281,7 +281,7 @@ margin-top:-19px;
 
 <script src="https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec?start=1325437200&end=1325439000&prefix=getUser"></script>
 <script>
-function getUser(){
+function getUser(data){
   alert("alert");
 }
 
