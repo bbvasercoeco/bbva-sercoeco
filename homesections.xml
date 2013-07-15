@@ -10,6 +10,8 @@
 	<Require feature="setprefs" />
   </ModulePrefs>
 <UserPref name="titlepage" display_name="Titulo objetivos" required="true" />
+<UserPref name="textintro" display_name="Texto objetivos" required="true" />
+
 <UserPref name="titlepage1" display_name="Titulo secciones" required="true" />
 
  <Content type="html">
@@ -143,7 +145,7 @@ p.app_texto {
 <body onload="cargar()">
 <h1 id="titlepage"></h1>	
 	<img src="https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0" class="linetitle"/>
-<div class="textintro">BBVA lanzó en el 2008 el Plan Global de Eco-eficiencia (PGE). El plan contempla un conjunto de objetivos para el periodo 2013-2015 en materia de reducción de impactos ambientales directos.</div>   	
+<div class="textintro"></div>   	
  
 <h1 id="titlepage1"></h1> 
     <img src="https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0" class="linetitle"/>
@@ -186,9 +188,10 @@ p.app_texto {
 	 	
 		var titlepage = prefs.getString("titlepage");
 		var titlepage1 = prefs.getString("titlepage1");
+		var textintro = prefs.getString("textintro");
 	 	document.getElementById("titlepage").innerHTML = titlepage;
 		document.getElementById("titlepage1").innerHTML = titlepage1;
-		
+		document.getElementsByClassName("textintro")[0].innerHTML = bbcode2html(textintro);
 		
 		
 		function cargar(){
@@ -213,5 +216,84 @@ p.app_texto {
 
     ]]>
  </Content>
+<Content type="html" view="configuration"  preferred_height="480">
+<![CDATA[
+		<script type="text/javascript" src="https://leanobservatory.googlecode.com/svn/trunk/editorbbcode.js"></script>
+		<style>
+			table td {
+				color: #000;
+				font-size: 11px;
+				font-weight: bold;
+			}
+			table td input,
+			textarea {
+				color: #000;
+				font-size: 11px;				
+			}			
+			input#VarTituloBloque {
+				width: 300px;
+			}
+			input#VarImagenDestacada {
+				width: 575px;
+			}
+			.btnTexto {
+				width: 200px;
+			}
+			.btnURL {
+				width: 345px;
+			}
+			.destacado {
+				color:red;
+				font-size:20px;
+				font-weight:bold;
+			}
+			.textodefecto {
+				width: 40px;
+			}
+			.textocolor {
+				width: 57px;
+			}
+			
+			
+		</style>
+		<table width="100%" border="0" id="tablaconfig">			
+			<tr>		
+				<td>
+					T&iacute;tulo Objetivos: <input type="text" id="titlepage" value="__UP_titlepage__" onchange="registra('titlepage')">					
+				</td>
+			</tr>
+			<tr>		
+				<td>
+					T&iacute;tulo: <input type="text" id="titlepage1" value="__UP_titlepage1__" onchange="registra('titlepage1')">					
+				</td>
+			</tr>
+			
+		</table>
+		
+		<table width="100%" height="170px;" border="0" id="tablaconfig1">			
+			<tr>		
+				<td>
+					Texto (admite bbcode):<br/>
+					<script language="Javascript">
+					<!--
+						editor_para("textintro");
+					//-->
+					</script>
+					<textarea id="textintro" style="height: 100px; width: 100%" onchange="registra('textintro')" >__UP_textintro__</textarea>
+				</td>
+			</tr>
+		</table>
+				
+		<script type="text/javascript">			
+			// Get userprefs
+			var prefs = new gadgets.Prefs();			
+			function registra(variable)
+			{
+				prefs.set(variable,document.getElementById(variable).value);
+			}	
+			gadgets.window.adjustHeight();
+		</script>   
+	]]>
 
+</Content>
 </Module>
