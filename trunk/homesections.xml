@@ -11,8 +11,15 @@
   </ModulePrefs>
 <UserPref name="titlepage" display_name="Titulo objetivos" required="true" />
 <UserPref name="textintro" display_name="Texto objetivos" required="true" />
-
 <UserPref name="titlepage1" display_name="Titulo secciones" required="true" />
+<UserPref name="textconsumo" display_name="Texto Consumo" required="true" />
+<UserPref name="urlconsumo" display_name="Url objetivos" required="true" />
+<UserPref name="textpersonal" display_name="Texto Personal" required="true" />
+<UserPref name="urlpersonal" display_name="Url Personal" required="true" />
+<UserPref name="textreciclado" display_name="Texto Reciclado" required="true" />
+<UserPref name="urlreciclado" display_name="Url Reciclado" required="true" />
+<UserPref name="textadmin" display_name="Texto Administrador" required="true" />
+<UserPref name="urladmin" display_name="Url Administrador" required="true" />
 
  <Content type="html">
     <![CDATA[
@@ -155,28 +162,28 @@ p.app_texto {
 	<div class="app">
 		<img src="http://bbva-sercoeco.googlecode.com/svn/trunk/img/consumo.png" alt="" class="ico">
 		<h3 class="app_titulo">Consumo</h3>
-		<p class="app_texto">Lorem ipsum dolor sit amet, sit te aconsectetur adipiscinametg elit. </p>
+		<p class="app_texto"></p>
 		<button id="consumo" class="btn" type="button">Acceder</button>
 	</div>
 
 	<div class="app">
 		<img src="https://bbva-sercoeco.googlecode.com/svn/trunk/img/personal1.png" alt="" class="ico">
 		<h3 class="app_titulo">Reciclaje</h3>
-		<p class="app_texto">Lorem ipsum dolor sit amet, sit te aconsectetur adipiscinametg elit. </p>
+		<p class="app_texto"></p>
 		<button id="recicla" class="btn" type="button">Acceder</button>
 	</div>
 
 	<div class="app">
 		<img src="https://bbva-sercoeco.googlecode.com/svn/trunk/img/personal.png" alt="" class="ico">
 		<h3 class="app_titulo">Personal</h3>
-		<p class="app_texto">Lorem ipsum dolor sit amet, sit te aconsectetur adipiscinametg elit. </p>
+		<p class="app_texto"></p>
 		<button id="personal" class="btn" type="button">Acceder</button>
 	</div>
 
 	<div class="app">
 		<img src="http://bbva-sercoeco.googlecode.com/svn/trunk/img/admin.png" alt="" class="ico">
 		<h3 class="app_titulo">Administrador</h3>
-		<p class="app_texto">Lorem ipsum dolor sit amet, sit te aconsectetur adipiscinametg elit. </p>
+		<p class="app_texto"></p>
 		<button id="admin" class="btn" type="button">Acceder</button>
 	</div>
 
@@ -189,16 +196,32 @@ p.app_texto {
 		var titlepage = prefs.getString("titlepage");
 		var titlepage1 = prefs.getString("titlepage1");
 		var textintro = prefs.getString("textintro");
+		
+		var textconsumo = prefs.getString("textconsumo");
+		var urlconsumo = prefs.getString("urlconsumo");
+		
+		var textpersonal = prefs.getString("textpersonal");
+		var urlpersonal = prefs.getString("urlpersonal");
+		
+		var textreciclado = prefs.getString("textreciclado");
+		var urlreciclado = prefs.getString("urlreciclado");
+		
+		var textadmin = prefs.getString("textadmin");
+		var urladmin = prefs.getString("urladmin");
+		
 	 	document.getElementById("titlepage").innerHTML = titlepage;
 		document.getElementById("titlepage1").innerHTML = titlepage1;
 		document.getElementsByClassName("textintro")[0].innerHTML = bbcode2html(textintro);
-		
+		document.getElementsByClassName("app_texto")[0].innerHTML = bbcode2html(textconsumo);
+		document.getElementsByClassName("app_texto")[1].innerHTML = bbcode2html(textreciclado);
+		document.getElementsByClassName("app_texto")[2].innerHTML = bbcode2html(textpersonal);
+		document.getElementsByClassName("app_texto")[3].innerHTML = bbcode2html(textadmin);
 		
 		function cargar(){
-			document.getElementById("consumo").onclick = function(){ Go('https://sites.google.com/a/bbva.com/sercoeco/home/consumo');};
-			document.getElementById("recicla").onclick = function(){ Go('https://sites.google.com/a/bbva.com/sercoeco/home/reciclado');};
-			document.getElementById("personal").onclick = function(){ Go('https://sites.google.com/a/bbva.com/sercoeco/home/personal');};
-			document.getElementById("admin").onclick = function(){ Go('https://sites.google.com/a/bbva.com/sercoeco/home/administracion');};
+			document.getElementById("consumo").onclick = function(){ Go(urlconsumo);};
+			document.getElementById("recicla").onclick = function(){ Go(urlreciclado);};
+			document.getElementById("personal").onclick = function(){ Go(urlpersonal);};
+			document.getElementById("admin").onclick = function(){ Go(urladmin);};
 		}
 		function Go(destination){
 			window.parent.location.href = destination;
@@ -216,7 +239,7 @@ p.app_texto {
 
     ]]>
  </Content>
-<Content type="html" view="configuration"  preferred_height="480">
+<Content type="html" view="configuration"  preferred_height="580">
 <![CDATA[
 		<script type="text/javascript" src="https://bbva-sercoeco.googlecode.com/svn/trunk/editorbbcode.js"></script>
 		<style>
@@ -267,6 +290,26 @@ p.app_texto {
 					T&iacute;tulo Secciones: <input type="text" id="titlepage1" value="__UP_titlepage1__" onchange="registra('titlepage1')">					
 				</td>
 			</tr>
+			<tr>		
+				<td>
+					Url Consumo: <input type="text" id="urlconsumo" value="__UP_urlconsumo__" onchange="registra('urlconsumo')">					
+				</td>
+			</tr>
+			<tr>		
+				<td>
+					Url Personal: <input type="text" id="urlpersonal" value="__UP_urlpersonal__" onchange="registra('urlpersonal')">					
+				</td>
+			</tr>
+			<tr>		
+				<td>
+					Url Reciclado: <input type="text" id="urlreciclado" value="__UP_urlreciclado__" onchange="registra('urlreciclado')">					
+				</td>
+			</tr>
+			<tr>		
+				<td>
+					Url Admin: <input type="text" id="urladmin" value="__UP_urladmin__" onchange="registra('urladmin')">					
+				</td>
+			</tr>
 			
 		</table>
 		
@@ -280,6 +323,58 @@ p.app_texto {
 					//-->
 					</script>
 					<textarea id="textintro" style="height: 100px; width: 100%" onchange="registra('textintro')" >__UP_textintro__</textarea>
+				</td>
+			</tr>
+		</table>
+		<table width="100%" height="170px;" border="0" id="tablaconfig2">			
+			<tr>		
+				<td>
+					Texto Consumo(admite bbcode):<br/>
+					<script language="Javascript">
+					<!--
+						editor_para("textintro");
+					//-->
+					</script>
+					<textarea id="textconsumo" style="height: 100px; width: 100%" onchange="registra('textconsumo')" >__UP_textconsumo__</textarea>
+				</td>
+			</tr>
+		</table>
+		<table width="100%" height="170px;" border="0" id="tablaconfig3">			
+			<tr>		
+				<td>
+					Texto Personal(admite bbcode):<br/>
+					<script language="Javascript">
+					<!--
+						editor_para("textintro");
+					//-->
+					</script>
+					<textarea id="textpersonal" style="height: 100px; width: 100%" onchange="registra('textpersonal')" >__UP_textpersonal__</textarea>
+				</td>
+			</tr>
+		</table>
+		<table width="100%" height="170px;" border="0" id="tablaconfig4">			
+			<tr>		
+				<td>
+					Texto Reciclado(admite bbcode):<br/>
+					<script language="Javascript">
+					<!--
+						editor_para("textintro");
+					//-->
+					</script>
+					<textarea id="textreciclado" style="height: 100px; width: 100%" onchange="registra('textreciclado')" >__UP_textreciclado__</textarea>
+				</td>
+			</tr>
+		</table>
+		<table width="100%" height="170px;" border="0" id="tablaconfig5">			
+			<tr>		
+				<td>
+					Texto Administrador(admite bbcode):<br/>
+					<script language="Javascript">
+					<!--
+						editor_para("textintro");
+					//-->
+					</script>
+					<textarea id="textadmin" style="height: 100px; width: 100%" onchange="registra('textadmin')" >__UP_textadmin__</textarea>
 				</td>
 			</tr>
 		</table>
