@@ -318,10 +318,11 @@ function getUser(){
   
   
 }
-
+var params = "prefix="+getUser();
 	 $.ajax({
    		            type: 'POST',
-   		            url: "https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec?prefix=getUser",	          
+					data: params,
+   		            url: "https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec",	          
    		            dataType: 'json',
    		            success: function(data) {
    		            	getUser();
