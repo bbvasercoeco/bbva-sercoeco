@@ -516,8 +516,9 @@ function getUser(){
   
   }
   console.log("html  "+html);
-  document.getElementsByClassName('cabeceramenu')[0].innerHTML = html;
-  
+  $(document).ready(function() {
+		document.getElementsByClassName('cabeceramenu')[0].innerHTML = html;
+  });
   
 }
 </script>
