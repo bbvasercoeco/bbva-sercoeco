@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="formadmin.xml"
+    description=""
+    author_affiliation="Capgemini"
+    height ="50">
+    <Require feature="idi"/>
+    <Require feature="locked-domain" />
+	<Require feature="dynamic-height"/>
+	<Require feature="setprefs" />
+  </ModulePrefs>
+
+
+ <Content type="html">
+    <![CDATA[
+
+	<script type='text/javascript' src='https://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery-1.9.1.min.js'></script>
+	<script type='text/javascript' src='https://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery-ui-compilation2.js' ></script>
+	<script type='text/javascript' src='https://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.ui.selectmenu.js'></script>
+    <link rel='stylesheet' type='text/css' href='https://bbva-sercoeco.googlecode.com/svn/trunk/js/jqueryui.css' media='screen'/>
+	<link rel='stylesheet' type='text/css' href='https://bbva-sercoeco.googlecode.com/svn/trunk/js/bbva-components-forms.css' media='screen'/>
+	
+	<style type="text/css">
+	  
+	</style>
+
+<select name="anyo" id="anyo">
+      <option value="2024">2024</option>
+      <option value="2023">2023</option>
+      <option value="2022">2022</option>
+      <option value="2021">2021</option>
+      <option value="2020">2020</option>
+      <option value="2019">2019</option>
+      <option value="2018">2018</option>
+      <option value="2017">2017</option>
+      <option value="2016">2016</option>
+      <option value="2015">2015</option>
+      <option value="2014">2014</option>
+      <option value="2013" selected="selected">2013</option>
+      </select><br><br>
+      <label> Bloquear entrada de datos </label> <input type="checkbox" name="lock" id="lock" /><br>
+      <button onclick="sendForm();"  value="Enviar" >Enviar</button>	
+	
+	
+<script type="text/javascript">
+   
+ function respuesta(){
+ alert("Hola");}
+   
+   function sendForm(){
+   var anyo = $("#anyo").val();
+ 
+   $.ajax({
+  type: "GET",       
+  url: "https://script.google.com/macros/s/AKfycbz3MFQJy8jFwcEUDeRqdB91VSVaW__r8iyFkvPbpQzWZ-h_GtE/exec",
+  contentType: 'application/json',
+  data: { anyo: anyo,
+  prefix: "respuesta"}
+  })  
+  .success(function(  ) {
+  alert( "Data Saved: ");
+});
+   }
+   
+    function checkLock(){
+       alert("entro en checkLock");
+       
+       //$(document).ready(function(){
+       
+	  // alert("(document).ready");
+       
+       if(document.getElementById('lock').checked){
+         document.getElementById('lock').checked = true;
+         alert("entro en if");
+         //document.forms["admin"].action = "https://script.google.com/macros/s/AKfycbwvUuXLYrR28aXOiXRdwm_RwbuipaAiiNqnywaY5e8/exec";
+         document.getElementsByTagName('form')[0].action = "https://script.google.com/macros/s/AKfycbwvUuXLYrR28aXOiXRdwm_RwbuipaAiiNqnywaY5e8/exec";
+         alert("set action");
+         document.getElementsByTagName('form')[0].submit();
+         alert("submit");
+         
+       }else{
+         document.getElementById('lock').checked = false;
+         alert("entro en else");
+         document.getElementsByTagName('form')[0].action = "https://script.google.com/macros/s/AKfycbxICQFUGnn9irI6CnbSRBkLTueD9NmWnHXC33y79DE/exec";
+         alert("set action");
+         document.getElementsByTagName('form')[0].submit();
+         alert("submit");
+       }
+    
+    // });
+    
+    }
+   
+   </script>
+
+	
+
+   
+
+ ]]>
+ </Content>
+</Module>
