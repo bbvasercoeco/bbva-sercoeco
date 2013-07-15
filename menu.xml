@@ -498,7 +498,7 @@ if (!Array.prototype.indexOf) {
   }
 gadgets.util.registerOnLoadHandler(datospagina);  
   </script>
-   <button id="authorize-button" style="visibility: hidden">Authorize</button>
+   <button id="authorize-button" style="display: hidden">Authorize</button>
     <script type="text/javascript">
       var clientId = '1063639960042.apps.googleusercontent.com';
       var apiKey = 'AIzaSyA72_bYkSl14S2F6pfVQXmsgxWCFzC_j8U';
