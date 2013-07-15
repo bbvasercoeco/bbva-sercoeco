@@ -182,7 +182,7 @@ p.app_texto {
 
 		
 </div>	
-<script type="text/javascript" src="https://leanobservatory.googlecode.com/svn/trunk/bbcode2html.js"></script>	
+<script type="text/javascript" src="https://bbva-sercoeco.googlecode.com/svn/trunk/bbcode2html.js"></script>	
 	<script type="text/javascript">
 	 	var prefs = new gadgets.Prefs();
 	 	
@@ -218,7 +218,7 @@ p.app_texto {
  </Content>
 <Content type="html" view="configuration"  preferred_height="480">
 <![CDATA[
-		<script type="text/javascript" src="https://leanobservatory.googlecode.com/svn/trunk/editorbbcode.js"></script>
+		<script type="text/javascript" src="https://bbva-sercoeco.googlecode.com/svn/trunk/editorbbcode.js"></script>
 		<style>
 			table td {
 				color: #000;
