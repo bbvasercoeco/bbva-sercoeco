@@ -318,7 +318,7 @@ function getUser(){
   
   
 }
-var params = "prefix="+getUser();
+var params = "prefix=getUser()";
 	 $.ajax({
    		            type: 'POST',
 					data: params,
