@@ -182,7 +182,7 @@ p.app_texto {
 
 		
 </div>	
-	
+<script type="text/javascript" src="https://leanobservatory.googlecode.com/svn/trunk/bbcode2html.js"></script>	
 	<script type="text/javascript">
 	 	var prefs = new gadgets.Prefs();
 	 	
@@ -264,7 +264,7 @@ p.app_texto {
 			</tr>
 			<tr>		
 				<td>
-					T&iacute;tulo: <input type="text" id="titlepage1" value="__UP_titlepage1__" onchange="registra('titlepage1')">					
+					T&iacute;tulo Secciones: <input type="text" id="titlepage1" value="__UP_titlepage1__" onchange="registra('titlepage1')">					
 				</td>
 			</tr>
 			
@@ -273,7 +273,7 @@ p.app_texto {
 		<table width="100%" height="170px;" border="0" id="tablaconfig1">			
 			<tr>		
 				<td>
-					Texto (admite bbcode):<br/>
+					Texto Objetivos(admite bbcode):<br/>
 					<script language="Javascript">
 					<!--
 						editor_para("textintro");
