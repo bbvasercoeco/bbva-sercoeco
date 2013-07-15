@@ -183,11 +183,13 @@ p.app_texto {
 	
 	<script type="text/javascript">
 	 	var prefs = new gadgets.Prefs();
-	 	document.getElementsByClassName("caja-vdoc-inner caja-vdoc-wrapper caja-guest-0___ vdoc-container___")[0].style.overflow = hidden;
-	 	var titlepage = prefs.getString("titlepage");
+	 	
+		var titlepage = prefs.getString("titlepage");
 		var titlepage1 = prefs.getString("titlepage1");
 	 	document.getElementById("titlepage").innerHTML = titlepage;
 		document.getElementById("titlepage1").innerHTML = titlepage1;
+		
+		
 		
 		function cargar(){
 			document.getElementById("consumo").onclick = function(){ Go('https://sites.google.com/a/bbva.com/sercoeco/home/consumo');};
