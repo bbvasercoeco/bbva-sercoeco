@@ -9,7 +9,8 @@
 	<Require feature="dynamic-height"/>
 	<Require feature="setprefs" />
   </ModulePrefs>
-<UserPref name="titlepage" display_name="Title of page" required="true" />
+<UserPref name="titlepage" display_name="Titulo objetivos" required="true" />
+<UserPref name="titlepage1" display_name="Titulo secciones" required="true" />
 
  <Content type="html">
     <![CDATA[
@@ -140,11 +141,11 @@ p.app_texto {
 	
 	 </style>
 <body onload="cargar()">
-<h1 id="titlepage">Objetivos del Plan</h1>	
+<h1 id="titlepage"></h1>	
 	<img src="https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0" class="linetitle"/>
 <div class="textintro">BBVA lanzó en el 2008 el Plan Global de Eco-eficiencia (PGE). El plan contempla un conjunto de objetivos para el periodo 2013-2015 en materia de reducción de impactos ambientales directos.</div>   	
  
-<h1 id="titlepage1">Secciones</h1> 
+<h1 id="titlepage1"></h1> 
     <img src="https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0" class="linetitle"/>
 
 <div class="content_aplicaciones">
@@ -181,12 +182,12 @@ p.app_texto {
 </div>	
 	
 	<script type="text/javascript">
-	 	
+	 	var prefs = new gadgets.Prefs();
 	 	document.getElementsByClassName("caja-vdoc-inner caja-vdoc-wrapper caja-guest-0___ vdoc-container___")[0].style.overflow = hidden;
-	 	/*var titlepage = "Objetivos del Plan";
-		var titlepage1 = "Secciones";
+	 	var titlepage = prefs.getString("titlepage");
+		var titlepage1 = prefs.getString("titlepage1");
 	 	document.getElementById("titlepage-caja-guest-0___").innerHTML = titlepage;
-		document.getElementById("titlepage1-caja-guest-0___").innerHTML = titlepage1;*/
+		document.getElementById("titlepage1-caja-guest-0___").innerHTML = titlepage1;
 		
 		function cargar(){
 			document.getElementById("consumo").onclick = function(){ Go('https://sites.google.com/a/bbva.com/sercoeco/home/consumo');};
@@ -195,7 +196,7 @@ p.app_texto {
 			document.getElementById("admin").onclick = function(){ Go('https://sites.google.com/a/bbva.com/sercoeco/home/administracion');};
 		}
 		function Go(destination){
-			window.top.location.href = destination;
+			window.parent.location.href = destination;
 			return false;
 		}
 		
