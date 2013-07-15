@@ -319,7 +319,19 @@ function getUser(){
   
 }
 
-
+	 $.ajax({
+   		            type: 'POST',
+   		            url: "https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec?prefix=getUser",	          
+   		            dataType: 'json',
+   		            success: function(data) {
+   		            	getUser();
+   		            	
+   		            },
+   		            failure:function(data){
+   		            	
+   		            
+   		            }
+   		         });
 </script>
 
 <script type="text/javascript" src="https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec?prefix=getUser"></script>
