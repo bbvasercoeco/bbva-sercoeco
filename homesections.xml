@@ -81,7 +81,7 @@
 		}
 		img.ico {
 			float: left;
-			margin: 25px 20px 20px 15px;
+			margin: 25px 20px 25px 15px;
 		}
 		h3.app_titulo {
 			font-family:"BBVA Web Light",arial,sans-serif;
