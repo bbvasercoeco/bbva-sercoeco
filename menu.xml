@@ -320,7 +320,7 @@ margin-top:-19px;
 }*/
 var params = "prefix=getUser";
 	 $.ajax({
-   		            type: 'POST',
+   		            type: 'GET',
 					data: params,
    		            url: "https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec",	          
    		            dataType: 'json',
