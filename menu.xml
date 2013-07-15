@@ -288,7 +288,7 @@ function getUser(){
 
 </script>
 
-<script type="text/json" src="https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec?prefix=getUser"></script>
+<script type="text/javascript" src="https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec?prefix=getUser"></script>
 
 
 
@@ -310,7 +310,7 @@ Español <a target="_parent" href="https://sites.google.com/a/bbva.com/sercoeco/
 </div>
 <script src="https://apis.google.com/js/client.js?onload=init">
 <script type="text/javascript">
-console.log("versjor 1");
+console.log("versjor 2");
   console.log("menu v:dd_JSPNP");
 
 
