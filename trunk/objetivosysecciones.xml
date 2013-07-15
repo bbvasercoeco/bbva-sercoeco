@@ -142,7 +142,7 @@ p.app_texto {
 <body onload="cargar()">
 <h1 id="titlepage">Objetivos del Plan</h1>	
 	<img src="https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0" class="linetitle"/>
-<div class="textintro">BBVA lanzó en el 2008 el Plan Global de Eco-eficiencia (PGE). El plan contempla un conjunto de objetivos para el periodo 2013-2015 en materia de reducción de impactos ambientales directos.</div>   	
+<div class="textintro">BBVA lanzó en el 2008 el Plan Global de Eco-eficiencia (PGE). El plan contempla un conjunto de objetivos para el periodo 2013-2015 en materia de reducción de impactos ambientales directos.</div>   	
  
 <h1 id="titlepage1">Secciones</h1> 
     <img src="https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0" class="linetitle"/>
