@@ -497,7 +497,7 @@ if (!Array.prototype.indexOf) {
     }
   }
 gadgets.util.registerOnLoadHandler(datospagina);  
-
+</script>
 
 </body>
 
