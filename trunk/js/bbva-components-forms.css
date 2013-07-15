@@ -1,0 +1,4025 @@
+.contenidoGrupo.container_8 .separador-vc4,.contenidoGrupo.container_8 .separador-vc8 {
+	background: url("../img/separador-v.png") no-repeat;
+	background-position: 29em 0em
+}
+
+.contenidoGrupo.container_8 .mv30 {
+	margin-top: 3em
+}
+
+.contenidoGrupo.container_8 .c-modal-formulario p {
+	clear: none;
+	padding: 0em 1em 2em 0em
+}
+
+.container_12 .mv10 {
+	margin-top: 1em
+}
+
+.container_12 .mv20 {
+	margin-top: 2em
+}
+
+.container_12 .mv30 {
+	margin-top: 3em
+}
+
+.container_12 .mv40 {
+	margin-top: 4em
+}
+
+.container_12 .mv50 {
+	margin-top: 5em
+}
+
+.container_12 .separador-vc4,.container_12 .separador-vc6,.container_12 .separador-vc8 {
+	background: url("../img/separador-v.png") no-repeat;
+	background-position: 29em 0em
+}
+
+.container_12 .separador-vc6 {
+	background-position: 44em 0em
+}
+
+.container_12 .separador-vc8 {
+	background-position: 59em 0em
+}
+
+.container_12 .separador-vTotal {
+	background: url("../img/separadorv3.png") no-repeat;
+	background-position: 29em 0em
+}
+
+.container_12 .separador-vTotalLogin {
+	background: url("../img/separadorv3min.png") no-repeat;
+	background-position: 21.5em 0em
+}
+
+.container_12 .separator1 {
+	padding-top: 1.5em;
+	border-top: 1px solid #E5E5E5
+}
+
+.container_12 .oculto {
+	visibility: hidden
+}
+
+.container_12 .centrado {
+	width: 100%;
+	text-align: center
+}
+
+.container_12 address {
+	line-height: normal
+}
+
+.container_12 .titulo {
+	font-size: 1.6em;
+	line-height: 1.25em;
+	font-family: BBVA Web Book;
+	color: #003f8c;
+	font-style: normal;
+	font-weight: normal
+}
+
+.container_12 .entradilla p {
+	padding-bottom: 1em
+}
+
+.container_12 .entradilla p span {
+	line-height: 2em
+}
+
+.container_12 .conEnlace {
+	color: #0072c9;
+	cursor: pointer
+}
+
+.container_12 p.texto {
+	margin-bottom: 1.5em
+}
+
+.container_12 p.texto span {
+	font-size: 1.2em;
+	color: #434a58
+}
+
+.container_12 p.texto span .conEnlace {
+	font-size: 1em;
+	color: #0072c9
+}
+
+.container_12 .listaBullet {
+	color: #434a58
+}
+
+.container_12 .listaBullet li {
+	padding-left: 1.2em;
+	margin-bottom: 2em;
+	line-height: 2em;
+	background: url(../img/bullet.png) no-repeat left 8px
+}
+
+.container_12 .listaBullet span {
+	font-size: 1.2em
+}
+
+.container_12 .listaBullet span .conEnlace {
+	font-size: 1em
+}
+
+.container_12 .listaBullet .last {
+	margin-bottom: 0em
+}
+
+.container_12 .listaInput li {
+	margin-bottom: 2em
+}
+
+.container_12 .listaInput .last {
+	margin-bottom: 0em
+}
+
+.container_12 .listaLetra {
+	font-size: 1.2em;
+	list-style: upper-alpha inside;
+	font-weight: bold;
+	float: left;
+	color: #003f8c
+}
+
+.container_12 .listaLetra li {
+	margin-right: 6.667em;
+	margin-bottom: 1.667em;
+	line-height: 1.667em;
+	float: left
+}
+
+.container_12 .listaLetra span {
+	font-size: 1em;
+	width: 17.917em;
+	font-weight: normal;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	vertical-align: top
+}
+
+.container_12 .listaOrdenada {
+	font-size: 1.2em;
+	margin-top: 1.667em;
+	margin-left: 1.25em;
+	list-style: decimal outside;
+	font-weight: bold;
+	color: #0072c9
+}
+
+.container_12 .listaOrdenada li {
+	margin-bottom: 1.333em;
+	line-height: 1.333em;
+	list-style: decimal outside
+}
+
+.container_12 .listaOrdenada li span {
+	font-size: 1em;
+	color: #434a58;
+	font-weight: normal
+}
+
+.container_12 .flota {
+	margin-top: 0.6em;
+	text-align: center
+}
+
+.container_12 .flota>li {
+	margin-right: 2.7em;
+	display: inline-block;
+	zoom: 1;
+	*display: inline
+}
+
+.container_12 .tipoLabel {
+	color: #71777f
+}
+
+.container_12 .divisa input.menor.text {
+	font-size: 1.2em;
+	padding-right: 1.583em
+}
+
+.container_12 .divisa input.menor.text.w210 {
+	width: 14.833em
+}
+
+.container_12 .divisa input.menor.text.w140 {
+	width: 9em
+}
+
+.container_12 .divisa span {
+	font-size: 1.2em
+}
+
+.container_12 .divisa span .titulo {
+	font-size: 1.333em
+}
+
+.container_12 .divisa span .nota {
+	font-size: 0.917em;
+	white-space: nowrap
+}
+
+.container_12 .divisa span em {
+	font-weight: bold
+}
+
+.container_12 .camposAnidados {
+	margin-top: -0.7em
+}
+
+.container_12 .camposAnidados label {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	float: none
+}
+
+.container_12 .datos {
+	display: inline-block;
+	zoom: 1;
+	*display: inline
+}
+
+.container_12 .datos .oculto {
+	font-size: 0.6em;
+	height: 2.5em;
+	margin-bottom: 1.167em
+}
+
+.container_12 .datos .bloque {
+	color: #71777f;
+	position: relative
+}
+
+.container_12 .datos .anotacion {
+	font-size: 1.1em;
+	margin-bottom: 0.636em;
+	display: block;
+	font-style: italic;
+	color: #434A58
+}
+
+.container_12 .datos ul {
+	display: block
+}
+
+.container_12 .datos li span {
+	font-size: 1.2em;
+	color: #434A58
+}
+
+.container_12 .datos fieldset {
+	padding-bottom: 2em;
+	clear: both
+}
+
+.container_12 .datos fieldset p {
+	padding-bottom: 0em
+}
+
+.container_12 .datos legend {
+	font-size: 1.2em;
+	padding-bottom: 0.583em;
+	min-height: 1.25em;
+	color: #71777f
+}
+
+.container_12 .datos .sinLabel {
+	font-size: 1.2em;
+	margin-top: 1.833em
+}
+
+.container_12 .datos p {
+	padding-bottom: 2em;
+	margin-right: 1em;
+	float: left
+}
+
+.container_12 .datos p span {
+	font-size: 1.2em;
+	color: #434a58
+}
+
+.container_12 .datos p span .conEnlace {
+	font-size: 1em;
+	color: #0072c9
+}
+
+.container_12 .datos p span .nota {
+	font-size: 0.917em;
+	top: 5.455em;
+	left: 0em;
+	position: absolute;
+	color: #71777f
+}
+
+.container_12 .datos p span .nota.gridWidget_2 {
+	width: 11.818em
+}
+
+.container_12 .datos p span .nota.gridWidget_4 {
+	width: 25.455em
+}
+
+.container_12 .datos p span .ayuda {
+	font-size: 0.917em;
+	padding-left: 2.545em;
+	top: 5.182em;
+	color: #0072c9;
+	background: url(../img/ico-ayuda.png) no-repeat;
+	cursor: pointer
+}
+
+.container_12 .datos p span.ayuda {
+	color: #0072c9
+}
+
+.container_12 .datos .espacioNotas {
+	padding-bottom: 5.7em
+}
+
+.container_12 .datos .espacioNotasMenor {
+	padding-bottom: 3.9em
+}
+
+.container_12 .datos .last {
+	padding-bottom: 0em;
+	margin-bottom: 0em
+}
+
+.container_12 .datos .flota {
+	padding-top: 0.8em;
+	padding-bottom: 0.3em;
+	margin: 0em;
+	text-align: left
+}
+
+.container_12 .datos .noFlota {
+	padding-bottom: 0em;
+	margin-right: 0em;
+	float: none
+}
+
+.container_12 .datos .tarjetaCVV {
+	top: 1.3em;
+	left: 2.5em;
+	clear: both;
+	position: relative
+}
+
+.container_12 .datos address span {
+	font-size: 1.2em;
+	padding-bottom: 0.833em;
+	display: block;
+	font-weight: bold;
+	font-style: normal;
+	color: #003f8c
+}
+
+.container_12 .grupoInput>input {
+	float: left
+}
+
+.container_12 .grupoInput .c-botones-generico.menor {
+	margin-top: 0.5em
+}
+
+.container_12 .grupoInput.espacioNotas {
+	padding-bottom: 5em
+}
+
+.container_12 .grupoInput.conNotas {
+	position: relative
+}
+
+.container_12 .grupoInput.conNotas .nota {
+	font-size: 1.1em;
+	top: 3.455em;
+	left: 0.091em;
+	line-height: 1.364em;
+	position: absolute;
+	color: #71777f
+}
+
+.container_12 .c-form-claveOperacionesDesplegable {
+	width: auto
+}
+
+.container_12 .c-form-claveOperacionesDesplegable p label span {
+	font-size: 1.2em;
+	width: 17.333em
+}
+
+.container_12 .gridWidget_8 .gridWidget_4.botonesAchoMaximo .c-botones-generico.input {
+	width: 100%
+}
+
+.container_12 .gridWidget_8 .gridWidget_4.botonesAchoMaximo .c-botones-generico.input input {
+	width: 100%
+}
+
+.container_12 .datos .bloque span.js-tooltip {
+	display: inline-block;
+	zoom: 1;
+	*display: inline
+}
+
+.container_12 .su_sucursual_seguros {
+	width: 28.8em
+}
+
+.container_12 .su_sucursual_seguros .c-mensajes-informativoRefuerzo {
+	height: 22.7em
+}
+
+.container_12 .su_sucursual_seguros .c-botones-generico {
+	margin-top: 2em
+}
+
+.container_12 .su_sucursual_seguros .infoMapa {
+	width: 28.8em;
+	padding-bottom: 2.5em;
+	top: -28em;
+	left: 1em
+}
+
+.container_12 .su_sucursual_seguros .infoMapa .cuerpo {
+	color: #71777f;
+	position: relative
+}
+
+.container_12 .su_sucursual_seguros .infoMapa .cuerpo>.header {
+	font-size: 1.8em;
+	margin: 0em;
+	color: #003f8c;
+	font-family: BBVA Web Book
+}
+
+.container_12 .su_sucursual_seguros .infoMapa .cuerpo>address {
+	font-size: 1.2em;
+	padding-bottom: 0.833em;
+	margin-top: 0.833em;
+	background: url("../img/bg-mapa-separador.gif") repeat-x bottom;
+	font-style: normal
+}
+
+.container_12 .su_sucursual_seguros .infoMapa .cuerpo>.definicionCompleta {
+	font-size: 1.2em
+}
+
+.container_12 .su_sucursual_seguros .infoMapa .cuerpo>.definicionCompleta dt,.container_12 .su_sucursual_seguros .infoMapa .cuerpo>.definicionCompleta dd {
+	width: 9.333em;
+	margin-top: 0.833em
+}
+
+.container_12 .su_sucursual_seguros .infoMapa .cuerpo>.definicionCompleta dd+dt {
+	margin-top: -4.583em;
+	float: right
+}
+
+.container_12 .su_sucursual_seguros .infoMapa .cuerpo>.definicionCompleta dd+dt+dd {
+	margin-top: -2.917em;
+	float: right;
+	clear: right
+}
+
+.container_12 .su_sucursual_seguros .infoMapa .cuerpo>.definicionSimple {
+	font-size: 1.2em
+}
+
+.container_12 .su_sucursual_seguros .infoMapa .cuerpo>.definicionSimple dt,.container_12 .su_sucursual_seguros .infoMapa .cuerpo>.definicionSimple dd {
+	margin-top: 0.833em;
+	display: inline-block;
+	zoom: 1;
+	*display: inline
+}
+
+.c-widget-containerServicing legend.noFlota span {
+	float: none;
+	display: block
+}
+
+.c-widget-containerServicing legend.noFlota+.separator1 {
+	-webkit-margin-top-collapse: separate
+}
+
+.c-widget-containerServicing legend.noFlota+.separator2 {
+	-webkit-margin-top-collapse: separate
+}
+
+.c-widget-containerServicing legend.noFlota+.separador3 {
+	-webkit-margin-top-collapse: separate
+}
+
+.c-modal-operativa legend.noFlota span {
+	float: none;
+	display: block
+}
+
+.c-modal-operativa legend.noFlota+.separator1 {
+	-webkit-margin-top-collapse: separate
+}
+
+.c-modal-operativa legend.noFlota+.separator2 {
+	-webkit-margin-top-collapse: separate
+}
+
+.c-modal-operativa legend.noFlota+.separador3 {
+	-webkit-margin-top-collapse: separate
+}
+
+.c-containers-modalDetalle legend.noFlota span {
+	float: none;
+	display: block
+}
+
+.c-containers-modalDetalle legend.noFlota+.separator1 {
+	-webkit-margin-top-collapse: separate
+}
+
+.c-containers-modalDetalle legend.noFlota+.separator2 {
+	-webkit-margin-top-collapse: separate
+}
+
+.c-containers-modalDetalle legend.noFlota+.separador3 {
+	-webkit-margin-top-collapse: separate
+}
+
+.container_12 .c-buscadores-predictivo-liquido legend.noFlota {
+	padding-bottom: 1em
+}
+
+.container_12 .c-buscadores-predictivo-liquido legend.noFlota span {
+	float: none;
+	display: block
+}
+
+.container_12 .c-buscadores-predictivo-liquido legend.noFlota+.separator1 {
+	-webkit-margin-top-collapse: separate
+}
+
+.container_12 .c-buscadores-predictivo-liquido legend.noFlota+.separator2 {
+	-webkit-margin-top-collapse: separate
+}
+
+.container_12 .c-buscadores-predictivo-liquido legend.noFlota+.separador3 {
+	-webkit-margin-top-collapse: separate
+}
+
+label span.bloque {
+	font-size: 1.2em;
+	margin-bottom: 0.583em;
+	line-height: normal;
+	display: block;
+	color: #71777f;
+	font-family: arial
+}
+
+input.text.w30,textarea.text.w30 {
+	width: 0.833em;
+	margin-right: 0.833em
+}
+
+input.text.w30.icoCalendar,textarea.text.w30.icoCalendar {
+	width: -1.25em;
+	padding-right: 2.917em
+}
+
+input.text.w40,textarea.text.w40 {
+	width: 1.667em;
+	margin-right: 0.833em
+}
+
+input.text.w40.icoCalendar,textarea.text.w40.icoCalendar {
+	width: -0.417em;
+	padding-right: 2.917em
+}
+
+input.text.w50,textarea.text.w50 {
+	width: 2.5em;
+	margin-right: 0.833em
+}
+
+input.text.w50.icoCalendar,textarea.text.w50.icoCalendar {
+	width: 0.417em;
+	padding-right: 2.917em
+}
+
+input.text.w60,textarea.text.w60 {
+	width: 3.333em;
+	margin-right: 0.833em
+}
+
+input.text.w60.icoCalendar,textarea.text.w60.icoCalendar {
+	width: 1.25em;
+	padding-right: 2.917em
+}
+
+input.text.w70,textarea.text.w70 {
+	width: 4.167em;
+	margin-right: 0.833em
+}
+
+input.text.w70.icoCalendar,textarea.text.w70.icoCalendar {
+	width: 2.083em;
+	padding-right: 2.917em
+}
+
+input.text.w80,textarea.text.w80 {
+	width: 5em;
+	margin-right: 0.833em
+}
+
+input.text.w80.icoCalendar,textarea.text.w80.icoCalendar {
+	width: 2.917em;
+	padding-right: 2.917em
+}
+
+input.text.w90,textarea.text.w90 {
+	width: 5.833em;
+	margin-right: 0.833em
+}
+
+input.text.w90.icoCalendar,textarea.text.w90.icoCalendar {
+	width: 3.75em;
+	padding-right: 2.917em
+}
+
+input.text.w100,textarea.text.w100 {
+	width: 6.667em;
+	margin-right: 0.833em
+}
+
+input.text.w100.icoCalendar,textarea.text.w100.icoCalendar {
+	width: 4.583em;
+	padding-right: 2.917em
+}
+
+input.text.w110,textarea.text.w110 {
+	width: 7.5em;
+	margin-right: 0.833em
+}
+
+input.text.w110.icoCalendar,textarea.text.w110.icoCalendar {
+	width: 5.417em;
+	padding-right: 2.917em
+}
+
+input.text.w120,textarea.text.w120 {
+	width: 8.333em;
+	margin-right: 0.833em
+}
+
+input.text.w120.icoCalendar,textarea.text.w120.icoCalendar {
+	width: 6.25em;
+	padding-right: 2.917em
+}
+
+input.text.w130,textarea.text.w130 {
+	width: 9.167em;
+	margin-right: 0.833em
+}
+
+input.text.w130.icoCalendar,textarea.text.w130.icoCalendar {
+	width: 7.083em;
+	padding-right: 2.917em
+}
+
+input.text.w140,textarea.text.w140 {
+	width: 10em;
+	margin-right: 0.833em
+}
+
+input.text.w140.icoCalendar,textarea.text.w140.icoCalendar {
+	width: 7.917em;
+	padding-right: 2.917em
+}
+
+input.text.w150,textarea.text.w150 {
+	width: 10.833em;
+	margin-right: 0.833em
+}
+
+input.text.w150.icoCalendar,textarea.text.w150.icoCalendar {
+	width: 8.75em;
+	padding-right: 2.917em
+}
+
+input.text.w160,textarea.text.w160 {
+	width: 11.667em;
+	margin-right: 0.833em
+}
+
+input.text.w160.icoCalendar,textarea.text.w160.icoCalendar {
+	width: 9.583em;
+	padding-right: 2.917em
+}
+
+input.text.w170,textarea.text.w170 {
+	width: 12.5em;
+	margin-right: 0.833em
+}
+
+input.text.w170.icoCalendar,textarea.text.w170.icoCalendar {
+	width: 10.417em;
+	padding-right: 2.917em
+}
+
+input.text.w180,textarea.text.w180 {
+	width: 13.333em;
+	margin-right: 0.833em
+}
+
+input.text.w180.icoCalendar,textarea.text.w180.icoCalendar {
+	width: 11.25em;
+	padding-right: 2.917em
+}
+
+input.text.w190,textarea.text.w190 {
+	width: 14.167em;
+	margin-right: 0.833em
+}
+
+input.text.w190.icoCalendar,textarea.text.w190.icoCalendar {
+	width: 12.083em;
+	padding-right: 2.917em
+}
+
+input.text.w200,textarea.text.w200 {
+	width: 15em;
+	margin-right: 0.833em
+}
+
+input.text.w200.icoCalendar,textarea.text.w200.icoCalendar {
+	width: 12.917em;
+	padding-right: 2.917em
+}
+
+input.text.w210,textarea.text.w210 {
+	width: 15.833em;
+	margin-right: 0.833em
+}
+
+input.text.w210.icoCalendar,textarea.text.w210.icoCalendar {
+	width: 13.75em;
+	padding-right: 2.917em
+}
+
+input.text.w220,textarea.text.w220 {
+	width: 16.667em;
+	margin-right: 0.833em
+}
+
+input.text.w220.icoCalendar,textarea.text.w220.icoCalendar {
+	width: 14.583em;
+	padding-right: 2.917em
+}
+
+input.text.w230,textarea.text.w230 {
+	width: 17.5em;
+	margin-right: 0.833em
+}
+
+input.text.w230.icoCalendar,textarea.text.w230.icoCalendar {
+	width: 15.417em;
+	padding-right: 2.917em
+}
+
+input.text.w240,textarea.text.w240 {
+	width: 18.333em;
+	margin-right: 0.833em
+}
+
+input.text.w240.icoCalendar,textarea.text.w240.icoCalendar {
+	width: 16.25em;
+	padding-right: 2.917em
+}
+
+input[type="text"].text.w250,textarea.text.w250 {
+	width: 19.4em;
+	/*margin-right: 0.833em*/
+}
+
+input#fechaDesde .text.w250 {
+    margin-right: 1.6em;
+}
+
+input#fechaHasta .text.w250 {
+    margin-right: 1.6em;
+}
+
+
+input.text.w250.icoCalendar,textarea.text.w250.icoCalendar {
+	width: 17.083em;
+	padding-right: 2.917em
+}
+
+input.text.w260,textarea.text.w260 {
+	width: 20em;
+	margin-right: 0.833em
+}
+
+input.text.w260.icoCalendar,textarea.text.w260.icoCalendar {
+	width: 17.917em;
+	padding-right: 2.917em
+}
+
+input.text.w270,textarea.text.w270 {
+	width: 20.833em;
+	margin-right: 0.833em
+}
+
+input.text.w270.icoCalendar,textarea.text.w270.icoCalendar {
+	width: 18.75em;
+	padding-right: 2.917em
+}
+
+input.text.w280,textarea.text.w280 {
+	width: 21.667em;
+	margin-right: 0.833em
+}
+
+input.text.w280.icoCalendar,textarea.text.w280.icoCalendar {
+	width: 19.583em;
+	padding-right: 2.917em
+}
+
+input.text.w290,textarea.text.w290 {
+	width: 22.5em;
+	margin-right: 0.833em
+}
+
+input.text.w290.icoCalendar,textarea.text.w290.icoCalendar {
+	width: 20.417em;
+	padding-right: 2.917em
+}
+
+input.text.w300,textarea.text.w300 {
+	width: 23.333em;
+	margin-right: 0.833em
+}
+
+input.text.w300.icoCalendar,textarea.text.w300.icoCalendar {
+	width: 21.25em;
+	padding-right: 2.917em
+}
+
+input.text.w310,textarea.text.w310 {
+	width: 24.167em;
+	margin-right: 0.833em
+}
+
+input.text.w310.icoCalendar,textarea.text.w310.icoCalendar {
+	width: 22.083em;
+	padding-right: 2.917em
+}
+
+input.text.w320,textarea.text.w320 {
+	width: 25em;
+	margin-right: 0.833em
+}
+
+input.text.w320.icoCalendar,textarea.text.w320.icoCalendar {
+	width: 22.917em;
+	padding-right: 2.917em
+}
+
+input.text.w330,textarea.text.w330 {
+	width: 25.833em;
+	margin-right: 0.833em
+}
+
+input.text.w330.icoCalendar,textarea.text.w330.icoCalendar {
+	width: 23.75em;
+	padding-right: 2.917em
+}
+
+input.text.w340,textarea.text.w340 {
+	width: 26.667em;
+	margin-right: 0.833em
+}
+
+input.text.w340.icoCalendar,textarea.text.w340.icoCalendar {
+	width: 24.583em;
+	padding-right: 2.917em
+}
+
+input.text.w350,textarea.text.w350 {
+	width: 27.5em;
+	margin-right: 0.833em
+}
+
+input.text.w350.icoCalendar,textarea.text.w350.icoCalendar {
+	width: 25.417em;
+	padding-right: 2.917em
+}
+
+input.text.w360,textarea.text.w360 {
+	width: 28.333em;
+	margin-right: 0.833em
+}
+
+input.text.w360.icoCalendar,textarea.text.w360.icoCalendar {
+	width: 26.25em;
+	padding-right: 2.917em
+}
+
+input.text.w370,textarea.text.w370 {
+	width: 29.167em;
+	margin-right: 0.833em
+}
+
+input.text.w370.icoCalendar,textarea.text.w370.icoCalendar {
+	width: 27.083em;
+	padding-right: 2.917em
+}
+
+input.text.w380,textarea.text.w380 {
+	width: 30em;
+	margin-right: 0.833em
+}
+
+input.text.w380.icoCalendar,textarea.text.w380.icoCalendar {
+	width: 27.917em;
+	padding-right: 2.917em
+}
+
+input.text.w386,textarea.text.w386 {
+	width: 30.5em
+}
+
+input.text.w445,textarea.text.w445 {
+	width: 35.417em
+}
+
+input.text.w62,textarea.text.w62 {
+	width: 3.5em
+}
+
+input.text.w122,textarea.text.w122 {
+	width: 8.5em
+}
+
+input.text.error,textarea.text.error {
+	-webkit-box-shadow: 0 2px 2px #edd8e3 inset;
+	-moz-box-shadow: 0 2px 2px #edd8e3 inset;
+	box-shadow: 0 2px 2px #edd8e3 inset;
+	background-color: #F7E9E9;
+	border: 1px solid #F4CCDF;
+	color: #c4126c
+}
+
+input.text.respuesta,textarea.text.respuesta {
+	-webkit-box-shadow: 0 0 0 2px #fbf1d0,#d6d6d6 0 2px 2px inset;
+	-moz-box-shadow: 0 0 0 2px #fbf1d0,#d6d6d6 0 2px 2px inset;
+	box-shadow: 0 0 0 2px #fbf1d0,#d6d6d6 0 2px 2px inset;
+	background-color: #fffee8
+}
+
+input.text:focus,textarea.text:focus {
+	-webkit-box-shadow: 0 0 0 2px #def4fb,#d6d6d6 0 2px 2px inset;
+	-moz-box-shadow: 0 0 0 2px #def4fb,#d6d6d6 0 2px 2px inset;
+	box-shadow: 0 0 0 2px #def4fb,#d6d6d6 0 2px 2px inset;
+	color: #434a58;
+	outline: none;
+	border: 1px solid #E8E8E6;
+	background-color: #fffff5;
+	background-image: none
+}
+
+input.text[disabled],textarea.text[disabled] {
+	-webkit-box-shadow: #f8f8f8 0 1px 1px inset;
+	-moz-box-shadow: #f8f8f8 0 1px 1px inset;
+	box-shadow: #f8f8f8 0 1px 1px inset;
+	background-color: #fff;
+	color: #aaadb3;
+	border: 1px solid #e9e9e8
+}
+
+input.text.mayor {
+	font-size: 1.4em;
+	height: 2.714em;
+	line-height: 2.714em;
+	padding: 0em 1em
+}
+
+input.text.mayor.w30 {
+	width: 0em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w40 {
+	width: 0.714em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w50 {
+	width: 1.429em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w60 {
+	width: 2.143em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w70 {
+	width: 2.857em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w80 {
+	width: 3.571em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w90 {
+	width: 4.286em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w100 {
+	width: 5em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w110 {
+	width: 5.714em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w120 {
+	width: 6.429em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w130 {
+	width: 7.143em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w140 {
+	width: 7.857em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w150 {
+	width: 8.571em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w160 {
+	width: 9.286em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w170 {
+	width: 10em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w180 {
+	width: 10.714em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w190 {
+	width: 11.429em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w200 {
+	width: 12.143em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w210 {
+	width: 12.857em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w220 {
+	width: 13.571em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w230 {
+	width: 14.286em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w240 {
+	width: 15em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w250 {
+	width: 15.714em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w260 {
+	width: 16.429em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w270 {
+	width: 17.143em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w280 {
+	width: 17.857em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w290 {
+	width: 18.571em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w300 {
+	width: 19.286em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w310 {
+	width: 20em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w320 {
+	width: 20.714em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w330 {
+	width: 21.429em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w340 {
+	width: 22.143em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w350 {
+	width: 22.857em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w360 {
+	width: 23.571em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w370 {
+	width: 24.286em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w380 {
+	width: 25em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w390 {
+	width: 25.714em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w400 {
+	width: 26.429em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w410 {
+	width: 27.143em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w420 {
+	width: 27.857em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w430 {
+	width: 28.571em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w440 {
+	width: 29.286em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w450 {
+	width: 30em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w460 {
+	width: 30.714em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w470 {
+	width: 31.429em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w480 {
+	width: 32.143em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w490 {
+	width: 32.857em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w500 {
+	width: 33.571em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w510 {
+	width: 34.286em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w520 {
+	width: 35em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w530 {
+	width: 35.714em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w540 {
+	width: 36.429em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w550 {
+	width: 37.143em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w560 {
+	width: 37.857em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w570 {
+	width: 38.571em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w580 {
+	width: 39.286em;
+	margin-right: 0.714em
+}
+
+input.text.mayor.w386 {
+	width: 25.429em
+}
+
+textarea.text {
+	height: 3em;
+	padding-top: 0.7em;
+	line-height: normal
+}
+
+label.divisa {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	position: relative
+}
+
+label.divisa input {
+	text-align: right
+}
+
+label.divisa input.w100 {
+	width: 3em;
+	padding-right: 2em
+}
+
+label.divisa input.w110 {
+	width: 4em;
+	padding-right: 2em
+}
+
+label.divisa input.w120 {
+	width: 5em;
+	padding-right: 2em
+}
+
+label.divisa input.w130 {
+	width: 6em;
+	padding-right: 2em
+}
+
+label.divisa input.w140 {
+	width: 7em;
+	padding-right: 2em
+}
+
+label.divisa input.w150 {
+	width: 8em;
+	padding-right: 2em
+}
+
+label.divisa input.w160 {
+	width: 9em;
+	padding-right: 2em
+}
+
+label.divisa input.w170 {
+	width: 10em;
+	padding-right: 2em
+}
+
+label.divisa input.w180 {
+	width: 11em;
+	padding-right: 2em
+}
+
+label.divisa input.w190 {
+	width: 12em;
+	padding-right: 2em
+}
+
+label.divisa input.w200 {
+	width: 13em;
+	padding-right: 2em
+}
+
+label.divisa input.w210 {
+	width: 14em;
+	padding-right: 2em
+}
+
+label.divisa input.w220 {
+	width: 15em;
+	padding-right: 2em
+}
+
+label.divisa input.w230 {
+	width: 16em;
+	padding-right: 2em
+}
+
+label.divisa input.w240 {
+	width: 17em;
+	padding-right: 2em
+}
+
+label.divisa input.w250 {
+	width: 19em;
+	padding-right: 1em;
+	line-height: 1.2em;
+}
+
+label.divisa input.w260 {
+	width: 19em;
+	padding-right: 2em
+}
+
+label.divisa input.w270 {
+	width: 20em;
+	padding-right: 2em
+}
+
+label.divisa input.w280 {
+	width: 21em;
+	padding-right: 2em
+}
+
+label.divisa input.w290 {
+	width: 22em;
+	padding-right: 2em
+}
+
+label.divisa input.w300 {
+	width: 23em;
+	padding-right: 2em
+}
+
+label.divisa input.w310 {
+	width: 24em;
+	padding-right: 2em
+}
+
+label.divisa input.w320 {
+	width: 25em;
+	padding-right: 2em
+}
+
+label.divisa input.w330 {
+	width: 26em;
+	padding-right: 2em
+}
+
+label.divisa input.w340 {
+	width: 27em;
+	padding-right: 2em
+}
+
+label.divisa input.w350 {
+	width: 28em;
+	padding-right: 2em
+}
+
+label.divisa input.w360 {
+	width: 29em;
+	padding-right: 2em
+}
+
+label.divisa input.w370 {
+	width: 30em;
+	padding-right: 2em
+}
+
+label.divisa input.w380 {
+	width: 31em;
+	padding-right: 2em
+}
+
+label.divisa abbr {
+	font-size: 1.6em;
+	right: 1.188em;
+	bottom: 0.375em;
+	position: absolute;
+	font-family: arial,sans-serif;
+	font-weight: bold
+}
+
+label.divisa input.omega+abbr {
+	font-size: 1.6em;
+	right: 0.563em
+}
+
+label.divisa input[disabled]+abbr {
+	color: #E1E2E4
+}
+
+label.divisa input.error+abbr {
+	color: #c4126c
+}
+
+label.divisa input.error:focus+abbr {
+	color: #004c99
+}
+
+.tipoInput {
+	margin: 0em;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	color: #434a58;
+	outline: none
+}
+
+.tipoInput span {
+	font-size: 1.4em
+}
+
+.tipoInput span span {
+	font-size: 1em
+}
+
+.tipoInput input {
+	display: block;
+	left: -9999em;
+	line-height: 0;
+	position: absolute;
+	text-indent: -9999em
+}
+
+.tipoInput .fuenteNormal {
+	font-family: arial, sans-serif
+}
+
+.tipoInput .radio,.tipoInput .check {
+	font-size: 1em;
+	background: url("../img/ico-spriteFormulario24.png") no-repeat 2px -576px;
+	width: 2.2em;
+	height: 2.2em;
+	margin-right: 1em;
+	top: -0.3em;
+	float: left;
+	position: relative
+}
+
+.tipoInput:hover .radio {
+	background-position: 1px -1152px
+}
+
+.tipoInput.checked .radio {
+	background-position: 1px -1728px
+}
+
+.tipoInput .check {
+	background-position: 0 -864px
+}
+
+.tipoInput:hover .check {
+	background-position: -1px -1440px
+}
+
+.tipoInput.checked .check {
+	background-position: 0px -2016px
+}
+
+.tipoInput.inactive,.tipoInput.inactiveChecked {
+	color: #999
+}
+
+.tipoInput.inactive .radio {
+	background-position: 1px -576px
+}
+
+.tipoInput.inactiveChecked .radio {
+	background-position: 1px -2736px
+}
+
+.tipoInput.inactive .check {
+	background-position: 0 -864px
+}
+
+.tipoInput.inactiveChecked .check {
+	background-position: 0 -3024px
+}
+
+.tipoInput.menor span {
+	font-size: 1.2em
+}
+
+.tipoInput.menor span span {
+	font-size: 1em
+}
+
+.tipoInput.menor .radio,.tipoInput.menor .check {
+	font-size: 1em;
+	width: 1.8em;
+	height: 1.9em;
+	background-position: 1px -432px
+}
+
+.tipoInput.menor:hover .radio {
+	background-position: 0 -1008px
+}
+
+.tipoInput.menor.checked .radio {
+	background-position: 1px -1584px
+}
+
+.tipoInput.menor.inactive .radio {
+	background-position: 1px -432px
+}
+
+.tipoInput.menor.inactiveChecked .radio {
+	background-position: 1px -2880px
+}
+
+.tipoInput.menor .check {
+	background-position: 1px -720px
+}
+
+.tipoInput.menor:hover .check {
+	background-position: 0px -1296px
+}
+
+.tipoInput.menor.checked .check {
+	background-position: 1px -1872px
+}
+
+.tipoInput.menor.inactive .check {
+	background-position: 1px -720px
+}
+
+.tipoInput.menor.inactiveChecked .check {
+	background-position: 1px -3168px
+}
+
+.errorValidacion,.errorValidacion.v06 {
+	font-size: 1.2em;
+	width: 22.5em;
+	bottom: 0.417em;
+	left: 0em;
+	position: absolute;
+	display: none;
+	outline: none;
+	z-index: 100192;
+	color: #C4136C
+}
+
+.errorValidacion .validacionInterior,.errorValidacion.v06 .validacionInterior {
+	line-height: 1.25em;
+	padding: 1em 0.75em 0.583em;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #ECAFC7;
+	background: #F7E9E9
+}
+
+.errorValidacion .puntero,.errorValidacion.v06 .puntero {
+	height: 0.833em;
+	margin-top: -0.083em;
+	display: block;
+	background: url("../img/ico-alerta-cursor.png") no-repeat center bottom
+}
+
+.errorValidacion p,.errorValidacion.v06 p {
+	margin-bottom: 0.667em
+}
+
+.errorValidacion.v06 {
+	font-size: 1em;
+	width: 27em;
+	bottom: 0.5em
+}
+
+.errorValidacion.v06 p {
+	font-size: 1.2em;
+	margin-bottom: 0.667em;
+	line-height: 1.667em
+}
+
+.errorValidacion.v06 .validacionInterior {
+	padding: 0.7em 0.9em 0.2em
+}
+
+.errorValidacion.v06 .titulo {
+	font-size: 1.2em;
+	background: url("../img/ico-spriteAlertaInformacion16.png") no-repeat 1px -280px;
+	padding-top: 0.5em;
+	padding-left: 2.083em;
+	margin-bottom: 0.417em;
+	min-height: 1.083em;
+	font-weight: bold
+}
+
+.errorValidacion.v06 .titulo em {
+	line-height: normal
+}
+
+.errorValidacion.v06 .puntero {
+	height: 1em;
+	margin-top: -0.1em
+}
+
+.c-buscadores-consultas {
+	width: 56em;
+	padding: 2em 2em 2em 2em
+}
+
+.c-buscadores-consultas h2 {
+	font-size: 1.6em;
+	margin-bottom: 1.563em;
+	font-family: BBVA Web Light
+}
+
+.c-buscadores-consultas label span.bloque {
+	color: #434a58
+}
+
+.c-buscadores-consultas .botonBusqueda {
+	margin-right: 1em;
+	margin-left: 15em
+}
+
+.c-buscadores-consultas .contenidoBuscador {
+	border: 1px solid #E1E1E1
+}
+
+.c-buscadores-consultas .contenidoBuscador .styledRadio, 
+.c-buscadores-consultas .contenidoBuscador .styledCheckbox {
+float: left;
+clear: both;
+margin-right: 9px;
+cursor: pointer;
+margin-top: 1px;
+}
+
+.c-buscadores-consultas .contenidoBuscador p.textoResultado {
+	font-size: 1.2em;
+	margin-top: 0.833em;
+	color: #434a58;
+	float: left
+}
+
+.c-buscadores-consultas .contenidoBuscador span.textoResultado {
+	font-size: 1.1em;
+	margin-top: 0.909em;
+	color: #434a58
+}
+
+.c-buscadores-consultas .contenidoBuscador span.c-botones-generico {
+	 float: right;
+    margin-top: 1em;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.c-buscadores-consultas .contenidoBuscador ul.seleccionRadios {
+	padding-top: 0em;
+	margin: 0em 0em 0em;
+	float: left;
+	text-align: left;
+	color: #434a58
+}
+
+.c-buscadores-consultas .contenidoBuscador ul.seleccionRadios li {
+	width: 25.8em;
+	margin-right: 0em;
+	margin-bottom: 1em;
+	display: inline-block;
+	zoom: 1;
+	*display: inline
+}
+
+.c-buscadores-consultas .contenidoBuscador ul.seleccionRadios li.separator1 {
+    margin: 1em 0 0;
+    padding: 1.4em 0 0;
+    width: 52em;
+}
+
+.c-buscadores-consultas .contenidoBuscador .bordeInferior {
+	padding-bottom: 1em;
+	border-bottom: 1px solid #DCDCDC
+}
+
+.c-buscadores-consultas .contenidoBuscador .c-buscadores-predictivo,
+.c-buscadores-consultas .contenidoBuscador .c-buscadores-predictivo-liquido {
+	width: 52.2em;
+	margin: 0em 0em 2em
+}
+
+.c-buscadores-consultas .contenidoBuscador .c-buscadores-predictivo .resultados,
+.c-buscadores-consultas .contenidoBuscador .c-buscadores-predictivo-liquido .resultados {
+	width: 52.2em;
+	max-height: 11em;
+	padding: 0em
+}
+
+.c-buscadores-consultas .contenidoBuscador .c-buscadores-predictivo .resultados .js-list,
+.c-buscadores-consultas .contenidoBuscador .c-buscadores-predictivo-liquido .resultados .js-list {
+	width: 50em;
+	margin: 0em 0em 0em 0.2em
+}
+
+.c-buscadores-consultas .contenidoBuscador .c-buscadores-predictivo .resultados .js-list li,
+.c-buscadores-consultas .contenidoBuscador .c-buscadores-predictivo-liquido .resultados .js-list li {
+	height: 1.2em;
+	padding: 1em 1em 0.7em;
+	background: transparent url("../img/ico-tick-inactive.png") no-repeat 100% 1.2em;
+	cursor: pointer
+}
+
+.c-buscadores-consultas .contenidoBuscador .c-buscadores-predictivo .resultados .js-list li>label,
+.c-buscadores-consultas .contenidoBuscador .c-buscadores-predictivo-liquido .resultados .js-list li>label {
+	cursor: pointer
+}
+
+.c-buscadores-consultas .contenidoBuscador .c-buscadores-predictivo .resultados .js-list li>label>span,.c-buscadores-consultas .contenidoBuscador .c-buscadores-predictivo-liquido .resultados .js-list li>label>span {
+	color: #003f8c
+}
+
+.c-buscadores-consultas .contenidoBuscador .c-buscadores-predictivo .resultados .js-list li:hover,.c-buscadores-consultas .contenidoBuscador .c-buscadores-predictivo-liquido .resultados .js-list li:hover {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;
+	background: #e2fafe url("../img/ico-tick-inactive.png") no-repeat 100% 1.2em
+}
+
+.c-buscadores-consultas .contenidoBuscador .c-buscadores-predictivo .resultados .js-list li:hover>label>span,.c-buscadores-consultas .contenidoBuscador .c-buscadores-predictivo-liquido .resultados .js-list li:hover>label>span {
+	color: #003f8c
+}
+
+.c-buscadores-consultas .contenidoBuscador .c-buscadores-predictivo p,.c-buscadores-consultas .contenidoBuscador .c-buscadores-predictivo-liquido p {
+	width: 52.2em;
+	padding: 0em;
+	margin: 0em 0em 0.8em
+}
+
+.c-buscadores-consultas .contenidoBuscador .c-buscadores-predictivo p label input.text,.c-buscadores-consultas .contenidoBuscador .c-buscadores-predictivo-liquido p label input.text {
+	font-size: 1.2em;
+	background-image: url("../img/ico-searchBig.png");
+	background-repeat: no-repeat;
+	width: 42.167em;
+	padding: 0.583em 0.583em 0.5em;
+	margin: 0em;
+	background-position: 98% 50%
+}
+
+.c-buscadores-consultas .contenidoBuscador .c-mensajes-informativoRefuerzo {
+	width: 43em;
+	padding-bottom: 0.5em
+}
+
+.c-widget-containerServicing.resultadoBusqueda .container-wizard {
+	width: 55em;
+	height: 1em;
+	margin-bottom: 1em;
+	top: 0em;
+	padding: 1em 1em 1em 0em;
+	text-align: center;
+	position: absolute;
+	border: 0px solid #F2D7BB;
+	background: #F1F5F9
+}
+
+.c-widget-containerServicing.resultadoBusqueda .container-wizard .c-desplegable-consultas {
+	width: 52em
+}
+
+.c-widget-containerServicing.resultadoBusqueda .container-wizard .c-buscadores-consultas {
+	padding: 0em
+}
+
+.c-widget-containerServicing.resultadoBusqueda .container-wizard .busqueda {
+	padding-top: 0em;
+	border: 0px solid #FFF;
+	-webkit-box-shadow: #d5d6d7 0 0px 0px inset;
+	-moz-box-shadow: #d5d6d7 0 0px 0px inset;
+	box-shadow: #d5d6d7 0 0px 0px inset
+}
+
+.c-widget-containerServicing.resultadoBusqueda .container-wizard .busqueda .seleccionado {
+	float: none
+}
+
+.c-widget-containerServicing.resultadoBusqueda .container-wizard h2 {
+	display: none
+}
+
+.c-widget-containerServicing.resultadoBusqueda .container-wizard p {
+	padding-right: 3em;
+	display: inline
+}
+
+.c-widget-containerServicing.resultadoBusqueda .container-wizard p span {
+	padding-left: 1em;
+	color: #0E4A92;
+	font-weight: bold
+}
+
+.c-widget-containerServicing.resultadoBusqueda .container-wizard dl {
+	float: none
+}
+
+.c-widget-containerServicing.consultas.resultadoBusqueda .c-botones-consultas {
+	display: none
+}
+
+.c-buscadores-consultas.v07 .contenidoBuscador span.c-botones-generico {
+	margin-top: 0em
+}
+
+.c-buscadores-predictivo {
+	width: 56em;
+	clear: both
+}
+
+.c-buscadores-predictivo fieldset {
+	position: relative
+}
+
+.c-buscadores-predictivo fieldset legend.tabla {
+	zoom: 1;
+	position: absolute;
+	top: 5px
+}
+
+.c-buscadores-predictivo fieldset legend.tabla:before,.c-buscadores-predictivo fieldset legend.tabla:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	overflow: hidden
+}
+
+.c-buscadores-predictivo fieldset legend.tabla:after {
+	clear: both
+}
+
+.c-buscadores-predictivo fieldset legend.tabla.conScroll {
+	top: 75px
+}
+
+.c-buscadores-predictivo table {
+	width: 56em
+}
+
+.c-buscadores-predictivo table colgroup.columnas3 .columna1 {
+	width: 24em
+}
+
+.c-buscadores-predictivo table colgroup.columnas3 .columna2 {
+	width: 17em
+}
+
+.c-buscadores-predictivo table colgroup.columnas3 .columna3 {
+	width: 15em
+}
+
+.c-buscadores-predictivo table colgroup.columnas4 .columna1 {
+	width: 18em
+}
+
+.c-buscadores-predictivo table colgroup.columnas4 .columna2 {
+	width: 20em
+}
+
+.c-buscadores-predictivo table colgroup.columnas4 .columna3 {
+	width: 12em
+}
+
+.c-buscadores-predictivo table colgroup.columnas4 .columna4 {
+	width: 6em
+}
+
+.c-buscadores-predictivo table thead.indented th span {
+	display: block;
+	left: -9999em;
+	line-height: 0;
+	position: absolute;
+	text-indent: -9999em
+}
+
+.c-buscadores-predictivo table th {
+	font-size: 1.1em;
+	padding-bottom: 0.455em;
+	color: #71777f;
+	font-weight: bold;
+	text-align: right;
+	line-height: 1.5;
+	border-bottom: 1px solid #e5e5e5
+}
+
+.c-buscadores-predictivo table th.last,.c-buscadores-predictivo table th.cifra {
+	padding-right: 0.909em
+}
+
+.c-buscadores-predictivo table td {
+	font-size: 1.4em;
+	padding: 1.143em 0em 1.071em 0.714em;
+	border-bottom: 1px solid #e5e5e5;
+	word-wrap: break-word;
+	vertical-align: top
+}
+
+.c-buscadores-predictivo table td input {
+	margin: 0em 0.357em 0em 0em
+}
+
+.c-buscadores-predictivo table td.tipo span {
+	font-size: 0.857em;
+	color: #717781
+}
+
+.c-buscadores-predictivo table td.cifra {
+	padding-right: 0.714em;
+	padding-left: 0em;
+	text-align: right
+}
+
+.c-buscadores-predictivo table td.cifra span {
+	color: #717781;
+	font-weight: bold
+}
+
+.c-buscadores-predictivo table tr.last td {
+	border-bottom: 0
+}
+
+.c-buscadores-predictivo table tr:hover td {
+	background-color: #e0f6fc
+}
+
+.c-buscadores-predictivo table tr:hover td.first {
+	-moz-border-radius-topleft: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-ms-border-top-left-radius: 5px;
+	-o-border-top-left-radius: 5px;
+	border-top-left-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-ms-border-bottom-left-radius: 5px;
+	-o-border-bottom-left-radius: 5px;
+	border-bottom-left-radius: 5px
+}
+
+.c-buscadores-predictivo table tr:hover td.last {
+	-moz-border-radius-topright: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-ms-border-top-right-radius: 5px;
+	-o-border-top-right-radius: 5px;
+	border-top-right-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-ms-border-bottom-right-radius: 5px;
+	-o-border-bottom-right-radius: 5px;
+	border-bottom-right-radius: 5px
+}
+
+.c-buscadores-predictivo table tr.inactive label span {
+	color: #99b2d1
+}
+
+.c-buscadores-predictivo table tr.inactive td.tipo span,.c-buscadores-predictivo table tr.inactive td.cifra span {
+	color: #b4b7bc
+}
+
+.c-buscadores-predictivo table label span {
+	font-size: 1em;
+	color: #003f8c;
+	font-family: arial;
+	font-weight: bold
+}
+
+.c-buscadores-predictivo ul li {
+	padding: 1.6em 1em 1.5em 1em;
+	border-bottom: 1px solid #e5e5e5
+}
+
+.c-buscadores-predictivo ul li label.gridWidget_6 {
+	width: 31.8em;
+	float: left
+}
+
+.c-buscadores-predictivo ul li span {
+	font-size: 1.4em;
+	color: #003f8c;
+	font-weight: bold
+}
+
+.c-buscadores-predictivo ul li span.gridWidget_4 {
+	width: 14.429em;
+	color: #434a58;
+	text-align: right;
+	float: right
+}
+
+.c-buscadores-predictivo ul li label span {
+	font-size: 1.4em;
+	color: #003f8c;
+	font-weight: bold
+}
+
+.c-buscadores-predictivo ul li label span span {
+	font-size: 1em;
+	padding-left: 1.429em;
+	color: #434a58;
+	font-weight: normal
+}
+
+.c-buscadores-predictivo ul li label span span.masInfo {
+	color: #0078D4;
+	font-weight: bold
+}
+
+.c-buscadores-predictivo ul li label span span.masInfo:hover {
+	color: #003f8c
+}
+
+.c-buscadores-predictivo ul li input {
+	margin: 0em 0.5em 0em 0em
+}
+
+.c-buscadores-predictivo ul li.last {
+	border-bottom: 0
+}
+
+.c-buscadores-predictivo ul li:hover {
+	background-color: #e0f6fc;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px
+}
+
+.c-buscadores-predictivo ul li:hover span span.masInfo {
+	color: #003f8c
+}
+
+.c-buscadores-predictivo ul li.inactive span {
+	color: #99b2d1
+}
+
+.c-buscadores-predictivo ul li.inactive span.gridWidget_4,.c-buscadores-predictivo ul li.inactive span span {
+	color: #b4b7bc
+}
+
+.c-buscadores-predictivo .resultados {
+	max-height: 26em;
+	padding: 1em 0em;
+	overflow: auto;
+	overflow-x: hidden
+}
+
+.c-buscadores-predictivo .resultados table {
+	width: 54em
+}
+
+.c-buscadores-predictivo .resultados table colgroup.columnas3 .columna1 {
+	width: 24em
+}
+
+.c-buscadores-predictivo .resultados table colgroup.columnas3 .columna2 {
+	width: 15em
+}
+
+.c-buscadores-predictivo .resultados table colgroup.columnas3 .columna3 {
+	width: 15em
+}
+
+.c-buscadores-predictivo .resultados table colgroup.columnas4 .columna1 {
+	width: 17em
+}
+
+.c-buscadores-predictivo .resultados table colgroup.columnas4 .columna2 {
+	width: 19em
+}
+
+.c-buscadores-predictivo .resultados table colgroup.columnas4 .columna3 {
+	width: 12em
+}
+
+.c-buscadores-predictivo .resultados table colgroup.columnas4 .columna4 {
+	width: 6em
+}
+
+.c-buscadores-predictivo .resultados table td {
+	font-size: 1.2em;
+	padding: 0.667em 0em 0.5em 0.833em
+}
+
+.c-buscadores-predictivo .resultados table td.tipo span {
+	font-size: 1em
+}
+
+.c-buscadores-predictivo .resultados table td.cifra {
+	padding-right: 0.833em;
+	padding-left: 0em
+}
+
+.c-buscadores-predictivo .resultados ul {
+	width: 54em
+}
+
+.c-buscadores-predictivo .resultados ul li {
+	padding: 0.8em 1em 0.6em 1em
+}
+
+.c-buscadores-predictivo .resultados ul li span {
+	font-size: 1.2em;
+	font-weight: bold
+}
+
+.c-buscadores-predictivo .resultados ul li span.gridWidget_4 {
+	width: 15.417em;
+	font-weight: normal
+}
+
+.c-buscadores-predictivo .resultados ul li span span {
+	font-size: 1em;
+	padding-left: 1.667em;
+	font-weight: normal
+}
+
+.c-buscadores-predictivo p {
+	margin-bottom: 1.5em;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px
+}
+
+.c-buscadores-predictivo p input.text.mayor {
+	font-size: 1.4em;
+	background-image: url("../img/ico-searchBig.png");
+	background-repeat: no-repeat;
+	width: 35.571em;
+	padding: 0em 2.786em 0em 1.357em;
+	background-position: 98% 50%
+}
+
+.c-buscadores-predictivo .jspContainer {
+	overflow: hidden;
+	position: relative
+}
+
+.c-buscadores-predictivo .jspPane {
+	position: absolute
+}
+
+.c-buscadores-predictivo .jspVerticalBar {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	position: absolute;
+	border: 1px solid #E1E1E1;
+	top: 0;
+	right: 0;
+	width: 11px;
+	height: 100%;
+	background: #F9F9F9
+}
+
+.c-buscadores-predictivo .jspVerticalBar * {
+	margin: 0;
+	padding: 0
+}
+
+.c-buscadores-predictivo .jspCap {
+	display: none
+}
+
+.c-buscadores-predictivo .jspTrack {
+	background: transparent;
+	position: relative
+}
+
+.c-buscadores-predictivo .jspDrag {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	background: #6F747F;
+	position: relative;
+	top: 0;
+	left: 1px;
+	cursor: pointer;
+	width: 9px
+}
+
+.c-buscadores-predictivo .jspArrow {
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer
+}
+
+.c-buscadores-predictivo .jspArrow.jspArrowUp {
+	background: url("../img/ico-subir-scroll.png") no-repeat 50% 50% transparent;
+	height: 10px
+}
+
+.c-buscadores-predictivo .jspArrow.jspArrowDown {
+	background: url("../img/ico-bajar-scroll.png") no-repeat 50% 50% transparent;
+	height: 10px
+}
+
+.c-buscadores-predictivo .jspArrow.jspDisabled {
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+	opacity: 0.5;
+	cursor: default
+}
+
+.c-buscadores-predictivo .jspArrow:focus {
+	outline: none
+}
+
+.c-widget-containerServicing .c-widget-conmutador .c-buscadores-predictivo {
+	width: 52em
+}
+
+.c-widget-containerServicing .c-widget-conmutador .c-buscadores-predictivo input.mayor {
+	font-size: 1.4em;
+	width: 32.857em
+}
+
+.c-widget-containerServicing .c-widget-conmutador .c-buscadores-predictivo .resultados {
+	width: 52em
+}
+
+.c-widget-containerServicing .c-widget-conmutador .c-buscadores-predictivo .resultados table {
+	width: 50em
+}
+
+.container_12 .contenidoGrupo .c-buscadores-predictivo p input.text.mayor {
+	font-size: 1.4em;
+	width: 23.571em
+}
+
+.container_12 .contenidoGrupo .c-buscadores-predictivo p input.text.mayor.w430 {
+	width: 26.571em
+}
+
+.container_12 .c-buscadores-predictivo legend.noFlota span {
+	font-size: 1.6em;
+	line-height: 1.25em;
+	font-family: BBVA Web Book;
+	color: #003f8c;
+	font-style: normal;
+	font-weight: normal
+}
+
+.c-widget-containerServicing .c-widget-conmutador .c-buscadores-predictivo-liquido {
+	width: 52em
+}
+
+.c-widget-containerServicing .c-widget-conmutador .c-buscadores-predictivo-liquido input.mayor {
+	font-size: 1.4em;
+	width: 32.857em
+}
+
+.c-widget-containerServicing .c-widget-conmutador .c-buscadores-predictivo-liquido .resultados {
+	width: 52em
+}
+
+.c-widget-containerServicing .c-widget-conmutador .c-buscadores-predictivo-liquido .resultados table {
+	width: 50em
+}
+
+.c-buscadores-consultas .contenidoBuscador .c-buscadores-predictivo-liquido input.text {
+	font-size: 1.2em;
+	width: 42.167em;
+	padding: 0.583em 0.583em 0.5em;
+	margin: 0em
+}
+
+.c-modal-operativa .c-buscadores-predictivo-liquido.unico {
+	width: 48em;
+	padding: 2em
+}
+
+.c-modal-operativa .c-buscadores-predictivo-liquido.unico input.text.mayor {
+	font-size: 1.2em
+}
+
+.c-modal-operativa .c-buscadores-predictivo-liquido.unico table {
+	width: 52em
+}
+
+.c-modal-operativa .c-buscadores-predictivo-liquido.unico table colgroup.columnas3 .columna1 {
+	width: 22em
+}
+
+.c-modal-operativa .c-buscadores-predictivo-liquido.unico table colgroup.columnas3 .columna2 {
+	width: 16em
+}
+
+.c-modal-operativa .c-buscadores-predictivo-liquido.unico table colgroup.columnas3 .columna3 {
+	width: 14em
+}
+
+.c-modal-operativa .c-buscadores-predictivo-liquido.unico table colgroup.columnas4 .columna1 {
+	width: 17em
+}
+
+.c-modal-operativa .c-buscadores-predictivo-liquido.unico table colgroup.columnas4 .columna2 {
+	width: 19em
+}
+
+.c-modal-operativa .c-buscadores-predictivo-liquido.unico table colgroup.columnas4 .columna3 {
+	width: 11em
+}
+
+.c-modal-operativa .c-buscadores-predictivo-liquido.unico table colgroup.columnas4 .columna4 {
+	width: 5em
+}
+
+.c-widget-containerServicing .c-widget-conmutador .c-buscadores-predictivo-liquido input.mayor {
+	font-size: 1.4em;
+	width: 32.857em
+}
+
+.container_12 .contenidoGrupo .c-buscadores-predictivo-liquido p input.text.mayor {
+	font-size: 1.4em;
+	width: 23.571em
+}
+
+.container_12 .contenidoGrupo .c-buscadores-predictivo-liquido p input.text.mayor.w430 {
+	width: 26.571em
+}
+
+#ui-dialog-modal_cuentasCliente .c-buscadores-predictivo-liquido input.mayor {
+	font-size: 1.4em;
+	width: 38.571em
+}
+
+.container_12 .contenidoGrupo .ote .agenda {
+	display: none
+}
+
+.container_12 .contenidoGrupo .ote .entidad {
+	display: block
+}
+
+.container_24 label span.c-form-combo,
+.c-modal-formulario label span.c-form-combo,
+.container_12 label span.c-form-combo {
+	font-size: 1.2em;
+	float: left
+}
+
+.container_24 label span.c-form-combo.bigOffice, 
+.c-modal-formulario label span.c-form-combo.bigOffice, 
+.container_12 label span.c-form-combo.bigOffice {
+	font-size: 1.4em;
+	font-weight: bold;
+	font-family: BBVA Office Light;
+}
+
+
+
+.container_24 label span.c-form-combo.w50,.c-modal-formulario label span.c-form-combo.w50,.container_12 label span.c-form-combo.w50 {
+	width: 4.167em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w50 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w50 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w50 .ui-selectmenu-menu {
+	width: 4.167em
+}
+
+.container_24 label span.c-form-combo.w60,.c-modal-formulario label span.c-form-combo.w60,.container_12 label span.c-form-combo.w60 {
+	width: 5em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w60 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w60 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w60 .ui-selectmenu-menu {
+	width: 5em
+}
+
+.container_24 label span.c-form-combo.w70,.c-modal-formulario label span.c-form-combo.w70,.container_12 label span.c-form-combo.w70 {
+	width: 5.833em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w70 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w70 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w70 .ui-selectmenu-menu {
+	width: 5.833em
+}
+
+.container_24 label span.c-form-combo.w80,.c-modal-formulario label span.c-form-combo.w80,.container_12 label span.c-form-combo.w80 {
+	width: 6.667em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w80 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w80 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w80 .ui-selectmenu-menu {
+	width: 6.667em
+}
+
+.container_24 label span.c-form-combo.w90,.c-modal-formulario label span.c-form-combo.w90,.container_12 label span.c-form-combo.w90 {
+	width: 7.5em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w90 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w90 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w90 .ui-selectmenu-menu {
+	width: 7.5em
+}
+
+.container_24 label span.c-form-combo.w100,.c-modal-formulario label span.c-form-combo.w100,.container_12 label span.c-form-combo.w100 {
+	width: 8.333em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w100 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w100 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w100 .ui-selectmenu-menu {
+	width: 8.333em
+}
+
+.container_24 label span.c-form-combo.w110,.c-modal-formulario label span.c-form-combo.w110,.container_12 label span.c-form-combo.w110 {
+	width: 9.167em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w110 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w110 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w110 .ui-selectmenu-menu {
+	width: 9.167em
+}
+
+.container_24 label span.c-form-combo.w120,.c-modal-formulario label span.c-form-combo.w120,.container_12 label span.c-form-combo.w120 {
+	width: 10em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w120 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w120 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w120 .ui-selectmenu-menu {
+	width: 10em
+}
+
+.container_24 label span.c-form-combo.w130,.c-modal-formulario label span.c-form-combo.w130,.container_12 label span.c-form-combo.w130 {
+	width: 10.833em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w130 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w130 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w130 .ui-selectmenu-menu {
+	width: 10.833em
+}
+
+.container_24 label span.c-form-combo.w140,.c-modal-formulario label span.c-form-combo.w140,.container_12 label span.c-form-combo.w140 {
+	width: 11.667em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w140 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w140 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w140 .ui-selectmenu-menu {
+	width: 11.667em
+}
+
+.container_24 label span.c-form-combo.w150,.c-modal-formulario label span.c-form-combo.w150,.container_12 label span.c-form-combo.w150 {
+	width: 12.5em;
+	margin: -7px 1.667em 9px 0;
+}
+
+.container_24 label span.c-form-combo.w150 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w150 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w150 .ui-selectmenu-menu {
+	width: 12.5em
+}
+
+.container_24 label span.c-form-combo.w160,
+.c-modal-formulario label span.c-form-combo.w160,
+.container_12 label span.c-form-combo.w160 {
+	width: 13.333em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w160.m60,
+.container_12 label span.c-form-combo.w160.m60 {
+	margin-left: 5.5em;
+	margin-bottom: 2em;
+}
+
+.container_24 label span.c-form-combo.w160 .ui-selectmenu-menu,
+.c-modal-formulario label span.c-form-combo.w160 .ui-selectmenu-menu,
+.container_12 label span.c-form-combo.w160 .ui-selectmenu-menu {
+	width: 13.333em
+}
+
+.container_24 label span.c-form-combo.w170,.c-modal-formulario label span.c-form-combo.w170,.container_12 label span.c-form-combo.w170 {
+	width: 14.167em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w170 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w170 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w170 .ui-selectmenu-menu {
+	width: 14.167em
+}
+
+.container_24 label span.c-form-combo.w180,.c-modal-formulario label span.c-form-combo.w180,.container_12 label span.c-form-combo.w180 {
+	width: 15em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w180 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w180 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w180 .ui-selectmenu-menu {
+	width: 15em
+}
+
+.container_24 label span.c-form-combo.w190,.c-modal-formulario label span.c-form-combo.w190,.container_12 label span.c-form-combo.w190 {
+	width: 15.833em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w190 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w190 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w190 .ui-selectmenu-menu {
+	width: 15.833em
+}
+
+.container_24 label span.c-form-combo.w200,
+.c-modal-formulario label span.c-form-combo.w200,
+.container_12 label span.c-form-combo.w200 {
+	width: 16.667em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w200 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w200 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w200 .ui-selectmenu-menu {
+	width: 16.667em
+}
+
+.container_24 label span.c-form-combo.w210,.c-modal-formulario label span.c-form-combo.w210,.container_12 label span.c-form-combo.w210 {
+	width: 17.5em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w210 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w210 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w210 .ui-selectmenu-menu {
+	width: 17.5em
+}
+
+.container_24 label span.c-form-combo.w220,.c-modal-formulario label span.c-form-combo.w220,.container_12 label span.c-form-combo.w220 {
+	width: 18.333em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w220 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w220 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w220 .ui-selectmenu-menu {
+	width: 18.333em
+}
+
+.container_24 label span.c-form-combo.w230,.c-modal-formulario label span.c-form-combo.w230,.container_12 label span.c-form-combo.w230 {
+	width: 19.167em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w230 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w230 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w230 .ui-selectmenu-menu {
+	width: 19.167em
+}
+
+.container_24 label span.c-form-combo.w240,.c-modal-formulario label span.c-form-combo.w240,.container_12 label span.c-form-combo.w240 {
+	width: 20em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w240 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w240 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w240 .ui-selectmenu-menu {
+	width: 20em
+}
+
+.container_24 label span.c-form-combo.w250,.c-modal-formulario label span.c-form-combo.w250,.container_12 label span.c-form-combo.w250 {
+	width: 20.833em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w250 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w250 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w250 .ui-selectmenu-menu {
+	width: 20.833em
+}
+
+.container_24 label span.c-form-combo.w260,.c-modal-formulario label span.c-form-combo.w260,.container_12 label span.c-form-combo.w260 {
+	width: 21.667em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w260 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w260 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w260 .ui-selectmenu-menu {
+	width: 21.667em
+}
+
+.container_24 label span.c-form-combo.w270,.c-modal-formulario label span.c-form-combo.w270,.container_12 label span.c-form-combo.w270 {
+	width: 22.5em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w270 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w270 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w270 .ui-selectmenu-menu {
+	width: 22.5em
+}
+
+.container_24 label span.c-form-combo.w280,.c-modal-formulario label span.c-form-combo.w280,.container_12 label span.c-form-combo.w280 {
+	width: 23.333em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w280 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w280 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w280 .ui-selectmenu-menu {
+	width: 23.333em
+}
+
+.container_24 label span.c-form-combo.w290,.c-modal-formulario label span.c-form-combo.w290,.container_12 label span.c-form-combo.w290 {
+	width: 24.167em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w290 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w290 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w290 .ui-selectmenu-menu {
+	width: 24.167em
+}
+
+.container_24 label span.c-form-combo.w300,.c-modal-formulario label span.c-form-combo.w300,.container_12 label span.c-form-combo.w300 {
+	width: 25em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w300 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w300 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w300 .ui-selectmenu-menu {
+	width: 25em
+}
+
+.container_24 label span.c-form-combo.w310,.c-modal-formulario label span.c-form-combo.w310,.container_12 label span.c-form-combo.w310 {
+	width: 25.833em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w310 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w310 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w310 .ui-selectmenu-menu {
+	width: 25.833em
+}
+
+.container_24 label span.c-form-combo.w320,.c-modal-formulario label span.c-form-combo.w320,.container_12 label span.c-form-combo.w320 {
+	width: 26.667em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w320 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w320 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w320 .ui-selectmenu-menu {
+	width: 26.667em
+}
+
+.container_24 label span.c-form-combo.w330,.c-modal-formulario label span.c-form-combo.w330,.container_12 label span.c-form-combo.w330 {
+	width: 27.5em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w330 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w330 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w330 .ui-selectmenu-menu {
+	width: 27.5em
+}
+
+.container_24 label span.c-form-combo.w340,.c-modal-formulario label span.c-form-combo.w340,.container_12 label span.c-form-combo.w340 {
+	width: 28.333em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w340 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w340 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w340 .ui-selectmenu-menu {
+	width: 28.333em
+}
+
+.container_24 label span.c-form-combo.w350,.c-modal-formulario label span.c-form-combo.w350,.container_12 label span.c-form-combo.w350 {
+	width: 29.167em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w350 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w350 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w350 .ui-selectmenu-menu {
+	width: 29.167em
+}
+
+.container_24 label span.c-form-combo.w360,.c-modal-formulario label span.c-form-combo.w360,.container_12 label span.c-form-combo.w360 {
+	width: 30em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w360 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w360 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w360 .ui-selectmenu-menu {
+	width: 30em
+}
+
+.container_24 label span.c-form-combo.w370,.c-modal-formulario label span.c-form-combo.w370,.container_12 label span.c-form-combo.w370 {
+	width: 30.833em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w370 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w370 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w370 .ui-selectmenu-menu {
+	width: 30.833em
+}
+
+.container_24 label span.c-form-combo.w380,.c-modal-formulario label span.c-form-combo.w380,.container_12 label span.c-form-combo.w380 {
+	width: 31.667em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w380 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w380 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w380 .ui-selectmenu-menu {
+	width: 31.667em
+}
+
+.container_24 label span.c-form-combo.w386,.c-modal-formulario label span.c-form-combo.w386,.container_12 label span.c-form-combo.w386 {
+	width: 32.167em;
+	margin-right: 0.833em
+}
+
+.container_24 label span.c-form-combo.w386 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w386 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w386 .ui-selectmenu-menu {
+	width: 32.167em
+}
+
+.container_24 label span.c-form-combo.w560,.c-modal-formulario label span.c-form-combo.w560,.container_12 label span.c-form-combo.w560 {
+	width: 46.667em;
+	margin-right: 0em
+}
+
+.container_24 label span.c-form-combo.w560 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.w560 .ui-selectmenu-menu,.container_12 label span.c-form-combo.w560 .ui-selectmenu-menu {
+	width: 46.667em
+}
+
+.container_24 label span.c-form-combo span,
+.c-modal-formulario label span.c-form-combo span,
+.container_12 label span.c-form-combo span {
+	font-size: 1em;
+	font-family: arial;
+	font-weight: normal
+}
+
+.container_24 label span.c-form-combo.bigOffice span, 
+.c-modal-formulario label span.c-form-combo.bigOffice span, 
+.container_12 label span.c-form-combo.bigOffice span {
+	font-family: BBVA Office Light;
+	font-weight: bold;
+	color: #0072C9;
+}
+
+.container_24 label span.c-form-combo .ui-selectmenu,
+.c-modal-formulario label span.c-form-combo .ui-selectmenu,
+.container_12 label span.c-form-combo .ui-selectmenu {
+	font-size: 1em;
+	height: 2.333em;
+	background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2Y1ZjdmOCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+	background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f5f7f8));
+	background: -webkit-linear-gradient(#ffffff,#f5f7f8);
+	background: -moz-linear-gradient(#ffffff,#f5f7f8);
+	background: -o-linear-gradient(#ffffff,#f5f7f8);
+	background: -ms-linear-gradient(#ffffff,#f5f7f8);
+	background: linear-gradient(#ffffff,#f5f7f8);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #D5E2EE;
+	display: block;
+	margin: 7px 0 0 4px;
+	color: #0072C9;
+}
+
+.container_24 label span.c-form-combo .ui-selectmenu .ui-selectmenu-status,
+.c-modal-formulario label span.c-form-combo .ui-selectmenu .ui-selectmenu-status,
+.container_12 label span.c-form-combo .ui-selectmenu .ui-selectmenu-status {
+	line-height: 2.333em;
+	padding: 0em 2.5em 0em 0.7em;
+	color: #0073C9;
+	text-align: left;
+	font-weight: bold;
+}
+
+.container_24 label span.c-form-combo .ui-selectmenu .ui-selectmenu-icon,
+.c-modal-formulario label span.c-form-combo .ui-selectmenu .ui-selectmenu-icon,
+.container_12 label span.c-form-combo .ui-selectmenu .ui-selectmenu-icon {
+	width: 2.5em;
+	height: 2.5em;
+	margin-top: -1.25em;
+	right: 0em;
+	background: transparent url('https://bbva-the-far-site.googlecode.com/svn/trunk/img/ico-combo30.png') no-repeat;
+	border-left: 1px solid #D5E2EE
+}
+
+.container_24 label span.c-form-combo.formatCombo .ui-selectmenu{
+	margin-left:0px;
+}
+
+.container_24 label span.c-form-combo .ui-selectmenu-hover,.c-modal-formulario label span.c-form-combo .ui-selectmenu-hover,.container_12 label span.c-form-combo .ui-selectmenu-hover {
+	background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VhZjFmNyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+	background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #eaf1f7));
+	background: -webkit-linear-gradient(#ffffff,#eaf1f7);
+	background: -moz-linear-gradient(#ffffff,#eaf1f7);
+	background: -o-linear-gradient(#ffffff,#eaf1f7);
+	background: -ms-linear-gradient(#ffffff,#eaf1f7);
+	background: linear-gradient(#ffffff,#eaf1f7);
+	border: 1px solid #B6CEEA
+}
+
+.container_24 label span.c-form-combo .ui-selectmenu-hover .ui-selectmenu-status,
+.c-modal-formulario label span.c-form-combo .ui-selectmenu-hover .ui-selectmenu-status,
+.container_12 label span.c-form-combo .ui-selectmenu-hover .ui-selectmenu-status {	
+	color: #0072C9;
+}
+
+.container_24 label span.c-form-combo .ui-selectmenu-hover .ui-selectmenu-icon,
+.c-modal-formulario label span.c-form-combo .ui-selectmenu-hover .ui-selectmenu-icon,
+.container_12 label span.c-form-combo .ui-selectmenu-hover .ui-selectmenu-icon {
+	background-position: 0em -4.917em;
+	border-left: 1px solid #B6CEEA;
+}
+
+.container_24 label span.c-form-combo .ui-selectmenu.ui-state-active,
+.c-modal-formulario label span.c-form-combo .ui-selectmenu.ui-state-active,
+.container_12 label span.c-form-combo .ui-selectmenu.ui-state-active {
+	background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YzZjdmYSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+	background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f3f7fa), color-stop(100%, #ffffff));
+	background: -webkit-linear-gradient(#f3f7fa,#ffffff);
+	background: -moz-linear-gradient(#f3f7fa,#ffffff);
+	background: -o-linear-gradient(#f3f7fa,#ffffff);
+	background: -ms-linear-gradient(#f3f7fa,#ffffff);
+	background: linear-gradient(#f3f7fa,#ffffff);
+	-webkit-border-radius: 4px 4px;
+	-moz-border-radius: 4px 4px 0 0 / 4px 4px 0 0;
+	-ms-border-radius: 4px 4px 0 0 / 4px 4px 0 0;
+	-o-border-radius: 4px 4px 0 0 / 4px 4px 0 0;
+	border-radius: 4px 4px 0 0 / 4px 4px 0 0;
+	border: 1px solid #B6CEEA
+}
+
+.container_24 label span.c-form-combo .ui-selectmenu.ui-state-active .ui-selectmenu-status,
+.c-modal-formulario label span.c-form-combo .ui-selectmenu.ui-state-active .ui-selectmenu-status,
+.container_12 label span.c-form-combo .ui-selectmenu.ui-state-active .ui-selectmenu-status {
+	/*color: #003f8c;*/
+	color: #0072C9;
+}
+
+.container_24 label span.c-form-combo .ui-selectmenu.ui-state-active .ui-selectmenu-icon,.c-modal-formulario label span.c-form-combo .ui-selectmenu.ui-state-active .ui-selectmenu-icon,.container_12 label span.c-form-combo .ui-selectmenu.ui-state-active .ui-selectmenu-icon {
+	background-position: 0em -10.083em;
+	border-left: 1px solid #B6CEEA
+}
+
+.container_24 label span.c-form-combo .ui-widget,.c-modal-formulario label span.c-form-combo .ui-widget,.container_12 label span.c-form-combo .ui-widget {
+	font-size: 1em
+}
+
+.container_24 label span.c-form-combo .ui-widget-content,.c-modal-formulario label span.c-form-combo .ui-widget-content,.container_12 label span.c-form-combo .ui-widget-content {
+	border-left: 1px solid #E1E1E1;
+	border-right: 1px solid #E1E1E1;
+	border-bottom: 1px solid #E1E1E1;
+	border-top: none
+}
+
+.container_24 label span.c-form-combo.mayor,.c-modal-formulario label span.c-form-combo.mayor,.container_12 label span.c-form-combo.mayor {
+	font-size: 1.4em
+}
+
+.container_24 label span.c-form-combo.mayor.w50,.c-modal-formulario label span.c-form-combo.mayor.w50,.container_12 label span.c-form-combo.mayor.w50 {
+	width: 3.571em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w50 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w50 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w50 .ui-selectmenu-menu {
+	width: 3.571em
+}
+
+.container_24 label span.c-form-combo.mayor.w60,.c-modal-formulario label span.c-form-combo.mayor.w60,.container_12 label span.c-form-combo.mayor.w60 {
+	width: 4.286em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w60 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w60 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w60 .ui-selectmenu-menu {
+	width: 4.286em
+}
+
+.container_24 label span.c-form-combo.mayor.w70,.c-modal-formulario label span.c-form-combo.mayor.w70,.container_12 label span.c-form-combo.mayor.w70 {
+	width: 5em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w70 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w70 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w70 .ui-selectmenu-menu {
+	width: 5em
+}
+
+.container_24 label span.c-form-combo.mayor.w80,.c-modal-formulario label span.c-form-combo.mayor.w80,.container_12 label span.c-form-combo.mayor.w80 {
+	width: 5.714em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w80 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w80 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w80 .ui-selectmenu-menu {
+	width: 5.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w90,.c-modal-formulario label span.c-form-combo.mayor.w90,.container_12 label span.c-form-combo.mayor.w90 {
+	width: 6.429em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w90 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w90 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w90 .ui-selectmenu-menu {
+	width: 6.429em
+}
+
+.container_24 label span.c-form-combo.mayor.w100,.c-modal-formulario label span.c-form-combo.mayor.w100,.container_12 label span.c-form-combo.mayor.w100 {
+	width: 7.143em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w100 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w100 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w100 .ui-selectmenu-menu {
+	width: 7.143em
+}
+
+.container_24 label span.c-form-combo.mayor.w110,.c-modal-formulario label span.c-form-combo.mayor.w110,.container_12 label span.c-form-combo.mayor.w110 {
+	width: 7.857em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w110 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w110 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w110 .ui-selectmenu-menu {
+	width: 7.857em
+}
+
+.container_24 label span.c-form-combo.mayor.w120,.c-modal-formulario label span.c-form-combo.mayor.w120,.container_12 label span.c-form-combo.mayor.w120 {
+	width: 8.571em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w120 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w120 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w120 .ui-selectmenu-menu {
+	width: 8.571em
+}
+
+.container_24 label span.c-form-combo.mayor.w130,.c-modal-formulario label span.c-form-combo.mayor.w130,.container_12 label span.c-form-combo.mayor.w130 {
+	width: 9.286em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w130 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w130 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w130 .ui-selectmenu-menu {
+	width: 9.286em
+}
+
+.container_24 label span.c-form-combo.mayor.w140,.c-modal-formulario label span.c-form-combo.mayor.w140,.container_12 label span.c-form-combo.mayor.w140 {
+	width: 10em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w140 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w140 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w140 .ui-selectmenu-menu {
+	width: 10em
+}
+
+.container_24 label span.c-form-combo.mayor.w150,.c-modal-formulario label span.c-form-combo.mayor.w150,.container_12 label span.c-form-combo.mayor.w150 {
+	width: 10.714em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w150 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w150 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w150 .ui-selectmenu-menu {
+	width: 10.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w160,.c-modal-formulario label span.c-form-combo.mayor.w160,.container_12 label span.c-form-combo.mayor.w160 {
+	width: 11.429em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w160 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w160 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w160 .ui-selectmenu-menu {
+	width: 11.429em
+}
+
+.container_24 label span.c-form-combo.mayor.w170,.c-modal-formulario label span.c-form-combo.mayor.w170,.container_12 label span.c-form-combo.mayor.w170 {
+	width: 12.143em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w170 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w170 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w170 .ui-selectmenu-menu {
+	width: 12.143em
+}
+
+.container_24 label span.c-form-combo.mayor.w180,.c-modal-formulario label span.c-form-combo.mayor.w180,.container_12 label span.c-form-combo.mayor.w180 {
+	width: 12.857em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w180 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w180 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w180 .ui-selectmenu-menu {
+	width: 12.857em
+}
+
+.container_24 label span.c-form-combo.mayor.w190,.c-modal-formulario label span.c-form-combo.mayor.w190,.container_12 label span.c-form-combo.mayor.w190 {
+	width: 13.571em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w190 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w190 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w190 .ui-selectmenu-menu {
+	width: 13.571em
+}
+
+.container_24 label span.c-form-combo.mayor.w200,.c-modal-formulario label span.c-form-combo.mayor.w200,.container_12 label span.c-form-combo.mayor.w200 {
+	width: 14.286em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w200 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w200 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w200 .ui-selectmenu-menu {
+	width: 14.286em
+}
+
+.container_24 label span.c-form-combo.mayor.w210,.c-modal-formulario label span.c-form-combo.mayor.w210,.container_12 label span.c-form-combo.mayor.w210 {
+	width: 15em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w210 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w210 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w210 .ui-selectmenu-menu {
+	width: 15em
+}
+
+.container_24 label span.c-form-combo.mayor.w220,.c-modal-formulario label span.c-form-combo.mayor.w220,.container_12 label span.c-form-combo.mayor.w220 {
+	width: 15.714em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w220 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w220 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w220 .ui-selectmenu-menu {
+	width: 15.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w230,.c-modal-formulario label span.c-form-combo.mayor.w230,.container_12 label span.c-form-combo.mayor.w230 {
+	width: 16.429em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w230 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w230 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w230 .ui-selectmenu-menu {
+	width: 16.429em
+}
+
+.container_24 label span.c-form-combo.mayor.w240,.c-modal-formulario label span.c-form-combo.mayor.w240,.container_12 label span.c-form-combo.mayor.w240 {
+	width: 17.143em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w240 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w240 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w240 .ui-selectmenu-menu {
+	width: 17.143em
+}
+
+.container_24 label span.c-form-combo.mayor.w250,.c-modal-formulario label span.c-form-combo.mayor.w250,.container_12 label span.c-form-combo.mayor.w250 {
+	width: 17.857em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w250 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w250 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w250 .ui-selectmenu-menu {
+	width: 17.857em
+}
+
+.container_24 label span.c-form-combo.mayor.w260,.c-modal-formulario label span.c-form-combo.mayor.w260,.container_12 label span.c-form-combo.mayor.w260 {
+	width: 18.571em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w260 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w260 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w260 .ui-selectmenu-menu {
+	width: 18.571em
+}
+
+.container_24 label span.c-form-combo.mayor.w270,.c-modal-formulario label span.c-form-combo.mayor.w270,.container_12 label span.c-form-combo.mayor.w270 {
+	width: 19.286em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w270 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w270 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w270 .ui-selectmenu-menu {
+	width: 19.286em
+}
+
+.container_24 label span.c-form-combo.mayor.w280,.c-modal-formulario label span.c-form-combo.mayor.w280,.container_12 label span.c-form-combo.mayor.w280 {
+	width: 20em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w280 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w280 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w280 .ui-selectmenu-menu {
+	width: 20em
+}
+
+.container_24 label span.c-form-combo.mayor.w290,.c-modal-formulario label span.c-form-combo.mayor.w290,.container_12 label span.c-form-combo.mayor.w290 {
+	width: 20.714em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w290 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w290 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w290 .ui-selectmenu-menu {
+	width: 20.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w300,.c-modal-formulario label span.c-form-combo.mayor.w300,.container_12 label span.c-form-combo.mayor.w300 {
+	width: 21.429em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w300 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w300 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w300 .ui-selectmenu-menu {
+	width: 21.429em
+}
+
+.container_24 label span.c-form-combo.mayor.w310,.c-modal-formulario label span.c-form-combo.mayor.w310,.container_12 label span.c-form-combo.mayor.w310 {
+	width: 22.143em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w310 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w310 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w310 .ui-selectmenu-menu {
+	width: 22.143em
+}
+
+.container_24 label span.c-form-combo.mayor.w320,.c-modal-formulario label span.c-form-combo.mayor.w320,.container_12 label span.c-form-combo.mayor.w320 {
+	width: 22.857em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w320 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w320 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w320 .ui-selectmenu-menu {
+	width: 22.857em
+}
+
+.container_24 label span.c-form-combo.mayor.w330,.c-modal-formulario label span.c-form-combo.mayor.w330,.container_12 label span.c-form-combo.mayor.w330 {
+	width: 23.571em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w330 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w330 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w330 .ui-selectmenu-menu {
+	width: 23.571em
+}
+
+.container_24 label span.c-form-combo.mayor.w340,.c-modal-formulario label span.c-form-combo.mayor.w340,.container_12 label span.c-form-combo.mayor.w340 {
+	width: 24.286em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w340 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w340 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w340 .ui-selectmenu-menu {
+	width: 24.286em
+}
+
+.container_24 label span.c-form-combo.mayor.w350,.c-modal-formulario label span.c-form-combo.mayor.w350,.container_12 label span.c-form-combo.mayor.w350 {
+	width: 25em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w350 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w350 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w350 .ui-selectmenu-menu {
+	width: 25em
+}
+
+.container_24 label span.c-form-combo.mayor.w360,.c-modal-formulario label span.c-form-combo.mayor.w360,.container_12 label span.c-form-combo.mayor.w360 {
+	width: 25.714em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w360 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w360 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w360 .ui-selectmenu-menu {
+	width: 25.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w370,.c-modal-formulario label span.c-form-combo.mayor.w370,.container_12 label span.c-form-combo.mayor.w370 {
+	width: 26.429em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w370 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w370 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w370 .ui-selectmenu-menu {
+	width: 26.429em
+}
+
+.container_24 label span.c-form-combo.mayor.w380,.c-modal-formulario label span.c-form-combo.mayor.w380,.container_12 label span.c-form-combo.mayor.w380 {
+	width: 27.143em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w380 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w380 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w380 .ui-selectmenu-menu {
+	width: 27.143em
+}
+
+.container_24 label span.c-form-combo.mayor.w386,.c-modal-formulario label span.c-form-combo.mayor.w386,.container_12 label span.c-form-combo.mayor.w386 {
+	width: 27.571em;
+	margin-right: 0.714em
+}
+
+.container_24 label span.c-form-combo.mayor.w386 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w386 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w386 .ui-selectmenu-menu {
+	width: 27.571em
+}
+
+.container_24 label span.c-form-combo.mayor.w560,.c-modal-formulario label span.c-form-combo.mayor.w560,.container_12 label span.c-form-combo.mayor.w560 {
+	width: 40em;
+	margin-right: 0em
+}
+
+.container_24 label span.c-form-combo.mayor.w560 .ui-selectmenu-menu,.c-modal-formulario label span.c-form-combo.mayor.w560 .ui-selectmenu-menu,.container_12 label span.c-form-combo.mayor.w560 .ui-selectmenu-menu {
+	width: 40em
+}
+
+.container_24 label span.c-form-combo.mayor span,.c-modal-formulario label span.c-form-combo.mayor span,.container_12 label span.c-form-combo.mayor span {
+	font-size: 1em
+}
+
+.container_24 label span.c-form-combo.mayor .ui-selectmenu,.c-modal-formulario label span.c-form-combo.mayor .ui-selectmenu,.container_12 label span.c-form-combo.mayor .ui-selectmenu {
+	font-size: 1em;
+	height: 2.714em
+}
+
+.container_24 label span.c-form-combo.mayor .ui-selectmenu .ui-selectmenu-status,.c-modal-formulario label span.c-form-combo.mayor .ui-selectmenu .ui-selectmenu-status,.container_12 label span.c-form-combo.mayor .ui-selectmenu .ui-selectmenu-status {
+	line-height: 2.714em
+}
+
+.container_24 label span.c-form-combo.mayor .ui-selectmenu .ui-selectmenu-icon,.c-modal-formulario label span.c-form-combo.mayor .ui-selectmenu .ui-selectmenu-icon,.container_12 label span.c-form-combo.mayor .ui-selectmenu .ui-selectmenu-icon {
+	width: 2.857em;
+	height: 2.857em;
+	margin-top: -1.357em;
+	background: transparent url(../img/ico-combo40.png) no-repeat
+}
+
+.container_24 label span.c-form-combo.mayor .ui-selectmenu-hover .ui-selectmenu-icon,.c-modal-formulario label span.c-form-combo.mayor .ui-selectmenu-hover .ui-selectmenu-icon,.container_12 label span.c-form-combo.mayor .ui-selectmenu-hover .ui-selectmenu-icon {
+	background-position: 0em -5.643em
+}
+
+.container_24 label span.c-form-combo.mayor .ui-selectmenu.ui-state-active .ui-selectmenu-icon,.c-modal-formulario label span.c-form-combo.mayor .ui-selectmenu.ui-state-active .ui-selectmenu-icon,.container_12 label span.c-form-combo.mayor .ui-selectmenu.ui-state-active .ui-selectmenu-icon {
+	background-position: 0em -11.5em
+}
+
+.container_24 label span.c-form-combo.mayor .ui-widget,.c-modal-formulario label span.c-form-combo.mayor .ui-widget,.container_12 label span.c-form-combo.mayor .ui-widget {
+	font-size: 1em
+}
+
+.ui-selectmenu-menu {
+	font-size: 1.2em
+}
+
+.ui-selectmenu-menu.w50 {
+	width: 4.167em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w50 .ui-selectmenu-menu {
+	width: 4.167em
+}
+
+.ui-selectmenu-menu.w60 {
+	width: 5em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w60 .ui-selectmenu-menu {
+	width: 5em
+}
+
+.ui-selectmenu-menu.w70 {
+	width: 5.833em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w70 .ui-selectmenu-menu {
+	width: 5.833em
+}
+
+.ui-selectmenu-menu.w80 {
+	width: 6.667em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w80 .ui-selectmenu-menu {
+	width: 6.667em
+}
+
+.ui-selectmenu-menu.w90 {
+	width: 7.5em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w90 .ui-selectmenu-menu {
+	width: 7.5em
+}
+
+.ui-selectmenu-menu.w100 {
+	width: 8.333em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w100 .ui-selectmenu-menu {
+	width: 8.333em
+}
+
+.ui-selectmenu-menu.w110 {
+	width: 9.167em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w110 .ui-selectmenu-menu {
+	width: 9.167em
+}
+
+.ui-selectmenu-menu.w120 {
+	width: 10em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w120 .ui-selectmenu-menu {
+	width: 10em
+}
+
+.ui-selectmenu-menu.w130 {
+	width: 10.833em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w130 .ui-selectmenu-menu {
+	width: 10.833em
+}
+
+.ui-selectmenu-menu.w140 {
+	width: 11.667em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w140 .ui-selectmenu-menu {
+	width: 11.667em
+}
+
+.ui-selectmenu-menu.w150 {
+	width: 12.5em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w150 .ui-selectmenu-menu {
+	width: 12.5em
+}
+
+.ui-selectmenu-menu.w160 {
+	width: 13.333em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w160 .ui-selectmenu-menu {
+	width: 13.333em
+}
+
+.ui-selectmenu-menu.w170 {
+	width: 14.167em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w170 .ui-selectmenu-menu {
+	width: 14.167em
+}
+
+.ui-selectmenu-menu.w180 {
+	width: 15em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w180 .ui-selectmenu-menu {
+	width: 15em
+}
+
+.ui-selectmenu-menu.w190 {
+	width: 15.833em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w190 .ui-selectmenu-menu {
+	width: 15.833em
+}
+
+.ui-selectmenu-menu.w200 {
+	width: 16.667em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w200 .ui-selectmenu-menu {
+	width: 16.667em
+}
+
+.ui-selectmenu-menu.w210 {
+	width: 17.5em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w210 .ui-selectmenu-menu {
+	width: 17.5em
+}
+
+.ui-selectmenu-menu.w220 {
+	width: 18.333em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w220 .ui-selectmenu-menu {
+	width: 18.333em
+}
+
+.ui-selectmenu-menu.w230 {
+	width: 19.167em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w230 .ui-selectmenu-menu {
+	width: 19.167em
+}
+
+.ui-selectmenu-menu.w240 {
+	width: 20em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w240 .ui-selectmenu-menu {
+	width: 20em
+}
+
+.ui-selectmenu-menu.w250 {
+	width: 20.833em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w250 .ui-selectmenu-menu {
+	width: 20.833em
+}
+
+.ui-selectmenu-menu.w260 {
+	width: 21.667em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w260 .ui-selectmenu-menu {
+	width: 21.667em
+}
+
+.ui-selectmenu-menu.w270 {
+	width: 22.5em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w270 .ui-selectmenu-menu {
+	width: 22.5em
+}
+
+.ui-selectmenu-menu.w280 {
+	width: 23.333em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w280 .ui-selectmenu-menu {
+	width: 23.333em
+}
+
+.ui-selectmenu-menu.w290 {
+	width: 24.167em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w290 .ui-selectmenu-menu {
+	width: 24.167em
+}
+
+.ui-selectmenu-menu.w300 {
+	width: 25em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w300 .ui-selectmenu-menu {
+	width: 25em
+}
+
+.ui-selectmenu-menu.w310 {
+	width: 25.833em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w310 .ui-selectmenu-menu {
+	width: 25.833em
+}
+
+.ui-selectmenu-menu.w320 {
+	width: 26.667em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w320 .ui-selectmenu-menu {
+	width: 26.667em
+}
+
+.ui-selectmenu-menu.w330 {
+	width: 27.5em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w330 .ui-selectmenu-menu {
+	width: 27.5em
+}
+
+.ui-selectmenu-menu.w340 {
+	width: 28.333em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w340 .ui-selectmenu-menu {
+	width: 28.333em
+}
+
+.ui-selectmenu-menu.w350 {
+	width: 29.167em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w350 .ui-selectmenu-menu {
+	width: 29.167em
+}
+
+.ui-selectmenu-menu.w360 {
+	width: 30em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w360 .ui-selectmenu-menu {
+	width: 30em
+}
+
+.ui-selectmenu-menu.w370 {
+	width: 30.833em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w370 .ui-selectmenu-menu {
+	width: 30.833em
+}
+
+.ui-selectmenu-menu.w380 {
+	width: 31.667em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w380 .ui-selectmenu-menu {
+	width: 31.667em
+}
+
+.ui-selectmenu-menu.w386 {
+	width: 32.167em;
+	margin-right: 0.833em
+}
+
+.ui-selectmenu-menu.w386 .ui-selectmenu-menu {
+	width: 32.167em
+}
+
+.ui-selectmenu-menu.w560 {
+	width: 46.667em;
+	margin-right: 0em
+}
+
+.ui-selectmenu-menu.w560 .ui-selectmenu-menu {
+	width: 46.667em
+}
+
+.ui-selectmenu-menu .ui-selectmenu-menu-dropdown {
+	font-family: arial
+}
+
+.ui-selectmenu-menu .ui-selectmenu-menu-dropdown li {
+	border-top: 1px solid #E1E1E1;
+	border-bottom: none
+}
+
+.ui-selectmenu-menu .ui-selectmenu-menu-dropdown li:first-child {
+	border-top: none;
+	font-style: normal
+}
+
+.ui-selectmenu-menu .ui-selectmenu-menu-dropdown li a {
+	height: 2.5em;
+	line-height: 2.5em;
+	padding: 0em 0em 0em 1.25em;
+	color: #003f8c
+}
+
+.ui-selectmenu-menu .ui-selectmenu-menu-dropdown li.ui-selectmenu-item-selected,.ui-selectmenu-menu .ui-selectmenu-menu-dropdown li.ui-state-hover {
+	background: #E2FAFE
+}
+
+.ui-selectmenu-menu .ui-selectmenu-menu-dropdown li.ui-selectmenu-item-selected a,.ui-selectmenu-menu .ui-selectmenu-menu-dropdown li.ui-state-hover a {
+	color: #003f8c
+}
+
+.c-form-descargaExtracto {
+	width: 56em;
+	margin: 3em 0em 3em 2em
+}
+
+.c-form-descargaExtracto h2 {
+	font-size: 1.6em;
+	margin-bottom: 0.625em;
+	font-family: BBVA Web Light
+}
+
+.c-widget-containerServicing .container-wizard .c-form-descargaExtracto p.descripcion {
+	font-size: 1.2em;
+	margin-bottom: 1.667em;
+	display: block;
+	color: #434a58
+}
+
+.c-widget-containerServicing .container-wizard .c-form-descargaExtracto p.descargar {
+	font-size: 1.2em;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	width: 17.333em;
+	margin: 0em 0em 0em 2.5em;
+	background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2Y1ZjdmOCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+	background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f5f7f8));
+	background: -webkit-linear-gradient(#ffffff,#f5f7f8);
+	background: -moz-linear-gradient(#ffffff,#f5f7f8);
+	background: -o-linear-gradient(#ffffff,#f5f7f8);
+	background: -ms-linear-gradient(#ffffff,#f5f7f8);
+	background: linear-gradient(#ffffff,#f5f7f8);
+	*zoom: 1;
+	filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFF5F7F8');
+	float: left;
+	border: 1px solid #D5E2EE
+}
+
+.c-widget-containerServicing .container-wizard .c-form-descargaExtracto p.descargar span {
+	background: url("../img/ico-guardar-pdf-min.png") no-repeat scroll 5% 50% transparent;
+	padding: 0.667em 0em 0.667em 2.667em;
+	display: block;
+	cursor: pointer;
+	color: #003f8c
+}
+
+.c-widget-containerServicing .container-wizard .c-form-descargaExtracto p.descargar span span {
+	padding: 0;
+	background: none;
+	display: inline
+}
+
+.c-widget-containerServicing .container-wizard .c-form-descargaExtracto p.descargar span span.link {
+	display: block
+}
+
+.c-widget-containerServicing .container-wizard .c-form-descargaExtracto p.descargar span span span {
+	color: #434a58;
+	padding: 0;
+	background: none;
+	font-weight: bold
+}
+
+.c-widget-containerServicing .container-wizard .c-form-descargaExtracto p.descargar span.inactive {
+	color: #0072c9;
+	cursor: default
+}
+
+.c-form-desdeHasta p {
+	padding-right: 0em;
+	padding-bottom: 1em;
+	margin-top: 0em;
+	margin-right: 0em;
+	float: left;
+	display: inline-block;
+	zoom: 1;
+	*display: inline
+}
+
+.c-form-desdeHasta p span {
+	font-size: 1.2em;
+	font-family: arial;
+	margin-bottom: 0.417em;
+	color: #434a58;
+	display: block
+}
+
+.c-form-desdeHasta p+p {
+	float: right
+}
+
+.c-form-desdeHastaFecha ul,.c-form-desdeHastaFecha.v05 ul {
+	padding-bottom: 1em;
+	padding-left: 0em;
+	margin-bottom: 1.5em;
+	color: #434a58;
+	list-style: none;
+	border-bottom: 1px solid #D5E2EE
+}
+
+.c-form-desdeHastaFecha ul li,.c-form-desdeHastaFecha.v05 ul li {
+	width: 25em;
+	margin: 0em 1em 1em 0em;
+	display: inline-block;
+	zoom: 1;
+	*display: inline
+}
+
+.c-form-desdeHastaFecha p,.c-form-desdeHastaFecha.v05 p {
+	padding-right: 0em;
+	padding-bottom: 1em;
+	padding-left: 5px;
+	margin-top: 2em;
+	margin-right: 0em;
+	float: left;
+	display: inline-block;
+	zoom: 1;
+	*display: inline
+}
+
+.c-form-desdeHastaFecha p span,.c-form-desdeHastaFecha.v05 p span {
+	font-size: 1.2em;
+	font-family: arial;
+	margin-bottom: 0.417em;
+	color: #434a58;
+	display: block
+}
+
+.c-form-desdeHastaFecha p+p,.c-form-desdeHastaFecha.v05 p+p {
+	float: right
+}
+
+.c-form-desdeHastaPeriodica p {
+	padding-right: 0em;
+	margin-top: 0em;
+	margin-right: 0em;
+	float: left;
+	display: inline-block;
+	zoom: 1;
+	*display: inline
+}
+
+.c-form-desdeHastaPeriodica p span {
+	font-size: 1.2em;
+	font-family: arial;
+	margin-bottom: 0.417em;
+	color: #434a58;
+	display: block
+}
+
+.c-form-desdeHastaPeriodica p span.bloque {
+	margin-left: 0.5em
+}
+
+.c-form-radioTooltip {
+	margin-top: 6em;
+	text-align: center
+}
+
+.c-form-radioTooltip legend {
+	font-size: 1.6em;
+	width: 100%;
+	font-family: 'BBVA Web Book';
+	color: #003f8c;
+	text-align: center
+}
+
+.c-form-radioTooltip ul {
+	padding-top: 8em
+}
+
+.c-form-radioTooltip ul li {
+	margin-right: 1em;
+	display: inline-block;
+	zoom: 1;
+	*display: inline
+}
+
+.c-form-radioTooltip ul li .comment {
+	height: 0em;
+	display: block;
+	text-indent: -9999px
+}
+
+.tooltip {
+	font-size: 1.2em;
+	max-width: 16.667em;
+	position: absolute;
+	z-index: 10000;
+	text-align: center
+}
+
+.tooltip .comment {
+	padding: 1.667em 2.083em;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+	box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+	display: block;
+	color: #434a58;
+	background: #FFF;
+	border: 1px solid #DBDCDF
+}
+
+.tooltip .flecha {
+	width: 1.167em;
+	height: 0.667em;
+	margin: -0.083em auto 0em;
+	display: block
+}
+
+div#view_contratacion_productos .c-form-radioTooltip {
+	margin: 0em 0em
+}
+
+div#view_contratacion_productos .c-form-radioTooltip ul {
+	padding-top: 0em
+}
+
+.c-form-seleccionCuenta {
+	width: 56em
+}
+
+.c-form-seleccionUsuario {
+	width: 56em
+}
+
+.c-form-seleccionUsuario .c-buscadores-predictivo {
+	margin-bottom: 3em
+}
+
+.c-form-selector {
+	width: 56em;
+	position: relative
+}
+
+.c-form-selector fieldset {
+	width: 56em
+}
+
+.c-form-selector fieldset .c-botones-seleccion {
+	margin: 2em 8.7em 0em
+}
+
+.c-form-selector fieldset p {
+	font-size: 1.2em;
+	margin-top: 1.667em;
+	margin-left: 0em;
+	float: left;
+	font-family: arial;
+	color: #434a58
+}
+
+.c-form-selector fieldset p span {
+	cursor: pointer
+}
+
+.c-form-selector fieldset .c-botones-formulario {
+	width: 17.3em
+}
+
+.c-form-tituloCampo {
+	width: 56em
+}
+
+.c-form-tituloCampo .c-widget-autocompletar {
+	float: left
+}
+
+input[type=text].text.fecha,
+input.text.fecha {
+	background: url('../img/ico-spritegraficos16.png') no-repeat 96.5% -282px;
+	cursor: pointer;
+}
+
+input[type=text].text.fecha:focus, 
+input.text.fecha.focused, 
+input.text.fecha.large.focused{
+	background: url('../img/ico-spritegraficos16.png') no-repeat 96.5% -4024px;
+	cursor: pointer;
+}
+
+
+.container_24 label span.c-form-combo.comboChequeras{
+	float: right;
+}
+
+.container_24 label span.c-form-combo.comboChequeras .ui-selectmenu {
+margin: 0 0 0 4px;
+}
+
+label span.c-form-combo span {
+    font-family: arial;
+    font-size: 1.1em;
+    font-weight: normal;
+}
+label span.c-form-combo.bigOffice span {
+    color: #0072C9;
+    font-family: BBVA Office Light;
+    font-weight: bold;
+}
+label span.c-form-combo .ui-selectmenu {
+    background: linear-gradient(#FFFFFF, #F5F7F8) repeat scroll 0 0 transparent;
+    border: 1px solid #D5E2EE;
+    border-radius: 4px 4px 4px 4px;
+    color: #0072C9;
+    display: block;
+    font-size: 1em;
+    height: 2.533em;
+    margin: 0;
+}
+label span.c-form-combo .ui-selectmenu .ui-selectmenu-status {
+    color: #0073C9;
+    font-weight: bold;
+    line-height: 2.333em;
+    padding: 0 2.5em 0 0.7em;
+    text-align: left;
+}
+label span.c-form-combo .ui-selectmenu .ui-selectmenu-icon {
+    background: url("https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/ico-combo30.png?attachauth=ANoY7cpwS1i5fFRROq-DUUwiMs6eoQBWSG_btfcN-PKueqAZYFMydyd5kCduNPeZNAeSzyIxOxj5BqUaDk5nsine73tP1vjacEd5gCGkNqhx-I6YSk8s2Tcw-BP9DLaKUqjeeCRkWZKwu6NUXNbIiDjirU07r_ITXYcnZD0McJV_FsKeCdbAvjyGdibY_L9sceZl7wSHrU5rZpfuybEfLoEQvYwdliTr9w%3D%3D&attredirects=0") no-repeat scroll 0 0 transparent;
+    border-left: 1px solid #D5E2EE;
+    height: 2.5em;
+    margin-top: -1.25em;
+    right: 0;
+    width: 2.5em;
+}
+label span.c-form-combo .ui-selectmenu-hover {
+    background: linear-gradient(#FFFFFF, #EAF1F7) repeat scroll 0 0 transparent;
+    border: 1px solid #B6CEEA;
+}
+label span.c-form-combo .ui-selectmenu-hover .ui-selectmenu-status {
+    color: #0072C9;
+}
+label span.c-form-combo .ui-selectmenu-hover .ui-selectmenu-icon {
+    background-position: 0 -4.917em;
+    border-left: 1px solid #B6CEEA;
+}
+label span.c-form-combo .ui-selectmenu.ui-state-active {
+    background: linear-gradient(#F3F7FA, #FFFFFF) repeat scroll 0 0 transparent;
+    border: 1px solid #B6CEEA;
+    border-radius: 4px 4px 0 0;
+}
+label span.c-form-combo .ui-selectmenu.ui-state-active .ui-selectmenu-status {
+    color: #0072C9;
+}
+label span.c-form-combo .ui-selectmenu.ui-state-active .ui-selectmenu-icon {
+    background-position: 0 -10.083em;
+    border-left: 1px solid #B6CEEA;
+}
+label span.c-form-combo .ui-widget {
+    font-size: 1.1em;
+}
+label span.c-form-combo .ui-widget-conten {
+    border-color: -moz-use-text-color #E1E1E1 #E1E1E1;
+    border-left: 1px solid #E1E1E1;
+    border-right: 1px solid #E1E1E1;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+}
+label span.c-form-combo.mayor {
+    font-size: 1.4em;
+}
+.ui-selectmenu-menu .ui-selectmenu-menu-dropdown {
+    font-family: arial;
+}
+.ui-selectmenu-menu .ui-selectmenu-menu-dropdown li {
+    border-bottom: medium none;
+    border-top: 1px solid #E1E1E1;
+}
+.ui-selectmenu-menu .ui-selectmenu-menu-dropdown li:first-child {
+    border-top: medium none;
+    font-style: normal;
+}
+.ui-selectmenu-menu .ui-selectmenu-menu-dropdown li a {
+    color: #003F8C;
+    font-size: 1.1em;
+    height: 2.5em;
+    line-height: 2.5em;
+    padding: 0 0 0 1.25em;
+}
+.ui-selectmenu-menu .ui-selectmenu-menu-dropdown li.ui-selectmenu-item-selected, .ui-selectmenu-menu .ui-selectmenu-menu-dropdown li.ui-state-hover {
+    background: none repeat scroll 0 0 #E2FAFE;
+}
+.ui-selectmenu-menu .ui-selectmenu-menu-dropdown li.ui-selectmenu-item-selected a, .ui-selectmenu-menu .ui-selectmenu-menu-dropdown li.ui-state-hover a {
+    color: #003F8C;
+    font-size: 1.1em;
+}
