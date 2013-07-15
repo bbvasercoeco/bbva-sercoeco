@@ -60,7 +60,7 @@
   .success(function(  ) {
   alert( "Data Saved: ");
 })
-.failure(function(){
+.error(function(){
 alert("Failure")});
    }
    
