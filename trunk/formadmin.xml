@@ -18,8 +18,8 @@
  <script type='text/javascript' src='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery-1.9.1.min.js'></script>
  <script type='text/javascript' src='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.marmots-checkbox.js'></script>
  
- <script type='text/javascript' src='https://sites.google.com/a/bbva.com/sercoeco/jquery-ui-compilation2.js' ></script>
- <script type='text/javascript' src='https://sites.google.com/a/bbva.com/sercoeco/jquery.ui.selectmenu.js' charset='utf-8' ></script>
+ <script type='text/javascript' src='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery-ui-compilation2.js' ></script>
+ <script type='text/javascript' src='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.ui.selectmenu.js' charset='utf-8' ></script>
  
  <link rel='stylesheet' type='text/css' href='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jqueryui.css' media='screen'>
  <link rel='stylesheet' type='text/css' href='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.marmots-checkbox.css' media='screen'>
