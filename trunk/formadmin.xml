@@ -45,7 +45,8 @@
 <script type="text/javascript">
    
  function respuesta(){
- alert("Hola");}
+ alert("Hola");
+ }
    
    function sendForm(){
    var anyo = $("#anyo").val();
