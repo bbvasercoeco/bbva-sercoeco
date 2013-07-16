@@ -28,54 +28,29 @@
 	padding: 1px 26px 10px 0;
 }
 
-.ui-marmots-label-radio {
-	background-image: url(img/default/input-radio.png);
-	background-repeat: no-repeat;
-	background-position: 0px 2px;
-}
-
-.ui-marmots-label-radio.disabled {
-	background-image: url(img/default/input-radio-disabled.png) !important;
-}
-
 .ui-marmots-label-check {
-	background-image: url(img/default/input-check.png);
+	background-image: url(http://bbva-sercoeco.googlecode.com/svn/trunk/img/input-check.png);
 	background-repeat: no-repeat;
 	background-position: 0px 2px;
 }
 
 .ui-marmots-label-check.disabled {
-	background-image: url(img/default/input-check-disabled.png) !important;
-}
-
-.ui-marmots-label-radio:hover {
-	background-image: url(img/default/input-radio-hover.png);
+	background-image: url(http://bbva-sercoeco.googlecode.com/svn/trunk/img/input-check-disabled.png) !important;
 }
 
 .ui-marmots-label-check:hover {
-	background-image: url(img/default/input-check-hover.png);
+	background-image: url(http://bbva-sercoeco.googlecode.com/svn/trunk/img/input-check-hover.png);
 }
 
 label.ui-marmots-label-check.on {
-	background-image: url(img/default/input-check-checked.png);
+	background-image: url(http://bbva-sercoeco.googlecode.com/svn/trunk/img/input-check-checked.png);
 }
 
 label.ui-marmots-label-check.on.disabled {
-	background-image: url(img/default/input-check-checked-disabled.png) !important;
-}
-
-label.ui-marmots-label-radio.on {
-	background-image: url(img/default/input-radio-checked.png);
-}
-
-label.ui-marmots-label-radio.on.disabled {
-	background-image: url(img/default/input-radio-checked-disabled.png) !important;
+	background-image: url(http://bbva-sercoeco.googlecode.com/svn/trunk/img/input-check-checked-disabled.png) !important;
 }
 
 label.ui-marmots-label-check.on:hover {
-	background-image: url(img/default/input-check-hover-checked.png);
+	background-image: url(http://bbva-sercoeco.googlecode.com/svn/trunk/img/input-check-hover-checked.png);
 }
 
-label.ui-marmots-label-radio.on:hover {
-	background-image: url(img/default/input-radio-hover-checked.png);
-}
