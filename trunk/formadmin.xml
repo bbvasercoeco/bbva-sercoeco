@@ -50,6 +50,7 @@
  function checkLock(yearLock){
     var urlTable = "https://docs.google.com/spreadsheet/ccc?key=0Arxw5OOmF_fQdHRza0RUbzZPbEJUTzZXbGo1eEpDVXc";
 	var gadgetHelper = null;
+	google.load("visualization", "1", {"packages": ["table"]});
 	gadgetHelper = new google.visualization.GadgetHelper();
 	var opts = {dataType:'jsonp'};		
 	var query = new google.visualization.Query(urlTable, opts);
