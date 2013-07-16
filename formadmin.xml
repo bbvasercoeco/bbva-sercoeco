@@ -50,7 +50,7 @@
    
    function sendForm(){
    var anyo = $("#anyo").val();
-   var params ="anyo="+anyo+"prefix=respuesta";
+   var params ="anyo="+anyo+"&prefix=respuesta";
   $.ajax({
   type: "GET",       
   url: "https://script.google.com/macros/s/AKfycbz3MFQJy8jFwcEUDeRqdB91VSVaW__r8iyFkvPbpQzWZ-h_GtE/exec",
