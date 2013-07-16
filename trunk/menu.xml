@@ -297,6 +297,10 @@ function getUser(){
 				html +='<li id="admin" class="op8"><span class="enlace" tabindex="0"><span><a href="https://sites.google.com/a/bbva.com/sercoeco/home/administracion"  target="_parent" >Administración</a></span></span></li>';
 				html +='</ul>';
   
+  }else if(arguments[0].user!=""){
+   html +='<ul>';
+				html +='<li id="home" class="op1"><a class="enlace" href="https://sites.google.com/a/bbva.com/sercoeco/"   target="_parent"  title="home"></a></li>';
+				html +='<li id="identidad" class="op2"><span class="enlace" tabindex="0"><span><a href="https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec"  target="_parent">Si esta es la primera vez que accedes es necesario que sigas este enlace para poder verificar tu identidad</a></span></span></li>';
   }else{
 				html +='<ul>';
 				html +='<li id="home" class="op1"><a class="enlace" href="https://sites.google.com/a/bbva.com/sercoeco/"   target="_parent"  title="home"></a></li>';
