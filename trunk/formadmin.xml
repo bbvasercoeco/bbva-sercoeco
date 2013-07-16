@@ -56,6 +56,7 @@ function loadVisualizationAPI()
 }
  function checkLock(yearLock){
     var urlTable = "https://docs.google.com/spreadsheet/ccc?key=0Arxw5OOmF_fQdHRza0RUbzZPbEJUTzZXbGo1eEpDVXc";
+	alert("yearLock "+yearLock);
 	//var gadgetHelper = null;
 	//google.load("visualization", "1", {"packages": ["table"]});
 	//gadgetHelper = new google.visualization.GadgetHelper();
