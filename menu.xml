@@ -344,7 +344,7 @@ function getUser(){
 				html +='<li id="admin" class="op8"><span class="enlace" tabindex="0"><span><a href="https://sites.google.com/a/bbva.com/sercoeco/home/administracion"  target="_parent" >Administración</a></span></span></li>';
 				html +='</ul>';
   
-		}else{
+		}else if(arguments[0].user!=""){
 				html +='<ul>';
 				html +='<li id="home" class="op1"><a class="enlace" href="https://sites.google.com/a/bbva.com/sercoeco/"   target="_parent"  title="home"></a></li>';
 				html +='<li id="consumo" class="op2"><span class="enlace" tabindex="0"><span><a href="https://sites.google.com/a/bbva.com/sercoeco/home/consumo"  target="_parent">Consumo</a></span></span></li>';
@@ -356,7 +356,11 @@ function getUser(){
 				//html +='<li id="admin" class="op8"><span class="enlace" tabindex="0"><span><a href="https://sites.google.com/a/bbva.com/sercoeco/home/administracion"  target="_parent" >Administración</a></span></span></li>';
 				html +='</ul>';
   
-		}
+		}else{
+      	html +='<ul>';
+				html +='<li id="home" class="op1"><a class="enlace" href="https://sites.google.com/a/bbva.com/sercoeco/"   target="_parent"  title="home"></a></li>';
+				html +='<li id="consumo" class="op2"><span class="enlace" tabindex="0"><span><a href="https://script.googleusercontent.com/a/macros/bbva.com/echo?user_content_key=LF5gogH2j_416m0wAAuFbGV_AIpNBNx1KGR_IrPAc-cX_gS7GrdU6NtOfRfULENjv8h6dHfCtweFB2J6XbefEk5A5HHfPHKSm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_nRPgeZU6HP_vMpj8w9r5F8nOSBodav1yPPQ9xDEesySk-L8vIUbFXv3pvsPqkOkBTn1G2sBO88N9_FqlgquLFUO1lcriylffzq0EfgifFU_c_ScPTHfLrg&lib=M4a3sVgPg-s50hsxLIDndSedSnBAmjm9N"  target="_parent">Si es la primera vez que visitas esta página es necesario que sigas este enlace para poder validar tu identidad</a></span></span></li>';
+      }
 		console.log("html "+html);
 		$(document).ready(function() {
 			document.getElementsByClassName('cabeceramenu')[0].innerHTML = html;
