@@ -24,7 +24,7 @@
 	  
 	</style>
 
-<select name="anyo" id="anyo">
+<select name="anyo" id="anyo" onChange="checkLock(this.options[this.selectedIndex].value);">
       <option value="2024">2024</option>
       <option value="2023">2023</option>
       <option value="2022">2022</option>
@@ -39,16 +39,45 @@
       <option value="2013" selected="selected">2013</option>
       </select><br><br>
       <label> Bloquear entrada de datos </label> <input type="checkbox" name="lock" id="lock" /><br>
-      <button onclick="sendForm();"  value="Enviar" >Enviar</button>	
+      <div id="envio"></div>
+	  
+	  	
 	
 	
 <script type="text/javascript">
-   
+ 
+ function checkLock(yearLock){
+    var urlTable = "https://docs.google.com/spreadsheet/ccc?key=0Arxw5OOmF_fQdHRza0RUbzZPbEJUTzZXbGo1eEpDVXc";
+	var gadgetHelper = null;
+	gadgetHelper = new google.visualization.GadgetHelper();
+	var opts = {dataType:'jsonp'};		
+	var query = new google.visualization.Query(urlTable, opts);
+	var querytosend = "select C,S where C like('%"yearLock"%') limit 1";
+	query.setQuery(querytosend);			  
+	query.send(handleQueryResponse);
+ 
+ }
+function handleQueryResponse(response) {
+		data = response.getDataTable();	
+				if(data.getValue(0,1)!="X"){
+				    document.getElementById('envio').innerHTML='<button onclick="sendForm();"  value="Enviar" >Enviar</button>';
+					var anyo = data.getValue(0,1);
+					return alert("Año "+anyo+" No bloqueado");
+				}else{
+					document.getElementById('envio').innerHTML="";
+					var anyo = data.getValue(0,1);
+					return alert("Año "+anyo+ "ya bloqueado");
+				
+				}
+				
+			
+			}
+ 
  function respuesta(){
  alert("Hola");
  }
    
-   function sendForm(){
+ function sendForm(){
    var anyo = $("#anyo").val();
    var params ="anyo="+anyo;
   $.ajax({
