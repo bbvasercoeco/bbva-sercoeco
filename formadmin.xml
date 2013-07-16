@@ -93,34 +93,7 @@ function handleQueryResponse(response) {
 		alert( "Data Saved: ");
 	});
   } 
-    function checkLock(){
-       alert("entro en checkLock");
-       
-       //$(document).ready(function(){
-       
-	  // alert("(document).ready");
-       
-       if(document.getElementById('lock').checked){
-         document.getElementById('lock').checked = true;
-         alert("entro en if");
-         //document.forms["admin"].action = "https://script.google.com/macros/s/AKfycbwvUuXLYrR28aXOiXRdwm_RwbuipaAiiNqnywaY5e8/exec";
-         document.getElementsByTagName('form')[0].action = "https://script.google.com/macros/s/AKfycbwvUuXLYrR28aXOiXRdwm_RwbuipaAiiNqnywaY5e8/exec";
-         alert("set action");
-         document.getElementsByTagName('form')[0].submit();
-         alert("submit");
-         
-       }else{
-         document.getElementById('lock').checked = false;
-         alert("entro en else");
-         document.getElementsByTagName('form')[0].action = "https://script.google.com/macros/s/AKfycbxICQFUGnn9irI6CnbSRBkLTueD9NmWnHXC33y79DE/exec";
-         alert("set action");
-         document.getElementsByTagName('form')[0].submit();
-         alert("submit");
-       }
-    
-    // });
-    
-    }
+
    
    </script>
 
