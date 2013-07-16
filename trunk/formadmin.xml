@@ -240,16 +240,13 @@
 	$('#checkbox-toggle').button().click(function(){
 		$('#lock').checkbox('toggle');
 	});
-	
-	$('#checkbox-checked').button().click(function(){
-		alert($('#lock').checkbox('isChecked'));
-	});
+
 	
   });
 
  </script>
 
-	  <span class='titulo'>Bloquear entrada de datos</span>
+	  <span class='titulo'>Bloquear entrada de datos:</span>
 	  <label class='top' for='anyo'>Año:</label>
 	  <label style='display:inline-block;'> 
 		<span class='c-form-combo'>
