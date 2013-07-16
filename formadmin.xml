@@ -50,18 +50,19 @@
    
    function sendForm(){
    var anyo = $("#anyo").val();
-   var params ="anyo="+anyo+"&prefix=respuesta";
+   var params ="anyo="+anyo;
   $.ajax({
   type: "GET",       
   url: "https://script.google.com/macros/s/AKfycbz3MFQJy8jFwcEUDeRqdB91VSVaW__r8iyFkvPbpQzWZ-h_GtE/exec",
   contentType: 'application/json',
   dataType: 'jsonp',
-  data: params,
+  data: { anyo: anyo,
+  prefix: "respuesta"}
   })  
   .success(function(  ) {
 		alert( "Data Saved: ");
 	});
-   
+  } 
     function checkLock(){
        alert("entro en checkLock");
        
