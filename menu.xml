@@ -325,7 +325,7 @@ function getUser(){
   contentType: 'application/json',
   dataType: 'jsonp',
   data: { anyo: anyo,
-  prefix: "respuesta"}
+  prefix: "getUser"}
   })  
   .success(function getUser() {
 		 // alert(arguments[0].user);
