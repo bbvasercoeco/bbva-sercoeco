@@ -280,7 +280,7 @@ margin-top:-19px;
 <![endif]--> 
 
 <script>
-/*function getUser(){
+function getUser(){
  // alert(arguments[0].user);
  // alert("b");
   var html="";
@@ -317,8 +317,8 @@ margin-top:-19px;
 	});
   
   
-}*/
-   $.ajax({
+}
+/*   $.ajax({
   type: "GET",       
   url: "https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec?prefix=getUser",
   contentType: 'application/json',
@@ -361,11 +361,11 @@ margin-top:-19px;
 			document.getElementsByClassName('cabeceramenu')[0].innerHTML = html;
 	
 		});
-	});
+	});*/
 
 </script>
 
-<!--<script type="text/javascript" src="https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec?prefix=getUser"></script>-->
+<script type="text/javascript" src="https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec?prefix=getUser"></script>
 
 
 
