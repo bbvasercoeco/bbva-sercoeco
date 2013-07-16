@@ -230,19 +230,19 @@
 	
 	// Checkbox actions
 	$('#checkbox-check').button().click(function(){
-		$('#checkbox-01').checkbox('check');
+		$('#lock').checkbox('check');
 	});
 	
 	$('#checkbox-uncheck').button().click(function(){
-		$('#checkbox-01').checkbox('uncheck');
+		$('#lock').checkbox('uncheck');
 	});
 	
 	$('#checkbox-toggle').button().click(function(){
-		$('#checkbox-01').checkbox('toggle');
+		$('#lock').checkbox('toggle');
 	});
 	
 	$('#checkbox-checked').button().click(function(){
-		alert($('#checkbox-01').checkbox('isChecked'));
+		alert($('#lock').checkbox('isChecked'));
 	});
 	
   });
