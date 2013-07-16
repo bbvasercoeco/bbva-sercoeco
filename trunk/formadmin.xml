@@ -53,7 +53,7 @@
 	gadgetHelper = new google.visualization.GadgetHelper();
 	var opts = {dataType:'jsonp'};		
 	var query = new google.visualization.Query(urlTable, opts);
-	var querytosend = "select C,S where C like('%"yearLock"%') limit 1";
+	var querytosend = "select C,S where C like('%"+yearLock+"%') limit 1";
 	query.setQuery(querytosend);			  
 	query.send(handleQueryResponse);
  
