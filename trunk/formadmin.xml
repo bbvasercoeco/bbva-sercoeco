@@ -4850,6 +4850,7 @@ label span.c-form-combo.mayor {
 		color:#434A58;
 		font-family:Arial;
 		font-size:12px;
+    margin-left:20px;
 	} 
  
 
@@ -4880,6 +4881,7 @@ label span.c-form-combo.mayor {
 
 .ui-marmots-label-check.marmots-label-left, .ui-marmots-label-radio.marmots-label-left {
 	padding: 1px 0 10px 26px;
+  vertical-align: text-bottom;
 }
 
 .ui-marmots-label-check.marmots-label-right, .ui-marmots-label-radio.marmots-label-right {
@@ -4938,7 +4940,7 @@ label.ui-marmots-label-check.on:hover {
  </script>
 
 	  <span class='titulo'>Bloquear entrada de datos:</span>
-	  <label class='top' for='anyo'>Año:</label>
+	  <label class='top' for='anyo'>Año</label>
 	  <label style='display:inline-block;'>
 		<span class='c-form-combo'>
 	    <select id='anyo' name='anyo'>
