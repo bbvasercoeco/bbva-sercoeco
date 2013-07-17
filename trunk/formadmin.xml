@@ -19,19 +19,10 @@
  <script src='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery-ui-compilation2.js' ></script>
  <script src='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.ui.selectmenu.js'></script>
  <script src='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.marmots-checkbox.js'></script>
- <script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
 
 	<style type="text/css">
    
-   /*
- * jQuery UI CSS Framework 1.8.16
- *
- * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
- * Dual licensed under the MIT or GPL Version 2 licenses.
- * http://jquery.org/license
- * testiiingaa
- * http://docs.jquery.com/UI/Theming/API
- */
+
 
 /* Layout helpers
 ----------------------------------*/
