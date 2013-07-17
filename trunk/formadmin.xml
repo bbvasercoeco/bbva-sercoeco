@@ -4850,7 +4850,69 @@ label span.c-form-combo.mayor {
 		color:#434A58;
 		font-family:Arial;
 		font-size:12px;
-	}   
+	} 
+ 
+
+
+
+
+.ui-marmots-label-check, .ui-marmots-label-radio {
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+	min-height: 8px;
+	cursor: pointer;
+	
+	user-select: none;
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+}
+
+.ui-marmots-label-check input, .ui-marmots-label-radio input {
+	position: absolute;
+	left: -9999em;
+}
+
+.ui-marmots-label-check.marmots-label-right, .ui-marmots-label-radio.marmots-label-right {
+	background-position: right 2px !important;
+}
+
+.ui-marmots-label-check.marmots-label-left, .ui-marmots-label-radio.marmots-label-left {
+	padding: 1px 0 10px 26px;
+}
+
+.ui-marmots-label-check.marmots-label-right, .ui-marmots-label-radio.marmots-label-right {
+	padding: 1px 26px 10px 0;
+}
+
+.ui-marmots-label-check {
+	background-image: url(http://bbva-sercoeco.googlecode.com/svn/trunk/img/input-check.png);
+	background-repeat: no-repeat;
+	background-position: 0px 2px;
+}
+
+.ui-marmots-label-check.disabled {
+	background-image: url(http://bbva-sercoeco.googlecode.com/svn/trunk/img/input-check-disabled.png) !important;
+}
+
+.ui-marmots-label-check:hover {
+	background-image: url(http://bbva-sercoeco.googlecode.com/svn/trunk/img/input-check-hover.png);
+}
+
+label.ui-marmots-label-check.on {
+	background-image: url(http://bbva-sercoeco.googlecode.com/svn/trunk/img/input-check-checked.png);
+}
+
+label.ui-marmots-label-check.on.disabled {
+	background-image: url(http://bbva-sercoeco.googlecode.com/svn/trunk/img/input-check-checked-disabled.png) !important;
+}
+
+label.ui-marmots-label-check.on:hover {
+	background-image: url(http://bbva-sercoeco.googlecode.com/svn/trunk/img/input-check-hover-checked.png);
+}
+
+
 	</style>
 
  <script type='text/javascript'>
