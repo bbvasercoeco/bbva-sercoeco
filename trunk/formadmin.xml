@@ -14,17 +14,35 @@
  <Content type="html">
     <![CDATA[
     
-<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN'>
-<html>
- <head>
-	<script type='text/javascript' src='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery-1.9.1.min.js'></script>
-	<script type='text/javascript' src='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery-ui-compilation2.js' ></script>
-	<script type='text/javascript' src='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.ui.selectmenu.js'></script>
-	<link rel='stylesheet' type='text/css' href='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jqueryui.css' media='screen'>
-	<link rel='stylesheet' type='text/css' href='http://bbva-sercoeco.googlecode.com/svn/trunk/js/bbva-components-forms.css' media='screen'>
-   <style type="text/css">
-	/* @group general */
-	body, html {
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="formadmin.xml"
+    description=""
+    author_affiliation="Capgemini"
+    height ="50">
+    <Require feature="idi"/>
+    <Require feature="locked-domain" />
+	<Require feature="dynamic-height"/>
+	<Require feature="setprefs" />
+  </ModulePrefs>
+
+
+ <Content type="html">
+    <![CDATA[
+    
+ <script src="https://www.google.com/jsapi" type="text/javascript"></script>
+ <script src='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery-1.9.1.min.js'></script>
+ <script src='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery-ui-compilation2.js' ></script>
+ <script src='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.ui.selectmenu.js'></script>
+ <script src='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.marmots-checkbox.js'></script>
+   
+  <link rel='stylesheet' type='text/css' href='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jqueryui.css' media='screen'>
+  <link rel='stylesheet' type='text/css' href='http://bbva-sercoeco.googlecode.com/svn/trunk/js/bbva-components-forms.css' media='screen'>
+ <link rel='stylesheet' type='text/css' href='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.marmots-checkbox.css' media='screen'>
+
+	
+	<style type="text/css">
+  	body, html {
 		font-size: 125%;
 		background-color: rgb(255, 255, 255);
 	}
@@ -43,26 +61,28 @@
 		font-weight: normal;
 	}
 	label.bottom {
-		font-size:12px;
-		font-family:arial;
+		font-size:18px;
+		font-family: 'BBVA Web Light', Arial;
 		padding-right:15px;
+		color: #0078D2;
+		display: inline-block;
+		width: 210px;
 	}
 	label.top {
 		font-family:Arial;
 		font-size:12px;
+		font-weight:bold;
 		color:#71777F;
-		margin: 0 20px;
+		margin: 0 5px 12px;
 		display:inline-block;
 		vertical-align: text-bottom;
-		margin-bottom: 10px;
-		font-weight:bold;
 	}
 
 	span.titulo {
 		font-size:18px;
 		color:#0078D2;
 		display:inline-block;
-		padding-right:20px;
+		padding-right:5px;
 		margin-bottom: 10px;
 		font-family: 'BBVA Web Light', Arial;
 		vertical-align: text-bottom;
@@ -79,24 +99,33 @@
 		font-weight:bold;
 		font-size:12px;
 		color:#717780;
-		width:190px;
+		width:160px;
 		display:inline-block;
 	}
 	.negrita2 {
 		font-family: arial;
 		font-weight:bold;
 		font-size:12px;
-		color:#434A58;
+		color:#717780;
 		width:293px;
 		display:inline-block;
 	}
-	span.medida {
+	label.medida {
 		display:inline-block;
-		width:40px;
+		width:120px;
 		padding-left:10px;
 		font-family:Arial;
 		color:#71777F;
 		font-size:12px;
+	}
+	label.medida2 {
+		display:inline-block;
+		width:120px;
+		padding-left:10px;
+		font-family:Arial;
+		color:#71777F;
+		font-size:12px;
+		margin-left: 228px;
 	}
 	span.moneda {
 		display:inline-block;
@@ -121,7 +150,7 @@
 		font: 12px Arial, sans-serif;
 		padding: .583em .755em .5em .755em;
 		height: auto;
-		margin:0;
+		/*margin:0 0 10px;*/
 	}
 	input[type='text'].textbox:focus {
 		background-color: rgb(255, 255, 245);
@@ -203,66 +232,140 @@
 	.btn:hover, .btn2:hover {
 	    background: none repeat scroll 0 0 #004C99;
 	}
-   </style>
- <script type='text/javascript'>$(document).ready(function() {	$('#anyo').selectmenu({ width: 100 });	$('#meses').selectmenu({ width: 130 });});</script>
- </head>
- <body>
-   <form name="corporativos" action="https://script.google.com/macros/s/AKfycbww3mqNInxDkOmECfOmMZI3RU7lNEb3nOxrm_-dqKGZ/dev" method="get" target="_parent" >
+	
+	label.check {
+		color:#434A58;
+		font-family:Arial;
+		font-size:12px;
+	}   
+	</style>
 
+ <script type='text/javascript'>
+ $(document).ready(function() {	
+	$('#anyo').selectmenu({ width: 90 });
+	
+	// Checkbox actions
+	$('#checkbox-check').button().click(function(){
+		$('#lock').checkbox('check');
+	});
+	
+	$('#checkbox-uncheck').button().click(function(){
+		$('#lock').checkbox('uncheck');
+	});
+	
+	$('#checkbox-toggle').button().click(function(){
+		$('#lock').checkbox('toggle');
+	});
+
+	
+  });
+
+ </script>
+
+	  <span class='titulo'>Bloquear entrada de datos:</span>
 	  <label class='top' for='anyo'>Año:</label>
-	  <label style='display:inline-block;'> 
+	  <label style='display:inline-block;'>
 		<span class='c-form-combo'>
 	    <select id='anyo' name='anyo'>
-	      <option selected='selected' value='2013'>2013</option>
-	      <option value='2014'>2014</option>
-	      <option value='2015'>2015</option>
-	      <option value='2016'>2016</option>
-	      <option value='2017'>2017</option>
+	      <option value="2024">2024</option>
+	      <option value="2023">2023</option>
+	      <option value="2022">2022</option>
+	      <option value="2021">2021</option>
+	      <option value="2020">2020</option>
+	      <option value="2019">2019</option>
+	      <option value="2018">2018</option>
+	      <option value="2017">2017</option>
+	      <option value="2016">2016</option>
+	      <option value="2015">2015</option>
+	      <option value="2014">2014</option>
+	      <option value="2013" selected="selected">2013</option>
 	    </select>
-	    </span> 
-	  </label>
-	  <label class='top' for='meses'>Periodo:</label>
-	  <label style='display:inline-block;'> 
-		<span class='c-form-combo'>
-	    <select id='meses' name='meses'>
-	      <option value='1'>ENE - ABR</option>
-	      <option value='2'>MAY - AGO</option>
-	      <option value='3'>SEP - DIC</option>
-	    </select>
-	    </span> 
-	  </label>
-	  &nbsp;&nbsp;&nbsp;&nbsp;
-	  <input type="button" class="btn2" value="Consultar">
-	  <br><br>
+	    </span>
+	  </label>      	
 
-      <img src='https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador.png?attachauth=ANoY7cp60OlfRLiIvUmhs3rEllbqpLvfYXMyDTD34hAXHppg0Ba4bsw9ux5J-CoEQtMfFHpSuNK7JuH0-w1ESyeCH2ZR0YI0v0CXRpX1SUM0r2tHkztReAHqqvW_WGcVwO5OdRKoOa-leu_8rVcsIH56GO6y6aUO_IIC5JFcWsGgn06kolI_kvKeSc9UjPHjaNCuttbreIPI8JF3LsvkEyAap2sG0vhPJw%3D%3D' alt='separador'> 
+	  <label for="lock" class="ui-marmots-label-check marmots-label-left fancy on check"><input type="checkbox" id="lock" name="lock">&nbsp;&nbsp;Bloquear entrada de datos</label>
+	  
 	  <br><br>
-
-      <label class='bottom negrita' for='papelkg'>Papel enviado a reciclar</label>
-      <input type="text" name="papelkg" id="papelkg" class='textbox'/><span class='medida'>Kg</span>
+  <img src='https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-boton.png?attachauth=ANoY7cpMyU5rPXCtYNrm_wxhUBEOj12W5bIU1V0H1ttSYU4PAg3vt2VqxnNcAd31Og8qj6pdn_7LB_-HuOhRcNh5yJkK4Qyy3mnBWrcsCM9e1Lfpc2878p230yQDOf0-bfTDjhbXXQllCuH6BYjhQS4cYjRBinauPZoAlEYENcTFqUi4_9Q7biy4x9HB_a8v2g3bwY-svEqfQ1uCVsaFMx76GyP8pu7X6A%3D%3D' alt='separador'>
 	  <br><br>
+      <button onclick="sendForm();" class='btn' value="Guardar" >Guardar</button>
+      <div id="envio"></div>
+	  
+	  	
 	
-      <label class='bottom negrita' for='tonerkg'>Tóner enviado a reciclar</label>
-      <input type="text" name="tonerkg" id="tonerkg" class='textbox'/><span class='medida'>Kg</span>
-	  <br><br>
-		
-      <label class='bottom negrita' for='rraaees'>RRAAEEs enviados a reciclar</label>
-      <input type="text" name="rraaees" id="rraaees" class='textbox'/><span class='medida'>Kg</span>
-      <br><br>
+	
+<script type="text/javascript">
+var prefs = new _IG_Prefs();
+_IG_RegisterOnloadHandler(loadVisualizationAPI);
 
-      <label class='bottom negrita' for='pcs'>Equipos Informáticos donados</label>
-      <input type="text" name="pcs" id="pcs" class='textbox'/><span class='medida'>Kg</span>
-      <br><br>
+function loadVisualizationAPI()
+{
+	google.load("visualization", "1", {"packages": ["table"]});
+				
+}
+ function checkLock(yearLock){
+    var urlTable = "https://docs.google.com/spreadsheet/ccc?key=0Arxw5OOmF_fQdHRza0RUbzZPbEJUTzZXbGo1eEpDVXc";
+	alert("yearLock "+yearLock);
+	var linea = 2;
+	var factor = parseInt(yearLock)-2013;
+    linea = linea + factor*39;
+	alert("linea "+linea);
+	//var gadgetHelper = null;
+	//google.load("visualization", "1", {"packages": ["table"]});
+	//gadgetHelper = new google.visualization.GadgetHelper();
+	var opts = {dataType:'jsonp'};		
+	var query = new google.visualization.Query(urlTable, opts);
+	var querytosend = "select C,S where T like '"+linea+"'"; // and C like('%"+yearLock+"%') limit 1";
+	query.setQuery(querytosend);			  
+	query.send(handleQueryResponse);
+ 
+ }
+function handleQueryResponse(response) {
+		data = response.getDataTable();	
+				if(data.getValue(0,1)!="X"){
+				    document.getElementById('envio').innerHTML='<button onclick="sendForm();"  value="Enviar" >Enviar</button>';
+					var anyo = data.getValue(0,1);
+					return alert("Año "+anyo+" No bloqueado");
+				}else{
+					document.getElementById('envio').innerHTML="";
+					var anyo = data.getValue(0,1);
+					return alert("Año "+anyo+ "ya bloqueado");
+				
+				}
+				
+			
+			}
+ 
+ function respuesta(){
+ alert("Hola");
+ }
+   
+ function sendForm(){
+   var anyo = $("#anyo").val();
+   var params ="anyo="+anyo;
+  $.ajax({
+  type: "GET",       
+  url: "https://script.google.com/macros/s/AKfycbz3MFQJy8jFwcEUDeRqdB91VSVaW__r8iyFkvPbpQzWZ-h_GtE/exec",
+  contentType: 'application/json',
+  dataType: 'jsonp',
+  data: { anyo: anyo,
+  prefix: "respuesta"}
+  })  
+  .success(function(  ) {
+		alert( "Data Saved: ");
+	});
+  }
 
-	  <img src='https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-boton.png?attachauth=ANoY7cpMyU5rPXCtYNrm_wxhUBEOj12W5bIU1V0H1ttSYU4PAg3vt2VqxnNcAd31Og8qj6pdn_7LB_-HuOhRcNh5yJkK4Qyy3mnBWrcsCM9e1Lfpc2878p230yQDOf0-bfTDjhbXXQllCuH6BYjhQS4cYjRBinauPZoAlEYENcTFqUi4_9Q7biy4x9HB_a8v2g3bwY-svEqfQ1uCVsaFMx76GyP8pu7X6A%3D%3D' alt='separador'> 
-	  <br><br>
+   
+   </script>
 
-      <input type="hidden" name="country" id="country" value="CORPORATIVO"/>
-      <input type="submit" class='btn' value="Guardar">
-   </form>
- </body>   
-</html>
+	
 
+   
+
+ ]]>
+ </Content>
+</Module>
 
 	
 
