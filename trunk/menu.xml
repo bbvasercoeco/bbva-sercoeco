@@ -276,6 +276,9 @@ margin-top:-19px;
     background:url('https://sites.google.com/a/bbva.com/sercoeco/backcabeceraHomeIE2.png?attredirects=0');
   
   }
+  .sites-header-primary-row .sites-header-cell-buffer-wrapper{
+	padding-bottom:10px;
+  }
 </style>
 <![endif]--> 
 
