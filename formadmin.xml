@@ -14,335 +14,274 @@
  <Content type="html">
     <![CDATA[
     
- <script src="https://www.google.com/jsapi" type="text/javascript"></script>
- <script src='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery-1.9.1.min.js'></script>
- <script src='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery-ui-compilation2.js' ></script>
- <script src='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.ui.selectmenu.js'></script>
- <script src='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.marmots-checkbox.js'></script>
-   
-  <link rel='stylesheet' type='text/css' href='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jqueryui.css' media='screen'>
-  <link rel='stylesheet' type='text/css' href='http://bbva-sercoeco.googlecode.com/svn/trunk/js/bbva-components-forms.css' media='screen'>
- <link rel='stylesheet' type='text/css' href='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.marmots-checkbox.css' media='screen'>
-
-	
-	<style type="text/css">
-  	body, html {
-		font-size: 125%;
-		background-color: rgb(255, 255, 255);
-	}
-
-	body {
-		font-size: 0.5em;
-		font-family: Arial,sans-serif;
-		color: rgb(0, 76, 153);
-		text-align: left;
-	}
-	/* @end */
-	h1 {
-		font-size:30px;
-		color:#0078D2;
-		font-family: 'BBVA Web Light', Arial;
-		font-weight: normal;
-	}
-	label.bottom {
-		font-size:18px;
-		font-family: 'BBVA Web Light', Arial;
-		padding-right:15px;
-		color: #0078D2;
-		display: inline-block;
-		width: 210px;
-	}
-	label.top {
-		font-family:Arial;
-		font-size:12px;
-		font-weight:bold;
-		color:#71777F;
-		margin: 0 5px 12px;
-		display:inline-block;
-		vertical-align: text-bottom;
-	}
-
-	span.titulo {
-		font-size:18px;
-		color:#0078D2;
-		display:inline-block;
-		padding-right:5px;
-		margin-bottom: 10px;
-		font-family: 'BBVA Web Light', Arial;
-		vertical-align: text-bottom;
-	}
-	label.km {
-		display:inline-block;
-		width: 156px;
-		font-family:Arial;
-		color:#71777F;
-		font-size:12px;
-	}
-	.negrita {
-		font-family: arial;
-		font-weight:bold;
-		font-size:12px;
-		color:#717780;
-		width:160px;
-		display:inline-block;
-	}
-	.negrita2 {
-		font-family: arial;
-		font-weight:bold;
-		font-size:12px;
-		color:#717780;
-		width:293px;
-		display:inline-block;
-	}
-	label.medida {
-		display:inline-block;
-		width:120px;
-		padding-left:10px;
-		font-family:Arial;
-		color:#71777F;
-		font-size:12px;
-	}
-	label.medida2 {
-		display:inline-block;
-		width:120px;
-		padding-left:10px;
-		font-family:Arial;
-		color:#71777F;
-		font-size:12px;
-		margin-left: 228px;
-	}
-	span.moneda {
-		display:inline-block;
-		width:40px;
-		padding-left:10px;
-		font-family:Arial;
-		color:#71777F;
-		font-size:12px;
-	}
-	hr {
-		color:#D5E2EE;
-	}
-	input[type='text'].textbox {
-		border: 1px solid rgb(232, 232, 230);
-		border-radius: 5px;
-		-moz-border-radius: 5px;
-		-webkit-border-radius: 5px;
-		box-shadow: inset 0pt 2px 2px rgb(214, 214, 214);
-		-moz-box-shadow: inset 0pt 2px 2px rgb(214, 214, 214);
-		-webkit-box-shadow: inset 0pt 2px 2px rgb(214, 214, 214);
-		color: #434A58;
-		font: 12px Arial, sans-serif;
-		padding: .583em .755em .5em .755em;
-		height: auto;
-		/*margin:0 0 10px;*/
-	}
-	input[type='text'].textbox:focus {
-		background-color: rgb(255, 255, 245);
-		box-shadow: inset 0pt 0pt 0pt 2px rgb(222, 244, 251), 0pt 2px 2px rgb(214, 214, 214);
-		-moz-box-shadow: inset 0pt 0pt 0pt 2px rgb(222, 244, 251), 0pt 2px 2px rgb(214, 214, 214);
-		-webkit-box-shadow: inset 0pt 0pt 0pt 2px rgb(222, 244, 251), 0pt 2px 2px rgb(214, 214, 214);
-	}
-	input.text, textarea.text {
-		font-size: 1.2em;
-		height: 2.333em;
-		line-height: 2.333em;
-		padding: 0em 0.75em;
-		border-radius: 5px 5px 5px 5px;
-		box-shadow: 0pt 2px 2px rgb(214, 214, 214) inset;
-		font-family: arial;
-		border: 1px solid rgb(232, 232, 230);
-		color: rgb(67, 74, 88);
-	}
-	input.text:focus, textarea.text:focus {
-		box-shadow: 0pt 0pt 0pt 2px rgb(222, 244, 251), 0pt 2px 2px rgb(214, 214, 214) inset;
-		color: rgb(67, 74, 88);
-		outline: medium none;
-		border: 1px solid rgb(232, 232, 230);
-		background-color: rgb(255, 255, 245);
-		background-image: none;
-	}
-	input[type='text'].euro {
-		background: url('https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/textbox_euro.png?attachauth=ANoY7crb61Dk5wVuXpHpXLJdgG5s5TC7ArUCvf1RK-F8A0trn_iH3vnFD1oyTFeXb2tgFxcl-a3fWcQdrAFaAlVwwDiy8luemh4xc1EQ_3XLYZ6nY2bxWcpeYn2Kbd_KQi6Iy7RBs0IsEy4Of3aAvkQIlEFwyAWa_2V8J-Uf-9tLZQx_hD-R7PaWzJUzHgrj2rn01Se2GklAIIg4cculDSziBzu0DcjeuQ%3D%3D') 98% center no-repeat;
-		padding-right: 30px;
-		text-align: right;
-	}
-	/* @group fonts */
-	@font-face {
-		font-family: 'BBVA Web Light';
-		src:url('https://sites.google.com/a/bbva.com/sercoeco/web-light.eot');
-		src:url('https://sites.google.com/a/bbva.com/sercoeco/web-light.eot?iefix') format('embedded-opentype'), url('https://sites.google.com/a/bbva.com/sercoeco/web-light.woff') format('woff'), url('https://sites.google.com/a/bbva.com/sercoeco/web-light.ttf') format('truetype'), url('https://sites.google.com/a/bbva.com/sercoeco/web-light.svg#BBVA Web Light') format('svg');
-		font-style: normal;
-		font-weight: normal;
-	}
-	/* @group fonts */
-	.btn {
-	    background: linear-gradient(to bottom, #0079C1 0%, #00559D 100%) repeat scroll 0 0 transparent;
-	    border: 0.1em solid #00559D;
-	    border-radius: 0.3em 0.3em 0.3em 0.3em;
-	    color: white;
-	    cursor: pointer;
-	    font-size: 14px;
-	    height: 40px;
-	    margin-bottom: 20px;
-	    margin-left: 485px;
-	    padding-bottom: 2px;
-	    padding-left: 0.9em;
-	    padding-right: 0.9em;
-	    text-align: center;
-	    vertical-align: middle;
-	    width: 80px;
-	}
-	.btn:hover {
-	    background: none repeat scroll 0 0 #004C99;
-	}
-
-	.btn2 {
-	    background: linear-gradient(to bottom, #0079C1 0%, #00559D 100%) repeat scroll 0 0 transparent;
-	    border: 0.1em solid #00559D;
-	    border-radius: 0.3em 0.3em 0.3em 0.3em;
-	    color: white;
-	    cursor: pointer;
-	    font-size: 12px;
-	    height: 30px;
-	    margin-bottom: 20px;
-	    padding-bottom: 2px;
-	    padding-left: 0.9em;
-	    padding-right: 0.9em;
-	    text-align: center;
-	    vertical-align: middle;
-	    width: 80px;
-	}
-
-	.btn:hover, .btn2:hover {
-	    background: none repeat scroll 0 0 #004C99;
-	}
-	
-	label.check {
-		color:#434A58;
-		font-family:Arial;
-		font-size:12px;
-	}   
-	</style>
-
- <script type='text/javascript'>
- $(document).ready(function() {	
-	$('#anyo').selectmenu({ width: 90 });
-	
-	// Checkbox actions
-	$('#checkbox-check').button().click(function(){
-		$('#lock').checkbox('check');
-	});
-	
-	$('#checkbox-uncheck').button().click(function(){
-		$('#lock').checkbox('uncheck');
-	});
-	
-	$('#checkbox-toggle').button().click(function(){
-		$('#lock').checkbox('toggle');
-	});
-
-	
-  });
-
- </script>
-
-	  <span class='titulo'>Bloquear entrada de datos:</span>
-	  <label class='top' for='anyo'>Año:</label>
-	  <label style='display:inline-block;'>
-		<span class='c-form-combo'>
-	    <select id='anyo' name='anyo'>
-	      <option value="2024">2024</option>
-	      <option value="2023">2023</option>
-	      <option value="2022">2022</option>
-	      <option value="2021">2021</option>
-	      <option value="2020">2020</option>
-	      <option value="2019">2019</option>
-	      <option value="2018">2018</option>
-	      <option value="2017">2017</option>
-	      <option value="2016">2016</option>
-	      <option value="2015">2015</option>
-	      <option value="2014">2014</option>
-	      <option value="2013" selected="selected">2013</option>
-	    </select>
-	    </span>
-	  </label>      	
-
-	  <label for="lock" class="ui-marmots-label-check marmots-label-left fancy on check"><input type="checkbox" id="lock" name="lock">&nbsp;&nbsp;Bloquear entrada de datos</label>
-	  
-	  <br><br>
-  <img src='https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-boton.png?attachauth=ANoY7cpMyU5rPXCtYNrm_wxhUBEOj12W5bIU1V0H1ttSYU4PAg3vt2VqxnNcAd31Og8qj6pdn_7LB_-HuOhRcNh5yJkK4Qyy3mnBWrcsCM9e1Lfpc2878p230yQDOf0-bfTDjhbXXQllCuH6BYjhQS4cYjRBinauPZoAlEYENcTFqUi4_9Q7biy4x9HB_a8v2g3bwY-svEqfQ1uCVsaFMx76GyP8pu7X6A%3D%3D' alt='separador'>
-	  <br><br>
-      <button onclick="sendForm();" class='btn' value="Guardar" >Guardar</button>
-      <div id="envio"></div>
-	  
-	  	
-	
-	
-<script type="text/javascript">
-var prefs = new _IG_Prefs();
-_IG_RegisterOnloadHandler(loadVisualizationAPI);
-
-function loadVisualizationAPI()
-{
-	google.load("visualization", "1", {"packages": ["table"]});
-				
+<script type='text/javascript' src='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery-1.9.1.min.js'></script>
+<script type='text/javascript' src='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery-ui-compilation2.js' ></script>
+<script type='text/javascript' src='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.ui.selectmenu.js'></script>
+<link rel='stylesheet' type='text/css' href='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jqueryui.css' media='screen'>
+<link rel='stylesheet' type='text/css' href='http://bbva-sercoeco.googlecode.com/svn/trunk/js/bbva-components-forms.css' media='screen'>
+<style type='text/css'>
+/* @group general */ 	body, html {
+	font-size: 125%;
+	background-color: rgb(255, 255, 255);
 }
- function checkLock(yearLock){
-    var urlTable = "https://docs.google.com/spreadsheet/ccc?key=0Arxw5OOmF_fQdHRza0RUbzZPbEJUTzZXbGo1eEpDVXc";
-	alert("yearLock "+yearLock);
-	var linea = 2;
-	var factor = parseInt(yearLock)-2013;
-    linea = linea + factor*39;
-	alert("linea "+linea);
-	//var gadgetHelper = null;
-	//google.load("visualization", "1", {"packages": ["table"]});
-	//gadgetHelper = new google.visualization.GadgetHelper();
-	var opts = {dataType:'jsonp'};		
-	var query = new google.visualization.Query(urlTable, opts);
-	var querytosend = "select C,S where T like '"+linea+"'"; // and C like('%"+yearLock+"%') limit 1";
-	query.setQuery(querytosend);			  
-	query.send(handleQueryResponse);
- 
- }
-function handleQueryResponse(response) {
-		data = response.getDataTable();	
-				if(data.getValue(0,1)!="X"){
-				    document.getElementById('envio').innerHTML='<button onclick="sendForm();"  value="Enviar" >Enviar</button>';
-					var anyo = data.getValue(0,1);
-					return alert("Año "+anyo+" No bloqueado");
-				}else{
-					document.getElementById('envio').innerHTML="";
-					var anyo = data.getValue(0,1);
-					return alert("Año "+anyo+ "ya bloqueado");
-				
-				}
-				
-			
-			}
- 
- function respuesta(){
- alert("Hola");
- }
-   
- function sendForm(){
-   var anyo = $("#anyo").val();
-   var params ="anyo="+anyo;
-  $.ajax({
-  type: "GET",       
-  url: "https://script.google.com/macros/s/AKfycbz3MFQJy8jFwcEUDeRqdB91VSVaW__r8iyFkvPbpQzWZ-h_GtE/exec",
-  contentType: 'application/json',
-  dataType: 'jsonp',
-  data: { anyo: anyo,
-  prefix: "respuesta"}
-  })  
-  .success(function(  ) {
-		alert( "Data Saved: ");
-	});
-  }
+body {
+	font-size: 0.5em;
+	font-family: Arial, sans-serif;
+	color: rgb(0, 76, 153);
+	text-align: left;
+} 	/* @end */
+h1 {
+	font-size:30px;
+	color:#0078D2;
+	font-family: 'BBVA Web Light', Arial;
+	font-weight: normal;
+}
+label.bottom {
+	font-size:12px;
+	font-family:arial;
+	padding-right:15px;
+}
+label.top {
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	color:#71777F;
+	margin: 0 5px 12px;
+	display:inline-block;
+	vertical-align: text-bottom;
+}
+span.titulo {
+	font-size:18px;
+	color:#0078D2;
+	display:inline-block;
+	padding-right:5px;
+	margin-bottom: 10px;
+	font-family: 'BBVA Web Light', Arial;
+	vertical-align: text-bottom;
+}
+label.km {
+	display:inline-block;
+	width: 156px;
+	font-family:Arial;
+	color:#71777F;
+	font-size:12px;
+}
+.negrita {
+	font-family: arial;
+	font-weight:bold;
+	font-size:12px;
+	color:#717780;
+	width:100px;
+	display:inline-block;
+}
+.negrita2 {
+	font-family: arial;
+	font-weight:bold;
+	font-size:12px;
+	color:#717780;
+	width:293px;
+	display:inline-block;
+}
+span.medida {
+	display:inline-block;
+	width:40px;
+	padding-left:10px;
+	font-family:Arial;
+	color:#71777F;
+	font-size:12px;
+}
+span.moneda {
+	display:inline-block;
+	width:40px;
+	padding-left:10px;
+	font-family:Arial;
+	color:#71777F;
+	font-size:12px;
+}
+hr {
+	color:#D5E2EE;
+}
+input[type='text'].textbox {
+	border: 1px solid rgb(232, 232, 230);
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: inset 0pt 2px 2px rgb(214, 214, 214);
+	-moz-box-shadow: inset 0pt 2px 2px rgb(214, 214, 214);
+	-webkit-box-shadow: inset 0pt 2px 2px rgb(214, 214, 214);
+	color: #434A58;
+	font: 12px Arial, sans-serif;
+	padding: .583em .755em .5em .755em;
+	height: auto;
+	margin:0;
+}
+input[type='text'].textbox:focus {
+	background-color: rgb(255, 255, 245);
+	box-shadow: inset 0pt 0pt 0pt 2px rgb(222, 244, 251), 0pt 2px 2px rgb(214, 214, 214);
+	-moz-box-shadow: inset 0pt 0pt 0pt 2px rgb(222, 244, 251), 0pt 2px 2px rgb(214, 214, 214);
+	-webkit-box-shadow: inset 0pt 0pt 0pt 2px rgb(222, 244, 251), 0pt 2px 2px rgb(214, 214, 214);
+}
+input.text, textarea.text {
+	font-size: 1.2em;
+	height: 2.333em;
+	line-height: 2.333em;
+	padding: 0em 0.75em;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0pt 2px 2px rgb(214, 214, 214) inset;
+	font-family: arial;
+	border: 1px solid rgb(232, 232, 230);
+	color: rgb(67, 74, 88);
+}
+input.text:focus, textarea.text:focus {
+	box-shadow: 0pt 0pt 0pt 2px rgb(222, 244, 251), 0pt 2px 2px rgb(214, 214, 214) inset;
+	color: rgb(67, 74, 88);
+	outline: medium none;
+	border: 1px solid rgb(232, 232, 230);
+	background-color: rgb(255, 255, 245);
+	background-image: none;
+}
+input[type='text'].euro {
+	background: url('https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/textbox_euro.png?attachauth=ANoY7crb61Dk5wVuXpHpXLJdgG5s5TC7ArUCvf1RK-F8A0trn_iH3vnFD1oyTFeXb2tgFxcl-a3fWcQdrAFaAlVwwDiy8luemh4xc1EQ_3XLYZ6nY2bxWcpeYn2Kbd_KQi6Iy7RBs0IsEy4Of3aAvkQIlEFwyAWa_2V8J-Uf-9tLZQx_hD-R7PaWzJUzHgrj2rn01Se2GklAIIg4cculDSziBzu0DcjeuQ%3D%3D') 98% center no-repeat;
+	padding-right: 30px;
+	text-align: right;
+} 	/* @group fonts */
+@font-face {
+font-family: 'BBVA Web Light';
+src:url('https://sites.google.com/a/bbva.com/sercoeco/web-light.eot');
+src:url('https://sites.google.com/a/bbva.com/sercoeco/web-light.eot?iefix') format('embedded-opentype'), url('https://sites.google.com/a/bbva.com/sercoeco/web-light.woff') format('woff'), url('https://sites.google.com/a/bbva.com/sercoeco/web-light.ttf') format('truetype'), url('https://sites.google.com/a/bbva.com/sercoeco/web-light.svg#BBVA Web Light') format('svg');
+font-style: normal;
+font-weight: normal;
+} 	/* @group fonts */
+.btn {
+    background: linear-gradient(to bottom, #0079C1 0%, #00559D 100%) repeat scroll 0 0 transparent;
+    border: 0.1em solid #00559D;
+    border-radius: 0.3em 0.3em 0.3em 0.3em;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-left: 485px;
+    padding-bottom: 2px;
+    padding-left: 0.9em;
+    padding-right: 0.9em;
+    text-align: center;
+    vertical-align: middle;
+    width: 80px;
+}
+.btn:hover {
+    background: none repeat scroll 0 0 #004C99;
+}
 
-   
-   </script>
+.btn2 {
+    background: linear-gradient(to bottom, #0079C1 0%, #00559D 100%) repeat scroll 0 0 transparent;
+    border: 0.1em solid #00559D;
+    border-radius: 0.3em 0.3em 0.3em 0.3em;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    height: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 2px;
+    padding-left: 0.9em;
+    padding-right: 0.9em;
+    text-align: center;
+    vertical-align: middle;
+    width: 80px;
+}
 
+.btn:hover, .btn2:hover {
+    background: none repeat scroll 0 0 #004C99;
+}
+</style>
+<script type='text/javascript'>$(document).ready(function() {	$('#anyo').selectmenu({ width: 90 });	$('#meses').selectmenu({ width: 120 });});</script>
+</head>
+<body>
+<h1>Consumo "+ permiso + "</h1>
+<form name='resto' action='https://script.google.com/macros/s/AKfycbxe7IDJDZChnmP7EOWAcLS2dboKruvP1NeqQp_G4AY/dev' method='get' target='_parent'>
+  <span class='titulo'>Seleccionar fase</span>
+  <label class='top' for='anyo'>Año:</label>
+  <label style='display:inline-block;'> <span class='c-form-combo'>
+    <select id='anyo' name='anyo'>
+      <option selected='selected' value='2013'>2013</option>
+      <option value='2014'>2014</option>
+      <option value='2015'>2015</option>
+      <option value='2016'>2016</option>
+      <option value='2017'>2017</option>
+    </select>
+    </span> </label>
+  <label class='top' for='meses'>Periodo:</label>
+  <label style='display:inline-block;'> <span class='c-form-combo'>
+    <select id='meses' name='meses'>
+      <option value='1'>ENE - ABR</option>
+      <option value='2'>MAY - AGO</option>
+      <option value='3'>SEP - DIC</option>
+    </select>
+    </span> </label>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <input type='button' class='btn2' value='Consultar'>
+  <br>
+  <br>
+  <img src='https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador.png?attachauth=ANoY7cp60OlfRLiIvUmhs3rEllbqpLvfYXMyDTD34hAXHppg0Ba4bsw9ux5J-CoEQtMfFHpSuNK7JuH0-w1ESyeCH2ZR0YI0v0CXRpX1SUM0r2tHkztReAHqqvW_WGcVwO5OdRKoOa-leu_8rVcsIH56GO6y6aUO_IIC5JFcWsGgn06kolI_kvKeSc9UjPHjaNCuttbreIPI8JF3LsvkEyAap2sG0vhPJw%3D%3D' width='99%' alt='separador'> <br>
+  <br>
+  <label class='bottom negrita' for='eleckw'>Electricidad</label>
+  <input type='text' name='eleckw' id='eleckw' class='textbox'>
+  <span class='medida'>Kw</span>
+  <input type='text' name='eleceuro' id='eleceuro' class='textbox'>
+  <span class='moneda'>Euros</span> <br>
+  <br>
+  <label class='bottom negrita' for='aguam'>Agua</label>
+  <input type='text' name='aguam' id='aguam' class='textbox'>
+  <span class='medida'>m3</span>
+  <input type='text' name='aguaeuro' id='aguaeuro' class='textbox'>
+  <span class='moneda'>Euros</span> <br>
+  <br>
+  <label class='bottom negrita' for='papelm'>Papel</label>
+  <input type='text' name='papelm' id='papelm' class='textbox'>
+  <span class='medida'>Kg</span>
+  <input type='text' name='papeleuro' id='papeleuro' class='textbox'>
+  <span class='moneda'>Euros</span> <br>
+  <br>
+  <label class='bottom negrita' for='gasnaturalm'>Gas Natural</label>
+  <input type='text' name='gasnaturalm' id='gasnaturalm' class='textbox'>
+  <span class='medida'>m3</span>
+  <input type='text' name='gasnaturaleuro' id='gasnaturaleuro' class='textbox'>
+  <span class='moneda'>Euros</span> <br>
+  <br>
+  <label class='bottom negrita' for='gasl'>Gasóleo</label>
+  <input type='text' name='gasl' id='gasl' class='textbox'>
+  <span class='medida'>Litros</span>
+  <input type='text' name='gaseuro' id='gaseuro' class='textbox'>
+  <span class='moneda'>Euros</span> <br>
+  <br>
+  <img src='https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-2.png?attachauth=ANoY7cr7BY1H9kyFAd12o9WtwjDrxzPs6sbQpbSrG2CIYv0exCmstzsMwAkE7IpyPLhGsmwAV4fXZyR5uS1XH5Gpv-B5XQxzg1vv9i_Lkex3mUwYbZvvxBv1sK0ietcyJMkBJjCs5IHLDPcu7LyxI1DaVyhBHbRUeIu76wj5ndnqwxiBRXLCOoJuWtqZL_FVmaukcFhxRd_XF22wr1g0wuq1X4clEIigYw%3D%3D' alt='separador'> <br>
+  <br>
+  <label class='bottom negrita'>Viajes en avión</label>
+  <br>
+  <br>
+  <label class='km' for='viajeavion'> &lt; 500km</label>
+  <label class='km' for='viajeavion2'> 500km &lt; x &lt; 1600km</label>
+  <label class='km' for='viajeavion3'> &gt; 1600 Km</label>
+  <br>
+  <input type='text' name='viajeavion' id='viajeavion' class='textbox'>
+  &nbsp;&nbsp;
+  <input type='text' name='viajeavion2' id='viajeavion2' class='textbox'>
+  &nbsp;&nbsp;
+  <input type='text' name='viajeavion3' id='viajeavion3' class='textbox'>
+  <br>
+  <br>
+  <img src='https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-2.png?attachauth=ANoY7cr7BY1H9kyFAd12o9WtwjDrxzPs6sbQpbSrG2CIYv0exCmstzsMwAkE7IpyPLhGsmwAV4fXZyR5uS1XH5Gpv-B5XQxzg1vv9i_Lkex3mUwYbZvvxBv1sK0ietcyJMkBJjCs5IHLDPcu7LyxI1DaVyhBHbRUeIu76wj5ndnqwxiBRXLCOoJuWtqZL_FVmaukcFhxRd_XF22wr1g0wuq1X4clEIigYw%3D%3D' alt='separador'> <br>
+  <br>
+  <label class='bottom negrita2' for='videotele'>Nº de Videoconferencias / Teletransferencias</label>
+  <input type='text' name='videotele' id='videotele' class='textbox'>
+  <br>
+  <br>
+  <input type='hidden' id='country' name='country' value='"+permiso+"'>
+  <img src='https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-boton.png?attachauth=ANoY7cpMyU5rPXCtYNrm_wxhUBEOj12W5bIU1V0H1ttSYU4PAg3vt2VqxnNcAd31Og8qj6pdn_7LB_-HuOhRcNh5yJkK4Qyy3mnBWrcsCM9e1Lfpc2878p230yQDOf0-bfTDjhbXXQllCuH6BYjhQS4cYjRBinauPZoAlEYENcTFqUi4_9Q7biy4x9HB_a8v2g3bwY-svEqfQ1uCVsaFMx76GyP8pu7X6A%3D%3D' alt='separador'> <br>
+  <br>
+  <input type='submit' class='btn' value='Guardar'>
+</form>
+</body>
 	
 
    
