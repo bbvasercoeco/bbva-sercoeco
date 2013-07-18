@@ -684,7 +684,7 @@
 	</style>
 
 	  <span class='titulo'>Bloquear entrada de datos:</span>
-	  <label class='top' for='anyo'>Año:</label>
+	  <label class='top' for='anyo'>Año</label>
 	  <label style='display:inline-block;'>
 		<span class='c-form-combo'>
 	    <select id='anyo' name='anyo'>
