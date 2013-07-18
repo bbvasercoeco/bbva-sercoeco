@@ -68,8 +68,9 @@
   background-position: right 2px !important;
  }
 
- .ui-marmots-label-check.marmots-label-left, .ui-marmots-label-radio.marmots-label-left {
-  padding: 1px 0 10px 26px;
+ .ui-marmots-label-check.marmots-label-left, .ui-marmots-label-radio.marmots-label-left {  
+    padding: 4px 0 10px 12px;
+    vertical-align: text-bottom;
  }
 
  .ui-marmots-label-check.marmots-label-right, .ui-marmots-label-radio.marmots-label-right {
