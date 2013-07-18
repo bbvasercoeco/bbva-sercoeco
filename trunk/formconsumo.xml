@@ -201,7 +201,7 @@ font-weight: normal;
 .btn:hover, .btn2:hover {
     background: none repeat scroll 0 0 #004C99;
 }
-/*END ADMIN*/ 
+/*END ADMIN*/
  </style>
  
 <div id="formularioconsumo"></div>
@@ -216,19 +216,19 @@ font-weight: normal;
 	html +='<form name="admin" id="admin" action="javascript:writeConsumo();" method="get" target="_parent">';
 	html +='<label style="display:inline-block;"><span class="c-form-combo">';
 	html +='<select  name="paises" id="paises" onchange="selectDateOption(this.options[this.selectedIndex].value);">';
-	html +='<option value="Espana" selected="selected">España</option>';
-	html +='<option value="corporativos">Esp. Corp</option>';
+	html +='<option value="ESPAÑA" selected="selected">España</option>';
+	html +='<option value="CORPORATIVOS">Esp. Corp</option>';
 	html +='<option value="ARGENTINA">Argentina</option>';
-	html +='<option value="chile">Chile</option>';
-	html +='<option value="colombia">Colombia</option>';
-	html +='<option value="mexico">Mexico</option>';
-	html +='<option value="panama">Panamá</option>';
-	html +='<option value="paraguay">Paraguay</option>';
-	html +='<option value="peru">Perú</option>';
-	html +='<option value="portugal">Portugal</option>';
-	html +='<option value="uruguay">Uruguay</option>';
-	html +='<option value="venezuela">Venezuela</option>';
-	html +='<option value="usa">USA</option>';
+	html +='<option value="CHILE">Chile</option>';
+	html +='<option value="COLOMBIA">Colombia</option>';
+	html +='<option value="MEXICO">Mexico</option>';
+	html +='<option value="PANAMA">Panamá</option>';
+	html +='<option value="PARAGUAY">Paraguay</option>';
+	html +='<option value="PERU">Perú</option>';
+	html +='<option value="PORTUGAL">Portugal</option>';
+	html +='<option value="URUGUAY">Uruguay</option>';
+	html +='<option value="VENEZUELA">Venezuela</option>';
+	html +='<option value="USA">USA</option>';
 	html +='</select></span></label>';
 	html +='<label class="top" for="anyo">Año:</label>';
 	html +='<label style="display:inline-block;">';
@@ -283,7 +283,7 @@ font-weight: normal;
 	
   }else if (permiso="ESPAÑA CORPORATIVO"){
   
-	html +='<form name="corporativos" action="https://script.google.com/macros/s/AKfycbxe7IDJDZChnmP7EOWAcLS2dboKruvP1NeqQp_G4AY/dev" method="get" target="_parent" >';
+	html +='<form name="CORPORATIVOS" action="https://script.google.com/macros/s/AKfycbxe7IDJDZChnmP7EOWAcLS2dboKruvP1NeqQp_G4AY/dev" method="get" target="_parent" >';
 	html +='<span class="titulo">Seleccionar fase</span>';
 	html +='<label style="display:inline-block;">';
 	html +='<span class="c-form-combo">';
@@ -377,7 +377,7 @@ font-weight: normal;
   }
  
 document.getElementById('formularioconsumo').innerHTML = html;
-} 
+}
  
  
  
