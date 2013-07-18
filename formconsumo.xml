@@ -389,7 +389,7 @@ document.getElementById('formularioconsumo').innerHTML = html;
 
 <script type="text/javascript">
 function writeConsumo(){
-   alert("entro en writeConsumo vers 5");
+   alert("entro en writeConsumo vers 6");
    
    
    /*var anyo = $("#anyo").val();
@@ -417,7 +417,7 @@ function writeConsumo(){
   alert("params "+params);
   $.ajax({
     type: "GET",       
-    url: "https://script.google.com/macros/s/AKfycbxe7IDJDZChnmP7EOWAcLS2dboKruvP1NeqQp_G4AY/dev",
+    url: "https://script.google.com/macros/s/AKfycbyUk-dB9sktomMyVJtgWxRYtBihVV355_JiOAQ8ID0Q9TwG6BQ/exec",
     contentType: 'application/json',
     dataType: 'jsonp',
     data: params,
