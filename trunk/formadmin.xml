@@ -40,7 +40,6 @@
                 $('#lock').checkbox('toggle');
         });
 
-      alert("cambios");
   });
 
  </script>
