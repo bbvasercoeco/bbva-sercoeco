@@ -14,6 +14,7 @@
  <Content type="html">
     <![CDATA[
     
+    <script src="https://www.google.com/jsapi" type="text/javascript"></script>
    <script type='text/javascript' src='http://code.jquery.com/jquery-1.8.2.js'></script>   
    <script type='text/javascript' src='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery-ui-compilation2.js' ></script>
    <script type='text/javascript' src='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.ui.selectmenu.js'></script>
