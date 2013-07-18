@@ -71,6 +71,7 @@
  .ui-marmots-label-check.marmots-label-left, .ui-marmots-label-radio.marmots-label-left {  
     padding: 4px 0 10px 12px;
     vertical-align: text-bottom;
+    margin-left: 10px;
  }
 
  .ui-marmots-label-check.marmots-label-right, .ui-marmots-label-radio.marmots-label-right {
