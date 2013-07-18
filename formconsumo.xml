@@ -389,6 +389,7 @@ document.getElementById('formularioconsumo').innerHTML = html;
 
 <script type="text/javascript">
 function writeConsumo(){
+$(document).ready(function() {
    alert("entro en writeConsumo vers 10");
    
    
@@ -424,6 +425,8 @@ function writeConsumo(){
   }).success(function (){
       alert("Data Saved:");
     });
+  });
+  
   }
 
 function resp(){
