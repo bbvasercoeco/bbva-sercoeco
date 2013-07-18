@@ -15,14 +15,14 @@
     <![CDATA[
     
  <script src="https://www.google.com/jsapi" type="text/javascript"></script>
- <script type='text/javascript' src='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery-1.9.1.min.js'></script>
- <script type='text/javascript' src='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery-ui-compilation2.js' ></script>
- <script type='text/javascript' src='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.ui.selectmenu.js'></script>
- <script type='text/javascript' src='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.marmots-checkbox.js'></script>
+ <script type='text/javascript' src='https://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery-1.9.1.min.js'></script>
+ <script type='text/javascript' src='https://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery-ui-compilation2.js' ></script>
+ <script type='text/javascript' src='https://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.ui.selectmenu.js'></script>
+ <script type='text/javascript' src='https://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.marmots-checkbox.js'></script>
    
- <link rel='stylesheet' type='text/css' href='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jqueryui.css' media='screen'>
- <link rel='stylesheet' type='text/css' href='http://bbva-sercoeco.googlecode.com/svn/trunk/js/bbva-components-forms.css' media='screen'>
- <link rel='stylesheet' type='text/css' href='http://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.marmots-checkbox.css' media='screen'>
+ <link rel='stylesheet' type='text/css' href='https://bbva-sercoeco.googlecode.com/svn/trunk/js/jqueryui.css' media='screen'>
+ <link rel='stylesheet' type='text/css' href='https://bbva-sercoeco.googlecode.com/svn/trunk/js/bbva-components-forms.css' media='screen'>
+ <link rel='stylesheet' type='text/css' href='https://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.marmots-checkbox.css' media='screen'>
 
 	
 <style type="text/css">
@@ -390,7 +390,7 @@ document.getElementById('formularioconsumo').innerHTML = html;
 <script type="text/javascript">
 function writeConsumo(){
 //$(document).ready(function() {
-   alert("entro en writeConsumo vers 12");
+   alert("entro en writeConsumo vers 13");
    
    
    var anyo = $("#anyo").val();
