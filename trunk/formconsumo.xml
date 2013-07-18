@@ -218,7 +218,7 @@ font-weight: normal;
 	html +='<select  name="paises" id="paises" onchange="selectDateOption(this.options[this.selectedIndex].value);">';
 	html +='<option value="Espana" selected="selected">España</option>';
 	html +='<option value="corporativos">Esp. Corp</option>';
-	html +='<option value="argentina">Argentina</option>';
+	html +='<option value="ARGENTINA">Argentina</option>';
 	html +='<option value="chile">Chile</option>';
 	html +='<option value="colombia">Colombia</option>';
 	html +='<option value="mexico">Mexico</option>';
@@ -412,7 +412,7 @@ function writeConsumo(){
    var videotele= $("#videotele").val();*/
    
    
-  //var params ="paises="+pais+"anyo="+anyo+"meses="+meses+"eleckw="+eleckw+"eleceuro="+eleceuro+"aguam="+aguam+"aguaeuro="+aguaeuro+"papelm="+papelm+"papeleuro="+papeleuro+"gasnaturalm="+gasnaturalm+"gasnaturaleuro="+gasnaturaleuro+"gasl="+gasl+"gaseuro="+gaseuro+"viajeavion="+viajeavion+"viajeavion2="+viajeavion2+"viajeavion3="+viajeavion3+"videotele="+videotele;
+  //var params ="country="+pais+"anyo="+anyo+"meses="+meses+"eleckw="+eleckw+"eleceuro="+eleceuro+"aguam="+aguam+"aguaeuro="+aguaeuro+"papelm="+papelm+"papeleuro="+papeleuro+"gasnaturalm="+gasnaturalm+"gasnaturaleuro="+gasnaturaleuro+"gasl="+gasl+"gaseuro="+gaseuro+"viajeavion="+viajeavion+"viajeavion2="+viajeavion2+"viajeavion3="+viajeavion3+"videotele="+videotele;
    var params = document.getElementById("admin").serialize();
   alert("params "+params);
   $.ajax({
