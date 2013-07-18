@@ -389,8 +389,10 @@ document.getElementById('formularioconsumo').innerHTML = html;
 
 <script type="text/javascript">
 function writeConsumo(){
-   alert("entro en writeConsumo");
-   var anyo = $("#anyo").val();
+   alert("entro en writeConsumo vers 1");
+   
+   
+   /*var anyo = $("#anyo").val();
    var meses = $("#meses").val();
    var pais = $("#paises").val();
    var eleckw = $("#eleckw").val();
@@ -407,12 +409,12 @@ function writeConsumo(){
    var viajeavion= $("#viajeavion").val();
    var viajeavion2= $("#viajeavion2").val();
    var viajeavion3= $("#viajeavion3").val();
-   var videotele= $("#videotele").val();
+   var videotele= $("#videotele").val();*/
    
    
-   var params ="paises="+pais+"anyo="+anyo+"meses="+meses+"eleckw="+eleckw+"eleceuro="+eleceuro+"aguam="+aguam+"aguaeuro="+aguaeuro+"papelm="+papelm+"papeleuro="+papeleuro+"gasnaturalm="+gasnaturalm+"gasnaturaleuro="+gasnaturaleuro+"gasl="+gasl+"gaseuro="+gaseuro+"viajeavion="+viajeavion+"viajeavion2="+viajeavion2+"viajeavion3="+viajeavion3+"videotele="+videotele;
-   
-   alert(anyo);
+  //var params ="paises="+pais+"anyo="+anyo+"meses="+meses+"eleckw="+eleckw+"eleceuro="+eleceuro+"aguam="+aguam+"aguaeuro="+aguaeuro+"papelm="+papelm+"papeleuro="+papeleuro+"gasnaturalm="+gasnaturalm+"gasnaturaleuro="+gasnaturaleuro+"gasl="+gasl+"gaseuro="+gaseuro+"viajeavion="+viajeavion+"viajeavion2="+viajeavion2+"viajeavion3="+viajeavion3+"videotele="+videotele;
+   var params = document.forms["admin"].serialize();
+  alert(anyo);
   $.ajax({
     type: "GET",       
     url: "https://script.google.com/macros/s/AKfycbxe7IDJDZChnmP7EOWAcLS2dboKruvP1NeqQp_G4AY/dev",
@@ -448,7 +450,7 @@ function getData(){
 
 </script>
 	  
-	//document.forms["formSearch"]["fechas"].value;  	
+	//document.forms["admin"].serialize;  	
 	
 
 
