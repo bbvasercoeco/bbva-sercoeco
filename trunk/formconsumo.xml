@@ -389,11 +389,13 @@ document.getElementById('formularioconsumo').innerHTML = html;
 
 <script type="text/javascript">
 function writeConsumo(){
-$(document).ready(function() {
-   alert("entro en writeConsumo vers 11");
+//$(document).ready(function() {
+   alert("entro en writeConsumo vers 12");
    
    
-   /*var anyo = $("#anyo").val();
+   var anyo = $("#anyo").val();
+   alert("anyo "+anyo);
+   /*
    var meses = $("#meses").val();
    var pais = $("#paises").val();
    var eleckw = $("#eleckw").val();
@@ -410,7 +412,8 @@ $(document).ready(function() {
    var viajeavion= $("#viajeavion").val();
    var viajeavion2= $("#viajeavion2").val();
    var viajeavion3= $("#viajeavion3").val();
-   var videotele= $("#videotele").val();*/
+   var videotele= $("#videotele").val();
+   */
    
    
   //var params ="country="+pais+"anyo="+anyo+"meses="+meses+"eleckw="+eleckw+"eleceuro="+eleceuro+"aguam="+aguam+"aguaeuro="+aguaeuro+"papelm="+papelm+"papeleuro="+papeleuro+"gasnaturalm="+gasnaturalm+"gasnaturaleuro="+gasnaturaleuro+"gasl="+gasl+"gaseuro="+gaseuro+"viajeavion="+viajeavion+"viajeavion2="+viajeavion2+"viajeavion3="+viajeavion3+"videotele="+videotele;
@@ -425,7 +428,7 @@ $(document).ready(function() {
   }).success(function (){
       alert("Data Saved:");
     });
-  });
+ // });
   
   }
 
