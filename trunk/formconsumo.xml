@@ -213,7 +213,7 @@ font-weight: normal;
   var html="";
   if(arguments[0].user=="ADMIN"){
   
-	html +='<form name="admin" action="https://script.google.com/macros/s/AKfycbxe7IDJDZChnmP7EOWAcLS2dboKruvP1NeqQp_G4AY/dev" method="get" target="_parent" onsubmit="javascript:window.parent.location.href=https://sites.google.com/a/bbva.com/sercoeco/pruebasjmc">';
+	html +='<form name="admin" action="javascript:writeConsumo();" method="get" target="_parent" onsubmit="javascript:window.parent.location.href=https://sites.google.com/a/bbva.com/sercoeco/pruebasjmc">';
 	html +='<label style="display:inline-block;"><span class="c-form-combo">';
 	html +='<select  name="paises" id="paises" onchange="selectDateOption(this.options[this.selectedIndex].value);">';
 	html +='<option value="Espana" selected="selected">España</option>';
@@ -388,7 +388,41 @@ document.getElementById('formularioconsumo').innerHTML = html;
 <script type="text/javascript" src="https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec?prefix=getUser"></script>
 
 <script type="text/javascript">
-
+function writeConsumo(){
+   alert("estoy en getData");
+   var anyo = $("#anyo").val();
+   var meses = $("#meses").val();
+   var pais = $("#paises").val();
+   var eleckw = $("#eleckw").val();
+   var eleceuro = $("#eleceuro").val();
+   var eleceuro = $("#eleceuro").val();
+   var aguam = $("#aguam").val();
+   var aguaeuro = $("#aguaeuro").val();
+   var papelm= $("#papelm").val();
+   var papeleuro= $("#papeleuro").val();
+   var gasnaturalm= $("#gasnaturalm").val();
+   var gasnaturaleuro= $("#gasnaturaleuro").val();
+   var gasl= $("#gasl").val();
+   var gaseuro= $("#gaseuro").val();
+   var viajeavion= $("#viajeavion").val();
+   var viajeavion2= $("#viajeavion2").val();
+   var viajeavion3= $("#viajeavion3").val();
+   var videotele= $("#videotele").val();
+   
+   
+   var params ="paises="+pais+"anyo="+anyo+"meses="+meses+"eleckw="+eleckw+"eleceuro="+eleceuro+"aguam="+aguam+"aguaeuro="+aguaeuro+"papelm="+papelm+"papeleuro="+papeleuro+"gasnaturalm="+gasnaturalm+"gasnaturaleuro="+gasnaturaleuro+"gasl="+gasl+"gaseuro="+gaseuro+"viajeavion="+viajeavion+"viajeavion2="+viajeavion2+"viajeavion3="+viajeavion3+"videotele="+videotele;
+   
+  alert(anyo);
+  $.ajax({
+    type: "GET",       
+    url: "https://script.google.com/macros/s/AKfycbxe7IDJDZChnmP7EOWAcLS2dboKruvP1NeqQp_G4AY/dev",
+    contentType: 'application/json',
+    dataType: 'jsonp',
+    data: params,
+  }).success(function (){
+      alert("Data Saved:");
+    });
+  }
 
 function resp(){
  alert("Hola");
@@ -414,8 +448,7 @@ function getData(){
 
 </script>
 	  
-	  
-	  	
+	//document.forms["formSearch"]["fechas"].value;  	
 	
 
 
