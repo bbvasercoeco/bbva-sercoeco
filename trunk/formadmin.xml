@@ -24,10 +24,9 @@
 
  $(document).ready(function() {
 
- 		$('#anyo').selectmenu({ width: 90 });
+ 		   $('#anyo').selectmenu({ width: 90 });
  
         // Checkbox actions
-
         $('#checkbox-check').button().click(function(){
                 $('#lock').checkbox('check');
         });
