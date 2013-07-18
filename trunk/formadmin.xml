@@ -438,7 +438,8 @@
  }
 
  .ui-selectmenu-menu .ui-selectmenu-menu-dropdown {
- 	font-family: arial
+ 	font-family: arial;
+   height: 111px !important;
  }
 
  .ui-selectmenu-menu .ui-selectmenu-menu-dropdown li {
