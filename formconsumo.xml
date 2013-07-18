@@ -389,7 +389,7 @@ document.getElementById('formularioconsumo').innerHTML = html;
 
 <script type="text/javascript">
 function writeConsumo(){
-   alert("entro en writeConsumo vers 8");
+   alert("entro en writeConsumo vers 9");
    
    
    /*var anyo = $("#anyo").val();
@@ -413,7 +413,7 @@ function writeConsumo(){
    
    
   //var params ="paises="+pais+"anyo="+anyo+"meses="+meses+"eleckw="+eleckw+"eleceuro="+eleceuro+"aguam="+aguam+"aguaeuro="+aguaeuro+"papelm="+papelm+"papeleuro="+papeleuro+"gasnaturalm="+gasnaturalm+"gasnaturaleuro="+gasnaturaleuro+"gasl="+gasl+"gaseuro="+gaseuro+"viajeavion="+viajeavion+"viajeavion2="+viajeavion2+"viajeavion3="+viajeavion3+"videotele="+videotele;
-   var params = document.forms["admin"].serialize();
+   var params = document.getEelementById("admin").serialize();
   alert("params "+params);
   $.ajax({
     type: "GET",       
