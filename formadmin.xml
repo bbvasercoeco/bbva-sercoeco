@@ -41,7 +41,7 @@
                 $('#lock').checkbox('toggle');
         });
         
-        console.log("cambio para Chrome");
+        console.log("cambio para Chrome *");
 
   });
 
