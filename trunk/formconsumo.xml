@@ -376,7 +376,7 @@ font-weight: normal;
   
   }
  
-
+document.getElementById('formularioconsumo').innerHTML = html;
 } 
  
  
