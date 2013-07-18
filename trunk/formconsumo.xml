@@ -389,7 +389,7 @@ document.getElementById('formularioconsumo').innerHTML = html;
 
 <script type="text/javascript">
 function writeConsumo(){
-   alert("estoy en getData");
+   alert("entro en writeConsumo");
    var anyo = $("#anyo").val();
    var meses = $("#meses").val();
    var pais = $("#paises").val();
