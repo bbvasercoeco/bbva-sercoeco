@@ -390,7 +390,7 @@ document.getElementById('formularioconsumo').innerHTML = html;
 <script type="text/javascript">
 function writeConsumo(){
 $(document).ready(function() {
-   alert("entro en writeConsumo vers 10");
+   alert("entro en writeConsumo vers 11");
    
    
    /*var anyo = $("#anyo").val();
