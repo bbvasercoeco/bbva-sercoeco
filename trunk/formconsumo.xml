@@ -394,7 +394,7 @@ document.getElementById('formularioconsumo').innerHTML = html;
 
  function writeConsumo(){
 
-  alert("entro en writeConsumo vers 35");
+  alert("entro en writeConsumo vers 36");
   var params = $("#admin").serialize();
   alert("params "+params);
   $.ajax({
@@ -404,12 +404,17 @@ document.getElementById('formularioconsumo').innerHTML = html;
     dataType: 'jsonp',
     data: params,
 	prefix: "doGet",
-  }).success(function doGet(){
-      alert("Data Saved:");
-    });
-
+    success: function(){
+			alert("Data Saved:");
+	
+	
+	},
+    failure: function(){
+   		    alert("Data NOT Saved:");   	
+    }
+  })
   
-  }
+}
 
   
   
