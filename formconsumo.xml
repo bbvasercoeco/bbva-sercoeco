@@ -215,7 +215,7 @@ font-weight: normal;
   
 	html +='<form name="admin" id="admin" action="javascript:writeConsumo();" method="get">';
 	html +='<label style="display:inline-block;"><span class="c-form-combo">';
-	html +='<select  name="country" id="paises" onchange="selectDateOption(this.options[this.selectedIndex].value);">';
+	html +='<select  name="country" id="country" onchange="selectDateOption(this.options[this.selectedIndex].value);">';
 	html +='<option value="ESPAÑA" selected="selected">España</option>';
 	html +='<option value="CORPORATIVOS">Esp. Corp</option>';
 	html +='<option value="ARGENTINA">Argentina</option>';
@@ -394,7 +394,7 @@ document.getElementById('formularioconsumo').innerHTML = html;
 
  function writeConsumo(){
 
-  alert("entro en writeConsumo vers 36");
+  alert("entro en writeConsumo vers 37");
   var params = $("#admin").serialize();
   alert("params "+params);
   $.ajax({
