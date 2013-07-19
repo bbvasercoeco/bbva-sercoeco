@@ -423,7 +423,7 @@ document.getElementById('btnsubmit').onclick = function (){writeConsumo();};
   alert("params "+params);
   $.ajax({
     type: "GET",       
-    url: window.parent.location.href="https://script.google.com/macros/s/AKfycbyUk-dB9sktomMyVJtgWxRYtBihVV355_JiOAQ8ID0Q9TwG6BQ/exec",
+    url: "https://script.google.com/macros/s/AKfycbyUk-dB9sktomMyVJtgWxRYtBihVV355_JiOAQ8ID0Q9TwG6BQ/exec",
     contentType: 'application/json',
     dataType: 'jsonp',
     data: params,
