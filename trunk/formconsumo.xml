@@ -379,18 +379,9 @@ font-weight: normal;
 document.getElementById('formularioconsumo').innerHTML = html;
 }
  
- 
- 
- </script>
- 
- 
- 
-<script type="text/javascript" src="https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec?prefix=getUser"></script>
-
-<script type="text/javascript">
-function writeConsumo(){
+ function writeConsumo(){
 //$(document).ready(function() {
-   alert("entro en writeConsumo vers 16");
+   alert("entro en writeConsumo vers 17");
    
    
    var anyo = $("#anyo").val();
@@ -431,6 +422,15 @@ function writeConsumo(){
  // });
   
   }
+ 
+ </script>
+ 
+ 
+ 
+<script type="text/javascript" src="https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec?prefix=getUser"></script>
+
+<script type="text/javascript">
+
 
 function resp(){
  alert("Hola");
