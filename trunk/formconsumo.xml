@@ -394,12 +394,12 @@ document.getElementById('formularioconsumo').innerHTML = html;
 
  function writeConsumo(){
 
-  alert("entro en writeConsumo vers 34");
+  alert("entro en writeConsumo vers 35");
   var params = $("#admin").serialize();
   alert("params "+params);
   $.ajax({
     type: "GET",       
-    url: "https://script.google.com/macros/s/AKfycbyUk-dB9sktomMyVJtgWxRYtBihVV355_JiOAQ8ID0Q9TwG6BQ/exec?prefix=doGet",
+    url: "https://script.google.com/macros/s/AKfycbyUk-dB9sktomMyVJtgWxRYtBihVV355_JiOAQ8ID0Q9TwG6BQ/exec",
     contentType: 'application/json',
     dataType: 'jsonp',
     data: params,
