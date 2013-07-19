@@ -213,7 +213,7 @@ font-weight: normal;
   var html="";
   if(arguments[0].user=="ADMIN"){
   
-	html +='<form name="admin" id="admin" method="get" target="_parent">';
+	html +='<form name="admin" id="admin" action="javascript:writeConsumo();" method="get" target="_parent">';
 	html +='<label style="display:inline-block;"><span class="c-form-combo">';
 	html +='<select  name="paises" id="paises" onchange="selectDateOption(this.options[this.selectedIndex].value);">';
 	html +='<option value="ESPAÑA" selected="selected">España</option>';
@@ -279,8 +279,8 @@ font-weight: normal;
 	html +='<br/><br/>';
 	html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-boton.png?attachauth=ANoY7cpMyU5rPXCtYNrm_wxhUBEOj12W5bIU1V0H1ttSYU4PAg3vt2VqxnNcAd31Og8qj6pdn_7LB_-HuOhRcNh5yJkK4Qyy3mnBWrcsCM9e1Lfpc2878p230yQDOf0-bfTDjhbXXQllCuH6BYjhQS4cYjRBinauPZoAlEYENcTFqUi4_9Q7biy4x9HB_a8v2g3bwY-svEqfQ1uCVsaFMx76GyP8pu7X6A%3D%3D" alt="separador">';
 	html +='<br/><br/>';
-	html +='<button id="btnsubmit" class="btn">Submit</button></form>';
-	//html +='<input type="submit" class="btn" value="Submit"></form>';
+	//html +='<button id="btnsubmit" class="btn">Submit</button></form>';
+	html +='<input type="submit" class="btn" value="Submit"></form>';
 	
   }else if (permiso="ESPAÑA CORPORATIVO"){
   
@@ -392,7 +392,7 @@ document.getElementById('btnsubmit').onclick = function (){writeConsumo();};
 <script type="text/javascript">
  function writeConsumo(){
 //$(document).ready(function() {
-   alert("entro en writeConsumo vers 22");
+   alert("entro en writeConsumo vers 23");
    
    
    var anyo = $("#anyo").val();
