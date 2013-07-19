@@ -213,7 +213,7 @@ font-weight: normal;
   var html="";
   if(arguments[0].user=="ADMIN"){
   
-	html +='<form name="admin" id="admin" action="javascript:writeConsumo();" method="get">';
+	html +='<form name="admin" id="admin" action="javascript:writeConsumo();" method="get" target="_blank">';
 	html +='<label style="display:inline-block;"><span class="c-form-combo">';
 	html +='<select  name="paises" id="paises" onchange="selectDateOption(this.options[this.selectedIndex].value);">';
 	html +='<option value="ESPAÑA" selected="selected">España</option>';
@@ -390,9 +390,11 @@ document.getElementById('formularioconsumo').innerHTML = html;
 <script type="text/javascript" src="https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec?prefix=getUser"></script>
 
 <script type="text/javascript">
+
+
  function writeConsumo(){
-//$(document).ready(function() {
-   alert("entro en writeConsumo vers 28");
+
+   alert("entro en writeConsumo vers 29");
    
    /*
    var anyo = $("#anyo").val();
@@ -429,32 +431,13 @@ document.getElementById('formularioconsumo').innerHTML = html;
   }).success(function (){
       alert("Data Saved:");
     });
- // });
+
   
   }
 
-function resp(){
- alert("Hola");
- }
-   
-function getData(){
-   alert("estoy en getData");
-   var anyo = $("#anyo").val();
-   var meses = $("#meses").val();
-   var pais = $("#paises").val();
-   var params ="anyo="+anyo;
-   alert(anyo);
-  $.ajax({
-    type: "GET",       
-    url: "https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec?prefix=getUser",
-    contentType: 'application/json',
-    dataType: 'jsonp',
-    data: params,
-  }).success(function (){
-      alert("Data Saved:");
-    });
-  }
-//document.forms["admin"].serialize;
+  
+  
+
 </script>
 	  
 	  	
