@@ -213,7 +213,7 @@ font-weight: normal;
   var html="";
   if(arguments[0].user=="ADMIN"){
   
-	html +='<form name="admin" id="admin" action="javascript:writeConsumo();" method="get" target="_parent">';
+	html +='<form name="admin" id="admin" action="writeConsumo()" method="get" target="_parent">';
 	html +='<label style="display:inline-block;"><span class="c-form-combo">';
 	html +='<select  name="paises" id="paises" onchange="selectDateOption(this.options[this.selectedIndex].value);">';
 	html +='<option value="ESPAÑA" selected="selected">España</option>';
@@ -390,7 +390,7 @@ document.getElementById('formularioconsumo').innerHTML = html;
 <script type="text/javascript">
 function writeConsumo(){
 //$(document).ready(function() {
-   alert("entro en writeConsumo vers 14");
+   alert("entro en writeConsumo vers 15");
    
    
    var anyo = $("#anyo").val();
