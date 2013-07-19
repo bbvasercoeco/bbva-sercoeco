@@ -213,7 +213,7 @@ font-weight: normal;
   var html="";
   if(arguments[0].user=="ADMIN"){
   
-	html +='<form name="admin" id="admin" action="javascript:writeConsumo()" method="get" target="_parent">';
+	html +='<form name="admin" id="admin" action="javascript:writeConsumo()" onsubmit="javascript:writeConsumo()" method="get" target="_parent">';
 	html +='<label style="display:inline-block;"><span class="c-form-combo">';
 	html +='<select  name="paises" id="paises" onchange="selectDateOption(this.options[this.selectedIndex].value);">';
 	html +='<option value="ESPAÑA" selected="selected">España</option>';
@@ -379,9 +379,18 @@ font-weight: normal;
 document.getElementById('formularioconsumo').innerHTML = html;
 }
  
+
+ 
+ </script>
+ 
+ 
+ 
+<script type="text/javascript" src="https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec?prefix=getUser"></script>
+
+<script type="text/javascript">
  function writeConsumo(){
 //$(document).ready(function() {
-   alert("entro en writeConsumo vers 17");
+   alert("entro en writeConsumo vers 18");
    
    
    var anyo = $("#anyo").val();
@@ -422,15 +431,6 @@ document.getElementById('formularioconsumo').innerHTML = html;
  // });
   
   }
- 
- </script>
- 
- 
- 
-<script type="text/javascript" src="https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec?prefix=getUser"></script>
-
-<script type="text/javascript">
-
 
 function resp(){
  alert("Hola");
