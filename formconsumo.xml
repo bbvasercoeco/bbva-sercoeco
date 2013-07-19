@@ -20,9 +20,9 @@
  <script type='text/javascript' src='https://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.ui.selectmenu.js'></script>
  <script type='text/javascript' src='https://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.marmots-checkbox.js'></script>
    
- <link rel='stylesheet' type='text/css' href='https://bbva-sercoeco.googlecode.com/svn/trunk/js/jqueryui.css' media='screen'/>
- <link rel='stylesheet' type='text/css' href='https://bbva-sercoeco.googlecode.com/svn/trunk/js/bbva-components-forms.css' media='screen'/>
- <link rel='stylesheet' type='text/css' href='https://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.marmots-checkbox.css' media='screen'/>
+ <link rel='stylesheet' type='text/css' href='https://bbva-sercoeco.googlecode.com/svn/trunk/js/jqueryui.css' media='screen'>
+ <link rel='stylesheet' type='text/css' href='https://bbva-sercoeco.googlecode.com/svn/trunk/js/bbva-components-forms.css' media='screen'>
+ <link rel='stylesheet' type='text/css' href='https://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.marmots-checkbox.css' media='screen'>
 
 	
 <style type="text/css">
