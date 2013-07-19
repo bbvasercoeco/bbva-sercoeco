@@ -392,7 +392,7 @@ document.getElementById('formularioconsumo').innerHTML = html;
 <script type="text/javascript">
  function writeConsumo(){
 //$(document).ready(function() {
-   alert("entro en writeConsumo vers 27");
+   alert("entro en writeConsumo vers 28");
    
    /*
    var anyo = $("#anyo").val();
@@ -422,7 +422,7 @@ document.getElementById('formularioconsumo').innerHTML = html;
   alert("params "+params);
   $.ajax({
     type: "GET",       
-    url: "https://script.google.com/macros/s/AKfycbyUk-dB9sktomMyVJtgWxRYtBihVV355_JiOAQ8ID0Q9TwG6BQ/exec",
+    url: "https://script.google.com/macros/s/AKfycbxe7IDJDZChnmP7EOWAcLS2dboKruvP1NeqQp_G4AY/exec",
     contentType: 'application/json',
     dataType: 'jsonp',
     data: params,
