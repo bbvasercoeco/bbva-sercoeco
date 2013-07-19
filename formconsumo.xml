@@ -213,7 +213,7 @@ font-weight: normal;
   var html="";
   if(arguments[0].user=="ADMIN"){
   
-	html +='<form name="admin" id="admin" action="javascript:writeConsumo();" method="get" >';
+	html +='<form name="admin" id="admin" action="javascript:writeConsumo();" method="get">';
 	html +='<label style="display:inline-block;"><span class="c-form-combo">';
 	html +='<select  name="paises" id="paises" onchange="selectDateOption(this.options[this.selectedIndex].value);">';
 	html +='<option value="ESPAÑA" selected="selected">España</option>';
@@ -280,7 +280,7 @@ font-weight: normal;
 	html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-boton.png?attachauth=ANoY7cpMyU5rPXCtYNrm_wxhUBEOj12W5bIU1V0H1ttSYU4PAg3vt2VqxnNcAd31Og8qj6pdn_7LB_-HuOhRcNh5yJkK4Qyy3mnBWrcsCM9e1Lfpc2878p230yQDOf0-bfTDjhbXXQllCuH6BYjhQS4cYjRBinauPZoAlEYENcTFqUi4_9Q7biy4x9HB_a8v2g3bwY-svEqfQ1uCVsaFMx76GyP8pu7X6A%3D%3D" alt="separador">';
 	html +='<br/><br/>';
 	//html +='<button id="btnsubmit" class="btn">Submit</button></form>';
-	html +='<input type="submit" class="btn" value="Submit"></form>';
+	html +='<input type="submit" class="btn" value="Submit"/></form>';
 	
   }else if (permiso="ESPAÑA CORPORATIVO"){
   
@@ -394,41 +394,17 @@ document.getElementById('formularioconsumo').innerHTML = html;
 
  function writeConsumo(){
 
-   alert("entro en writeConsumo vers 31");
-   
-   /*
-   var anyo = $("#anyo").val();
-   alert("anyo "+anyo);
-   var meses = $("#meses").val();
-   var pais = $("#paises").val();
-   var eleckw = $("#eleckw").val();
-   var eleceuro = $("#eleceuro").val();
-   var eleceuro = $("#eleceuro").val();
-   var aguam = $("#aguam").val();
-   var aguaeuro = $("#aguaeuro").val();
-   var papelm= $("#papelm").val();
-   var papeleuro= $("#papeleuro").val();
-   var gasnaturalm= $("#gasnaturalm").val();
-   var gasnaturaleuro= $("#gasnaturaleuro").val();
-   var gasl= $("#gasl").val();
-   var gaseuro= $("#gaseuro").val();
-   var viajeavion= $("#viajeavion").val();
-   var viajeavion2= $("#viajeavion2").val();
-   var viajeavion3= $("#viajeavion3").val();
-   var videotele= $("#videotele").val();
-   */
-   
-   
-  //var params ="country="+pais+"anyo="+anyo+"meses="+meses+"eleckw="+eleckw+"eleceuro="+eleceuro+"aguam="+aguam+"aguaeuro="+aguaeuro+"papelm="+papelm+"papeleuro="+papeleuro+"gasnaturalm="+gasnaturalm+"gasnaturaleuro="+gasnaturaleuro+"gasl="+gasl+"gaseuro="+gaseuro+"viajeavion="+viajeavion+"viajeavion2="+viajeavion2+"viajeavion3="+viajeavion3+"videotele="+videotele;
-   var params = $("#admin").serialize();
+  alert("entro en writeConsumo vers 33");
+  var params = $("#admin").serialize();
   alert("params "+params);
   $.ajax({
     type: "GET",       
-    url: "https://script.google.com/macros/s/AKfycbyUk-dB9sktomMyVJtgWxRYtBihVV355_JiOAQ8ID0Q9TwG6BQ/exec",
+    url: "https://script.google.com/macros/s/AKfycbyUk-dB9sktomMyVJtgWxRYtBihVV355_JiOAQ8ID0Q9TwG6BQ/exec?prefix=doGet",
     contentType: 'application/json',
     dataType: 'jsonp',
     data: params,
-  }).success(function (){
+	prefix: "doGet",
+  }).success(function doGet(){
       alert("Data Saved:");
     });
 
