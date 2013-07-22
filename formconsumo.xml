@@ -312,7 +312,16 @@ ul li span.c-form-combo{
 <div id="formularioconsumo"></div>
 
 <script type='text/javascript'>
+function Loaditems()
+	{
+		$(document).ready(function()
+		{
+			$('#anyo').selectmenu({ width: 225 });
+			$('#meses').selectmenu({ width: 225 });
+			//console.log("cargo los select");
+		});
 
+	}
 function backCall(){
 
 	
@@ -566,6 +575,7 @@ function getData(){
   }
 
 document.getElementById('formularioconsumo').innerHTML = html;
+Loaditems();
 //document.getElementById('btnsubmit').onclick = function (){writeConsumo();};
 }
  
