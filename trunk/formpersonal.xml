@@ -27,181 +27,201 @@
 	
 <style type="text/css">
 /*ADMIN*/
-/* @group general */
-body, html {
-	font-size: 125%;
-	background-color: rgb(255, 255, 255);
-}
+	/* @group general */
+	body, html {
+		font-size: 125%;
+		background-color: rgb(255, 255, 255);
+	}
 
-body {
-	font-size: 0.5em;
-	font-family: Arial,sans-serif;
-	color: rgb(0, 76, 153);
-	text-align: left;
-}
-/* @end */
-h1 {
-	font-size:30px;
-	color:#0078D2;
-	font-family: 'BBVA Web Light', Arial;
-	font-weight: normal;
-}
-label.bottom {
-	font-size:12px;
-	font-family:arial;
-	padding-right:15px;
-}
-label.top {
-	font-family:arial;
-	font-size:12px;
-	color:#71777F;
-	margin: 0 20px;
-	display:inline-block;
-	vertical-align: text-bottom;
-	margin-bottom: 10px;
-}
+	body {
+		font-size: 0.5em;
+		font-family: Arial,sans-serif;
+		color: rgb(0, 76, 153);
+		text-align: left;
+	}
+	/* @end */
+	h1 {
+		font-size:30px;
+		color:#0078D2;
+		font-family: 'BBVA Web Light', Arial;
+		font-weight: normal;
+	}
+	label.bottom {
+		font-size:18px;
+		font-family: 'BBVA Web Light', Arial;
+		padding-right:15px;
+		color: #0078D2;
+		display: inline-block;
+		width: 210px;
+	}
+	label.top {
+		font-family:Arial;
+		font-size:12px;
+		font-weight:bold;
+		color:#71777F;
+		margin: 0 5px 12px;
+		display:inline-block;
+		vertical-align: text-bottom;
+	}
 
-span.titulo {
-	font-size:18px;
-	color:#0078D2;
-	display:inline-block;
-	padding-right:20px;
-	margin-bottom: 10px;
-	font-family: 'BBVA Web Light', Arial;
-	vertical-align: text-bottom;
-}
-label.km {
-	display:inline-block;
-	width: 156px;
-	font-family:Arial;
-	color:#71777F;
-	font-size:12px;
-}
-.negrita {
-	font-family: arial;
-	font-weight:bold;
-	font-size:12px;
-	color:#434A58;
-	width:100px;
-	display:inline-block;
-}
-.negrita2 {
-	font-family: arial;
-	font-weight:bold;
-	font-size:12px;
-	color:#434A58;
-	width:293px;
-	display:inline-block;
-}
-span.medida {
-	display:inline-block;
-	width:40px;
-	padding-left:10px;
-	font-family:Arial;
-	color:#71777F;
-	font-size:12px;
-}
-span.moneda {
-	display:inline-block;
-	width:40px;
-	padding-left:10px;
-	font-family:Arial;
-	color:#71777F;
-	font-size:12px;
-}
-hr {
-	color:#D5E2EE;
-}
-input[type='text'].textbox {
-	border: 1px solid rgb(232, 232, 230);
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	box-shadow: inset 0pt 2px 2px rgb(214, 214, 214);
-	-moz-box-shadow: inset 0pt 2px 2px rgb(214, 214, 214);
-	-webkit-box-shadow: inset 0pt 2px 2px rgb(214, 214, 214);
-	color: #434A58;
-	font: 12px Arial, sans-serif;
-	padding: .583em .755em .5em .755em;
-	height: auto;
-	margin:0;
-}
-input[type='text'].textbox:focus {
-	background-color: rgb(255, 255, 245);
-	box-shadow: inset 0pt 0pt 0pt 2px rgb(222, 244, 251), 0pt 2px 2px rgb(214, 214, 214);
-	-moz-box-shadow: inset 0pt 0pt 0pt 2px rgb(222, 244, 251), 0pt 2px 2px rgb(214, 214, 214);
-	-webkit-box-shadow: inset 0pt 0pt 0pt 2px rgb(222, 244, 251), 0pt 2px 2px rgb(214, 214, 214);
-}
-input.text, textarea.text {
-	font-size: 1.2em;
-	height: 2.333em;
-	line-height: 2.333em;
-	padding: 0em 0.75em;
-	border-radius: 5px 5px 5px 5px;
-	box-shadow: 0pt 2px 2px rgb(214, 214, 214) inset;
-	font-family: arial;
-	border: 1px solid rgb(232, 232, 230);
-	color: rgb(67, 74, 88);
-}
-input.text:focus, textarea.text:focus {
-	box-shadow: 0pt 0pt 0pt 2px rgb(222, 244, 251), 0pt 2px 2px rgb(214, 214, 214) inset;
-	color: rgb(67, 74, 88);
-	outline: medium none;
-	border: 1px solid rgb(232, 232, 230);
-	background-color: rgb(255, 255, 245);
-	background-image: none;
-}
-input[type='text'].euro {
-	background: url('https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/textbox_euro.png?attachauth=ANoY7crb61Dk5wVuXpHpXLJdgG5s5TC7ArUCvf1RK-F8A0trn_iH3vnFD1oyTFeXb2tgFxcl-a3fWcQdrAFaAlVwwDiy8luemh4xc1EQ_3XLYZ6nY2bxWcpeYn2Kbd_KQi6Iy7RBs0IsEy4Of3aAvkQIlEFwyAWa_2V8J-Uf-9tLZQx_hD-R7PaWzJUzHgrj2rn01Se2GklAIIg4cculDSziBzu0DcjeuQ%3D%3D') 98% center no-repeat;
-	padding-right: 30px;
-	text-align: right;
-}/* @group fonts */
-@font-face {
-font-family: 'BBVA Web Light';
-src:url('https://sites.google.com/a/bbva.com/sercoeco/web-light.eot');
-src:url('https://sites.google.com/a/bbva.com/sercoeco/web-light.eot?iefix') format('embedded-opentype'), url('https://sites.google.com/a/bbva.com/sercoeco/web-light.woff') format('woff'), url('https://sites.google.com/a/bbva.com/sercoeco/web-light.ttf') format('truetype'), url('https://sites.google.com/a/bbva.com/sercoeco/web-light.svg#BBVA Web Light') format('svg');
-font-style: normal;
-font-weight: normal;
-}/* @group fonts */
-.btn {
-    background: linear-gradient(to bottom, #0079C1 0%, #00559D 100%) repeat scroll 0 0 transparent;
-    border: 0.1em solid #00559D;
-    border-radius: 0.3em 0.3em 0.3em 0.3em;
-    color: white;
-    cursor: pointer;
-    font-size: 12px;
-    height: 30px;
-    margin-bottom: 20px;
-    margin-left: 490px;
-    padding-bottom: 2px;
-    padding-left: 0.9em;
-    padding-right: 0.9em;
-    text-align: center;
-    vertical-align: middle;
-    width: 66px;
-}
+	span.titulo {
+		font-size:18px;
+		color:#0078D2;
+		display:inline-block;
+		padding-right:5px;
+		margin-bottom: 10px;
+		font-family: 'BBVA Web Light', Arial;
+		vertical-align: text-bottom;
+	}
+	label.km {
+		display:inline-block;
+		width: 156px;
+		font-family:Arial;
+		color:#71777F;
+		font-size:12px;
+	}
+	.negrita {
+		font-family: arial;
+		font-weight:bold;
+		font-size:12px;
+		color:#717780;
+		width:160px;
+		display:inline-block;
+	}
+	.negrita2 {
+		font-family: arial;
+		font-weight:bold;
+		font-size:12px;
+		color:#717780;
+		width:293px;
+		display:inline-block;
+	}
+	label.medida {
+		display:inline-block;
+		width:120px;
+		padding-left:10px;
+		font-family:Arial;
+		color:#71777F;
+		font-size:12px;
+	}
+	label.medida2 {
+		display:inline-block;
+		width:120px;
+		padding-left:10px;
+		font-family:Arial;
+		color:#71777F;
+		font-size:12px;
+		margin-left: 228px;
+	}
+	span.moneda {
+		display:inline-block;
+		width:40px;
+		padding-left:10px;
+		font-family:Arial;
+		color:#71777F;
+		font-size:12px;
+	}
+	hr {
+		color:#D5E2EE;
+	}
+	input[type='text'].textbox {
+		border: 1px solid rgb(232, 232, 230);
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		box-shadow: inset 0pt 2px 2px rgb(214, 214, 214);
+		-moz-box-shadow: inset 0pt 2px 2px rgb(214, 214, 214);
+		-webkit-box-shadow: inset 0pt 2px 2px rgb(214, 214, 214);
+		color: #434A58;
+		font: 12px Arial, sans-serif;
+		padding: .583em .755em .5em .755em;
+		height: auto;
+		/*margin:0 0 10px;*/
+	}
+	input[type='text'].textbox:focus {
+		background-color: rgb(255, 255, 245);
+		box-shadow: inset 0pt 0pt 0pt 2px rgb(222, 244, 251), 0pt 2px 2px rgb(214, 214, 214);
+		-moz-box-shadow: inset 0pt 0pt 0pt 2px rgb(222, 244, 251), 0pt 2px 2px rgb(214, 214, 214);
+		-webkit-box-shadow: inset 0pt 0pt 0pt 2px rgb(222, 244, 251), 0pt 2px 2px rgb(214, 214, 214);
+	}
+	input.text, textarea.text {
+		font-size: 1.2em;
+		height: 2.333em;
+		line-height: 2.333em;
+		padding: 0em 0.75em;
+		border-radius: 5px 5px 5px 5px;
+		box-shadow: 0pt 2px 2px rgb(214, 214, 214) inset;
+		font-family: arial;
+		border: 1px solid rgb(232, 232, 230);
+		color: rgb(67, 74, 88);
+	}
+	input.text:focus, textarea.text:focus {
+		box-shadow: 0pt 0pt 0pt 2px rgb(222, 244, 251), 0pt 2px 2px rgb(214, 214, 214) inset;
+		color: rgb(67, 74, 88);
+		outline: medium none;
+		border: 1px solid rgb(232, 232, 230);
+		background-color: rgb(255, 255, 245);
+		background-image: none;
+	}
+	input[type='text'].euro {
+		background: url('https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/textbox_euro.png?attachauth=ANoY7crb61Dk5wVuXpHpXLJdgG5s5TC7ArUCvf1RK-F8A0trn_iH3vnFD1oyTFeXb2tgFxcl-a3fWcQdrAFaAlVwwDiy8luemh4xc1EQ_3XLYZ6nY2bxWcpeYn2Kbd_KQi6Iy7RBs0IsEy4Of3aAvkQIlEFwyAWa_2V8J-Uf-9tLZQx_hD-R7PaWzJUzHgrj2rn01Se2GklAIIg4cculDSziBzu0DcjeuQ%3D%3D') 98% center no-repeat;
+		padding-right: 30px;
+		text-align: right;
+	}
+	/* @group fonts */
+	@font-face {
+		font-family: 'BBVA Web Light';
+		src:url('https://sites.google.com/a/bbva.com/sercoeco/web-light.eot');
+		src:url('https://sites.google.com/a/bbva.com/sercoeco/web-light.eot?iefix') format('embedded-opentype'), url('https://sites.google.com/a/bbva.com/sercoeco/web-light.woff') format('woff'), url('https://sites.google.com/a/bbva.com/sercoeco/web-light.ttf') format('truetype'), url('https://sites.google.com/a/bbva.com/sercoeco/web-light.svg#BBVA Web Light') format('svg');
+		font-style: normal;
+		font-weight: normal;
+	}
+	/* @group fonts */
+	.btn {
+	    background: linear-gradient(to bottom, #0079C1 0%, #00559D 100%) repeat scroll 0 0 transparent;
+	    border: 0.1em solid #00559D;
+	    border-radius: 0.3em 0.3em 0.3em 0.3em;
+	    color: white;
+	    cursor: pointer;
+	    font-size: 14px;
+	    height: 40px;
+	    margin-bottom: 20px;
+	    margin-left: 485px;
+	    padding-bottom: 2px;
+	    padding-left: 0.9em;
+	    padding-right: 0.9em;
+	    text-align: center;
+	    vertical-align: middle;
+	    width: 80px;
+	}
+	.btn:hover {
+	    background: none repeat scroll 0 0 #004C99;
+	}
 
-.btn2 {
-    background: linear-gradient(to bottom, #0079C1 0%, #00559D 100%) repeat scroll 0 0 transparent;
-    border: 0.1em solid #00559D;
-    border-radius: 0.3em 0.3em 0.3em 0.3em;
-    color: white;
-    cursor: pointer;
-    font-size: 12px;
-    height: 30px;
-    margin-bottom: 20px;
-    padding-bottom: 2px;
-    padding-left: 0.9em;
-    padding-right: 0.9em;
-    text-align: center;
-    vertical-align: middle;
-    width: 80px;
-}
+	.btn2 {
+	    background: linear-gradient(to bottom, #0079C1 0%, #00559D 100%) repeat scroll 0 0 transparent;
+	    border: 0.1em solid #00559D;
+	    border-radius: 0.3em 0.3em 0.3em 0.3em;
+	    color: white;
+	    cursor: pointer;
+	    font-size: 12px;
+	    height: 30px;
+	    margin-bottom: 20px;
+	    padding-bottom: 2px;
+	    padding-left: 0.9em;
+	    padding-right: 0.9em;
+	    text-align: center;
+	    vertical-align: middle;
+	    width: 80px;
+	}
 
-.btn:hover, .btn2:hover {
-    background: none repeat scroll 0 0 #004C99;
-}
-/*END ADMIN*/
+	.btn:hover, .btn2:hover {
+	    background: none repeat scroll 0 0 #004C99;
+	}	
+   
+   img {
+       width: 99%;
+   }
  </style>
  
 <div id="formulariopersonal"></div>
