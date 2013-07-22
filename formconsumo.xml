@@ -228,6 +228,14 @@ function backCall(){
 	//$('#eleckw').val(arguments[0].moneda);
 	$('#papelm').val(arguments[0].papel);
 	$('#papeleuro').val(arguments[0].papelEur);
+	
+	$('#c1').html(arguments[0].moneda);
+	$('#c2').html(arguments[0].moneda);
+	$('#c3').html(arguments[0].moneda);
+	$('#c4').html(arguments[0].moneda);
+	$('#c5').html(arguments[0].moneda);
+	
+	
 }
 
 function getData(){
@@ -290,19 +298,19 @@ function getData(){
         html +='<input type="button" class="btn2" onClick="getData()" value="Consultar"/><br/><br/>';
         html +='<label class="bottom negrita" for="eleckw">Electricidad</label>';
         html +='<input type="text" name="eleckw" id="eleckw" class="textbox"/><span class="medida">Kw</span>';
-        html +='<input type="text" name="eleceuro" id="eleceuro" class="textbox"/><span class="moneda">Euros</span><br/><br/>';
+        html +='<input type="text" name="eleceuro" id="eleceuro" class="textbox"/><span id="c1" class="moneda">Euros</span><br/><br/>';
         html +='<label class="bottom negrita" for="aguam">Agua</label>';
         html +='<input type="text" name="aguam" id="aguam" class="textbox"/><span class="medida">m3</span>';
-        html +='<input type="text" name="aguaeuro" id="aguaeuro" class="textbox"/><span class="moneda">Euros</span><br/><br/>';
+        html +='<input type="text" name="aguaeuro" id="aguaeuro" class="textbox"/><span id="c2" class="moneda">Euros</span><br/><br/>';
         html +='<label class="bottom negrita" for="papelm">Papel</label>';
         html +='<input type="text" name="papelm" id="papelm" class="textbox"/><span class="medida">Kg</span>';
-        html +='<input type="text" name="papeleuro" id="papeleuro" class="textbox"/><span class="moneda">Euros</span><br/><br/>';
+        html +='<input type="text" name="papeleuro" id="papeleuro" class="textbox"/><span id="c3" class="moneda">Euros</span><br/><br/>';
         html +='<label class="bottom negrita" for="gasnaturalm">Gas Natural</label>';
         html +='<input type="text" name="gasnaturalm" id="gasnaturalm" class="textbox"/><span class="medida">m3</span>';
-        html +='<input type="text" name="gasnaturaleuro" id="gasnaturaleuro" class="textbox"/><span class="moneda">Euros</span><br/><br/>';
+        html +='<input type="text" name="gasnaturaleuro" id="gasnaturaleuro" class="textbox"/><span id="c4" class="moneda">Euros</span><br/><br/>';
         html +='<label class="bottom negrita" for="gasl">Gasóleo</label>';
         html +='<input type="text" name="gasl" id="gasl" class="textbox"/><span class="medida">Litros</span>';
-        html +='<input type="text" name="gaseuro" id="gaseuro" class="textbox"/><span class="moneda">Euros</span><br/><br/>';
+        html +='<input type="text" name="gaseuro" id="gaseuro" class="textbox"/><span id="c5" class="moneda">Euros</span><br/><br/>';
         html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-2.png?attachauth=ANoY7cr7BY1H9kyFAd12o9WtwjDrxzPs6sbQpbSrG2CIYv0exCmstzsMwAkE7IpyPLhGsmwAV4fXZyR5uS1XH5Gpv-B5XQxzg1vv9i_Lkex3mUwYbZvvxBv1sK0ietcyJMkBJjCs5IHLDPcu7LyxI1DaVyhBHbRUeIu76wj5ndnqwxiBRXLCOoJuWtqZL_FVmaukcFhxRd_XF22wr1g0wuq1X4clEIigYw%3D%3D" alt="separador"> ';
         html +='<br/><br/>';
         html +='<label class="bottom negrita">Viajes en avión</label><br/><br/>';
@@ -382,19 +390,19 @@ function getData(){
         html +='<input type="button" class="btn2" onClick="getData()" value="Consultar"/><br/><br/>';
         html +='<label class="bottom negrita" for="eleckw">Electricidad</label>';
         html +='<input type="text" name="eleckw" id="eleckw" class="textbox"><span class="medida">Kw</span>';
-        html +='<input type="text" name="eleceuro" id="eleceuro" class="textbox"><span class="moneda">Euros</span><br/><br/>';
+        html +='<input type="text" name="eleceuro" id="eleceuro" class="textbox"><span id="c1" class="moneda">Euros</span><br/><br/>';
         html +='<label class="bottom negrita" for="aguam">Agua</label>';
         html +='<input type="text" name="aguam" id="aguam" class="textbox"><span class="medida">m3</span>';
-        html +='<input type="text" name="aguaeuro" id="aguaeuro" class="textbox"><span class="moneda">Euros</span><br/><br/>';
+        html +='<input type="text" name="aguaeuro" id="aguaeuro" class="textbox"><span id="c2" class="moneda">Euros</span><br/><br/>';
         html +='<label class="bottom negrita" for="papelm">Papel</label>';
         html +='<input type="text" name="papelm" id="papelm" class="textbox"><span class="medida">Kg</span>';
-        html +='<input type="text" name="papeleuro" id="papeleuro" class="textbox"><span class="moneda">Euros</span><br/><br/>';
+        html +='<input type="text" name="papeleuro" id="papeleuro" class="textbox"><span id="c3" class="moneda">Euros</span><br/><br/>';
         html +='<label class="bottom negrita" for="gasnaturalm">Gas Natural</label>';
         html +='<input type="text" name="gasnaturalm" id="gasnaturalm" class="textbox"><span class="medida">m3</span>';
-        html +='<input type="text" name="gasnaturaleuro" id="gasnaturaleuro" class="textbox"><span class="moneda">Euros</span><br/><br/>';
+        html +='<input type="text" name="gasnaturaleuro" id="gasnaturaleuro" class="textbox"><span id="c4" class="moneda">Euros</span><br/><br/>';
         html +='<label class="bottom negrita" for="gasl">Gasóleo</label>';
         html +='<input type="text" name="gasl" id="gasl" class="textbox"><span class="medida">Litros</span>';
-        html +='<input type="text" name="gaseuro" id="gaseuro" class="textbox"><span class="moneda">Euros</span><br/><br/>';
+        html +='<input type="text" name="gaseuro" id="gaseuro" class="textbox"><span id="c5" class="moneda">Euros</span><br/><br/>';
         html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-2.png?attachauth=ANoY7cr7BY1H9kyFAd12o9WtwjDrxzPs6sbQpbSrG2CIYv0exCmstzsMwAkE7IpyPLhGsmwAV4fXZyR5uS1XH5Gpv-B5XQxzg1vv9i_Lkex3mUwYbZvvxBv1sK0ietcyJMkBJjCs5IHLDPcu7LyxI1DaVyhBHbRUeIu76wj5ndnqwxiBRXLCOoJuWtqZL_FVmaukcFhxRd_XF22wr1g0wuq1X4clEIigYw%3D%3D" alt="separador"> ';
         html +='<br/><br/>';
         html +='<label class="bottom negrita">Viajes en avión</label><br/><br/>';
@@ -460,13 +468,6 @@ document.getElementById('formularioconsumo').innerHTML = html;
   
 
 </script>
-	  
-	  	
-	
-
-
-	
-
    
 
  ]]>
