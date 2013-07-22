@@ -230,6 +230,7 @@
 
  function getUser(){
   alert(arguments[0].user);
+  var permiso = arguments[0].user;
   var html="";
   if(arguments[0].user=="ADMIN"){
      
