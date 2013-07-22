@@ -14,6 +14,8 @@
  <Content type="html">
     <![CDATA[
     
+
+    
  <script src="https://www.google.com/jsapi" type="text/javascript"></script>
  <script type='text/javascript' src='https://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery-1.9.1.min.js'></script>
  <script type='text/javascript' src='https://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery-ui-compilation2.js' ></script>
@@ -24,137 +26,137 @@
  <link rel='stylesheet' type='text/css' href='https://bbva-sercoeco.googlecode.com/svn/trunk/js/bbva-components-forms.css' media='screen'>
  <link rel='stylesheet' type='text/css' href='https://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.marmots-checkbox.css' media='screen'>-->
 
-	
+        
 <style type="text/css">
 /*ADMIN*/
 /* @group general */
 body, html {
-	font-size: 125%;
-	background-color: rgb(255, 255, 255);
+        font-size: 125%;
+        background-color: rgb(255, 255, 255);
 }
 
 body {
-	font-size: 0.5em;
-	font-family: Arial,sans-serif;
-	color: rgb(0, 76, 153);
-	text-align: left;
+        font-size: 0.5em;
+        font-family: Arial,sans-serif;
+        color: rgb(0, 76, 153);
+        text-align: left;
 }
 /* @end */
 h1 {
-	font-size:30px;
-	color:#0078D2;
-	font-family: 'BBVA Web Light', Arial;
-	font-weight: normal;
+        font-size:30px;
+        color:#0078D2;
+        font-family: 'BBVA Web Light', Arial;
+        font-weight: normal;
 }
 label.bottom {
-	font-size:12px;
-	font-family:arial;
-	padding-right:15px;
+        font-size:12px;
+        font-family:arial;
+        padding-right:15px;
 }
 label.top {
-	font-family:arial;
-	font-size:12px;
-	color:#71777F;
-	margin: 0 20px;
-	display:inline-block;
-	vertical-align: text-bottom;
-	margin-bottom: 10px;
+        font-family:arial;
+        font-size:12px;
+        color:#71777F;
+        margin: 0 20px;
+        display:inline-block;
+        vertical-align: text-bottom;
+        margin-bottom: 10px;
 }
 
 span.titulo {
-	font-size:18px;
-	color:#0078D2;
-	display:inline-block;
-	padding-right:20px;
-	margin-bottom: 10px;
-	font-family: 'BBVA Web Light', Arial;
-	vertical-align: text-bottom;
+        font-size:18px;
+        color:#0078D2;
+        display:inline-block;
+        padding-right:20px;
+        margin-bottom: 10px;
+        font-family: 'BBVA Web Light', Arial;
+        vertical-align: text-bottom;
 }
 label.km {
-	display:inline-block;
-	width: 156px;
-	font-family:Arial;
-	color:#71777F;
-	font-size:12px;
+        display:inline-block;
+        width: 156px;
+        font-family:Arial;
+        color:#71777F;
+        font-size:12px;
 }
 .negrita {
-	font-family: arial;
-	font-weight:bold;
-	font-size:12px;
-	color:#434A58;
-	width:100px;
-	display:inline-block;
+        font-family: arial;
+        font-weight:bold;
+        font-size:12px;
+        color:#434A58;
+        width:100px;
+        display:inline-block;
 }
 .negrita2 {
-	font-family: arial;
-	font-weight:bold;
-	font-size:12px;
-	color:#434A58;
-	width:293px;
-	display:inline-block;
+        font-family: arial;
+        font-weight:bold;
+        font-size:12px;
+        color:#434A58;
+        width:293px;
+        display:inline-block;
 }
 span.medida {
-	display:inline-block;
-	width:40px;
-	padding-left:10px;
-	font-family:Arial;
-	color:#71777F;
-	font-size:12px;
+        display:inline-block;
+        width:40px;
+        padding-left:10px;
+        font-family:Arial;
+        color:#71777F;
+        font-size:12px;
 }
 span.moneda {
-	display:inline-block;
-	width:40px;
-	padding-left:10px;
-	font-family:Arial;
-	color:#71777F;
-	font-size:12px;
+        display:inline-block;
+        width:40px;
+        padding-left:10px;
+        font-family:Arial;
+        color:#71777F;
+        font-size:12px;
 }
 hr {
-	color:#D5E2EE;
+        color:#D5E2EE;
 }
 input[type='text'].textbox {
-	border: 1px solid rgb(232, 232, 230);
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	box-shadow: inset 0pt 2px 2px rgb(214, 214, 214);
-	-moz-box-shadow: inset 0pt 2px 2px rgb(214, 214, 214);
-	-webkit-box-shadow: inset 0pt 2px 2px rgb(214, 214, 214);
-	color: #434A58;
-	font: 12px Arial, sans-serif;
-	padding: .583em .755em .5em .755em;
-	height: auto;
-	margin:0;
+        border: 1px solid rgb(232, 232, 230);
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        box-shadow: inset 0pt 2px 2px rgb(214, 214, 214);
+        -moz-box-shadow: inset 0pt 2px 2px rgb(214, 214, 214);
+        -webkit-box-shadow: inset 0pt 2px 2px rgb(214, 214, 214);
+        color: #434A58;
+        font: 12px Arial, sans-serif;
+        padding: .583em .755em .5em .755em;
+        height: auto;
+        margin:0;
 }
 input[type='text'].textbox:focus {
-	background-color: rgb(255, 255, 245);
-	box-shadow: inset 0pt 0pt 0pt 2px rgb(222, 244, 251), 0pt 2px 2px rgb(214, 214, 214);
-	-moz-box-shadow: inset 0pt 0pt 0pt 2px rgb(222, 244, 251), 0pt 2px 2px rgb(214, 214, 214);
-	-webkit-box-shadow: inset 0pt 0pt 0pt 2px rgb(222, 244, 251), 0pt 2px 2px rgb(214, 214, 214);
+        background-color: rgb(255, 255, 245);
+        box-shadow: inset 0pt 0pt 0pt 2px rgb(222, 244, 251), 0pt 2px 2px rgb(214, 214, 214);
+        -moz-box-shadow: inset 0pt 0pt 0pt 2px rgb(222, 244, 251), 0pt 2px 2px rgb(214, 214, 214);
+        -webkit-box-shadow: inset 0pt 0pt 0pt 2px rgb(222, 244, 251), 0pt 2px 2px rgb(214, 214, 214);
 }
 input.text, textarea.text {
-	font-size: 1.2em;
-	height: 2.333em;
-	line-height: 2.333em;
-	padding: 0em 0.75em;
-	border-radius: 5px 5px 5px 5px;
-	box-shadow: 0pt 2px 2px rgb(214, 214, 214) inset;
-	font-family: arial;
-	border: 1px solid rgb(232, 232, 230);
-	color: rgb(67, 74, 88);
+        font-size: 1.2em;
+        height: 2.333em;
+        line-height: 2.333em;
+        padding: 0em 0.75em;
+        border-radius: 5px 5px 5px 5px;
+        box-shadow: 0pt 2px 2px rgb(214, 214, 214) inset;
+        font-family: arial;
+        border: 1px solid rgb(232, 232, 230);
+        color: rgb(67, 74, 88);
 }
 input.text:focus, textarea.text:focus {
-	box-shadow: 0pt 0pt 0pt 2px rgb(222, 244, 251), 0pt 2px 2px rgb(214, 214, 214) inset;
-	color: rgb(67, 74, 88);
-	outline: medium none;
-	border: 1px solid rgb(232, 232, 230);
-	background-color: rgb(255, 255, 245);
-	background-image: none;
+        box-shadow: 0pt 0pt 0pt 2px rgb(222, 244, 251), 0pt 2px 2px rgb(214, 214, 214) inset;
+        color: rgb(67, 74, 88);
+        outline: medium none;
+        border: 1px solid rgb(232, 232, 230);
+        background-color: rgb(255, 255, 245);
+        background-image: none;
 }
 input[type='text'].euro {
-	background: url('https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/textbox_euro.png?attachauth=ANoY7crb61Dk5wVuXpHpXLJdgG5s5TC7ArUCvf1RK-F8A0trn_iH3vnFD1oyTFeXb2tgFxcl-a3fWcQdrAFaAlVwwDiy8luemh4xc1EQ_3XLYZ6nY2bxWcpeYn2Kbd_KQi6Iy7RBs0IsEy4Of3aAvkQIlEFwyAWa_2V8J-Uf-9tLZQx_hD-R7PaWzJUzHgrj2rn01Se2GklAIIg4cculDSziBzu0DcjeuQ%3D%3D') 98% center no-repeat;
-	padding-right: 30px;
-	text-align: right;
+        background: url('https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/textbox_euro.png?attachauth=ANoY7crb61Dk5wVuXpHpXLJdgG5s5TC7ArUCvf1RK-F8A0trn_iH3vnFD1oyTFeXb2tgFxcl-a3fWcQdrAFaAlVwwDiy8luemh4xc1EQ_3XLYZ6nY2bxWcpeYn2Kbd_KQi6Iy7RBs0IsEy4Of3aAvkQIlEFwyAWa_2V8J-Uf-9tLZQx_hD-R7PaWzJUzHgrj2rn01Se2GklAIIg4cculDSziBzu0DcjeuQ%3D%3D') 98% center no-repeat;
+        padding-right: 30px;
+        text-align: right;
 }/* @group fonts */
 @font-face {
 font-family: 'BBVA Web Light';
@@ -208,171 +210,209 @@ font-weight: normal;
 
 <script type='text/javascript'>
 
- function getUser(){
-  alert(arguments[0].user);
-  var html="";
-  if(arguments[0].user=="ADMIN"){
-  
-	html +='<form name="admin" id="admin" action="javascript:writeConsumo();" method="get">';
-	html +='<label style="display:inline-block;"><span class="c-form-combo">';
-	html +='<select  name="country" id="country" onchange="selectDateOption(this.options[this.selectedIndex].value);">';
-	html +='<option value="ESPAÑA" selected="selected">España</option>';
-	html +='<option value="CORPORATIVOS">Esp. Corp</option>';
-	html +='<option value="ARGENTINA">Argentina</option>';
-	html +='<option value="CHILE">Chile</option>';
-	html +='<option value="COLOMBIA">Colombia</option>';
-	html +='<option value="MEXICO">Mexico</option>';
-	html +='<option value="PANAMA">Panamá</option>';
-	html +='<option value="PARAGUAY">Paraguay</option>';
-	html +='<option value="PERU">Perú</option>';
-	html +='<option value="PORTUGAL">Portugal</option>';
-	html +='<option value="URUGUAY">Uruguay</option>';
-	html +='<option value="VENEZUELA">Venezuela</option>';
-	html +='<option value="USA">USA</option>';
-	html +='</select></span></label>';
-	html +='<label class="top" for="anyo">Año:</label>';
-	html +='<label style="display:inline-block;">';
-	html +='<span class="c-form-combo">';
-	html +='<select id="anyo" name="anyo">';
-	html +='<option selected="selected" value="2013">2013</option>';
-	html +='<option value="2014">2014</option><option value="2015">2015</option>';
-	html +='<option value="2016">2016</option><option value="2017">2017</option>';
-	html +='</select></span></label>';
-	html +='<label class="top" for="meses">Periodo:</label>';
-	html +='<label style="display:inline-block;">';
-	html +='<span class="c-form-combo">';
-	html +='<select id="meses" name="meses">';
-	html +='<option value="1">ENE - MAY</option>';
-	html +='<option value="2">JUN - OCT</option>';
-	html +='<option value="3">NOV - DIC</option>';
-	html +='</select></span></label>';
-	html +='&nbsp;&nbsp;&nbsp;&nbsp;';
-	html +='<input type="button" class="btn2" onClick="getData()" value="Consultar"/><br/><br/>';
-	html +='<label class="bottom negrita" for="eleckw">Electricidad</label>';
-	html +='<input type="text" name="eleckw" id="eleckw" class="textbox"/><span class="medida">Kw</span>';
-	html +='<input type="text" name="eleceuro" id="eleceuro" class="textbox"/><span class="moneda">Euros</span><br/><br/>';
-	html +='<label class="bottom negrita" for="aguam">Agua</label>';
-	html +='<input type="text" name="aguam" id="aguam" class="textbox"/><span class="medida">m3</span>';
-	html +='<input type="text" name="aguaeuro" id="aguaeuro" class="textbox"/><span class="moneda">Euros</span><br/><br/>';
-	html +='<label class="bottom negrita" for="papelm">Papel</label>';
-	html +='<input type="text" name="papelm" id="papelm" class="textbox"/><span class="medida">Kg</span>';
-	html +='<input type="text" name="papeleuro" id="papeleuro" class="textbox"/><span class="moneda">Euros</span><br/><br/>';
-	html +='<label class="bottom negrita" for="gasnaturalm">Gas Natural</label>';
-	html +='<input type="text" name="gasnaturalm" id="gasnaturalm" class="textbox"/><span class="medida">m3</span>';
-	html +='<input type="text" name="gasnaturaleuro" id="gasnaturaleuro" class="textbox"/><span class="moneda">Euros</span><br/><br/>';
-	html +='<label class="bottom negrita" for="gasl">Gasóleo</label>';
-	html +='<input type="text" name="gasl" id="gasl" class="textbox"/><span class="medida">Litros</span>';
-	html +='<input type="text" name="gaseuro" id="gaseuro" class="textbox"/><span class="moneda">Euros</span><br/><br/>';
-	html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-2.png?attachauth=ANoY7cr7BY1H9kyFAd12o9WtwjDrxzPs6sbQpbSrG2CIYv0exCmstzsMwAkE7IpyPLhGsmwAV4fXZyR5uS1XH5Gpv-B5XQxzg1vv9i_Lkex3mUwYbZvvxBv1sK0ietcyJMkBJjCs5IHLDPcu7LyxI1DaVyhBHbRUeIu76wj5ndnqwxiBRXLCOoJuWtqZL_FVmaukcFhxRd_XF22wr1g0wuq1X4clEIigYw%3D%3D" alt="separador"> ';
-	html +='<br/><br/>';
-	html +='<label class="bottom negrita">Viajes en avión</label><br/><br/>';
-	html +='<label class="km" for="viajeavion"> < 500km</label>';
-	html +='<label class="km" for="viajeavion2"> 500km > x < 1600km</label>';
-	html +='<label class="km" for="viajeavion3"> > 1600 Km</label><br/>';
-	html +='<input type="text" name="viajeavion" id="viajeavion" class="textbox"/>&nbsp;&nbsp;';
-	html +='<input type="text" name="viajeavion2" id="viajeavion2" class="textbox"/>&nbsp;&nbsp;';
-	html +='<input type="text" name="viajeavion3" id="viajeavion3" class="textbox"/><br/><br/>';
-	html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-2.png?attachauth=ANoY7cr7BY1H9kyFAd12o9WtwjDrxzPs6sbQpbSrG2CIYv0exCmstzsMwAkE7IpyPLhGsmwAV4fXZyR5uS1XH5Gpv-B5XQxzg1vv9i_Lkex3mUwYbZvvxBv1sK0ietcyJMkBJjCs5IHLDPcu7LyxI1DaVyhBHbRUeIu76wj5ndnqwxiBRXLCOoJuWtqZL_FVmaukcFhxRd_XF22wr1g0wuq1X4clEIigYw%3D%3D" alt="separador"> ';
-	html +='<br/><br/>';
-	html +='<label class="bottom negrita2" for="videotele">Nº de Videoconferencias / Teletransferencias</label>';
-	html +='<input type="text" name="videotele" id="videotele" class="textbox"/>';
-	html +='<br/><br/>';
-	html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-boton.png?attachauth=ANoY7cpMyU5rPXCtYNrm_wxhUBEOj12W5bIU1V0H1ttSYU4PAg3vt2VqxnNcAd31Og8qj6pdn_7LB_-HuOhRcNh5yJkK4Qyy3mnBWrcsCM9e1Lfpc2878p230yQDOf0-bfTDjhbXXQllCuH6BYjhQS4cYjRBinauPZoAlEYENcTFqUi4_9Q7biy4x9HB_a8v2g3bwY-svEqfQ1uCVsaFMx76GyP8pu7X6A%3D%3D" alt="separador">';
-	html +='<br/><br/>';
-	//html +='<button id="btnsubmit" class="btn">Submit</button></form>';
-	html +='<input type="submit" class="btn" value="Submit"/></form>';
+function backCall(){
+
 	
+	$('#aguam').val(arguments[0].agua);
+	$('#aguaeuro').val(arguments[0].aguaEur);
+	$('#viajeavion').val(arguments[0].avion1);
+	$('#viajeavion2').val(arguments[0].avion2);
+	$('#viajeavion3').val(arguments[0].avion3);
+	$('#videotele').val(arguments[0].conferencia);
+	$('#eleckw').val(arguments[0].elect);
+	$('#eleceuro').val(arguments[0].electEur);
+	$('#gasnaturalm').val(arguments[0].gas);
+	$('#gasnaturaleuro').val(arguments[0].gasEur);
+	$('#gasl').val(arguments[0].gasoleo);
+	$('#gaseuro').val(arguments[0].gasoleoEur);
+	//$('#eleckw').val(arguments[0].moneda);
+	$('#papelm').val(arguments[0].papel);
+	$('#papeleuro').val(arguments[0].papelEur);
+}
+
+function getData(){
+	var anio = $('#anyo').val();
+	var meses = $('#meses').val();
+	var country = $('#country').val();
+
+	$.ajax({
+		type: "POST",
+		url: "https://script.google.com/macros/s/AKfycbzutnBun8urkdav2n8UlCULgoc1mrKoG58DvLMUwwqt2Pb4sF9H/exec?callback=backCall",
+		dataType: "jsonp",
+		data: { anio: anio, meses: meses, country: country }
+		}).done(function( msg ) {
+		alert( "Data Saved: " + msg );
+	});
+	
+}
+
+ function getUser(){
+  //alert(arguments[0].user);
+  // var permiso = arguments[0].user;
+  var permiso = "ADMIN";
+  var html="";
+  if(permiso=="ADMIN"){
+  
+        html +='<form name="admin" id="admin" action="javascript:writeConsumo();" method="get">';
+        html +='<label style="display:inline-block;"><span class="c-form-combo">';
+        html +='<select  name="country" id="country" onchange="selectDateOption(this.options[this.selectedIndex].value);">';
+        html +='<option value="ESPAÑA" selected="selected">España</option>';
+        html +='<option value="CORPORATIVOS">Esp. Corp</option>';
+        html +='<option value="ARGENTINA">Argentina</option>';
+        html +='<option value="CHILE">Chile</option>';
+        html +='<option value="COLOMBIA">Colombia</option>';
+        html +='<option value="MEXICO">Mexico</option>';
+        html +='<option value="PANAMA">Panamá</option>';
+        html +='<option value="PARAGUAY">Paraguay</option>';
+        html +='<option value="PERU">Perú</option>';
+        html +='<option value="PORTUGAL">Portugal</option>';
+        html +='<option value="URUGUAY">Uruguay</option>';
+        html +='<option value="VENEZUELA">Venezuela</option>';
+        html +='<option value="USA">USA</option>';
+        html +='</select></span></label>';
+        html +='<label class="top" for="anyo">Año:</label>';
+        html +='<label style="display:inline-block;">';
+        html +='<span class="c-form-combo">';
+        html +='<select id="anyo" name="anyo">';
+        html +='<option selected="selected" value="2013">2013</option>';
+        html +='<option value="2014">2014</option><option value="2015">2015</option>';
+        html +='<option value="2016">2016</option><option value="2017">2017</option>';
+        html +='</select></span></label>';
+        html +='<label class="top" for="meses">Periodo:</label>';
+        html +='<label style="display:inline-block;">';
+        html +='<span class="c-form-combo">';
+        html +='<select id="meses" name="meses">';
+        html +='<option value="1">ENE - MAY</option>';
+        html +='<option value="2">JUN - OCT</option>';
+        html +='<option value="3">NOV - DIC</option>';
+        html +='</select></span></label>';
+        html +='&nbsp;&nbsp;&nbsp;&nbsp;';
+        html +='<input type="button" class="btn2" onClick="getData()" value="Consultar"/><br/><br/>';
+        html +='<label class="bottom negrita" for="eleckw">Electricidad</label>';
+        html +='<input type="text" name="eleckw" id="eleckw" class="textbox"/><span class="medida">Kw</span>';
+        html +='<input type="text" name="eleceuro" id="eleceuro" class="textbox"/><span class="moneda">Euros</span><br/><br/>';
+        html +='<label class="bottom negrita" for="aguam">Agua</label>';
+        html +='<input type="text" name="aguam" id="aguam" class="textbox"/><span class="medida">m3</span>';
+        html +='<input type="text" name="aguaeuro" id="aguaeuro" class="textbox"/><span class="moneda">Euros</span><br/><br/>';
+        html +='<label class="bottom negrita" for="papelm">Papel</label>';
+        html +='<input type="text" name="papelm" id="papelm" class="textbox"/><span class="medida">Kg</span>';
+        html +='<input type="text" name="papeleuro" id="papeleuro" class="textbox"/><span class="moneda">Euros</span><br/><br/>';
+        html +='<label class="bottom negrita" for="gasnaturalm">Gas Natural</label>';
+        html +='<input type="text" name="gasnaturalm" id="gasnaturalm" class="textbox"/><span class="medida">m3</span>';
+        html +='<input type="text" name="gasnaturaleuro" id="gasnaturaleuro" class="textbox"/><span class="moneda">Euros</span><br/><br/>';
+        html +='<label class="bottom negrita" for="gasl">Gasóleo</label>';
+        html +='<input type="text" name="gasl" id="gasl" class="textbox"/><span class="medida">Litros</span>';
+        html +='<input type="text" name="gaseuro" id="gaseuro" class="textbox"/><span class="moneda">Euros</span><br/><br/>';
+        html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-2.png?attachauth=ANoY7cr7BY1H9kyFAd12o9WtwjDrxzPs6sbQpbSrG2CIYv0exCmstzsMwAkE7IpyPLhGsmwAV4fXZyR5uS1XH5Gpv-B5XQxzg1vv9i_Lkex3mUwYbZvvxBv1sK0ietcyJMkBJjCs5IHLDPcu7LyxI1DaVyhBHbRUeIu76wj5ndnqwxiBRXLCOoJuWtqZL_FVmaukcFhxRd_XF22wr1g0wuq1X4clEIigYw%3D%3D" alt="separador"> ';
+        html +='<br/><br/>';
+        html +='<label class="bottom negrita">Viajes en avión</label><br/><br/>';
+        html +='<label class="km" for="viajeavion"> < 500km</label>';
+        html +='<label class="km" for="viajeavion2"> 500km > x < 1600km</label>';
+        html +='<label class="km" for="viajeavion3"> > 1600 Km</label><br/>';
+        html +='<input type="text" name="viajeavion" id="viajeavion" class="textbox"/>&nbsp;&nbsp;';
+        html +='<input type="text" name="viajeavion2" id="viajeavion2" class="textbox"/>&nbsp;&nbsp;';
+        html +='<input type="text" name="viajeavion3" id="viajeavion3" class="textbox"/><br/><br/>';
+        html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-2.png?attachauth=ANoY7cr7BY1H9kyFAd12o9WtwjDrxzPs6sbQpbSrG2CIYv0exCmstzsMwAkE7IpyPLhGsmwAV4fXZyR5uS1XH5Gpv-B5XQxzg1vv9i_Lkex3mUwYbZvvxBv1sK0ietcyJMkBJjCs5IHLDPcu7LyxI1DaVyhBHbRUeIu76wj5ndnqwxiBRXLCOoJuWtqZL_FVmaukcFhxRd_XF22wr1g0wuq1X4clEIigYw%3D%3D" alt="separador"> ';
+        html +='<br/><br/>';
+        html +='<label class="bottom negrita2" for="videotele">Nº de Videoconferencias / Teletransferencias</label>';
+        html +='<input type="text" name="videotele" id="videotele" class="textbox"/>';
+        html +='<br/><br/>';
+        html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-boton.png?attachauth=ANoY7cpMyU5rPXCtYNrm_wxhUBEOj12W5bIU1V0H1ttSYU4PAg3vt2VqxnNcAd31Og8qj6pdn_7LB_-HuOhRcNh5yJkK4Qyy3mnBWrcsCM9e1Lfpc2878p230yQDOf0-bfTDjhbXXQllCuH6BYjhQS4cYjRBinauPZoAlEYENcTFqUi4_9Q7biy4x9HB_a8v2g3bwY-svEqfQ1uCVsaFMx76GyP8pu7X6A%3D%3D" alt="separador">';
+        html +='<br/><br/>';
+        //html +='<button id="btnsubmit" class="btn">Submit</button></form>';
+        html +='<input type="submit" class="btn" value="Submit"/></form>';
+        
   }else if (permiso="ESPAÑA CORPORATIVO"){
   
-	html +='<form name="CORPORATIVOS" action="https://script.google.com/macros/s/AKfycbxe7IDJDZChnmP7EOWAcLS2dboKruvP1NeqQp_G4AY/dev" method="get" target="_parent" >';
-	html +='<span class="titulo">Seleccionar fase</span>';
-	html +='<label style="display:inline-block;">';
-	html +='<span class="c-form-combo">';
-	html +='<select id="anyo" name="anyo">';
-	html +='<option selected="selected" value="2013">2013</option>';
-	html +='<option value="2014">2014</option><option value="2015">2015</option>';
-	html +='<option value="2016">2016</option><option value="2017">2017</option>';
-	html +='</select></span></label>';
-	html +='&nbsp;&nbsp;&nbsp;&nbsp;';
-	html +='<input type="button" class="btn2" onClick="getData()" value="Consultar"/><br/><br/>';
+        html +='<form name="CORPORATIVOS" action="https://script.google.com/macros/s/AKfycbxe7IDJDZChnmP7EOWAcLS2dboKruvP1NeqQp_G4AY/dev" method="get" target="_parent" >';
+        html +='<span class="titulo">Seleccionar fase</span>';
+        html +='<label style="display:inline-block;">';
+        html +='<span class="c-form-combo">';
+        html +='<select id="anyo" name="anyo">';
+        html +='<option selected="selected" value="2013">2013</option>';
+        html +='<option value="2014">2014</option><option value="2015">2015</option>';
+        html +='<option value="2016">2016</option><option value="2017">2017</option>';
+        html +='</select></span></label>';
+        html +='&nbsp;&nbsp;&nbsp;&nbsp;';
+        html +='<input type="button" class="btn2" onClick="getData()" value="Consultar"/><br/><br/>';
     html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador.png?attachauth=ANoY7cp60OlfRLiIvUmhs3rEllbqpLvfYXMyDTD34hAXHppg0Ba4bsw9ux5J-CoEQtMfFHpSuNK7JuH0-w1ESyeCH2ZR0YI0v0CXRpX1SUM0r2tHkztReAHqqvW_WGcVwO5OdRKoOa-leu_8rVcsIH56GO6y6aUO_IIC5JFcWsGgn06kolI_kvKeSc9UjPHjaNCuttbreIPI8JF3LsvkEyAap2sG0vhPJw%3D%3D&attredirects=0"/>';
-	html +='<br/><br/>';
-	html +='<label class="bottom negrita" for="eleckw">Electricidad</label>';
-	html +='<input type="text" name="eleckw" id="eleckw" class="textbox"><span class="medida">Kw</span>';
-	html +='<input type="text" name="eleceuro" id="eleceuro" class="textbox"><span class="moneda">Euros</span><br/><br/>';
-	html +='<label class="bottom negrita" for="aguam">Agua</label>';
-	html +='<input type="text" name="aguam" id="aguam" class="textbox"><span class="medida">m3</span>';
-	html +='<input type="text" name="aguaeuro" id="aguaeuro" class="textbox"><span class="moneda">Euros</span><br/><br/>';
-	html +='<label class="bottom negrita" for="papelm">Papel</label>';
-	html +='<input type="text" name="papelm" id="papelm" class="textbox"><span class="medida">Kg</span>';
-	html +='<input type="text" name="papeleuro" id="papeleuro" class="textbox"><span class="moneda">Euros</span><br/><br/>';
-	html +='<label class="bottom negrita" for="gasnaturalm">Gas Natural</label>';
-	html +='<input type="text" name="gasnaturalm" id="gasnaturalm" class="textbox"><span class="medida">m3</span>';
-	html +='<input type="text" name="gasnaturaleuro" id="gasnaturaleuro" class="textbox"><span class="moneda">Euros</span><br/><br/>';
-	html +='<label class="bottom negrita" for="gasl">Gasóleo</label>';
-	html +='<input type="text" name="gasl" id="gasl" class="textbox"><span class="medida">Litros</span>';
-	html +='<input type="text" name="gaseuro" id="gaseuro" class="textbox"><span class="moneda">Euros</span><br/><br/>';
+        html +='<br/><br/>';
+        html +='<label class="bottom negrita" for="eleckw">Electricidad</label>';
+        html +='<input type="text" name="eleckw" id="eleckw" class="textbox"><span class="medida">Kw</span>';
+        html +='<input type="text" name="eleceuro" id="eleceuro" class="textbox"><span class="moneda">Euros</span><br/><br/>';
+        html +='<label class="bottom negrita" for="aguam">Agua</label>';
+        html +='<input type="text" name="aguam" id="aguam" class="textbox"><span class="medida">m3</span>';
+        html +='<input type="text" name="aguaeuro" id="aguaeuro" class="textbox"><span class="moneda">Euros</span><br/><br/>';
+        html +='<label class="bottom negrita" for="papelm">Papel</label>';
+        html +='<input type="text" name="papelm" id="papelm" class="textbox"><span class="medida">Kg</span>';
+        html +='<input type="text" name="papeleuro" id="papeleuro" class="textbox"><span class="moneda">Euros</span><br/><br/>';
+        html +='<label class="bottom negrita" for="gasnaturalm">Gas Natural</label>';
+        html +='<input type="text" name="gasnaturalm" id="gasnaturalm" class="textbox"><span class="medida">m3</span>';
+        html +='<input type="text" name="gasnaturaleuro" id="gasnaturaleuro" class="textbox"><span class="moneda">Euros</span><br/><br/>';
+        html +='<label class="bottom negrita" for="gasl">Gasóleo</label>';
+        html +='<input type="text" name="gasl" id="gasl" class="textbox"><span class="medida">Litros</span>';
+        html +='<input type="text" name="gaseuro" id="gaseuro" class="textbox"><span class="moneda">Euros</span><br/><br/>';
     html +='<input type="hidden" name="country" id="country" value="CORPORATIVO"/>';
-	html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-boton.png?attachauth=ANoY7cpMyU5rPXCtYNrm_wxhUBEOj12W5bIU1V0H1ttSYU4PAg3vt2VqxnNcAd31Og8qj6pdn_7LB_-HuOhRcNh5yJkK4Qyy3mnBWrcsCM9e1Lfpc2878p230yQDOf0-bfTDjhbXXQllCuH6BYjhQS4cYjRBinauPZoAlEYENcTFqUi4_9Q7biy4x9HB_a8v2g3bwY-svEqfQ1uCVsaFMx76GyP8pu7X6A%3D%3D" alt="separador">';
-	html +='<br/><br/>';
-	html +='<input type="submit" class="btn" value="Guardar"></form>';
-	
+        html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-boton.png?attachauth=ANoY7cpMyU5rPXCtYNrm_wxhUBEOj12W5bIU1V0H1ttSYU4PAg3vt2VqxnNcAd31Og8qj6pdn_7LB_-HuOhRcNh5yJkK4Qyy3mnBWrcsCM9e1Lfpc2878p230yQDOf0-bfTDjhbXXQllCuH6BYjhQS4cYjRBinauPZoAlEYENcTFqUi4_9Q7biy4x9HB_a8v2g3bwY-svEqfQ1uCVsaFMx76GyP8pu7X6A%3D%3D" alt="separador">';
+        html +='<br/><br/>';
+        html +='<input type="submit" class="btn" value="Guardar"></form>';
+        
   
   }else{
   
-	html +='<form name="resto" action="https://script.google.com/macros/s/AKfycbxe7IDJDZChnmP7EOWAcLS2dboKruvP1NeqQp_G4AY/dev" method="get" target="_parent" >';
-	html +='<span class="titulo">Seleccionar fase</span>';
-	html +='<label class="top" for="anyo">Año:</label>';
-	html +='<label style="display:inline-block;">';
-	html +='<span class="c-form-combo">';
-	html +='<select id="anyo" name="anyo">';
-	html +='<option selected="selected" value="2013">2013</option>';
-	html +='<option value="2014">2014</option><option value="2015">2015</option>';
-	html +='<option value="2016">2016</option><option value="2017">2017</option>';
-	html +='</select></span></label>';
-	html +='<label class="top" for="meses">Periodo:</label>';
-	html +='<label style="display:inline-block;">';
-	html +='<span class="c-form-combo">';
-	html +='<select id="meses" name="meses">';
-	html +='<option value="1">ENE - ABR</option>';
-	html +='<option value="2">MAY - AGO</option>';
-	html +='<option value="3">SEP - DIC</option>';
-	html +='</select></span></label>';
-	html +='&nbsp;&nbsp;&nbsp;&nbsp;';
-	html +='<input type="button" class="btn2" onClick="getData()" value="Consultar"/><br/><br/>';
-	html +='<label class="bottom negrita" for="eleckw">Electricidad</label>';
-	html +='<input type="text" name="eleckw" id="eleckw" class="textbox"><span class="medida">Kw</span>';
-	html +='<input type="text" name="eleceuro" id="eleceuro" class="textbox"><span class="moneda">Euros</span><br/><br/>';
-	html +='<label class="bottom negrita" for="aguam">Agua</label>';
-	html +='<input type="text" name="aguam" id="aguam" class="textbox"><span class="medida">m3</span>';
-	html +='<input type="text" name="aguaeuro" id="aguaeuro" class="textbox"><span class="moneda">Euros</span><br/><br/>';
-	html +='<label class="bottom negrita" for="papelm">Papel</label>';
-	html +='<input type="text" name="papelm" id="papelm" class="textbox"><span class="medida">Kg</span>';
-	html +='<input type="text" name="papeleuro" id="papeleuro" class="textbox"><span class="moneda">Euros</span><br/><br/>';
-	html +='<label class="bottom negrita" for="gasnaturalm">Gas Natural</label>';
-	html +='<input type="text" name="gasnaturalm" id="gasnaturalm" class="textbox"><span class="medida">m3</span>';
-	html +='<input type="text" name="gasnaturaleuro" id="gasnaturaleuro" class="textbox"><span class="moneda">Euros</span><br/><br/>';
-	html +='<label class="bottom negrita" for="gasl">Gasóleo</label>';
-	html +='<input type="text" name="gasl" id="gasl" class="textbox"><span class="medida">Litros</span>';
-	html +='<input type="text" name="gaseuro" id="gaseuro" class="textbox"><span class="moneda">Euros</span><br/><br/>';
-	html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-2.png?attachauth=ANoY7cr7BY1H9kyFAd12o9WtwjDrxzPs6sbQpbSrG2CIYv0exCmstzsMwAkE7IpyPLhGsmwAV4fXZyR5uS1XH5Gpv-B5XQxzg1vv9i_Lkex3mUwYbZvvxBv1sK0ietcyJMkBJjCs5IHLDPcu7LyxI1DaVyhBHbRUeIu76wj5ndnqwxiBRXLCOoJuWtqZL_FVmaukcFhxRd_XF22wr1g0wuq1X4clEIigYw%3D%3D" alt="separador"> ';
-	html +='<br/><br/>';
-	html +='<label class="bottom negrita">Viajes en avión</label><br/><br/>';
-	html +='<label class="km" for="viajeavion"> &lt; 500km</label>';
-	html +='<label class="km" for="viajeavion2"> 500km &lt; x &lt; 1600km</label>';
-	html +='<label class="km" for="viajeavion3"> &gt; 1600 Km</label><br/>';
-	html +='<input type="text" name="viajeavion" id="viajeavion" class="textbox">&nbsp;&nbsp;';
-	html +='<input type="text" name="viajeavion2" id="viajeavion2" class="textbox">&nbsp;&nbsp;';
-	html +='<input type="text" name="viajeavion3" id="viajeavion3" class="textbox"><br/><br/>';
-	html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-2.png?attachauth=ANoY7cr7BY1H9kyFAd12o9WtwjDrxzPs6sbQpbSrG2CIYv0exCmstzsMwAkE7IpyPLhGsmwAV4fXZyR5uS1XH5Gpv-B5XQxzg1vv9i_Lkex3mUwYbZvvxBv1sK0ietcyJMkBJjCs5IHLDPcu7LyxI1DaVyhBHbRUeIu76wj5ndnqwxiBRXLCOoJuWtqZL_FVmaukcFhxRd_XF22wr1g0wuq1X4clEIigYw%3D%3D" alt="separador"> ';
-	html +='<br/><br/>';
-	html +='<label class="bottom negrita2" for="videotele">Nº de Videoconferencias / Teletransferencias</label>';
-	html +='<input type="text" name="videotele" id="videotele" class="textbox">';
-	html +='<br/><br/>';
-	html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-boton.png?attachauth=ANoY7cpMyU5rPXCtYNrm_wxhUBEOj12W5bIU1V0H1ttSYU4PAg3vt2VqxnNcAd31Og8qj6pdn_7LB_-HuOhRcNh5yJkK4Qyy3mnBWrcsCM9e1Lfpc2878p230yQDOf0-bfTDjhbXXQllCuH6BYjhQS4cYjRBinauPZoAlEYENcTFqUi4_9Q7biy4x9HB_a8v2g3bwY-svEqfQ1uCVsaFMx76GyP8pu7X6A%3D%3D" alt="separador">';
-	html +='<br/><br/>';
-	html +='<input type="submit" class="btn" value="Submit"></form>';
-	
+        html +='<form name="resto" action="https://script.google.com/macros/s/AKfycbxe7IDJDZChnmP7EOWAcLS2dboKruvP1NeqQp_G4AY/dev" method="get" target="_parent" >';
+        html +='<span class="titulo">Seleccionar fase</span>';
+        html +='<label class="top" for="anyo">Año:</label>';
+        html +='<label style="display:inline-block;">';
+        html +='<span class="c-form-combo">';
+        html +='<select id="anyo" name="anyo">';
+        html +='<option selected="selected" value="2013">2013</option>';
+        html +='<option value="2014">2014</option><option value="2015">2015</option>';
+        html +='<option value="2016">2016</option><option value="2017">2017</option>';
+        html +='</select></span></label>';
+        html +='<label class="top" for="meses">Periodo:</label>';
+        html +='<label style="display:inline-block;">';
+        html +='<span class="c-form-combo">';
+        html +='<select id="meses" name="meses">';
+        html +='<option value="1">ENE - ABR</option>';
+        html +='<option value="2">MAY - AGO</option>';
+        html +='<option value="3">SEP - DIC</option>';
+        html +='</select></span></label>';
+        html +='&nbsp;&nbsp;&nbsp;&nbsp;';
+        html +='<input type="button" class="btn2" onClick="getData()" value="Consultar"/><br/><br/>';
+        html +='<label class="bottom negrita" for="eleckw">Electricidad</label>';
+        html +='<input type="text" name="eleckw" id="eleckw" class="textbox"><span class="medida">Kw</span>';
+        html +='<input type="text" name="eleceuro" id="eleceuro" class="textbox"><span class="moneda">Euros</span><br/><br/>';
+        html +='<label class="bottom negrita" for="aguam">Agua</label>';
+        html +='<input type="text" name="aguam" id="aguam" class="textbox"><span class="medida">m3</span>';
+        html +='<input type="text" name="aguaeuro" id="aguaeuro" class="textbox"><span class="moneda">Euros</span><br/><br/>';
+        html +='<label class="bottom negrita" for="papelm">Papel</label>';
+        html +='<input type="text" name="papelm" id="papelm" class="textbox"><span class="medida">Kg</span>';
+        html +='<input type="text" name="papeleuro" id="papeleuro" class="textbox"><span class="moneda">Euros</span><br/><br/>';
+        html +='<label class="bottom negrita" for="gasnaturalm">Gas Natural</label>';
+        html +='<input type="text" name="gasnaturalm" id="gasnaturalm" class="textbox"><span class="medida">m3</span>';
+        html +='<input type="text" name="gasnaturaleuro" id="gasnaturaleuro" class="textbox"><span class="moneda">Euros</span><br/><br/>';
+        html +='<label class="bottom negrita" for="gasl">Gasóleo</label>';
+        html +='<input type="text" name="gasl" id="gasl" class="textbox"><span class="medida">Litros</span>';
+        html +='<input type="text" name="gaseuro" id="gaseuro" class="textbox"><span class="moneda">Euros</span><br/><br/>';
+        html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-2.png?attachauth=ANoY7cr7BY1H9kyFAd12o9WtwjDrxzPs6sbQpbSrG2CIYv0exCmstzsMwAkE7IpyPLhGsmwAV4fXZyR5uS1XH5Gpv-B5XQxzg1vv9i_Lkex3mUwYbZvvxBv1sK0ietcyJMkBJjCs5IHLDPcu7LyxI1DaVyhBHbRUeIu76wj5ndnqwxiBRXLCOoJuWtqZL_FVmaukcFhxRd_XF22wr1g0wuq1X4clEIigYw%3D%3D" alt="separador"> ';
+        html +='<br/><br/>';
+        html +='<label class="bottom negrita">Viajes en avión</label><br/><br/>';
+        html +='<label class="km" for="viajeavion"> &lt; 500km</label>';
+        html +='<label class="km" for="viajeavion2"> 500km &lt; x &lt; 1600km</label>';
+        html +='<label class="km" for="viajeavion3"> &gt; 1600 Km</label><br/>';
+        html +='<input type="text" name="viajeavion" id="viajeavion" class="textbox">&nbsp;&nbsp;';
+        html +='<input type="text" name="viajeavion2" id="viajeavion2" class="textbox">&nbsp;&nbsp;';
+        html +='<input type="text" name="viajeavion3" id="viajeavion3" class="textbox"><br/><br/>';
+        html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-2.png?attachauth=ANoY7cr7BY1H9kyFAd12o9WtwjDrxzPs6sbQpbSrG2CIYv0exCmstzsMwAkE7IpyPLhGsmwAV4fXZyR5uS1XH5Gpv-B5XQxzg1vv9i_Lkex3mUwYbZvvxBv1sK0ietcyJMkBJjCs5IHLDPcu7LyxI1DaVyhBHbRUeIu76wj5ndnqwxiBRXLCOoJuWtqZL_FVmaukcFhxRd_XF22wr1g0wuq1X4clEIigYw%3D%3D" alt="separador"> ';
+        html +='<br/><br/>';
+        html +='<label class="bottom negrita2" for="videotele">Nº de Videoconferencias / Teletransferencias</label>';
+        html +='<input type="text" name="videotele" id="videotele" class="textbox">';
+        html +='<br/><br/>';
+        html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-boton.png?attachauth=ANoY7cpMyU5rPXCtYNrm_wxhUBEOj12W5bIU1V0H1ttSYU4PAg3vt2VqxnNcAd31Og8qj6pdn_7LB_-HuOhRcNh5yJkK4Qyy3mnBWrcsCM9e1Lfpc2878p230yQDOf0-bfTDjhbXXQllCuH6BYjhQS4cYjRBinauPZoAlEYENcTFqUi4_9Q7biy4x9HB_a8v2g3bwY-svEqfQ1uCVsaFMx76GyP8pu7X6A%3D%3D" alt="separador">';
+        html +='<br/><br/>';
+        html +='<input type="submit" class="btn" value="Submit"></form>';
+        
   
   
   }
@@ -403,14 +443,14 @@ document.getElementById('formularioconsumo').innerHTML = html;
     contentType: 'application/json',
     dataType: 'jsonp',
     data: params,
-	prefix: "doGet",
+        prefix: "doGet",
     success: function(){
-			alert("Data Saved:");
-	
-	
-	},
+                        alert("Data Saved:");
+        
+        
+        },
     failure: function(){
-   		    alert("Data NOT Saved:");   	
+                    alert("Data NOT Saved:");           
     }
   })
   
