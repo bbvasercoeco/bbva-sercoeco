@@ -331,7 +331,7 @@ function getData(){
         html +='<input type="submit" class="btn" value="Submit"/></form>';
         
   }else if(permiso=="USA"){
-		html +='<form name="CORPORATIVOS" action="https://script.google.com/macros/s/AKfycbxe7IDJDZChnmP7EOWAcLS2dboKruvP1NeqQp_G4AY/dev" method="get" target="_parent" >';
+		html +='<form name="usa" action="https://script.google.com/macros/s/AKfycbxe7IDJDZChnmP7EOWAcLS2dboKruvP1NeqQp_G4AY/dev" method="get" target="_parent" >';
         html +='<span class="titulo">Seleccionar fase</span>';
         html +='<label style="display:inline-block;">';
         html +='<span class="c-form-combo">';
