@@ -286,7 +286,32 @@
 	li span.c-form-combo .ui-selectmenu{
 	height: 2.333em;
 	}
-  
+    
+	
+	ul{
+	padding-left: 19px;
+	padding-right: 19px;
+	margin: 0;
+	}
+	li{
+	list-style: none;
+	padding-bottom: 12px;
+	padding-top: 0px;
+	font-size: 12px; font-family: Arial;
+	font-weight: bold;
+	color: #0073C9;
+	height:45px;
+
+	}
+
+	ul li a{
+	padding-left: 2px;
+	vertical-align: 3px;
+	text-decoration: none;
+	font-size: 12px; font-family: Arial;
+	font-weight: bold;
+	color: #0073C9;
+	}
   
  </style>
  
