@@ -271,7 +271,7 @@ font-weight: normal;
 	html +='<input type="submit" class="btn" value="Guardar"/></form>';
 	
   }else if (permiso=="USA"){	
-  
+	alert("entro en Usa");
 	html +='<form name="usa" id="admin" action="javascript:writePersonal();" method="get">';
 	html +='<label class="top" for="anyo">Year:</label>';
 	html +='<label style="display:inline-block;">';
