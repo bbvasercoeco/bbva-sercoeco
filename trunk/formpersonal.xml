@@ -15,15 +15,12 @@
     <![CDATA[
     
  
- <script type="text/javascript" src="https://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.min.js"></script>
- <script type="text/javascript" src="https://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery-ui-compilation2.js" ></script>
- <script type="text/javascript" src="https://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.ui.selectmenu.js" charset="utf-8"></script>
- <!--<script type="text/javascript" src="https://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.marmots-checkbox.js"></script>-->
-   
- <link rel="stylesheet" type="text/css" href="https://sites.google.com/a/bbva.com/sercoeco/jqueryui.css?attredirects=0&d=1" media="screen"/>
- <link rel="stylesheet" type="text/css" href="https://sites.google.com/a/bbva.com/sercoeco/bbva-styles.css?attredirects=0&d=1" media="all"/>
- <link rel="stylesheet" type="text/css" href="https://sites.google.com/a/bbva.com/sercoeco/bbva-components_forms.css?attredirects=0&d=1" media="screen"/>
- <link rel="stylesheet" type="text/css" href="https://sites.google.com/a/bbva.com/sercoeco/jquery.marmots-checkbox.css?attredirects=0&d=1" media="screen"/>
+ <script type="text/javascript" src="https://bbva-implantaciones-eyp.googlecode.com/svn/trunk/js/jquery.min.js"></script>
+	<script type="text/javascript" src="https://bbva-implantaciones-eyp.googlecode.com/svn/trunk/js/jquery-ui-compilation2.js" ></script>
+	<script type="text/javascript" src="https://bbva-implantaciones-eyp.googlecode.com/svn/trunk/js/jquery.ui.selectmenu.js" charset="utf-8" ></script>
+	<link rel="stylesheet" type="text/css" href="https://sites.google.com/a/bbva.com/implantaciones-eyp/jqueryui.css?attredirects=0&d=1" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="https://sites.google.com/a/bbva.com/implantaciones-eyp/bbva-styles.css?attredirects=0&d=1" media="all"/>
+	<link rel="stylesheet" type="text/css" href="https://sites.google.com/a/bbva.com/implantaciones-eyp/bbva-components_forms.css?attredirects=0&d=1" media="screen"/>
 
 	
 <style type="text/css">
