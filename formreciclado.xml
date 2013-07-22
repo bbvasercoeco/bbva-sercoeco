@@ -291,7 +291,7 @@
   }else if (permiso=="USA"){	
 	//alert("entro en Usa");
 	
-	html +='<form name="admin" id="admin" action="javascript:writeReciclado();" method="get">';
+	html +='<form name="usa" id="usa" action="javascript:writeReciclado();" method="get">';
 	html +='<label class="top" for="anyo">Year:</label>';
 	html +='<label style="display:inline-block;">';
 	html +='<span class="c-form-combo" id="combo">';
@@ -326,7 +326,7 @@
 	
   }else if (permiso=="ESPAÑA CORPORATIVO"){
   
-	html +='<form name="admin" id="admin" action="javascript:writeReciclado();" method="get">';
+	html +='<form name="corporativos" id="corporativos" action="javascript:writeReciclado();" method="get">';
 	html +='<label class="top" for="anyo">Año:</label>';
 	html +='<label style="display:inline-block;">';
 	html +='<span class="c-form-combo" id="combo">';
@@ -362,7 +362,7 @@
   
   }else{
   
-	html +='<form name="admin" id="admin" action="javascript:writePersonal();" method="get">';
+	html +='<form name="resto" id="resto" action="javascript:writePersonal();" method="get">';
 	html +='<label class="top" for="anyo">Año:</label>';
 	html +='<label style="display:inline-block;">';
 	html +='<span class="c-form-combo" id="combo">';
