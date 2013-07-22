@@ -392,22 +392,22 @@
 	//alert("entro en Usa");
 	
 	html +='<form name="usa" id="usa" action="javascript:writeReciclado();" method="get">';
-	html +='<label class="top" for="anyo">Year:</label>';
+	html +='<li><label class="top" for="anyo">Year:</label>';
 	html +='<label style="display:inline-block;">';
 	html +='<span class="c-form-combo" id="combo">';
 	html +='<select id="anyo" name="anyo" style="display: none;">';
 	html +='<option selected="selected" value="2013">2013</option>';
 	html +='<option value="2014">2014</option><option value="2015">2015</option>';
 	html +='<option value="2016">2016</option><option value="2017">2017</option>';
-	html +='</select></span></label>';
-	html +='<label class="top" for="meses">Period:</label>';
+	html +='</select></span></label></li>';
+	html +='<li><label class="top" for="meses">Period:</label>';
 	html +='<label style="display:inline-block;">';
 	html +='<span class="c-form-combo" id="combo">';
 	html +='<select id="meses" name="meses" style="display: none;">';
 	html +='<option value="1">JAN - MAY</option>';
 	html +='<option value="2">JUN - OCT</option>';
 	html +='<option value="3">NOV - DEC</option>';
-	html +='</select></span></label>';
+	html +='</select></span></label></li>';
 	html +='&nbsp;&nbsp;&nbsp;&nbsp;';
 	html +='<input type="button" class="btn2" onClick="getData()" value="See"/><br/><br/>';
 	html +='<label class="bottom negrita" for="papelkg">Paper sent to recycle</label>';
@@ -427,22 +427,22 @@
   }else if (permiso=="ESPAÑA CORPORATIVO"){
   
 	html +='<form name="corporativos" id="corporativos" action="javascript:writeReciclado();" method="get">';
-	html +='<label class="top" for="anyo">Año:</label>';
+	html +='<li><label class="top" for="anyo">Año:</label>';
 	html +='<label style="display:inline-block;">';
 	html +='<span class="c-form-combo" id="combo">';
 	html +='<select id="anyo" name="anyo" style="display: none;">';
 	html +='<option selected="selected" value="2013">2013</option>';
 	html +='<option value="2014">2014</option><option value="2015">2015</option>';
 	html +='<option value="2016">2016</option><option value="2017">2017</option>';
-	html +='</select></span></label>';
-	html +='<label class="top" for="meses">Periodo:</label>';
+	html +='</select></span></label></li>';
+	html +='<li><label class="top" for="meses">Periodo:</label>';
 	html +='<label style="display:inline-block;">';
 	html +='<span class="c-form-combo" id="combo">';
 	html +='<select id="meses" name="meses" style="display: none;">';
 	html +='<option value="1">ENE - MAY</option>';
 	html +='<option value="2">JUN - OCT</option>';
 	html +='<option value="3">NOV - DIC</option>';
-	html +='</select></span></label>';
+	html +='</select></span></label></li>';
 	html +='&nbsp;&nbsp;&nbsp;&nbsp;';
 	html +='<input type="button" class="btn2" onClick="getData()" value="Consultar"/><br/><br/>';
 	html +='<label class="bottom negrita" for="papelkg">Papel enviado a reciclar</label>';
@@ -463,22 +463,22 @@
   }else{
   
 	html +='<form name="resto" id="resto" action="javascript:writePersonal();" method="get">';
-	html +='<label class="top" for="anyo">Año:</label>';
+	html +='<li><label class="top" for="anyo">Año:</label>';
 	html +='<label style="display:inline-block;">';
 	html +='<span class="c-form-combo" id="combo">';
 	html +='<select id="anyo" name="anyo" style="display: none;">';
 	html +='<option selected="selected" value="2013">2013</option>';
 	html +='<option value="2014">2014</option><option value="2015">2015</option>';
 	html +='<option value="2016">2016</option><option value="2017">2017</option>';
-	html +='</select></span></label>';
-	html +='<label class="top" for="meses">Periodo:</label>';
+	html +='</select></span></label></li>';
+	html +='<li><label class="top" for="meses">Periodo:</label>';
 	html +='<label style="display:inline-block;">';
 	html +='<span class="c-form-combo" id="combo">';
 	html +='<select id="meses" name="meses" style="display: none;">';
 	html +='<option value="1">ENE - MAY</option>';
 	html +='<option value="2">JUN - OCT</option>';
 	html +='<option value="3">NOV - DIC</option>';
-	html +='</select></span></label>';
+	html +='</select></span></label></li>';
 	html +='&nbsp;&nbsp;&nbsp;&nbsp;';
 	html +='<input type="button" class="btn2" onClick="getData()" value="Consultar"/><br/><br/>';
 	html +='<label class="bottom negrita" for="papelkg">Papel enviado a reciclar</label>';
