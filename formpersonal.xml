@@ -286,7 +286,7 @@
 	html +='<br/><br/>';
 	html +='<label class="bottom">Ocupantes no empleados</label>';
 	html +='<label class="medida" for="ocunoem">Nº</label>';
-	html +='<input type="text" name="ocunoem" id="ocunoem" class="textbox"/>';
+	html +='<input type="text" name="ocunoem" id="ocunoem" class="textbox" style="margin-bottom:15px;"/>';
 	html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-2.png?attachauth=ANoY7cr7BY1H9kyFAd12o9WtwjDrxzPs6sbQpbSrG2CIYv0exCmstzsMwAkE7IpyPLhGsmwAV4fXZyR5uS1XH5Gpv-B5XQxzg1vv9i_Lkex3mUwYbZvvxBv1sK0ietcyJMkBJjCs5IHLDPcu7LyxI1DaVyhBHbRUeIu76wj5ndnqwxiBRXLCOoJuWtqZL_FVmaukcFhxRd_XF22wr1g0wuq1X4clEIigYw%3D%3D" alt="separador">';
 	html +='<br/><br/>';
 	html +='<input type="submit" class="btn" value="Guardar"/></form>';
@@ -328,7 +328,7 @@
 	html +='<br/><br/>';
 	html +='<label class="bottom">Occupants not employed</label>';
 	html +='<label class="medida" for="ocunoem">Nº</label>';
-	html +='<input type="text" name="ocunoem" id="ocunoem" class="textbox"/>';
+	html +='<input type="text" name="ocunoem" id="ocunoem" class="textbox" style="margin-bottom:15px;"/>';
 	html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-2.png?attachauth=ANoY7cr7BY1H9kyFAd12o9WtwjDrxzPs6sbQpbSrG2CIYv0exCmstzsMwAkE7IpyPLhGsmwAV4fXZyR5uS1XH5Gpv-B5XQxzg1vv9i_Lkex3mUwYbZvvxBv1sK0ietcyJMkBJjCs5IHLDPcu7LyxI1DaVyhBHbRUeIu76wj5ndnqwxiBRXLCOoJuWtqZL_FVmaukcFhxRd_XF22wr1g0wuq1X4clEIigYw%3D%3D" alt="separador">';
 	html +='<br/><br/>';
 	html +='<input type="submit" class="btn" value="Save"/></form>';
@@ -371,7 +371,7 @@
 	html +='<br/><br/>';
 	html +='<label class="bottom">Ocupantes no empleados</label>';
 	html +='<label class="medida" for="ocunoem">Nº</label>';
-	html +='<input type="text" name="ocunoem" id="ocunoem" class="textbox"/>';
+	html +='<input type="text" name="ocunoem" id="ocunoem" class="textbox" style="margin-bottom:15px;"/>';
 	html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-2.png?attachauth=ANoY7cr7BY1H9kyFAd12o9WtwjDrxzPs6sbQpbSrG2CIYv0exCmstzsMwAkE7IpyPLhGsmwAV4fXZyR5uS1XH5Gpv-B5XQxzg1vv9i_Lkex3mUwYbZvvxBv1sK0ietcyJMkBJjCs5IHLDPcu7LyxI1DaVyhBHbRUeIu76wj5ndnqwxiBRXLCOoJuWtqZL_FVmaukcFhxRd_XF22wr1g0wuq1X4clEIigYw%3D%3D" alt="separador">';
 	html +='<br/><br/>';
 	html +='<input type="hidden" name="country" id="country" value="CORPORATIVO"/>';
@@ -415,7 +415,7 @@
 	html +='<br/><br/>';
 	html +='<label class="bottom">Ocupantes no empleados</label>';
 	html +='<label class="medida" for="ocunoem">Nº</label>';
-	html +='<input type="text" name="ocunoem" id="ocunoem" class="textbox"/>';
+	html +='<input type="text" name="ocunoem" id="ocunoem" class="textbox" style="margin-bottom:15px;"/>';
 	html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-2.png?attachauth=ANoY7cr7BY1H9kyFAd12o9WtwjDrxzPs6sbQpbSrG2CIYv0exCmstzsMwAkE7IpyPLhGsmwAV4fXZyR5uS1XH5Gpv-B5XQxzg1vv9i_Lkex3mUwYbZvvxBv1sK0ietcyJMkBJjCs5IHLDPcu7LyxI1DaVyhBHbRUeIu76wj5ndnqwxiBRXLCOoJuWtqZL_FVmaukcFhxRd_XF22wr1g0wuq1X4clEIigYw%3D%3D" alt="separador">';
 	html +='<br/><br/>';
 	html +='<input type="hidden" name="country" id="country" value="CORPORATIVO"/>';
