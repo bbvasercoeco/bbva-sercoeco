@@ -216,7 +216,7 @@
  </style>
  
  
-<div id="formulariopersonal"></div>
+<div id="formularioreciclado"></div>
 
 <script type='text/javascript'>
 
@@ -238,7 +238,7 @@
   if(arguments[0].user=="ADMIN"){
      
 
-	html +='<form name="admin" id="admin" action="javascript:writePersonal();" method="get">';
+	html +='<form name="admin" id="admin" action="javascript:writeReciclado();" method="get">';
 	html +='<label style="display:inline-block;"><span class="c-form-combo">';
 	html +='<select  name="country" id="country" onchange="selectDateOption(this.options[this.selectedIndex].value);">';
 	html +='<option value="ESPAÑA" selected="selected">España</option>';
@@ -291,7 +291,7 @@
   }else if (permiso=="USA"){	
 	//alert("entro en Usa");
 	
-	html +='<form name="admin" id="admin" action="javascript:writePersonal();" method="get">';
+	html +='<form name="admin" id="admin" action="javascript:writeReciclado();" method="get">';
 	html +='<label class="top" for="anyo">Year:</label>';
 	html +='<label style="display:inline-block;">';
 	html +='<span class="c-form-combo" id="combo">';
@@ -326,7 +326,7 @@
 	
   }else if (permiso=="ESPAÑA CORPORATIVO"){
   
-	html +='<form name="admin" id="admin" action="javascript:writePersonal();" method="get">';
+	html +='<form name="admin" id="admin" action="javascript:writeReciclado();" method="get">';
 	html +='<label class="top" for="anyo">Año:</label>';
 	html +='<label style="display:inline-block;">';
 	html +='<span class="c-form-combo" id="combo">';
@@ -399,7 +399,7 @@
   
   }
 
-document.getElementById('formulariopersonal').innerHTML = html;
+document.getElementById('formularioreciclado').innerHTML = html;
 Loaditems();
 //document.getElementById('btnsubmit').onclick = function (){writePersonal();};
 }
@@ -415,9 +415,9 @@ Loaditems();
 <script type="text/javascript">
 
 
- function writePersonal(){
+ function writeReciclado(){
 
-  alert("entro en writePersonal vers 1");
+  alert("entro en writeReciclado vers 1");
   var params = $("#admin").serialize();
   alert("params "+params);
   $.ajax({
