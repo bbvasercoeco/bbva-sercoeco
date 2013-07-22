@@ -426,7 +426,7 @@
   }
 
 document.getElementById('formulariopersonal').innerHTML = html;
-
+Loaditems();
 //document.getElementById('btnsubmit').onclick = function (){writePersonal();};
 }
  
