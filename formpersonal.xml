@@ -232,8 +232,8 @@
   alert(arguments[0].user);
   var html="";
   if(arguments[0].user=="ADMIN"){
-  <script type='text/javascript'>$(document).ready(function() {	$('#paises').selectmenu({ width: 120 });	});</script>
-  
+     
+    html +='<script>$(document).ready(function() {	$("#paises").selectmenu({ width: 120 });})</script>';
 	html +='<form name="admin" id="admin" action="javascript:writePersonal();" method="get">';
 	html +='<label style="display:inline-block;"><span class="c-form-combo">';
 	html +='<select  name="country" id="country" onchange="selectDateOption(this.options[this.selectedIndex].value);">';
@@ -425,6 +425,7 @@
   }
 
 document.getElementById('formulariopersonal').innerHTML = html;
+
 //document.getElementById('btnsubmit').onclick = function (){writePersonal();};
 }
  
