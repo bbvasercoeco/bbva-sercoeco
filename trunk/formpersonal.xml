@@ -17,7 +17,7 @@
  <script src="https://www.google.com/jsapi" type="text/javascript"></script>
  <script type='text/javascript' src='https://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery-1.9.1.min.js'></script>
  <script type='text/javascript' src='https://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery-ui-compilation2.js' ></script>
- <script type='text/javascript' src='https://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.ui.selectmenu.js'></script>
+ <script type="text/javascript" src="https://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.ui.selectmenu.js" charset="utf-8"></script>
  <script type='text/javascript' src='https://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.marmots-checkbox.js'></script>
    
  <link rel='stylesheet' type='text/css' href='https://bbva-sercoeco.googlecode.com/svn/trunk/js/jqueryui.css' media='screen'/>
