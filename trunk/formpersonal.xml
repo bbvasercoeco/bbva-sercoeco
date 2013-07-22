@@ -439,7 +439,16 @@ document.getElementById('formulariopersonal').innerHTML = html;
 <script type="text/javascript" src="https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec?prefix=getUser"></script>
 
 <script type="text/javascript">
+ function Loaditems()
+	{
+		$(document).ready(function()
+		{
+			$('#anyo').selectmenu({ width: 225 });
+			$('#meses').selectmenu({ width: 225 });
+			//console.log("cargo los select");
+		});
 
+	}
 
  function writePersonal(){
 
