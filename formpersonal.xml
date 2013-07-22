@@ -108,7 +108,7 @@
 	label.medida2 {
 		display:inline-block;
 		width:120px;
-		padding-left:4px;
+		padding-left:7px;
 		font-family:Arial;
 		color:#71777F;
 		font-size:12px;
