@@ -444,7 +444,7 @@ function getData(){
         html +='</div>';
   }else if(permiso=="USA"){
 		html +='<div class="container_24">';
-		html +='<form name="usa" action="https://script.google.com/macros/s/AKfycbxe7IDJDZChnmP7EOWAcLS2dboKruvP1NeqQp_G4AY/dev" method="get" target="_parent" >';
+		html +='<form name="usa" action="javascript:writeConsumo()" method="get" target="_parent" >';
         html +='<span class="titulo">Seleccionar fase</span>';
         html +='<label style="display:inline-block;">';
         html +='<span class="c-form-combo">';
@@ -481,7 +481,7 @@ function getData(){
   
   }else if (permiso="ESPAÑA CORPORATIVO"){
 		html +='<div class="container_24">';
-        html +='<form name="CORPORATIVOS" action="https://script.google.com/macros/s/AKfycbxe7IDJDZChnmP7EOWAcLS2dboKruvP1NeqQp_G4AY/dev" method="get" target="_parent" >';
+        html +='<form name="CORPORATIVOS" action="javascript:writeConsumo()" method="get" target="_parent" >';
         html +='<span class="titulo">Seleccionar fase</span>';
         html +='<label style="display:inline-block;">';
         html +='<span class="c-form-combo">';
@@ -517,7 +517,7 @@ function getData(){
   
   }else{
 		html +='<div class="container_24">';
-        html +='<form name="resto" action="https://script.google.com/macros/s/AKfycbxe7IDJDZChnmP7EOWAcLS2dboKruvP1NeqQp_G4AY/dev" method="get" target="_parent" >';
+        html +='<form name="resto" action="javascript:writeConsumo()" method="get" target="_parent" >';
         html +='<span class="titulo">Seleccionar fase</span>';
         html +='<label class="top" for="anyo">Año:</label>';
         html +='<label style="display:inline-block;">';
@@ -601,7 +601,7 @@ Loaditems();
     contentType: 'application/json',
     dataType: 'jsonp',
     data: params,
-        prefix: "doGet",
+    prefix: "doGet",
     success: function(){
                   return alert("Data Saved:");
         
