@@ -33,15 +33,16 @@
 
                 <script>
 function getUser(){
-//  alert(arguments[0].user);
+ // alert(arguments[0].user);
  
+ // var per = arguments[0].user;
+  var per = "LJSAHFD";
   var html="";
   var html2="";
  
-  if(arguments[0].user=="ADMIN"){
-     
-    html += "<img src='https://sites.google.com/a/bbva.com/sercoeco/cabeceraHomeSerc.png' />";
-
+  if(per=="ADMIN"){
+	
+    html += "<img src='https://sites.google.com/a/bbva.com/sercoeco/cabeceraHomeSerc.png' />;
     html += "<h1 id='titlepage'>Objectivos del plan</h1>";        
     html += "    <img src='https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0' class='linetitle'/>";
     html += "<div class='textintro'>BBVA lanzó en el 2008 el Plan Global de Eco-eficiencia (PGE). El plan contempla un conjunto de objetivos para el periodo 2013-2015 en materia de reducción de impactos ambientales directos.</div>";
@@ -76,9 +77,7 @@ function getUser(){
     html += "          <button id='admin' class='btn' type='button'>Acceder</button>";
     html += " </div>";
     html += "</div>";
-  } else if(arguments[0].user=="USA")  {
-  
-         html += "<img src='https://sites.google.com/a/bbva.com/sercoeco/banner.fw.png' />";
+  } else if(per=="USA")  {
        
         html += "<h1 id='titlepage'>Objectives of the plan</h1>";        
     html += "    <img src='https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0' class='linetitle'/>";
@@ -110,9 +109,42 @@ function getUser(){
     html += "  <div class='app'>";
     html += " </div>";
     html += "</div>";
-  } else {
+  } else if  ( per!= "ESPAÑA" && per != "ESPAÑA CORPORATIVOS" && per != "PORTUGAL" && per != "MEXICO" && per != "COLOMBIA" && per != "CHILE" && per != "ARGENTINA" && per != "VENEZUELA" && per != "PERU" && per != "PANAMA" && per != "PARAGUAY" && per != "URUGUAY" ){
  
+	html += "<p style="color: #FF9900;"><b>IMPORTANTE (!): Autorización de Identidad.</b></p>"
+	html += "<p style="color: #FF9900;">Si esta es la primera vez que accedes a este sitio es necesario que sigas este <a href="https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec" >ENLACE</a> y autorices a la aplicación para que pueda validar tu identidad.</p>"
+    html += "<h1 id='titlepage'>Objetivos del plan</h1>";        
+    html += "    <img src='https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0' class='linetitle'/>";
+    html += "<div class='textintro'>BBVA lanzó en el 2008 el Plan Global de Eco-eficiencia (PGE). El plan contempla un conjunto de objetivos para el periodo 2013-2015 en materia de reducción de impactos ambientales directos.</div>";
+    html += "<h1 id='titlepage1'>Secciones</h1> ";
+    html += "<img src='https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0' class='linetitle'/>";
 
+        html += "<div class='content_aplicaciones'>";
+
+    html += "    <div class='app'>";
+    html += "           <img src='http://bbva-sercoeco.googlecode.com/svn/trunk/img/consumo.png' alt='' class='ico'>";
+    html += "            <h3 class='app_titulo'>Consumo</h3>";
+    html += "            <p class='app_texto'>Introducción de consumos y precios unitarios.</p>";
+    html += "            <button id='consumo' class='btn' type='button'>Acceder</button>";
+    html += "    </div>";
+
+    html += "   <div class='app'>";
+    html += "          <img src='https://bbva-sercoeco.googlecode.com/svn/trunk/img/personal1.png' alt='' class='ico'>";
+    html += "          <h3 class='app_titulo'>Reciclaje</h3>";
+    html += "          <p class='app_texto'>Introduccion de cantidades recicladas.</p>";
+    html += "          <button id='recicla' class='btn' type='button'>Acceder</button>";
+    html += "  </div>";
+    html += "  <div class='app'>";
+    html += "          <img src='https://bbva-sercoeco.googlecode.com/svn/trunk/img/personal.png' alt='' class='ico'>";
+    html += "          <h3 class='app_titulo'>Personal</h3>";
+    html += "          <p class='app_texto'>Introducción de ocupantes externos y certificaciones.</p>";
+    html += "          <button id='personal' class='btn' type='button'>Acceder</button>";
+    html += "  </div>";
+    html += "  <div class='app'>";
+    html += " </div>";
+    html += "</div>";
+
+ }else{    
         html += "<h1 id='titlepage'>Objetivos del plan</h1>";        
     html += "    <img src='https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0' class='linetitle'/>";
     html += "<div class='textintro'>BBVA lanzó en el 2008 el Plan Global de Eco-eficiencia (PGE). El plan contempla un conjunto de objetivos para el periodo 2013-2015 en materia de reducción de impactos ambientales directos.</div>";
