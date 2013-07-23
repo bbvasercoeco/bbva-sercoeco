@@ -113,7 +113,8 @@ function getUser(){
  
 	html += "<p style='color: #FF9900;'><b>IMPORTANTE (!): Autorización de Identidad.</b></p>"
 	html += "<p style='color: #FF9900;'>Si esta es la primera vez que accedes a este sitio es necesario que sigas este <a href='https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec' >ENLACE</a> y autorices a la aplicación para que pueda validar tu identidad.</p>"
-    html += "<h1 id='titlepage'>Objetivos del plan</h1>";        
+     html += "<img src='https://sites.google.com/a/bbva.com/sercoeco/cabeceraHomeSerc.png' />";
+   html += "<h1 id='titlepage'>Objetivos del plan</h1>";        
     html += "    <img src='https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0' class='linetitle'/>";
     html += "<div class='textintro'>BBVA lanzó en el 2008 el Plan Global de Eco-eficiencia (PGE). El plan contempla un conjunto de objetivos para el periodo 2013-2015 en materia de reducción de impactos ambientales directos.</div>";
     html += "<h1 id='titlepage1'>Secciones</h1> ";
