@@ -603,8 +603,8 @@ Loaditems();
 
  function writeConsumo(){
 
-  alert("entro en writeConsumo vers 39");
-  var aux = $("#country");
+  alert("entro en writeConsumo vers 40");
+  var aux = $("#country").value;
   alert(aux);
   aux = decodeURIComponent(aux);
   alert(aux);
