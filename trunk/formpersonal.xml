@@ -562,7 +562,7 @@ var permiso="";
         html +='<input type="text" name="certisoem" id="certisoem" class="textbox"/><br/><br/>';
         html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-2.png?attachauth=ANoY7cr7BY1H9kyFAd12o9WtwjDrxzPs6sbQpbSrG2CIYv0exCmstzsMwAkE7IpyPLhGsmwAV4fXZyR5uS1XH5Gpv-B5XQxzg1vv9i_Lkex3mUwYbZvvxBv1sK0ietcyJMkBJjCs5IHLDPcu7LyxI1DaVyhBHbRUeIu76wj5ndnqwxiBRXLCOoJuWtqZL_FVmaukcFhxRd_XF22wr1g0wuq1X4clEIigYw%3D%3D" alt="separador">';
         html +='<br/><br/>';
-        html +='<label class="bottom">Certificaciones LEED</label>';
+        html +='<label class="bottom">Certificaciones LEED1</label>';
         html +='<label class="medida" for="certifleededif">Nº de Edificios</label>';
         html +='<input type="text" name="certifleededif" id="certifleededif" class="textbox"/><br/><br/>';
         html +='<label class="medida2" for="certifleedem">Nº de empleados</label>';
