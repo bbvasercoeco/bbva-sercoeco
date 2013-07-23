@@ -374,6 +374,7 @@ function getData(){
   if(permiso=="ADMIN"){
 		html +='<div class="container_24">';
         html +='<form name="admin" id="admin" action="javascript:writeConsumo()" method="get">';
+		html +='<li><label class="top" for="anyo">País:</label>';
         html +='<label style="display:inline-block;"><span class="c-form-combo">';
         html +='<select  name="country" id="country" onchange="selectDateOption(this.options[this.selectedIndex].value);">';
         html +='<option value="ESPAÑA" selected="selected">España</option>';
@@ -389,7 +390,7 @@ function getData(){
         html +='<option value="URUGUAY">Uruguay</option>';
         html +='<option value="VENEZUELA">Venezuela</option>';
         html +='<option value="USA">USA</option>';
-        html +='</select></span></label>';
+        html +='</select></span></label></li>';
         html +='<li><label class="top" for="anyo">Año:</label>';
         html +='<label style="display:inline-block;">';
         html +='<span class="c-form-combo" id="combo">';
