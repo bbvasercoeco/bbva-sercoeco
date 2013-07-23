@@ -545,7 +545,7 @@ function getData(){
   
   }else{
 		html +='<div class="container_24">';
-        html +='<form name="resto" id="resto "action="javascript:writeConsumo()" method="get" target="_parent" >';
+        html +='<form name="resto" id="resto" action="javascript:writeConsumo()" method="get" target="_parent" >';
         html +='<li><label class="top" for="anyo">Año:</label>';
         html +='<label style="display:inline-block;">';
         html +='<span class="c-form-combo" id="combo">';
