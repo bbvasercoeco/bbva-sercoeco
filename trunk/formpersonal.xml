@@ -342,7 +342,7 @@
 			$('#anyo').selectmenu({ width: 225 });
 			$('#meses').selectmenu({ width: 225 });
 			//console.log("cargo los select");
-			$('#anyo-button').css({ marginLeft : "26px"});
+			$('#anyo-button').css({ marginLeft : "15px"});
 		});
 
 	}
