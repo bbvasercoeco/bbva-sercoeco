@@ -613,7 +613,7 @@ Loaditems();
     dataType: 'jsonp',
     data: params,
     prefix: "doGet",
-    success: function(){
+    success: function doGet(){
                   return alert("Data Saved:");
 				  window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/consumo";
         
