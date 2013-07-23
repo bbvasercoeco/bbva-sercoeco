@@ -293,7 +293,7 @@ function getUser(){
   var html2="";
   
   if(arguments[0].user=="ADMIN"){
-				html2 +='Español <a target="_parent" href="https://sites.google.com/a/bbva.com/sercoeco/" class="enlaceMenu">| English</a>';
+				//html2 +='Español <a target="_parent" href="https://sites.google.com/a/bbva.com/sercoeco/" class="enlaceMenu">| English</a>';
 				html +='<ul>';
 				html +='<li id="home" class="op1"><a class="enlace" href="https://sites.google.com/a/bbva.com/sercoeco/"   target="_parent"  title="home"></a></li>';
 				html +='<li id="consumo" class="op2"><span class="enlace" tabindex="0"><span><a href="https://sites.google.com/a/bbva.com/sercoeco/home/consumo"  target="_parent">Consumo</a></span></span></li>';
@@ -306,7 +306,7 @@ function getUser(){
 				html +='</ul>';
   
   }else if(arguments[0].user=="USA"){
-				html2 +='<a target="_parent" href="https://sites.google.com/a/bbva.com/sercoeco/" class="enlaceMenu">Español</a> | English</a>';
+				//html2 +='<a target="_parent" href="https://sites.google.com/a/bbva.com/sercoeco/" class="enlaceMenu">Español</a> | English</a>';
 				html +='<ul>';
 				html +='<li id="home" class="op1"><a class="enlace" href="https://sites.google.com/a/bbva.com/sercoeco/"   target="_parent"  title="home"></a></li>';
 				html +='<li id="consumo" class="op9"><span class="enlace" tabindex="0"><span><a href="https://sites.google.com/a/bbva.com/sercoeco/home/consumo"  target="_parent">Consumption</a></span></span></li>';
@@ -328,7 +328,7 @@ function getUser(){
   } */
   
   }else{
-				html2 +='Español <a target="_parent" href="https://sites.google.com/a/bbva.com/sercoeco/" class="enlaceMenu">| English</a>';
+				//html2 +='Español <a target="_parent" href="https://sites.google.com/a/bbva.com/sercoeco/" class="enlaceMenu">| English</a>';
 				html +='<ul>';
 				html +='<li id="home" class="op1"><a class="enlace" href="https://sites.google.com/a/bbva.com/sercoeco/"   target="_parent"  title="home"></a></li>';
 				html +='<li id="consumo" class="op2"><span class="enlace" tabindex="0"><span><a href="https://sites.google.com/a/bbva.com/sercoeco/home/consumo"  target="_parent">Consumo</a></span></span></li>';
@@ -343,7 +343,7 @@ function getUser(){
   }
   console.log("html "+html);
   $(document).ready(function() {
-    document.getElementsByClassName('bloqueEnlaces')[0].innerHTML = html2;
+    //document.getElementsByClassName('bloqueEnlaces')[0].innerHTML = html2;
 	document.getElementsByClassName('cabeceramenu')[0].innerHTML = html;
 	
 	});
