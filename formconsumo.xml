@@ -457,14 +457,14 @@ function getData(){
   }else if(permiso=="USA"){
 		html +='<div class="container_24">';
 		html +='<form name="usa" id="usa" action="javascript:writeConsumo()" method="get" target="_parent" >';
-         html +='<label class="top" for="meses">Period:</label>';
+        html +='<li><label class="top" for="meses">Periodo:</label>';
         html +='<label style="display:inline-block;">';
-        html +='<span class="c-form-combo">';
+        html +='<span class="c-form-combo" id="combo">';
         html +='<select id="meses" name="meses">';
-        html +='<option value="1">ENE - ABR</option>';
-        html +='<option value="2">MAY - AGO</option>';
-        html +='<option value="3">SEP - DIC</option>';
-        html +='</select></span></label>';
+        html +='<option value="1">JAN - MAY</option>';
+        html +='<option value="2">JUN - OCT</option>';
+        html +='<option value="3">NOV - DIC</option>';
+        html +='</select></span></label></li>';
         html +='&nbsp;&nbsp;&nbsp;&nbsp;';
         html +='<input type="button" class="btn2" onClick="getData()" value="See" style="margin-left:26px;margin-top:-3px;"/><br/><br/>';
     html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador.png?attachauth=ANoY7cp60OlfRLiIvUmhs3rEllbqpLvfYXMyDTD34hAXHppg0Ba4bsw9ux5J-CoEQtMfFHpSuNK7JuH0-w1ESyeCH2ZR0YI0v0CXRpX1SUM0r2tHkztReAHqqvW_WGcVwO5OdRKoOa-leu_8rVcsIH56GO6y6aUO_IIC5JFcWsGgn06kolI_kvKeSc9UjPHjaNCuttbreIPI8JF3LsvkEyAap2sG0vhPJw%3D%3D&attredirects=0"/>';
