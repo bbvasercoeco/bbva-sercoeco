@@ -499,7 +499,7 @@ function getData(){
 		html +='</div>';
 	
   
-  }else if (permiso="ESPAÑA CORPORATIVO"){
+  }else if (permiso=="ESPAÑA CORPORATIVO"){
 		html +='<div class="container_24">';
         html +='<form name="CORPORATIVOS" id="corporativos" action="javascript:writeConsumo()" method="get" target="_parent" >';
         html +='<li><label class="top" for="anyo">Año:</label>';
