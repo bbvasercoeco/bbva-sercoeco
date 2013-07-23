@@ -266,7 +266,7 @@ p.app_texto {
 }
         
          </style>
-<body onload="cargar()">
+<body>
 <div id="cuerpo" ></div>
 <script type="text/javascript" src="https://bbva-sercoeco.googlecode.com/svn/trunk/bbcode2html.js"></script>    
  <!--       <script type="text/javascript">
