@@ -138,7 +138,7 @@ function getUser(){
     html += "</div>";
   }
  
-  $("#cuerpo").html(html);
+  document.getElementById("cuerpo").innerHTML = html;
 }
 
 </script>
