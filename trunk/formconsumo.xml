@@ -618,10 +618,13 @@ Loaditems();
 	var params = $("#admin").serialize();
   }else if(permiso=="USA"){
 	var params = $("#usa").serialize();
+	params += "country="+permiso;
   }else if(permiso=="ESPAÑA CORPORATIVO"){
 	var params = $("#corporativos").serialize();
+	params += "country="+permiso;
   }else{
 	var params = $("#resto").serialize();
+	params += "country="+permiso;
   }
   params = decodeURIComponent(params);
   alert("params "+params);
