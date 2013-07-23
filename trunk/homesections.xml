@@ -42,7 +42,7 @@ function getUser(){
  
   if(per=="ADMIN"){
 	
-    html += "<img src='https://sites.google.com/a/bbva.com/sercoeco/cabeceraHomeSerc.png' />;
+    html += "<img src='https://sites.google.com/a/bbva.com/sercoeco/cabeceraHomeSerc.png' />";
     html += "<h1 id='titlepage'>Objectivos del plan</h1>";        
     html += "    <img src='https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0' class='linetitle'/>";
     html += "<div class='textintro'>BBVA lanzó en el 2008 el Plan Global de Eco-eficiencia (PGE). El plan contempla un conjunto de objetivos para el periodo 2013-2015 en materia de reducción de impactos ambientales directos.</div>";
