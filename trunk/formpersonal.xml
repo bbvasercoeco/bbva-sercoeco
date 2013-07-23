@@ -375,7 +375,8 @@ var permiso="";
                         $('#anyo').selectmenu({ width: 225 });
                         $('#meses').selectmenu({ width: 225 });
                         //console.log("cargo los select");
-                        $('#anyo-button').css({ marginLeft : "15px"});
+						$('#country-button').css({ marginLeft : "21px"});
+                        $('#anyo-button').css({ marginLeft : "25px"});
                 });
 
         }
