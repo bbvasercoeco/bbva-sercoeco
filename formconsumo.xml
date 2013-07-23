@@ -451,7 +451,7 @@ function getData(){
   }else if(permiso=="USA"){
 		html +='<div class="container_24">';
 		html +='<form name="usa" action="javascript:writeConsumo()" method="get" target="_parent" >';
-        html +='<span class="titulo">Seleccionar fase</span>';
+        html +='<span class="titulo">Select phase</span>';
         html +='<label style="display:inline-block;">';
         html +='<span class="c-form-combo">';
         html +='<select id="anyo" name="anyo">';
