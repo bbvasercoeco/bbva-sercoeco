@@ -27,7 +27,7 @@
 
         <script src="https://www.google.com/jsapi" type="text/javascript"></script>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
-		<script src="https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec?prefix=getUser"></script>
+		
 		
 		<script>
 function getUser(){
@@ -142,6 +142,7 @@ function getUser(){
 }
 
 </script>
+<script src="https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec?prefix=getUser"></script>
 
         <style type="text/css">
                         /* @group fonts */
