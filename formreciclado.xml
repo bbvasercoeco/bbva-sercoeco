@@ -319,7 +319,7 @@
 <div id="formularioreciclado"></div>
 
 <script type='text/javascript'>
-
+ var permiso="";
  function Loaditems()
 	{
 		$(document).ready(function()
@@ -336,7 +336,7 @@
 	
  function getUser(){
   //alert(arguments[0].user);
-  var permiso = arguments[0].user;
+  permiso = arguments[0].user;
   var html="";
   if(arguments[0].user=="ADMIN"){
      
