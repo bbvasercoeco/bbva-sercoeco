@@ -24,127 +24,8 @@
  <Content type="html">
     <![CDATA[
 
-
         <script src="https://www.google.com/jsapi" type="text/javascript"></script>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
-               
-               <body>
-				<div id="cuerpo"></div>
-
-                <script>
-function getUser(){
-  alert(arguments[0].user);
- 
-  var html="";
-  var html2="";
- 
-  if(arguments[0].user=="ADMIN"){
-   
-        html += "<h1 id='titlepage'></h1>";        
-    html += "    <img src='https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0' class='linetitle'/>";
-    html += "<div class='textintro'></div>";
-    html += "<h1 id='titlepage1'></h1> ";
-    html += "<img src='https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0' class='linetitle'/>";
-
-        html += "<div class='content_aplicaciones'>";
-
-    html += "    <div class='app'>";
-    html += "           <img src='http://bbva-sercoeco.googlecode.com/svn/trunk/img/consumo.png' alt='' class='ico'>";
-    html += "            <h3 class='app_titulo'>Consumo</h3>";
-    html += "            <p class='app_texto'>Introducción de consumos y precios unitarios.</p>";
-    html += "            <button id='consumo' class='btn' type='button'>Acceder</button>";
-    html += "    </div>";
-
-    html += "   <div class='app'>";
-    html += "          <img src='https://bbva-sercoeco.googlecode.com/svn/trunk/img/personal1.png' alt='' class='ico'>";
-    html += "          <h3 class='app_titulo'>Reciclaje</h3>";
-    html += "          <p class='app_texto'>Introduccion de cantidades recicladas.</p>";
-    html += "          <button id='recicla' class='btn' type='button'>Acceder</button>";
-    html += "  </div>";
-    html += "  <div class='app'>";
-    html += "          <img src='https://bbva-sercoeco.googlecode.com/svn/trunk/img/personal.png' alt='' class='ico'>";
-    html += "          <h3 class='app_titulo'>Personal</h3>";
-    html += "          <p class='app_texto'>Introducción de ocupantes externos y certificaciones.</p>";
-    html += "          <button id='personal' class='btn' type='button'>Acceder</button>";
-    html += "  </div>";
-    html += "  <div class='app'>";
-    html += "          <img src='http://bbva-sercoeco.googlecode.com/svn/trunk/img/admin.png' alt='' class='ico'>";
-    html += "          <h3 class='app_titulo'>Administrador</h3>";
-    html += "          <p class='app_texto'>Parametrización del servicio.</p>";
-    html += "          <button id='admin' class='btn' type='button'>Acceder</button>";
-    html += " </div>";
-    html += "</div>";
-  } else if(arguments[0].user=="USA")  {
-       
-        html += "<h1 id='titlepage'></h1>";        
-    html += "    <img src='https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0' class='linetitle'/>";
-    html += "<div class='textintro'></div>";
-    html += "<h1 id='titlepage1'></h1> ";
-    html += "<img src='https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0' class='linetitle'/>";
-
-        html += "<div class='content_aplicaciones'>";
-
-    html += "    <div class='app'>";
-    html += "           <img src='http://bbva-sercoeco.googlecode.com/svn/trunk/img/consumo.png' alt='' class='ico'>";
-    html += "            <h3 class='app_titulo'>Consumption</h3>";
-    html += "            <p class='app_texto'>Introduction of consumption and unit prices.</p>";
-    html += "            <button id='consumo' class='btn' type='button'>Log in</button>";
-    html += "    </div>";
-
-    html += "   <div class='app'>";
-    html += "          <img src='https://bbva-sercoeco.googlecode.com/svn/trunk/img/personal1.png' alt='' class='ico'>";
-    html += "          <h3 class='app_titulo'>Recycling</h3>";
-    html += "          <p class='app_texto'>Introduction of amounts recycled.</p>";
-    html += "          <button id='recicla' class='btn' type='button'>Log in</button>";
-    html += "  </div>";
-    html += "  <div class='app'>";
-    html += "          <img src='https://bbva-sercoeco.googlecode.com/svn/trunk/img/personal.png' alt='' class='ico'>";
-    html += "          <h3 class='app_titulo'>Personal</h3>";
-    html += "          <p class='app_texto'>Introduction of foreign occupiers and certifications.</p>";
-    html += "          <button id='personal' class='btn' type='button'>Log in</button>";
-    html += "  </div>";
-    html += "  <div class='app'>";
-    html += " </div>";
-    html += "</div>";
-  } else {
-      
-        html += "<h1 id='titlepage'></h1>";        
-    html += "    <img src='https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0' class='linetitle'/>";
-    html += "<div class='textintro'></div>";
-    html += "<h1 id='titlepage1'></h1> ";
-    html += "<img src='https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0' class='linetitle'/>";
-
-        html += "<div class='content_aplicaciones'>";
-
-    html += "    <div class='app'>";
-    html += "           <img src='http://bbva-sercoeco.googlecode.com/svn/trunk/img/consumo.png' alt='' class='ico'>";
-    html += "            <h3 class='app_titulo'>Consumo</h3>";
-    html += "            <p class='app_texto'>Introducción de consumos y precios unitarios.</p>";
-    html += "            <button id='consumo' class='btn' type='button'>Acceder</button>";
-    html += "    </div>";
-
-    html += "   <div class='app'>";
-    html += "          <img src='https://bbva-sercoeco.googlecode.com/svn/trunk/img/personal1.png' alt='' class='ico'>";
-    html += "          <h3 class='app_titulo'>Reciclaje</h3>";
-    html += "          <p class='app_texto'>Introduccion de cantidades recicladas.</p>";
-    html += "          <button id='recicla' class='btn' type='button'>Acceder</button>";
-    html += "  </div>";
-    html += "  <div class='app'>";
-    html += "          <img src='https://bbva-sercoeco.googlecode.com/svn/trunk/img/personal.png' alt='' class='ico'>";
-    html += "          <h3 class='app_titulo'>Personal</h3>";
-    html += "          <p class='app_texto'>Introducción de ocupantes externos y certificaciones.</p>";
-    html += "          <button id='personal' class='btn' type='button'>Acceder</button>";
-    html += "  </div>";
-    html += "  <div class='app'>";
-    html += " </div>";
-    html += "</div>";
-  }
- 
-  $("#cuerpo").html(html);
-}
-
-</script>
-<script src="https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec?prefix=getUser"></script>
 
         <style type="text/css">
                         /* @group fonts */
@@ -268,9 +149,48 @@ p.app_texto {
 }
        
          </style>
+<body onload="cargar()">
+<h1 id="titlepage"></h1>        
+        <img src="https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0" class="linetitle"/>
+<div class="textintro"></div>          
+ 
+<h1 id="titlepage1"></h1>
+    <img src="https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0" class="linetitle"/>
 
+<div class="content_aplicaciones">
+
+        <div class="app">
+                <img src="http://bbva-sercoeco.googlecode.com/svn/trunk/img/consumo.png" alt="" class="ico">
+                <h3 class="app_titulo">Consumo</h3>
+                <p class="app_texto"></p>
+                <button id="consumo" class="btn" type="button">Acceder</button>
+        </div>
+
+        <div class="app">
+                <img src="https://bbva-sercoeco.googlecode.com/svn/trunk/img/personal1.png" alt="" class="ico">
+                <h3 class="app_titulo">Reciclaje</h3>
+                <p class="app_texto"></p>
+                <button id="recicla" class="btn" type="button">Acceder</button>
+        </div>
+
+        <div class="app">
+                <img src="https://bbva-sercoeco.googlecode.com/svn/trunk/img/personal.png" alt="" class="ico">
+                <h3 class="app_titulo">Personal</h3>
+                <p class="app_texto"></p>
+                <button id="personal" class="btn" type="button">Acceder</button>
+        </div>
+
+        <div class="app">
+                <img src="http://bbva-sercoeco.googlecode.com/svn/trunk/img/admin.png" alt="" class="ico">
+                <h3 class="app_titulo">Administrador</h3>
+                <p class="app_texto"></p>
+                <button id="admin" class="btn" type="button">Acceder</button>
+        </div>
+
+               
+</div>  
 <script type="text/javascript" src="https://bbva-sercoeco.googlecode.com/svn/trunk/bbcode2html.js"></script>    
- <!--       <script type="text/javascript">
+        <script type="text/javascript">
                 var prefs = new gadgets.Prefs();
                
                 var titlepage = prefs.getString("titlepage");
@@ -309,7 +229,7 @@ p.app_texto {
                 }
                
                
-   </script>    -->
+   </script>
 </body>
        
        
@@ -468,7 +388,6 @@ p.app_texto {
                         }      
                         gadgets.window.adjustHeight();
                 </script>  
-
         ]]>
 
 </Content>
