@@ -320,6 +320,10 @@ function Loaditems()
 			$('#anyo').selectmenu({ width: 225 });
 			$('#meses').selectmenu({ width: 225 });
 			//console.log("cargo los select");
+			
+			$('#country').css({ marginLeft : "24px"});
+			$('#anyo').css({ marginLeft : "26px"});
+			
 		});
 
 	}
