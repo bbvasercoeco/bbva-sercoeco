@@ -604,11 +604,12 @@ Loaditems();
     prefix: "doGet",
     success: function(){
                   return alert("Data Saved:");
-        
+				  window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/consumo";
         
         },
     failure: function(){
-                  return  alert("Data NOT Saved:");           
+                  return  alert("Data NOT Saved:");   
+				  window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/consumo";
     }
   })
   
