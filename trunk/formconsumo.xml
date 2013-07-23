@@ -372,7 +372,7 @@ function getData(){
 }
 
  function getUser(){
-  //alert(arguments[0].user);
+  alert(arguments[0].user);
   // var permiso = arguments[0].user;
   var permiso = "ADMIN";
   var html="";
