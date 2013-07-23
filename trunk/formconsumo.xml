@@ -604,8 +604,12 @@ Loaditems();
  function writeConsumo(){
 
   alert("entro en writeConsumo vers 39");
-  document.getElementById('country').innerHTML = decodeURIComponent(document.getElementById('country').innerHTML);
-  alert(document.getElementById('country'));
+  var aux = $("#country");
+  alert(aux);
+  aux = decodeURIComponent(aux);
+  alert(aux);
+  document.getElementById('country').innerHTML = aux;
+ 
   var params = $("#admin").serialize();
   alert("params "+params);
   $.ajax({
