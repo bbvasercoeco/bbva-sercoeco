@@ -367,7 +367,7 @@ function getData(){
 <div id="formulariopersonal"></div>
 
 <script type='text/javascript'>
-
+var permiso="";
  function Loaditems()
         {
                 $(document).ready(function()
@@ -383,7 +383,7 @@ function getData(){
         
  function getUser(){
   //alert(arguments[0].user);
-  var permiso = arguments[0].user;
+  permiso = arguments[0].user;
   var html="";
   if(arguments[0].user=="ADMIN"){
      
@@ -601,7 +601,18 @@ Loaditems();
  function writePersonal(){
 
   alert("entro en writePersonal vers 1");
-  var params = $("#admin").serialize();
+  if(permiso=="ADMIN"){
+	var params = $("#admin").serialize();
+  }else if(permiso=="USA"){
+	var params = $("#usa").serialize();
+	params += "&country="+permiso;
+  }else if(permiso=="ESPAÑA CORPORATIVO"){
+	var params = $("#corporativos").serialize();
+	//params += "&country="+permiso;
+  }else{
+	var params = $("#resto").serialize();
+	params += "&country="+permiso;
+  }
   alert("params "+params);
   $.ajax({
     type: "GET",       
@@ -610,13 +621,15 @@ Loaditems();
     dataType: 'jsonp',
     data: params,
         prefix: "doGet",
-    success: function(){
-                        alert("Data Saved:");
+    success: function doGet(){
+                        return alert("Data Saved:");
+						window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/personal";
         
         
         },
-    failure: function(){
-                    alert("Data NOT Saved:");           
+    failure: function doGet(){
+                    return alert("Data NOT Saved:");  
+					window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/personal";
     }
   })
   
