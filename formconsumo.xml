@@ -373,7 +373,7 @@ function getData(){
   var html="";
   if(permiso=="ADMIN"){
 		html +='<div class="container_24">';
-        html +='<form name="admin" id="admin" action="javascript:writeConsumo();" method="get">';
+        html +='<form name="admin" id="admin" action="javascript:writeConsumo()" method="get">';
         html +='<label style="display:inline-block;"><span class="c-form-combo">';
         html +='<select  name="country" id="country" onchange="selectDateOption(this.options[this.selectedIndex].value);">';
         html +='<option value="ESPAÑA" selected="selected">España</option>';
@@ -603,12 +603,12 @@ Loaditems();
     data: params,
         prefix: "doGet",
     success: function(){
-                        alert("Data Saved:");
+                  return alert("Data Saved:");
         
         
         },
     failure: function(){
-                    alert("Data NOT Saved:");           
+                  return  alert("Data NOT Saved:");           
     }
   })
   
