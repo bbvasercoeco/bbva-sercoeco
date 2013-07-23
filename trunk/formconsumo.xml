@@ -457,7 +457,7 @@ function getData(){
   }else if(permiso=="USA"){
 		html +='<div class="container_24">';
 		html +='<form name="usa" id="usa" action="javascript:writeConsumo()" method="get" target="_parent" >';
-		html +='<li><label class="top" for="anyo">Año:</label>';
+		html +='<li><label class="top" for="anyo">Year:</label>';
         html +='<label style="display:inline-block;">';
         html +='<span class="c-form-combo" id="combo">';
         html +='<select id="anyo" name="anyo">';
@@ -502,14 +502,22 @@ function getData(){
   }else if (permiso="ESPAÑA CORPORATIVO"){
 		html +='<div class="container_24">';
         html +='<form name="CORPORATIVOS" id="corporativos" action="javascript:writeConsumo()" method="get" target="_parent" >';
-        html +='<span class="titulo">Seleccionar fase</span>';
+        html +='<li><label class="top" for="anyo">Año:</label>';
         html +='<label style="display:inline-block;">';
-        html +='<span class="c-form-combo">';
+        html +='<span class="c-form-combo" id="combo">';
         html +='<select id="anyo" name="anyo">';
         html +='<option selected="selected" value="2013">2013</option>';
         html +='<option value="2014">2014</option><option value="2015">2015</option>';
         html +='<option value="2016">2016</option><option value="2017">2017</option>';
-        html +='</select></span></label>';
+        html +='</select></span></label></li>';
+        html +='<li><label class="top" for="meses">Periodo:</label>';
+        html +='<label style="display:inline-block;">';
+        html +='<span class="c-form-combo" id="combo">';
+        html +='<select id="meses" name="meses">';
+        html +='<option value="1">JAN - MAY</option>';
+        html +='<option value="2">JUN - OCT</option>';
+        html +='<option value="3">NOV - DIC</option>';
+        html +='</select></span></label></li>';
         html +='&nbsp;&nbsp;&nbsp;&nbsp;';
         html +='<input type="button" class="btn2" onClick="getData()" value="Consultar" style="margin-left:26px;margin-top:-3px;"/><br/><br/>';
     html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador.png?attachauth=ANoY7cp60OlfRLiIvUmhs3rEllbqpLvfYXMyDTD34hAXHppg0Ba4bsw9ux5J-CoEQtMfFHpSuNK7JuH0-w1ESyeCH2ZR0YI0v0CXRpX1SUM0r2tHkztReAHqqvW_WGcVwO5OdRKoOa-leu_8rVcsIH56GO6y6aUO_IIC5JFcWsGgn06kolI_kvKeSc9UjPHjaNCuttbreIPI8JF3LsvkEyAap2sG0vhPJw%3D%3D&attredirects=0"/>';
@@ -538,23 +546,22 @@ function getData(){
   }else{
 		html +='<div class="container_24">';
         html +='<form name="resto" id="resto "action="javascript:writeConsumo()" method="get" target="_parent" >';
-        html +='<span class="titulo">Seleccionar fase</span>';
-        html +='<label class="top" for="anyo">Año:</label>';
+        html +='<li><label class="top" for="anyo">Año:</label>';
         html +='<label style="display:inline-block;">';
-        html +='<span class="c-form-combo">';
+        html +='<span class="c-form-combo" id="combo">';
         html +='<select id="anyo" name="anyo">';
         html +='<option selected="selected" value="2013">2013</option>';
         html +='<option value="2014">2014</option><option value="2015">2015</option>';
         html +='<option value="2016">2016</option><option value="2017">2017</option>';
-        html +='</select></span></label>';
-        html +='<label class="top" for="meses">Periodo:</label>';
+        html +='</select></span></label></li>';
+        html +='<li><label class="top" for="meses">Periodo:</label>';
         html +='<label style="display:inline-block;">';
-        html +='<span class="c-form-combo">';
+        html +='<span class="c-form-combo" id="combo">';
         html +='<select id="meses" name="meses">';
-        html +='<option value="1">ENE - ABR</option>';
-        html +='<option value="2">MAY - AGO</option>';
-        html +='<option value="3">SEP - DIC</option>';
-        html +='</select></span></label>';
+        html +='<option value="1">JAN - MAY</option>';
+        html +='<option value="2">JUN - OCT</option>';
+        html +='<option value="3">NOV - DIC</option>';
+        html +='</select></span></label></li>';
         html +='&nbsp;&nbsp;&nbsp;&nbsp;';
         html +='<input type="button" class="btn2" onClick="getData()" value="Consultar" style="margin-left:26px;margin-top:-3px;"/><br/><br/>';
         html +='<label class="bottom negrita" for="eleckw">Electricidad</label>';
