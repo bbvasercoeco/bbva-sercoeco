@@ -215,6 +215,8 @@
 	    text-align: center;
 	    vertical-align: middle;
 	    width: 80px;
+		margin-left: -10px;
+		margin-top: 20px;
 	}
 
 	.btn:hover, .btn2:hover {
