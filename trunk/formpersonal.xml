@@ -51,6 +51,7 @@
 		font-size:18px;
 		font-family: 'BBVA Web Light', Arial;
 		padding-right:15px;
+		padding-left:2px;
 		color: #0078D2;
 		display: inline-block;
 		width: 210px;
