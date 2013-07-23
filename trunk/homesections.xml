@@ -195,6 +195,7 @@ function getUser(){
                         border: 15px solid #F4F7F5;
                         float: left;
                         width: 450px;
+						heigth: 120px;
             margin-left:-6px;
             margin-top:-20px;
                 }
@@ -473,3 +474,4 @@ p.app_texto {
 
 </Content>
 </Module>
+
