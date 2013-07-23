@@ -376,7 +376,7 @@ function getData(){
 		html +='<div class="container_24">';
         html +='<form name="admin" id="admin" action="javascript:writeConsumo()" method="get">';
 		html +='<li><label class="top" for="country">País:</label>';
-        html +='<label style="display:inline-block;"><span class="c-form-combo">';
+        html +='<label style="display:inline-block;"><span class="c-form-combo" id="combo">';
         html +='<select  name="country" id="country" onchange="selectDateOption(this.options[this.selectedIndex].value);">';
         html +='<option value="ESPAÑA" selected="selected">España</option>';
         html +='<option value="CORPORATIVOS">Esp. Corp</option>';
