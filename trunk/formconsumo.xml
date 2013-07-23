@@ -51,6 +51,7 @@ label.bottom {
         font-size:12px;
         font-family:arial;
         padding-right:15px;
+		padding-left:2px;
 }
 label.top {
         font-family:arial;
