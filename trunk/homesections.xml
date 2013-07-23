@@ -82,7 +82,7 @@ function getUser(){
 
         html += "<h1 id='titlepage'>Objectives of the plan</h1>";        
     html += "    <img src='https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0' class='linetitle'/>";
-    html += "<div class='textintro'>BBVA launched in 2008 the Global Plan of Eco-efficiency (PGE). The plan includes a set of objectives for the period 2013-2015 in terms of direct environmental impact reduction.</div>";
+    html += "<div class='textintro'>BBVA launched in 2008 the Global Plan of Eco-efficiency (PGE). The plan includes a set of objectives for the period 2013-2015 in order to reduce environmental direct impacts.</div>";
     html += "<h1 id='titlepage1'>Sections</h1> ";
     html += "<img src='https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0' class='linetitle'/>";
 
