@@ -613,8 +613,15 @@ Loaditems();
   document.forms["admin"]["country"].value = aux;
  }
  alert($("#country").val);*/
- 
+  if(permiso=="ADMIN"){
   var params = $("#admin").serialize();
+  }else if(permiso=="USA"){
+  var params = $("#usa").serialize();
+  }else if(permiso=="ESPAÑA CORPORATIVO"){
+  var params = $("#corporativos").serialize();
+  }else{
+  var params = $("#resto").serialize();
+  }
   params = decodeURIComponent(params);
   alert("params "+params);
   $.ajax({
