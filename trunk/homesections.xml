@@ -24,112 +24,228 @@
  <Content type="html">
     <![CDATA[
 
-	<script src="https://www.google.com/jsapi" type="text/javascript"></script>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
 
-	<style type="text/css">
-		  	/* @group fonts */
-			@font-face {
-				font-family: 'BBVA Web Light';
-				src:url('https://sites.google.com/a/bbva.com/leanobservatory/web-light.eot?attredirects=0&d=1');
-				src:url('https://sites.google.com/a/bbva.com/leanobservatory/web-light.eot?attredirects=0&d=1?iefix') format("embedded-opentype"),
-					/*url('https://sites.google.com/a/bbva.com/leanobservatory/web-light.woff?attredirects=0&d=1') format("woff"),*/
-					url('https://sites.google.com/a/bbva.com/leanobservatory/web-light.ttf?attredirects=0&d=1') format("truetype"),
-					url('https://sites.google.com/a/bbva.com/leanobservatory/web-light.svg?attredirects=0&d=1#BBVA Web Light') format("svg");
-				font-style: normal;
-				font-weight: normal;
-				
-			}
-		/* @end */
-	    #titlepage1,
-		#titlepage{
-			width: 100%;
-			height: 20px;
-			line-height: 20px;
-			color: #0078D2;
-			font-family: BBVA Web Light, Arial;
-			font-size: 22px;
-			margin: 20px 0px 5px 5px;
-			font-weight: normal;
-		}	
-		.linetitle{
-			width:960px;
-			height:2px;
-			margin-bottom:30px;
-		}
+        <script src="https://www.google.com/jsapi" type="text/javascript"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+		<script src="https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec?prefix=getUser"></script>
+		
+		<script>
+function getUser(){
+ // alert(arguments[0].user);
+ 
+  var html="";
+  var html2="";
+  
+  if(arguments[0].user=="ADMIN"){
+	html += "<body onload='cargar()'>";
+	html += "<h1 id='titlepage'></h1>";        
+    html += "    <img src='https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0' class='linetitle'/>";
+    html += "<div class='textintro'></div>";
+    html += "<h1 id='titlepage1'></h1> ";
+    html += "<img src='https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0' class='linetitle'/>";
+
+	html += "<div class='content_aplicaciones'>";
+
+    html += "    <div class='app'>";
+    html += "           <img src='http://bbva-sercoeco.googlecode.com/svn/trunk/img/consumo.png' alt='' class='ico'>";
+    html += "            <h3 class='app_titulo'>Consumo</h3>";
+    html += "            <p class='app_texto'>Introducción de consumos y precios unitarios.</p>";
+    html += "            <button id='consumo' class='btn' type='button'>Acceder</button>";
+    html += "    </div>";
+
+    html += "   <div class='app'>";
+    html += "          <img src='https://bbva-sercoeco.googlecode.com/svn/trunk/img/personal1.png' alt='' class='ico'>";
+    html += "          <h3 class='app_titulo'>Reciclaje</h3>";
+    html += "          <p class='app_texto'>Introduccion de cantidades recicladas.</p>";
+    html += "          <button id='recicla' class='btn' type='button'>Acceder</button>";
+    html += "  </div>";
+    html += "  <div class='app'>";
+    html += "          <img src='https://bbva-sercoeco.googlecode.com/svn/trunk/img/personal.png' alt='' class='ico'>";
+    html += "          <h3 class='app_titulo'>Personal</h3>";
+    html += "          <p class='app_texto'>Introducción de ocupantes externos y certificaciones.</p>";
+    html += "          <button id='personal' class='btn' type='button'>Acceder</button>";
+    html += "  </div>";
+    html += "  <div class='app'>";
+    html += "          <img src='http://bbva-sercoeco.googlecode.com/svn/trunk/img/admin.png' alt='' class='ico'>";
+    html += "          <h3 class='app_titulo'>Administrador</h3>";
+    html += "          <p class='app_texto'>Parametrización del servicio.</p>";
+    html += "          <button id='admin' class='btn' type='button'>Acceder</button>";
+    html += " </div>";
+    html += "</div>";
+  } else if(arguments[0].user=="USA")  {
+	html += "<body onload='cargar()'>";
+	html += "<h1 id='titlepage'></h1>";        
+    html += "    <img src='https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0' class='linetitle'/>";
+    html += "<div class='textintro'></div>";
+    html += "<h1 id='titlepage1'></h1> ";
+    html += "<img src='https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0' class='linetitle'/>";
+
+	html += "<div class='content_aplicaciones'>";
+
+    html += "    <div class='app'>";
+    html += "           <img src='http://bbva-sercoeco.googlecode.com/svn/trunk/img/consumo.png' alt='' class='ico'>";
+    html += "            <h3 class='app_titulo'>Consumption</h3>";
+    html += "            <p class='app_texto'>Introduction of consumption and unit prices.</p>";
+    html += "            <button id='consumo' class='btn' type='button'>Log in</button>";
+    html += "    </div>";
+
+    html += "   <div class='app'>";
+    html += "          <img src='https://bbva-sercoeco.googlecode.com/svn/trunk/img/personal1.png' alt='' class='ico'>";
+    html += "          <h3 class='app_titulo'>Recycling</h3>";
+    html += "          <p class='app_texto'>Introduction of amounts recycled.</p>";
+    html += "          <button id='recicla' class='btn' type='button'>Log in</button>";
+    html += "  </div>";
+    html += "  <div class='app'>";
+    html += "          <img src='https://bbva-sercoeco.googlecode.com/svn/trunk/img/personal.png' alt='' class='ico'>";
+    html += "          <h3 class='app_titulo'>Personal</h3>";
+    html += "          <p class='app_texto'>Introduction of foreign occupiers and certifications.</p>";
+    html += "          <button id='personal' class='btn' type='button'>Log in</button>";
+    html += "  </div>";
+    html += "  <div class='app'>";
+    html += " </div>";
+    html += "</div>";
+  } else {
+	html += "<body onload='cargar()'>";
+	html += "<h1 id='titlepage'></h1>";        
+    html += "    <img src='https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0' class='linetitle'/>";
+    html += "<div class='textintro'></div>";
+    html += "<h1 id='titlepage1'></h1> ";
+    html += "<img src='https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0' class='linetitle'/>";
+
+	html += "<div class='content_aplicaciones'>";
+
+    html += "    <div class='app'>";
+    html += "           <img src='http://bbva-sercoeco.googlecode.com/svn/trunk/img/consumo.png' alt='' class='ico'>";
+    html += "            <h3 class='app_titulo'>Consumo</h3>";
+    html += "            <p class='app_texto'>Introducción de consumos y precios unitarios.</p>";
+    html += "            <button id='consumo' class='btn' type='button'>Acceder</button>";
+    html += "    </div>";
+
+    html += "   <div class='app'>";
+    html += "          <img src='https://bbva-sercoeco.googlecode.com/svn/trunk/img/personal1.png' alt='' class='ico'>";
+    html += "          <h3 class='app_titulo'>Reciclaje</h3>";
+    html += "          <p class='app_texto'>Introduccion de cantidades recicladas.</p>";
+    html += "          <button id='recicla' class='btn' type='button'>Acceder</button>";
+    html += "  </div>";
+    html += "  <div class='app'>";
+    html += "          <img src='https://bbva-sercoeco.googlecode.com/svn/trunk/img/personal.png' alt='' class='ico'>";
+    html += "          <h3 class='app_titulo'>Personal</h3>";
+    html += "          <p class='app_texto'>Introducción de ocupantes externos y certificaciones.</p>";
+    html += "          <button id='personal' class='btn' type='button'>Acceder</button>";
+    html += "  </div>";
+    html += "  <div class='app'>";
+    html += " </div>";
+    html += "</div>";
+  }
+  
+  $.("#cuerpo").html(html);
+}
+
+</script>
+
+        <style type="text/css">
+                        /* @group fonts */
+                        @font-face {
+                                font-family: 'BBVA Web Light';
+                                src:url('https://sites.google.com/a/bbva.com/leanobservatory/web-light.eot?attredirects=0&d=1');
+                                src:url('https://sites.google.com/a/bbva.com/leanobservatory/web-light.eot?attredirects=0&d=1?iefix') format("embedded-opentype"),
+                                        /*url('https://sites.google.com/a/bbva.com/leanobservatory/web-light.woff?attredirects=0&d=1') format("woff"),*/
+                                        url('https://sites.google.com/a/bbva.com/leanobservatory/web-light.ttf?attredirects=0&d=1') format("truetype"),
+                                        url('https://sites.google.com/a/bbva.com/leanobservatory/web-light.svg?attredirects=0&d=1#BBVA Web Light') format("svg");
+                                font-style: normal;
+                                font-weight: normal;
+                                
+                        }
+                /* @end */
+            #titlepage1,
+                #titlepage{
+                        width: 100%;
+                        height: 20px;
+                        line-height: 20px;
+                        color: #0078D2;
+                        font-family: BBVA Web Light, Arial;
+                        font-size: 22px;
+                        margin: 20px 0px 5px 5px;
+                        font-weight: normal;
+                }       
+                .linetitle{
+                        width:960px;
+                        height:2px;
+                        margin-bottom:30px;
+                }
         .textintro{
            font-family:BBVA Web Light, Arial;
            font-size:12px;
            color:#71777F;
            width:620px;
-		   margin-bottom:50px;
-		   margin-left:5px;
+                   margin-bottom:50px;
+                   margin-left:5px;
         }
-		div.content_aplicaciones {
-			width:960px;
-			border:5px solid #F4F7F5;
-			display: inline-block;
+                div.content_aplicaciones {
+                        width:960px;
+                        border:5px solid #F4F7F5;
+                        display: inline-block;
             
             
-		}
-		div.app {
-			border: 15px solid #F4F7F5;
-			float: left;
-			width: 450px;
+                }
+                div.app {
+                        border: 15px solid #F4F7F5;
+                        float: left;
+                        width: 450px;
             margin-left:-6px;
             margin-top:-20px;
-		}
-		img.ico {
-			float: left;
-			margin: 25px 20px 25px 15px;
-		}
-		h3.app_titulo {
-			font-family:"BBVA Web Light",arial,sans-serif;
-			color: #0078D2;
-			font-size: 20px;
-			font-weight: lighter;
-		}
+                }
+                img.ico {
+                        float: left;
+                        margin: 25px 20px 25px 15px;
+                }
+                h3.app_titulo {
+                        font-family:"BBVA Web Light",arial,sans-serif;
+                        color: #0078D2;
+                        font-size: 20px;
+                        font-weight: lighter;
+                }
       caja-v-html, 
       caja-v-body{
       
       overflow:hidden;
       }
        
-		
+                
 button.btn {
-	background: #0079C1;
-	background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwNzljMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDU1OWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+');
-	background: -moz-linear-gradient(top, #0079C1 0%, #00559D 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0079C1), color-stop(100%,#00559D));
-	background: -webkit-linear-gradient(top, #0079C1 0%,#00559D 100%);
-	background: -o-linear-gradient(top, #0079C1 0%,#00559D 100%);
-	background: -ms-linear-gradient(top, #0079C1 0%,#00559D 100%);
-	background: linear-gradient(to bottom, #0079C1 0%,#00559D 100%);
-	-webkit-border-radius: .3em;
-	-moz-border-radius: .3em;
-	border-radius: .3em;
-	text-align: center;
-	font-size: 12px;
-	vertical-align: middle;
-	height: 30px;
-	width:66px;
-	padding-left: .9em;
-	padding-right: .9em;
-	padding-bottom: 2px;
-	border: .1em solid #00559D;
-	color: white;
-	cursor: pointer;
-	position: relative;
+        background: #0079C1;
+        background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwNzljMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDU1OWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+');
+        background: -moz-linear-gradient(top, #0079C1 0%, #00559D 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0079C1), color-stop(100%,#00559D));
+        background: -webkit-linear-gradient(top, #0079C1 0%,#00559D 100%);
+        background: -o-linear-gradient(top, #0079C1 0%,#00559D 100%);
+        background: -ms-linear-gradient(top, #0079C1 0%,#00559D 100%);
+        background: linear-gradient(to bottom, #0079C1 0%,#00559D 100%);
+        -webkit-border-radius: .3em;
+        -moz-border-radius: .3em;
+        border-radius: .3em;
+        text-align: center;
+        font-size: 12px;
+        vertical-align: middle;
+        height: 30px;
+        width:66px;
+        padding-left: .9em;
+        padding-right: .9em;
+        padding-bottom: 2px;
+        border: .1em solid #00559D;
+        color: white;
+        cursor: pointer;
+        position: relative;
     text-align: center;
     vertical-align: middle;
-	float:right;
-	margin-right:22px;
-	margin-bottom: 20px;
-	margin-top:-55px;
+        float:right;
+        margin-right:22px;
+        margin-bottom: 20px;
+        margin-top:-55px;
 }
 
 button.btn:hover{
-	background: #004C99;
+        background: #004C99;
 }
 
 .btn span {
@@ -145,249 +261,212 @@ p.app_texto {
     font-size: 12px;
     height: 35px;
     margin-bottom: 18px;
-	width:320px;
+        width:320px;
 }
-	
-	 </style>
+        
+         </style>
 <body onload="cargar()">
-<h1 id="titlepage"></h1>	
-	<img src="https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0" class="linetitle"/>
-<div class="textintro"></div>   	
- 
-<h1 id="titlepage1"></h1> 
-    <img src="https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0" class="linetitle"/>
-
-<div class="content_aplicaciones">
-
-	<div class="app">
-		<img src="http://bbva-sercoeco.googlecode.com/svn/trunk/img/consumo.png" alt="" class="ico">
-		<h3 class="app_titulo">Consumo</h3>
-		<p class="app_texto"></p>
-		<button id="consumo" class="btn" type="button">Acceder</button>
-	</div>
-
-	<div class="app">
-		<img src="https://bbva-sercoeco.googlecode.com/svn/trunk/img/personal1.png" alt="" class="ico">
-		<h3 class="app_titulo">Reciclaje</h3>
-		<p class="app_texto"></p>
-		<button id="recicla" class="btn" type="button">Acceder</button>
-	</div>
-
-	<div class="app">
-		<img src="https://bbva-sercoeco.googlecode.com/svn/trunk/img/personal.png" alt="" class="ico">
-		<h3 class="app_titulo">Personal</h3>
-		<p class="app_texto"></p>
-		<button id="personal" class="btn" type="button">Acceder</button>
-	</div>
-
-	<div class="app">
-		<img src="http://bbva-sercoeco.googlecode.com/svn/trunk/img/admin.png" alt="" class="ico">
-		<h3 class="app_titulo">Administrador</h3>
-		<p class="app_texto"></p>
-		<button id="admin" class="btn" type="button">Acceder</button>
-	</div>
-
-		
-</div>	
-<script type="text/javascript" src="https://bbva-sercoeco.googlecode.com/svn/trunk/bbcode2html.js"></script>	
-	<script type="text/javascript">
-	 	var prefs = new gadgets.Prefs();
-	 	
-		var titlepage = prefs.getString("titlepage");
-		var titlepage1 = prefs.getString("titlepage1");
-		var textintro = prefs.getString("textintro");
-		
-		var textconsumo = prefs.getString("textconsumo");
-		var urlconsumo = prefs.getString("urlconsumo");
-		
-		var textpersonal = prefs.getString("textpersonal");
-		var urlpersonal = prefs.getString("urlpersonal");
-		
-		var textreciclado = prefs.getString("textreciclado");
-		var urlreciclado = prefs.getString("urlreciclado");
-		
-		var textadmin = prefs.getString("textadmin");
-		var urladmin = prefs.getString("urladmin");
-		
-	 	document.getElementById("titlepage").innerHTML = titlepage;
-		document.getElementById("titlepage1").innerHTML = titlepage1;
-		document.getElementsByClassName("textintro")[0].innerHTML = bbcode2html(textintro);
-		document.getElementsByClassName("app_texto")[0].innerHTML = bbcode2html(textconsumo);
-		document.getElementsByClassName("app_texto")[1].innerHTML = bbcode2html(textreciclado);
-		document.getElementsByClassName("app_texto")[2].innerHTML = bbcode2html(textpersonal);
-		document.getElementsByClassName("app_texto")[3].innerHTML = bbcode2html(textadmin);
-		
-		function cargar(){
-			document.getElementById("consumo").onclick = function(){ Go(urlconsumo);};
-			document.getElementById("recicla").onclick = function(){ Go(urlreciclado);};
-			document.getElementById("personal").onclick = function(){ Go(urlpersonal);};
-			document.getElementById("admin").onclick = function(){ Go(urladmin);};
-		}
-		function Go(destination){
-			window.parent.location.href = destination;
-			return false;
-		}
-		
-		
+<div id="cuerpo" ></div>
+<script type="text/javascript" src="https://bbva-sercoeco.googlecode.com/svn/trunk/bbcode2html.js"></script>    
+        <script type="text/javascript">
+                var prefs = new gadgets.Prefs();
+                
+                var titlepage = prefs.getString("titlepage");
+                var titlepage1 = prefs.getString("titlepage1");
+                var textintro = prefs.getString("textintro");
+                
+                var textconsumo = prefs.getString("textconsumo");
+                var urlconsumo = prefs.getString("urlconsumo");
+                
+                var textpersonal = prefs.getString("textpersonal");
+                var urlpersonal = prefs.getString("urlpersonal");
+                
+                var textreciclado = prefs.getString("textreciclado");
+                var urlreciclado = prefs.getString("urlreciclado");
+                
+                var textadmin = prefs.getString("textadmin");
+                var urladmin = prefs.getString("urladmin");
+                
+                document.getElementById("titlepage").innerHTML = titlepage;
+                document.getElementById("titlepage1").innerHTML = titlepage1;
+                document.getElementsByClassName("textintro")[0].innerHTML = bbcode2html(textintro);
+                document.getElementsByClassName("app_texto")[0].innerHTML = bbcode2html(textconsumo);
+                document.getElementsByClassName("app_texto")[1].innerHTML = bbcode2html(textreciclado);
+                document.getElementsByClassName("app_texto")[2].innerHTML = bbcode2html(textpersonal);
+                document.getElementsByClassName("app_texto")[3].innerHTML = bbcode2html(textadmin);
+                
+                function cargar(){
+                        document.getElementById("consumo").onclick = function(){ Go(urlconsumo);};
+                        document.getElementById("recicla").onclick = function(){ Go(urlreciclado);};
+                        document.getElementById("personal").onclick = function(){ Go(urlpersonal);};
+                        document.getElementById("admin").onclick = function(){ Go(urladmin);};
+                }
+                function Go(destination){
+                        window.parent.location.href = destination;
+                        return false;
+                }
+                
+                
    </script>
 </body>
-	
-	
-	
-	
+        
+        
+        
+        
     
 
     ]]>
  </Content>
 <Content type="html" view="configuration"  preferred_height="580">
 <![CDATA[
-		<script type="text/javascript" src="https://bbva-sercoeco.googlecode.com/svn/trunk/editorbbcode.js"></script>
-		<style>
-			table td {
-				color: #000;
-				font-size: 11px;
-				font-weight: bold;
-			}
-			table td input,
-			textarea {
-				color: #000;
-				font-size: 11px;				
-			}			
-			input#VarTituloBloque {
-				width: 300px;
-			}
-			input#VarImagenDestacada {
-				width: 575px;
-			}
-			.btnTexto {
-				width: 200px;
-			}
-			.btnURL {
-				width: 345px;
-			}
-			.destacado {
-				color:red;
-				font-size:20px;
-				font-weight:bold;
-			}
-			.textodefecto {
-				width: 40px;
-			}
-			.textocolor {
-				width: 57px;
-			}
-			
-			
-		</style>
-		<table width="100%" border="0" id="tablaconfig">			
-			<tr>		
-				<td>
-					T&iacute;tulo Objetivos: <input type="text" id="titlepage" value="__UP_titlepage__" onchange="registra('titlepage')">					
-				</td>
-			</tr>
-			<tr>		
-				<td>
-					T&iacute;tulo Secciones: <input type="text" id="titlepage1" value="__UP_titlepage1__" onchange="registra('titlepage1')">					
-				</td>
-			</tr>
-			<tr>		
-				<td>
-					Url Consumo: <input type="text" id="urlconsumo" value="__UP_urlconsumo__" onchange="registra('urlconsumo')">					
-				</td>
-			</tr>
-			<tr>		
-				<td>
-					Url Personal: <input type="text" id="urlpersonal" value="__UP_urlpersonal__" onchange="registra('urlpersonal')">					
-				</td>
-			</tr>
-			<tr>		
-				<td>
-					Url Reciclado: <input type="text" id="urlreciclado" value="__UP_urlreciclado__" onchange="registra('urlreciclado')">					
-				</td>
-			</tr>
-			<tr>		
-				<td>
-					Url Admin: <input type="text" id="urladmin" value="__UP_urladmin__" onchange="registra('urladmin')">					
-				</td>
-			</tr>
-			
-		</table>
-		
-		<table width="100%" height="170px;" border="0" id="tablaconfig1">			
-			<tr>		
-				<td>
-					Texto Objetivos(admite bbcode):<br/>
-					<script language="Javascript">
-					<!--
-						editor_para("textintro");
-					//-->
-					</script>
-					<textarea id="textintro" style="height: 100px; width: 100%" onchange="registra('textintro')" >__UP_textintro__</textarea>
-				</td>
-			</tr>
-		</table>
-		<table width="100%" height="170px;" border="0" id="tablaconfig2">			
-			<tr>		
-				<td>
-					Texto Consumo(admite bbcode):<br/>
-					<script language="Javascript">
-					<!--
-						editor_para("textintro");
-					//-->
-					</script>
-					<textarea id="textconsumo" style="height: 100px; width: 100%" onchange="registra('textconsumo')" >__UP_textconsumo__</textarea>
-				</td>
-			</tr>
-		</table>
-		<table width="100%" height="170px;" border="0" id="tablaconfig3">			
-			<tr>		
-				<td>
-					Texto Personal(admite bbcode):<br/>
-					<script language="Javascript">
-					<!--
-						editor_para("textintro");
-					//-->
-					</script>
-					<textarea id="textpersonal" style="height: 100px; width: 100%" onchange="registra('textpersonal')" >__UP_textpersonal__</textarea>
-				</td>
-			</tr>
-		</table>
-		<table width="100%" height="170px;" border="0" id="tablaconfig4">			
-			<tr>		
-				<td>
-					Texto Reciclado(admite bbcode):<br/>
-					<script language="Javascript">
-					<!--
-						editor_para("textintro");
-					//-->
-					</script>
-					<textarea id="textreciclado" style="height: 100px; width: 100%" onchange="registra('textreciclado')" >__UP_textreciclado__</textarea>
-				</td>
-			</tr>
-		</table>
-		<table width="100%" height="170px;" border="0" id="tablaconfig5">			
-			<tr>		
-				<td>
-					Texto Administrador(admite bbcode):<br/>
-					<script language="Javascript">
-					<!--
-						editor_para("textintro");
-					//-->
-					</script>
-					<textarea id="textadmin" style="height: 100px; width: 100%" onchange="registra('textadmin')" >__UP_textadmin__</textarea>
-				</td>
-			</tr>
-		</table>
-				
-		<script type="text/javascript">			
-			// Get userprefs
-			var prefs = new gadgets.Prefs();			
-			function registra(variable)
-			{
-				prefs.set(variable,document.getElementById(variable).value);
-			}	
-			gadgets.window.adjustHeight();
-		</script>   
+                <script type="text/javascript" src="https://bbva-sercoeco.googlecode.com/svn/trunk/editorbbcode.js"></script>
+                <style>
+                        table td {
+                                color: #000;
+                                font-size: 11px;
+                                font-weight: bold;
+                        }
+                        table td input,
+                        textarea {
+                                color: #000;
+                                font-size: 11px;                                
+                        }                       
+                        input#VarTituloBloque {
+                                width: 300px;
+                        }
+                        input#VarImagenDestacada {
+                                width: 575px;
+                        }
+                        .btnTexto {
+                                width: 200px;
+                        }
+                        .btnURL {
+                                width: 345px;
+                        }
+                        .destacado {
+                                color:red;
+                                font-size:20px;
+                                font-weight:bold;
+                        }
+                        .textodefecto {
+                                width: 40px;
+                        }
+                        .textocolor {
+                                width: 57px;
+                        }
+                        
+                        
+                </style>
+                <table width="100%" border="0" id="tablaconfig">                        
+                        <tr>            
+                                <td>
+                                        T&iacute;tulo Objetivos: <input type="text" id="titlepage" value="__UP_titlepage__" onchange="registra('titlepage')">                                   
+                                </td>
+                        </tr>
+                        <tr>            
+                                <td>
+                                        T&iacute;tulo Secciones: <input type="text" id="titlepage1" value="__UP_titlepage1__" onchange="registra('titlepage1')">                                        
+                                </td>
+                        </tr>
+                        <tr>            
+                                <td>
+                                        Url Consumo: <input type="text" id="urlconsumo" value="__UP_urlconsumo__" onchange="registra('urlconsumo')">                                    
+                                </td>
+                        </tr>
+                        <tr>            
+                                <td>
+                                        Url Personal: <input type="text" id="urlpersonal" value="__UP_urlpersonal__" onchange="registra('urlpersonal')">                                        
+                                </td>
+                        </tr>
+                        <tr>            
+                                <td>
+                                        Url Reciclado: <input type="text" id="urlreciclado" value="__UP_urlreciclado__" onchange="registra('urlreciclado')">                                    
+                                </td>
+                        </tr>
+                        <tr>            
+                                <td>
+                                        Url Admin: <input type="text" id="urladmin" value="__UP_urladmin__" onchange="registra('urladmin')">                                    
+                                </td>
+                        </tr>
+                        
+                </table>
+                
+                <table width="100%" height="170px;" border="0" id="tablaconfig1">                       
+                        <tr>            
+                                <td>
+                                        Texto Objetivos(admite bbcode):<br/>
+                                        <script language="Javascript">
+                                        <!--
+                                                editor_para("textintro");
+                                        //-->
+                                        </script>
+                                        <textarea id="textintro" style="height: 100px; width: 100%" onchange="registra('textintro')" >__UP_textintro__</textarea>
+                                </td>
+                        </tr>
+                </table>
+                <table width="100%" height="170px;" border="0" id="tablaconfig2">                       
+                        <tr>            
+                                <td>
+                                        Texto Consumo(admite bbcode):<br/>
+                                        <script language="Javascript">
+                                        <!--
+                                                editor_para("textintro");
+                                        //-->
+                                        </script>
+                                        <textarea id="textconsumo" style="height: 100px; width: 100%" onchange="registra('textconsumo')" >__UP_textconsumo__</textarea>
+                                </td>
+                        </tr>
+                </table>
+                <table width="100%" height="170px;" border="0" id="tablaconfig3">                       
+                        <tr>            
+                                <td>
+                                        Texto Personal(admite bbcode):<br/>
+                                        <script language="Javascript">
+                                        <!--
+                                                editor_para("textintro");
+                                        //-->
+                                        </script>
+                                        <textarea id="textpersonal" style="height: 100px; width: 100%" onchange="registra('textpersonal')" >__UP_textpersonal__</textarea>
+                                </td>
+                        </tr>
+                </table>
+                <table width="100%" height="170px;" border="0" id="tablaconfig4">                       
+                        <tr>            
+                                <td>
+                                        Texto Reciclado(admite bbcode):<br/>
+                                        <script language="Javascript">
+                                        <!--
+                                                editor_para("textintro");
+                                        //-->
+                                        </script>
+                                        <textarea id="textreciclado" style="height: 100px; width: 100%" onchange="registra('textreciclado')" >__UP_textreciclado__</textarea>
+                                </td>
+                        </tr>
+                </table>
+                <table width="100%" height="170px;" border="0" id="tablaconfig5">                       
+                        <tr>            
+                                <td>
+                                        Texto Administrador(admite bbcode):<br/>
+                                        <script language="Javascript">
+                                        <!--
+                                                editor_para("textintro");
+                                        //-->
+                                        </script>
+                                        <textarea id="textadmin" style="height: 100px; width: 100%" onchange="registra('textadmin')" >__UP_textadmin__</textarea>
+                                </td>
+                        </tr>
+                </table>
+                                
+                <script type="text/javascript">                 
+                        // Get userprefs
+                        var prefs = new gadgets.Prefs();                        
+                        function registra(variable)
+                        {
+                                prefs.set(variable,document.getElementById(variable).value);
+                        }       
+                        gadgets.window.adjustHeight();
+                </script>   
+
 	]]>
 
 </Content>
