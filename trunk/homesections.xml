@@ -37,7 +37,7 @@ function getUser(){
   var html2="";
   
   if(arguments[0].user=="ADMIN"){
-	html += "<body onload='cargar()'>";
+	html += "<body>";
 	html += "<h1 id='titlepage'></h1>";        
     html += "    <img src='https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0' class='linetitle'/>";
     html += "<div class='textintro'></div>";
@@ -73,7 +73,7 @@ function getUser(){
     html += " </div>";
     html += "</div>";
   } else if(arguments[0].user=="USA")  {
-	html += "<body onload='cargar()'>";
+	html += "<body >";
 	html += "<h1 id='titlepage'></h1>";        
     html += "    <img src='https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0' class='linetitle'/>";
     html += "<div class='textintro'></div>";
@@ -105,7 +105,7 @@ function getUser(){
     html += " </div>";
     html += "</div>";
   } else {
-	html += "<body onload='cargar()'>";
+	html += "<body >";
 	html += "<h1 id='titlepage'></h1>";        
     html += "    <img src='https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0' class='linetitle'/>";
     html += "<div class='textintro'></div>";
