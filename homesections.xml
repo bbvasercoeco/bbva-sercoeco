@@ -35,8 +35,8 @@
 function getUser(){
  // alert(arguments[0].user);
  
-  var per = arguments[0].user;
- // var per = "LJSAHFD";
+ // var per = arguments[0].user;
+  var per = "LJSAHFD";
   var html="";
   var html2="";
  
@@ -78,7 +78,8 @@ function getUser(){
     html += " </div>";
     html += "</div>";
   } else if(per=="USA")  {
-       
+        html += "<img src='https://sites.google.com/a/bbva.com/sercoeco/banner.fw.png' />";
+
         html += "<h1 id='titlepage'>Objectives of the plan</h1>";        
     html += "    <img src='https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0' class='linetitle'/>";
     html += "<div class='textintro'>BBVA launched in 2008 the Global Plan of Eco-efficiency (PGE). The plan includes a set of objectives for the period 2013-2015 in terms of direct environmental impact reduction.</div>";
@@ -146,6 +147,8 @@ function getUser(){
     html += "</div>";
 
  }else{    
+  html += "<img src='https://sites.google.com/a/bbva.com/sercoeco/cabeceraHomeSerc.png' />";
+
         html += "<h1 id='titlepage'>Objetivos del plan</h1>";        
     html += "    <img src='https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0' class='linetitle'/>";
     html += "<div class='textintro'>BBVA lanzó en el 2008 el Plan Global de Eco-eficiencia (PGE). El plan contempla un conjunto de objetivos para el periodo 2013-2015 en materia de reducción de impactos ambientales directos.</div>";
