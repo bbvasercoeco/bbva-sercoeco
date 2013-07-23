@@ -604,7 +604,7 @@ Loaditems();
  function writeConsumo(){
 
   alert("entro en writeConsumo vers 38");
-  document.getElementById('country')= decodeURIComponent(document.getElementById('country'));
+  document.getElementById('country').innerHTML = decodeURIComponent(document.getElementById('country'));
   alert(document.getElementById('country'));
   var params = $("#admin").serialize();
   alert("params "+params);
