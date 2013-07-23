@@ -40,7 +40,7 @@ function getUser(){
  
   if(arguments[0].user=="ADMIN"){
      
-    html += "<img src='https://sites.google.com/a/bbva.com/sercoeco/cabeceraHomeSerc.png' />;
+    html += "<img src='https://sites.google.com/a/bbva.com/sercoeco/cabeceraHomeSerc.png' />";
 
     html += "<h1 id='titlepage'>Objectivos del plan</h1>";        
     html += "    <img src='https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0' class='linetitle'/>";
