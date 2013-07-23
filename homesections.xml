@@ -33,7 +33,7 @@
 
                 <script>
 function getUser(){
-  alert(arguments[0].user);
+  //alert(arguments[0].user);
  
   var html="";
   var html2="";
