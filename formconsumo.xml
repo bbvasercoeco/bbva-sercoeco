@@ -322,8 +322,9 @@ function Loaditems()
 			$('#meses').selectmenu({ width: 225 });
 			//console.log("cargo los select");
 			
-			$('#country').css({ marginLeft : "24px"});
-			$('#anyo').css({ marginLeft : "26px"});
+			document.getElementById("country").style.marginLeft="24px";
+			document.getElementById("anyo").style.marginLeft="26px";
+			
 			
 		});
 
