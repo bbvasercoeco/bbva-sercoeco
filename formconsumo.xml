@@ -641,7 +641,7 @@ Loaditems();
 	var params = $("#resto").serialize();
 	params += "&country="+permiso;
   }
-  params = decodeURI(params);
+  params = decodeURIComponent(params);
   alert("params "+params);
   $.ajax({
     type: "GET",       
