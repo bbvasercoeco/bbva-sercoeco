@@ -104,7 +104,7 @@ function getUser(){
     html += "  <div class='app'>";
     html += "          <img src='https://bbva-sercoeco.googlecode.com/svn/trunk/img/personal.png' alt='' class='ico'>";
     html += "          <h3 class='app_titulo'>Personal</h3>";
-    html += "          <p class='app_texto'>Introduction of foreign occupiers and certifications.</p>";
+    html += "          <p class='app_texto'>Introduction of external staff and certifications.</p>";
     html += "          <button id='personal' class='btn' type='button'>Log in</button>";
     html += "  </div>";
     html += "  <div class='app'>";
