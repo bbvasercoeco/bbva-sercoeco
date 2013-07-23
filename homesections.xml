@@ -35,8 +35,8 @@
 function getUser(){
  // alert(arguments[0].user);
  
- // var per = arguments[0].user;
-  var per = "LJSAHFD";
+  var per = arguments[0].user;
+ // var per = "LJSAHFD";
   var html="";
   var html2="";
  
