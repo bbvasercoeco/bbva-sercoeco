@@ -315,6 +315,7 @@ ul li span.c-form-combo{
 <div id="formularioconsumo"></div>
 
 <script type='text/javascript'>
+var permiso="";
 function Loaditems()
 	{
 		$(document).ready(function()
@@ -378,7 +379,7 @@ function getData(){
 
  function getUser(){
   //alert(arguments[0].user);
-  var permiso = arguments[0].user;
+   permiso = arguments[0].user;
   //var permiso = "ADMIN";
   var html="";
   if(permiso=="ADMIN"){
@@ -603,13 +604,14 @@ Loaditems();
 
  function writeConsumo(){
 
-  alert("entro en writeConsumo vers 40");
-  var aux = $("#country").value;
+  alert("entro en writeConsumo vers 41");
+  if(permiso=="ADMIN"){
+  var aux = document.forms["admin"]["country"].value;
   alert(aux);
   aux = decodeURIComponent(aux);
   alert(aux);
-  document.getElementById('country').innerHTML = aux;
- 
+  document.forms["admin"]["country"].value = aux;
+ }
   var params = $("#admin").serialize();
   alert("params "+params);
   $.ajax({
