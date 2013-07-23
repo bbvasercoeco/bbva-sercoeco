@@ -621,7 +621,7 @@ Loaditems();
 	params += "&country="+permiso;
   }else if(permiso=="ESPAÑA CORPORATIVO"){
 	var params = $("#corporativos").serialize();
-	params += "&country="+permiso;
+	//params += "&country="+permiso;
   }else{
 	var params = $("#resto").serialize();
 	params += "&country="+permiso;
