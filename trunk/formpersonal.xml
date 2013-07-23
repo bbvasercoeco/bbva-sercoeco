@@ -337,6 +337,7 @@
 	{
 		$(document).ready(function()
 		{
+			$('#country').selectmenu({ width: 225 });
 			$('#anyo').selectmenu({ width: 225 });
 			$('#meses').selectmenu({ width: 225 });
 			//console.log("cargo los select");
@@ -352,7 +353,8 @@
      
 	html +='<div class="container_24">';
 	html +='<form name="admin" id="admin" action="javascript:writePersonal();" method="get">';
-	html +='<label style="display:inline-block;"><span class="c-form-combo">';
+	html +='<li><label class="top" for="country">País:</label>';
+	html +='<label style="display:inline-block;"><span class="c-form-combo" id="combo">';
 	html +='<select  name="country" id="country" onchange="selectDateOption(this.options[this.selectedIndex].value);">';
 	html +='<option value="ESPAÑA" selected="selected">España</option>';
 	html +='<option value="CORPORATIVOS">Esp. Corp</option>';
@@ -367,7 +369,7 @@
 	html +='<option value="URUGUAY">Uruguay</option>';
 	html +='<option value="VENEZUELA">Venezuela</option>';
 	html +='<option value="USA">USA</option>';
-	html +='</select></span></label>';
+	html +='</select></span></label></li>';
 	html +='<li><label class="top" for="anyo">Año:</label>';
 	html +='<label style="display:inline-block;">';
 	html +='<span class="c-form-combo" id="combo">';
