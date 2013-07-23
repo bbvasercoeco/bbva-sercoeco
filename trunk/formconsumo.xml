@@ -604,7 +604,7 @@ Loaditems();
 
  function writeConsumo(){
 
-  alert("entro en writeConsumo vers 42");
+  /*alert("entro en writeConsumo vers 43");
   if(permiso=="ADMIN"){
   var aux = document.forms["admin"]["country"].value;
   alert(aux);
@@ -612,8 +612,10 @@ Loaditems();
   alert(aux);
   document.forms["admin"]["country"].value = aux;
  }
- alert($("#country").val);
+ alert($("#country").val);*/
+ 
   var params = $("#admin").serialize();
+  params = decodeURIComponent(params);
   alert("params "+params);
   $.ajax({
     type: "GET",       
