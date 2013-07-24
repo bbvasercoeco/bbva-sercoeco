@@ -478,19 +478,19 @@ function getData(){
     html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador.png?attachauth=ANoY7cp60OlfRLiIvUmhs3rEllbqpLvfYXMyDTD34hAXHppg0Ba4bsw9ux5J-CoEQtMfFHpSuNK7JuH0-w1ESyeCH2ZR0YI0v0CXRpX1SUM0r2tHkztReAHqqvW_WGcVwO5OdRKoOa-leu_8rVcsIH56GO6y6aUO_IIC5JFcWsGgn06kolI_kvKeSc9UjPHjaNCuttbreIPI8JF3LsvkEyAap2sG0vhPJw%3D%3D&attredirects=0"/>';
         html +='<br/><br/>';
         html +='<label class="bottom negrita" for="eleckw">Electricity</label>';
-        html +='<input type="text" name="eleckw" id="eleckw" class="textbox"><span class="medida">Kw</span>';
+        html +='<input type="text" name="eleckw" id="eleckw" class="textbox"><span class="medida">Kwh</span>';
         html +='<input type="text" name="eleceuro" id="eleceuro" class="textbox"><span class="moneda">Dollars</span><br/><br/>';
         html +='<label class="bottom negrita" for="aguam">Water</label>';
         html +='<input type="text" name="aguam" id="aguam" class="textbox"><span class="medida">m3</span>';
         html +='<input type="text" name="aguaeuro" id="aguaeuro" class="textbox"><span class="moneda">Dollars</span><br/><br/>';
         html +='<label class="bottom negrita" for="papelm">Paper</label>';
-        html +='<input type="text" name="papelm" id="papelm" class="textbox"><span class="medida">Kg</span>';
+        html +='<input type="text" name="papelm" id="papelm" class="textbox"><span class="medida">pounds</span>';
         html +='<input type="text" name="papeleuro" id="papeleuro" class="textbox"><span class="moneda">Dollars</span><br/><br/>';
         html +='<label class="bottom negrita" for="gasnaturalm">Natural Gas</label>';
         html +='<input type="text" name="gasnaturalm" id="gasnaturalm" class="textbox"><span class="medida">m3</span>';
         html +='<input type="text" name="gasnaturaleuro" id="gasnaturaleuro" class="textbox"><span class="moneda">Dollars</span><br/><br/>';
         html +='<label class="bottom negrita" for="gasl">Diesel</label>';
-        html +='<input type="text" name="gasl" id="gasl" class="textbox"><span class="medida">Litres</span>';
+        html +='<input type="text" name="gasl" id="gasl" class="textbox"><span class="medida">gallons</span>';
         html +='<input type="text" name="gaseuro" id="gaseuro" class="textbox"><span class="moneda">Dollars</span><br/><br/>';
     
         html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-boton.png?attachauth=ANoY7cpMyU5rPXCtYNrm_wxhUBEOj12W5bIU1V0H1ttSYU4PAg3vt2VqxnNcAd31Og8qj6pdn_7LB_-HuOhRcNh5yJkK4Qyy3mnBWrcsCM9e1Lfpc2878p230yQDOf0-bfTDjhbXXQllCuH6BYjhQS4cYjRBinauPZoAlEYENcTFqUi4_9Q7biy4x9HB_a8v2g3bwY-svEqfQ1uCVsaFMx76GyP8pu7X6A%3D%3D" alt="separador">';
