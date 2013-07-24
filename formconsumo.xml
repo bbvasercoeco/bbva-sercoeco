@@ -628,7 +628,7 @@ Loaditems();
   document.forms["admin"]["country"].value = aux;
  }
  alert($("#country").val);*/
- alert(permiso);
+ //alert(permiso);
   if(permiso=="ADMIN"){
 	var params = $("#admin").serialize();
   }else if(permiso=="USA"){
@@ -642,7 +642,7 @@ Loaditems();
 	params += "&country="+permiso;
   }
   params = decodeURIComponent(params);
-  alert("params "+params);
+  //alert("params "+params);
   $.ajax({
     type: "GET",       
     url: "https://script.google.com/macros/s/AKfycbyUk-dB9sktomMyVJtgWxRYtBihVV355_JiOAQ8ID0Q9TwG6BQ/exec",

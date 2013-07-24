@@ -599,8 +599,8 @@ Loaditems();
 
 
  function writePersonal(){
-  alert("permiso "+permiso);
-  alert("entro en writePersonal vers 1");
+ // alert("permiso "+permiso);
+ // alert("entro en writePersonal vers 1");
   if(permiso=="ADMIN"){
 	var params = $("#admin").serialize();
   }else if(permiso=="USA"){
@@ -614,7 +614,7 @@ Loaditems();
 	params += "&country="+permiso;
   }
   params = decodeURIComponent(params);
-  alert("params "+params);
+ // alert("params "+params);
   $.ajax({
     type: "GET",       
     url: "https://script.google.com/macros/s/AKfycbz2waXct2pNDHl5xmAIzYyi9Wj7Kz_ctoPxwcQLbng/exec",
