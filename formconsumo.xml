@@ -456,7 +456,7 @@ function getData(){
         html +='</div>';
   }else if(permiso=="USA"){
 		html +='<div class="container_24">';
-		html +='<form name="usa" id="usa" action="javascript:writeConsumo()" method="get" target="_parent" >';
+		html +='<form name="usa" id="usa" action="javascript:writeConsumo()" method="get">';
 		html +='<li><label class="top" for="anyo">Year:</label>';
         html +='<label style="display:inline-block;">';
         html +='<span class="c-form-combo" id="combo">';
@@ -501,7 +501,7 @@ function getData(){
   
   }else if (permiso=="ESPAÑA CORPORATIVO"){
 		html +='<div class="container_24">';
-        html +='<form name="CORPORATIVOS" id="corporativos" action="javascript:writeConsumo()" method="get" target="_parent" >';
+        html +='<form name="CORPORATIVOS" id="corporativos" action="javascript:writeConsumo()" method="get" >';
         html +='<li><label class="top" for="anyo">Año:</label>';
         html +='<label style="display:inline-block;">';
         html +='<span class="c-form-combo" id="combo">';
@@ -545,7 +545,7 @@ function getData(){
   
   }else{
 		html +='<div class="container_24">';
-        html +='<form name="resto" id="resto" action="javascript:writeConsumo()" method="get" target="_parent" >';
+        html +='<form name="resto" id="resto" action="javascript:writeConsumo()" method="get" >';
         html +='<li><label class="top" for="anyo">Año:</label>';
         html +='<label style="display:inline-block;">';
         html +='<span class="c-form-combo" id="combo">';
