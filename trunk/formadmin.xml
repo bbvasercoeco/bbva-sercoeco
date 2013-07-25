@@ -772,9 +772,9 @@ function checklock(){
 console.log("entro en function checklock()");
 console.log("document.getElementById('lock').checked "+document.getElementById('lock').checked);
 var aux = document.getElementById('lock').checked;
-aux = aux.toString();
+
 $(document).ready(function() {
- if(aux == "true"){
+ if(aux){
 	document.getElementById('bloquear').onclick = function(){ sendForm();};
  }else{
 		
