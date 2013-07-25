@@ -777,9 +777,9 @@ $(document).ready(function() {
  if(aux){
 	document.getElementById('bloquear').onclick = function(){ sendForm();};
  }else{
-	 $('#checkbox-uncheck').button().click(function(){
-                $('#lock').checkbox('uncheck');
-        });
+	 
+    $('#lock').checkbox('uncheck');
+        
 	document.getElementById('bloquear').onclick = function(){ sendFormUnlock();};	
  }
 });	
