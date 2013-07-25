@@ -761,7 +761,9 @@ var aux = document.getElementById('lock').checked;
 	 
     //document.getElementById('lock').checked = "false";
 	//$('#lock').val(false);
-    //if(document.getElementsByClassName('')[0])    
+    if(document.getElementsByTagName('label')[2].className="ui-marmots-label-check marmots-label-left check on"){ 
+		document.getElementsByTagName('label')[2].className="ui-marmots-label-check marmots-label-left check";   
+	}
 	document.getElementById('bloquear').onclick = function(){ sendFormUnlock();};	
  }
 //});	
