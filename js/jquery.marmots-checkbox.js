@@ -15,7 +15,7 @@
 			var self = this;
 			
 			// Store default value for reseting
-			//this.defaultValue = this.element.is(':checked');
+			this.defaultValue = this.element.is(':checked');
 			
 			// locate label next (right)
 			var $label = this.element.next('label[for="' + this.element.attr('id') + '"]');
