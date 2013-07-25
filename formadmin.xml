@@ -37,9 +37,9 @@
                 $('#lock').checkbox('uncheck');
         });
 
-        $('#checkbox-toggle').button().click(function(){
+       /* $('#checkbox-toggle').button().click(function(){
                 $('#lock').checkbox('toggle');
-        });
+        });*/
         
         console.log("cambio para Chrome *");
 
