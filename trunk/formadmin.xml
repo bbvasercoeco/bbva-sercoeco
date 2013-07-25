@@ -721,7 +721,7 @@ if(objeto.checked) {
 function sendForm(){
    console.log("entro en sendform()");
    var anyo = $("#anyo").val();
-   var params ="anyo="+anyo;
+   var params ="anyo="+anyo+"&lock="+$("#anyo").val();
   $.ajax({
   type: "GET",       
   url: "https://script.google.com/macros/s/AKfycbz3MFQJy8jFwcEUDeRqdB91VSVaW__r8iyFkvPbpQzWZ-h_GtE/exec",
@@ -741,7 +741,7 @@ function sendForm(){
 function sendFormUnlock(){
    console.log("entro en sendformunlock()");
    var anyo = $("#anyo").val();
-   var params ="anyo="+anyo;
+   var params ="anyo="+anyo+"&lock="+$("#anyo").val();
   $.ajax({
   type: "GET",       
   url: "https://script.google.com/macros/s/AKfycbxICQFUGnn9irI6CnbSRBkLTueD9NmWnHXC33y79DE/exec",
