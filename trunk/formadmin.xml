@@ -786,7 +786,7 @@ var aux = document.getElementById('lock').checked;
 
 $(document).ready(function() {
 
-    alert('getItem' + localStorage.getItem('lock'));
+    alert('getItem : ' + localStorage.getItem('lock'));
 
  		$('#anyo').selectmenu({ width: 90 });
  
