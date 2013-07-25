@@ -23,7 +23,7 @@
    <script type="text/javascript" src="https://bbva-sercoeco.googlecode.com/svn/trunk/js/jquery.marmots-checkbox.js"></script>
 
    <script type='text/javascript'>
-/*
+
  $(document).ready(function() {
 
  		$('#anyo').selectmenu({ width: 90 });
@@ -44,7 +44,7 @@
         console.log("cambio para Chrome *");
 
   });
-*/
+
  </script>
  
 	<style type="text/css">
