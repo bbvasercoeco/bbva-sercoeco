@@ -682,7 +682,13 @@
          font-family:Arial;
          font-size:12px;
  }   
+@-moz-document url-prefix(){
+	label span.c-form-combo .ui-widget {
+     font-size: 1.1em;
+	 
+	}
 
+}
 	</style>
 
 	  <span class='titulo'>Bloquear entrada de datos:</span>
