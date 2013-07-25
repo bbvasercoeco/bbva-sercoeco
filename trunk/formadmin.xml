@@ -762,7 +762,7 @@ var aux = document.getElementById('lock').checked;
     //document.getElementById('lock').checked = "false";
 	//$('#lock').val(false);
 	console.log("document.getElementsByTagName('label')[2].className "+document.getElementsByTagName('label')[2].className);
-    if(document.getElementsByTagName('label')[2].className == "ui-marmots-label-check marmots-label-left check on"){ 
+    if(document.getElementsByTagName('label')[2].className == "ui-marmots-label-check marmots-label-left on check"){ 
 	    console.log("entro en if");
 		document.getElementsByTagName('label')[2].className = "ui-marmots-label-check marmots-label-left check";   
 	}
