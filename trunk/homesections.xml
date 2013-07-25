@@ -36,6 +36,7 @@ function getUser(){
  // alert(arguments[0].user);
  
   var per = arguments[0].user;
+  console.log("per "+per);
 //  var per = "LJSAHFD";
   var html="";
   var html2="";
@@ -112,8 +113,8 @@ function getUser(){
     html += "</div>";
   } else if  ( per!= "ESPAÑA" && per != "ESPAÑA CORPORATIVOS" && per != "PORTUGAL" && per != "MEXICO" && per != "COLOMBIA" && per != "CHILE" && per != "ARGENTINA" && per != "VENEZUELA" && per != "PERU" && per != "PANAMA" && per != "PARAGUAY" && per != "URUGUAY" ){
  
-	html += "<p style='color: #FF9900;'><b>IMPORTANTE (!): Autorización de Identidad.</b></p>"
-	html += "<p style='color: #FF9900;'>Si esta es la primera vez que accedes a este sitio es necesario que sigas este <a href='https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec' >ENLACE</a> y autorices a la aplicación para que pueda validar tu identidad.</p>"
+	html += "<p style='color: #FF9900;'><b>IMPORTANTE (!): Autorización de Identidad.</b></p>";
+	html += "<p style='color: #FF9900;'>Si esta es la primera vez que accedes a este sitio es necesario que sigas este <a href='https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec' >ENLACE</a> y autorices a la aplicación para que pueda validar tu identidad.</p>";
      html += "<img src='https://sites.google.com/a/bbva.com/sercoeco/cabeceraHomeSerc.png' />";
    html += "<h1 id='titlepage'>Objetivos del plan</h1>";        
     html += "    <img src='https://sites.google.com/a/bbva.com/leanobservatory/lineborder.png?attredirects=0' class='linetitle'/>";
