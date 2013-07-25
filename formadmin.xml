@@ -772,13 +772,16 @@ function handleQueryResponse(response) {
   url: "https://script.google.com/macros/s/AKfycbz3MFQJy8jFwcEUDeRqdB91VSVaW__r8iyFkvPbpQzWZ-h_GtE/exec",
   contentType: 'application/json',
   dataType: 'jsonp',
-  data: { anyo: anyo,
-  prefix: "respuesta"}
-  })  
-  .success(function(  ) {
+  data: params,
+  prefix: "doGet",
+  success: function doGet() {
 		alert( "Data Saved: ");
-	});
-  }
+	},
+  failure: function doGet(){
+                   alert( "Data NOT Saved: ");
+    }
+  });
+}  
 $(document).ready(function() {
 	document.getElementById('bloquear').onclick = function(){ sendForm();};  
 });	
