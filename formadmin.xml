@@ -778,7 +778,7 @@ var aux = document.getElementById('lock').checked;
 	document.getElementById('bloquear').onclick = function(){ sendForm();};
  }else{
 	 
-    $('#lock').checkbox('uncheck');
+    document.getElementById('lock').checked = false;
         
 	document.getElementById('bloquear').onclick = function(){ sendFormUnlock();};	
  }
