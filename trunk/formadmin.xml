@@ -526,8 +526,8 @@
  }
  label span.c-form-combo .ui-widget {
      font-size: 1.1em;
-	 position:relative;
-	 top:-10px;
+	/* position:relative;
+	 top:-10px; */
  }
  label span.c-form-combo .ui-widget-conten {
      border-color: -moz-use-text-color #E1E1E1 #E1E1E1;
@@ -778,7 +778,7 @@ var aux = document.getElementById('lock').checked;
 	document.getElementById('bloquear').onclick = function(){ sendForm();};
  }else{
 	 
-    document.getElementById('lock').checked = false;
+    document.getElementById('label.ui-marmots-label-check.on:hover').checked = false;
         
 	document.getElementById('bloquear').onclick = function(){ sendFormUnlock();};	
  }
