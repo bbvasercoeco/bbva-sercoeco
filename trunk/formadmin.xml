@@ -773,7 +773,7 @@ console.log("entro en function checklock()");
 console.log("document.getElementById('lock').checked "+document.getElementById('lock').checked);
 var aux = document.getElementById('lock').checked;
 
-$(document).ready(function() {
+//$(document).ready(function() {
  if(aux){
 	document.getElementById('bloquear').onclick = function(){ sendForm();};
  }else{
@@ -782,7 +782,7 @@ $(document).ready(function() {
         
 	document.getElementById('bloquear').onclick = function(){ sendFormUnlock();};	
  }
-});	
+//});	
 
 }	
    </script>
