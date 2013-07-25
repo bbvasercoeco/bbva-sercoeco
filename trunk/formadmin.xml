@@ -765,6 +765,7 @@ var aux = document.getElementById('lock').checked;
     if(document.getElementsByTagName('label')[2].className == "ui-marmots-label-check marmots-label-left on check"){ 
 	    console.log("entro en if");
 		document.getElementsByTagName('label')[2].className = "ui-marmots-label-check marmots-label-left check";   
+		console.log("document.getElementsByTagName('label')[2].className "+document.getElementsByTagName('label')[2].className);
 	}
 	document.getElementById('bloquear').onclick = function(){ sendFormUnlock();};	
  }
