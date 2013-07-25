@@ -680,7 +680,7 @@
          font-family:Arial;
          font-size:12px;
  }   
-a.ui-selectmenu ui-widget ui-state-default ui-corner-all ui-selectmenu-dropdown{
+#anyo-button a{
 position:relative;
 top:-10px;
 
