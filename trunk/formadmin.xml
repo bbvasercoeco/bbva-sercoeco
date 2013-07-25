@@ -712,7 +712,7 @@
 	    </span>
 	  </label>      	
 
-	  <label for="lock" class="ui-marmots-label-check marmots-label-left fancy on check"><input type="checkbox" id="lock" name="lock">&nbsp;&nbsp;&nbsp;&nbsp;Bloquear entrada de datos</label>
+	  <label for="lock" class="ui-marmots-label-check marmots-label-left fancy on check"><input type="checkbox" id="lock" name="lock" onclick="javascript:checklock();"/>&nbsp;&nbsp;&nbsp;&nbsp;Bloquear entrada de datos</label>
 	  
 	  <br><br>
   <img src='https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-boton.png?attachauth=ANoY7cpMyU5rPXCtYNrm_wxhUBEOj12W5bIU1V0H1ttSYU4PAg3vt2VqxnNcAd31Og8qj6pdn_7LB_-HuOhRcNh5yJkK4Qyy3mnBWrcsCM9e1Lfpc2878p230yQDOf0-bfTDjhbXXQllCuH6BYjhQS4cYjRBinauPZoAlEYENcTFqUi4_9Q7biy4x9HB_a8v2g3bwY-svEqfQ1uCVsaFMx76GyP8pu7X6A%3D%3D' alt='separador'>
@@ -724,52 +724,11 @@
 	
 	
 <script type="text/javascript">
-var prefs = new _IG_Prefs();
-_IG_RegisterOnloadHandler(loadVisualizationAPI);
 
-function loadVisualizationAPI()
-{
-	google.load("visualization", "1", {"packages": ["table"]});
-				
-}
- function checkLock(yearLock){
-    var urlTable = "https://docs.google.com/spreadsheet/ccc?key=0Arxw5OOmF_fQdHRza0RUbzZPbEJUTzZXbGo1eEpDVXc";
-	alert("yearLock "+yearLock);
-	var linea = 2;
-	var factor = parseInt(yearLock)-2013;
-    linea = linea + factor*39;
-	alert("linea "+linea);
-	//var gadgetHelper = null;
-	//google.load("visualization", "1", {"packages": ["table"]});
-	//gadgetHelper = new google.visualization.GadgetHelper();
-	var opts = {dataType:'jsonp'};		
-	var query = new google.visualization.Query(urlTable, opts);
-	var querytosend = "select C,S where T like '"+linea+"'"; // and C like('%"+yearLock+"%') limit 1";
-	query.setQuery(querytosend);			  
-	query.send(handleQueryResponse);
- 
- }
-function handleQueryResponse(response) {
-		data = response.getDataTable();	
-				if(data.getValue(0,1)!="X"){
-				    document.getElementById('envio').innerHTML='<button onclick="sendForm();"  value="Enviar" >Enviar</button>';
-					var anyo = data.getValue(0,1);
-					return alert("Año "+anyo+" No bloqueado");
-				}else{
-					document.getElementById('envio').innerHTML="";
-					var anyo = data.getValue(0,1);
-					return alert("Año "+anyo+ "ya bloqueado");
-				
-				}
-				
-			
-			}
- 
- function respuesta(){
- alert("Hola");
- }
+
+
    
- function sendForm(){
+function sendForm(){
    console.log("entro en sendform()");
    var anyo = $("#anyo").val();
    var params ="anyo="+anyo;
@@ -787,11 +746,40 @@ function handleQueryResponse(response) {
         alert( "Data NOT Saved:");
     }
   });
-}  
+}
+
+function sendFormUnlock(){
+   console.log("entro en sendform()");
+   var anyo = $("#anyo").val();
+   var params ="anyo="+anyo;
+  $.ajax({
+  type: "GET",       
+  url: "https://script.google.com/macros/s/AKfycbzjMx3IujiA_HZDdTsWMcnH-8_Ch9r1WRPQJ_YLF-3WjOOltBQ/exec",
+  contentType: 'application/json',
+  dataType: 'jsonp',
+  data: params,
+  prefix: "doGet",
+  success: function doGet() {
+		alert( "Data Saved:");
+	},
+  failure: function doGet(){
+        alert( "Data NOT Saved:");
+    }
+  });
+}
+ 
+function checklock(){
+
 $(document).ready(function() {
-	document.getElementById('bloquear').onclick = function(){ sendForm();};  
+ if(document.getElementById('lock').checked="checked"){
+	document.getElementById('bloquear').onclick = function(){ sendForm();};
+ }else{
+		
+	document.getElementById('bloquear').onclick = function(){ sendFormUnlock();};	
+ }
 });	
-	
+
+}	
    </script>
 
 	
