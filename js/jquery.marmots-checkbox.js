@@ -117,10 +117,9 @@
 		},
 		toggle : function() {
 			if (this.isChecked()) {
-				this.check();
-				
-			} else {
 				this.uncheck();
+			} else {
+				this.check();
 			}
 		},
 		uncheckAll : function() {
