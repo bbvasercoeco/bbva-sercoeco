@@ -313,7 +313,7 @@ p.app_texto {
          </style>
 
 <script type="text/javascript" src="https://bbva-sercoeco.googlecode.com/svn/trunk/bbcode2html.js"></script>    
- <!--       <script type="text/javascript">
+        <script type="text/javascript">
                 var prefs = new gadgets.Prefs();
                
                 var titlepage = prefs.getString("titlepage");
@@ -352,8 +352,8 @@ p.app_texto {
                 }
                
                
-   </script>    -->
-</body>
+   </script>    
+
        
        
        
