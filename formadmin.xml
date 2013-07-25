@@ -771,8 +771,9 @@ function sendFormUnlock(){
 function checklock(){
 console.log("entro en function checklock()");
 console.log("document.getElementById('lock').checked "+document.getElementById('lock').checked);
+var aux = document.getElementById('lock').checked;
 $(document).ready(function() {
- if(document.getElementById('lock').checked="checked"){
+ if(aux == "true"){
 	document.getElementById('bloquear').onclick = function(){ sendForm();};
  }else{
 		
