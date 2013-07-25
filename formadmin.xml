@@ -780,7 +780,7 @@ var aux = document.getElementById('lock').checked;
 	 
     //document.getElementById('lock').checked = "false";
 	//$('#lock').val(false);
-    if(document.getElementsByClassName('')[0])    
+    //if(document.getElementsByClassName('')[0])    
 	document.getElementById('bloquear').onclick = function(){ sendFormUnlock();};	
  }
 //});	
