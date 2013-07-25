@@ -526,6 +526,8 @@
  }
  label span.c-form-combo .ui-widget {
      font-size: 1.1em;
+	 position:relative;
+	 top:-10px;
  }
  label span.c-form-combo .ui-widget-conten {
      border-color: -moz-use-text-color #E1E1E1 #E1E1E1;
@@ -680,16 +682,7 @@
          font-family:Arial;
          font-size:12px;
  }   
-.ui-selectmenu ui-widget ui-state-default ui-corner-all ui-selectmenu-dropdown a{
-position:relative;
-top:-10px;
-}
- 
-#anyo-button a{
-position:relative;
-top:-10px;
 
-}
 	</style>
 
 	  <span class='titulo'>Bloquear entrada de datos:</span>
