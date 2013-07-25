@@ -712,7 +712,7 @@
 	    </span>
 	  </label>      	
 
-	  <label for="lock" class="ui-marmots-label-check marmots-label-left fancy on check"><input type="checkbox" id="lock" name="lock" value="this" onclick="if(this.checked)localStorage.setItem(this.id,this.value);else localStorage.removeItem(this.id);javascript:checklock();"/>&nbsp;&nbsp;&nbsp;&nbsp;Bloquear entrada de datos</label>
+	  <label for="lock" class="ui-marmots-label-check marmots-label-left fancy on check"><input type="checkbox" id="lock" name="lock" value="this.checked" onclick="javascript:checklock();"/>&nbsp;&nbsp;&nbsp;&nbsp;Bloquear entrada de datos</label>
 	  
 	  <br><br>
   <img src='https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-boton.png?attachauth=ANoY7cpMyU5rPXCtYNrm_wxhUBEOj12W5bIU1V0H1ttSYU4PAg3vt2VqxnNcAd31Og8qj6pdn_7LB_-HuOhRcNh5yJkK4Qyy3mnBWrcsCM9e1Lfpc2878p230yQDOf0-bfTDjhbXXQllCuH6BYjhQS4cYjRBinauPZoAlEYENcTFqUi4_9Q7biy4x9HB_a8v2g3bwY-svEqfQ1uCVsaFMx76GyP8pu7X6A%3D%3D' alt='separador'>
