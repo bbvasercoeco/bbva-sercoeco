@@ -695,7 +695,7 @@
 
 	  <!--label for="lock" class="ui-marmots-label-check marmots-label-left fancy on check"><input type="checkbox" checked="checked" id="lock" name="lock"  onclick="if(this.checked)localStorage.setItem(this.id,this.value);else localStorage.removeItem(this.id);checklock();">&nbsp;&nbsp;&nbsp;&nbsp;Bloquear entrada de datos</label -->
  
-    <label for="lock" class="ui-marmots-label-check marmots-label-left fancy on check"><input type="checkbox" checked="checked" id="lock" name="lock"  onclick="if(this.checked)localStorage.setItem(this.id,this.value);checklock();">&nbsp;&nbsp;&nbsp;&nbsp;Bloquear entrada de datos</label>
+    <label for="lock" class="ui-marmots-label-check marmots-label-left fancy on check"><input type="checkbox" checked="checked" id="lock" name="lock"  onclick="javascript:guardar();">&nbsp;&nbsp;&nbsp;&nbsp;Bloquear entrada de datos</label>
  
 
 	  <br><br>
@@ -710,7 +710,13 @@
 <script type="text/javascript">
 
 
+function guardar() {
 
+if(this.checked) { 
+  localStorage.setItem(this.id,this.value);
+  checklock();
+  }
+}
    
 function sendForm(){
    console.log("entro en sendform()");
