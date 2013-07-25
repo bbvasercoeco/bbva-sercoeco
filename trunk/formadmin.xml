@@ -777,6 +777,8 @@ var aux = document.getElementById('lock').checked;
 
 $(document).ready(function() {
 
+    alert(localStorage.getItem('lock'));
+
  		$('#anyo').selectmenu({ width: 90 });
  
         // Checkbox actions
