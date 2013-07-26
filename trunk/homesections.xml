@@ -53,7 +53,7 @@ function getUser(){
         html += "<div class='content_aplicaciones'>";
 
     html += "    <div class='app'>";
-    html += "           <img src='http://bbva-sercoeco.googlecode.com/svn/trunk/img/consumo.png' alt='' class='ico'>";
+    html += "           <img src='https://bbva-sercoeco.googlecode.com/svn/trunk/img/consumo.png' alt='' class='ico'>";
     html += "            <h3 class='app_titulo'>Consumo</h3>";
     html += "            <p class='app_texto'>Introducción de consumos y precios unitarios.</p>";
     html += "            <button id='consumo' class='btn' type='button'>Acceder</button>";
@@ -72,7 +72,7 @@ function getUser(){
     html += "          <button id='personal' class='btn' type='button'>Acceder</button>";
     html += "  </div>";
     html += "  <div class='app'>";
-    html += "          <img src='http://bbva-sercoeco.googlecode.com/svn/trunk/img/admin.png' alt='' class='ico'>";
+    html += "          <img src='https://bbva-sercoeco.googlecode.com/svn/trunk/img/admin.png' alt='' class='ico'>";
     html += "          <h3 class='app_titulo'>Administrador</h3>";
     html += "          <p class='app_texto'>Parametrización del servicio.</p>";
     html += "          <button id='admin' class='btn' type='button'>Acceder</button>";
