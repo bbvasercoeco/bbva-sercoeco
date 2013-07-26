@@ -39,21 +39,7 @@ function backCall(){
         
 }
 
-function getData(){
-        var anio = $('#anyo').val();
-        var meses = $('#meses').val();
-        var country = $('#country').val();
 
-        $.ajax({
-                type: "POST",
-                url: "https://script.google.com/macros/s/AKfycbyPhh6urdlKTkgewUVulrxZ7pYvbq5gSPynfMHZe0ulGOS4SJhi/exec?callback=backCall",
-                dataType: "jsonp",
-                data: { anio: anio, meses: meses, country: country }
-                }).done(function( msg ) {
-                alert( "Data Saved: " + msg );
-        });
-        
-}
 
 </script>
         
@@ -380,7 +366,22 @@ var permiso="";
                 });
 
         }
+ function getData(){
+        var anio = $('#anyo').val();
+        var meses = $('#meses').val();
+        var country = $('#country').val();
+
+        $.ajax({
+                type: "POST",
+                url: "https://script.google.com/macros/s/AKfycbyPhh6urdlKTkgewUVulrxZ7pYvbq5gSPynfMHZe0ulGOS4SJhi/exec?callback=backCall",
+                dataType: "jsonp",
+                data: { anio: anio, meses: meses, country: country }
+                }).done(function( msg ) {
+                alert( "Data Saved: " + msg );
+        });
         
+}
+       
  function getUser(){
   //alert(arguments[0].user);
   permiso = arguments[0].user;
