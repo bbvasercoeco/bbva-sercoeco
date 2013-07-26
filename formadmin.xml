@@ -693,11 +693,8 @@
 	    </span>
 	  </label>      	
 
-	  <!--label for="lock" class="ui-marmots-label-check marmots-label-left fancy on check"><input type="checkbox" checked="checked" id="lock" name="lock"  onclick="if(this.checked)localStorage.setItem(this.id,this.value);else localStorage.removeItem(this.id);checklock();">&nbsp;&nbsp;&nbsp;&nbsp;Bloquear entrada de datos</label -->
- 
-    <label for="lock" class="ui-marmots-label-check marmots-label-left fancy on check"><input type="checkbox" id="lock" name="lock"  onclick="javascript:guardar(this);">&nbsp;&nbsp;&nbsp;&nbsp;Bloquear entrada de datos</label>
- 
-
+	  <label for="lock" class="ui-marmots-label-check marmots-label-left fancy on check"><input type="checkbox" checked="checked" id="lock" name="lock"  onclick="if(this.checked)localStorage.setItem(this.id,this.value);else localStorage.removeItem(this.id);checklock();">&nbsp;&nbsp;&nbsp;&nbsp;Bloquear entrada de datos</label>
+	  
 	  <br><br>
   <img src='https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-boton.png?attachauth=ANoY7cpMyU5rPXCtYNrm_wxhUBEOj12W5bIU1V0H1ttSYU4PAg3vt2VqxnNcAd31Og8qj6pdn_7LB_-HuOhRcNh5yJkK4Qyy3mnBWrcsCM9e1Lfpc2878p230yQDOf0-bfTDjhbXXQllCuH6BYjhQS4cYjRBinauPZoAlEYENcTFqUi4_9Q7biy4x9HB_a8v2g3bwY-svEqfQ1uCVsaFMx76GyP8pu7X6A%3D%3D' alt='separador'>
 	  <br><br>
@@ -710,18 +707,12 @@
 <script type="text/javascript">
 
 
-function guardar(objeto) {
 
-if(objeto.checked) { 
-  localStorage.setItem(objeto.id,objeto.value);
-  checklock();
-  }
-}
    
 function sendForm(){
    console.log("entro en sendform()");
    var anyo = $("#anyo").val();
-   var params ="anyo="+anyo+"&lock="+$("#lock").val();
+   var params ="anyo="+anyo;
   $.ajax({
   type: "GET",       
   url: "https://script.google.com/macros/s/AKfycbz3MFQJy8jFwcEUDeRqdB91VSVaW__r8iyFkvPbpQzWZ-h_GtE/exec",
@@ -741,7 +732,7 @@ function sendForm(){
 function sendFormUnlock(){
    console.log("entro en sendformunlock()");
    var anyo = $("#anyo").val();
-   var params ="anyo="+anyo+"&lock="+$("#lock").val();
+   var params ="anyo="+anyo;
   $.ajax({
   type: "GET",       
   url: "https://script.google.com/macros/s/AKfycbxICQFUGnn9irI6CnbSRBkLTueD9NmWnHXC33y79DE/exec",
@@ -785,8 +776,6 @@ var aux = document.getElementById('lock').checked;
 
 
 $(document).ready(function() {
-
-    alert('getItem : ' + localStorage.getItem('lock'));
 
  		$('#anyo').selectmenu({ width: 90 });
  
