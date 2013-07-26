@@ -25,19 +25,7 @@
 
 <script>
 
-function backCall(){
 
-        
-        $('#certiso14001').val(arguments[0].isoEmpleados);
-        $('#certisoem').val(arguments[0].isoEdificios);
-        $('#certifleedem').val(arguments[0].leedEmpleados);
-        $('#certifleededif').val(arguments[0].leedEdificios);
-        $('#ocunoem').val(arguments[0].ocupantes);
-        
-        
-        
-        
-}
 
 
 
@@ -366,6 +354,19 @@ var permiso="";
                 });
 
         }
+ function backCall(){
+
+        
+        $('#certiso14001').val(arguments[0].isoEmpleados);
+        $('#certisoem').val(arguments[0].isoEdificios);
+        $('#certifleedem').val(arguments[0].leedEmpleados);
+        $('#certifleededif').val(arguments[0].leedEdificios);
+        $('#ocunoem').val(arguments[0].ocupantes);
+        
+        
+        
+        
+}		
  function getData(){
         var anio = $('#anyo').val();
         var meses = $('#meses').val();
