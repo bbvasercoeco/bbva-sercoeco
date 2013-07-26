@@ -362,11 +362,11 @@ var permiso="";
         
 }		
  function getData(){
-        console.log("permiso "+permiso);
+        
         var anio = $('#anyo').val();
         var meses = $('#meses').val();
         var country = $('#country').val();
-
+		console.log("country "+country);
         $.ajax({
                 type: "POST",
                 url: "https://script.google.com/macros/s/AKfycbyPhh6urdlKTkgewUVulrxZ7pYvbq5gSPynfMHZe0ulGOS4SJhi/exec?callback=backCall",
