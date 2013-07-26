@@ -780,15 +780,15 @@ $(document).ready(function() {
  		$('#anyo').selectmenu({ width: 90 });
  
         // Checkbox actions
-        $('#checkbox-check').button().click(function(){
+        $('#checkbox-check').click(function(){
                 $('#lock').checkbox('check');
         });
 
-        $('#checkbox-uncheck').button().click(function(){
+        $('#checkbox-uncheck').click(function(){
                 $('#lock').checkbox('uncheck');
         });
 
-        $('#checkbox-toggle').button().click(function(){
+        $('#checkbox-toggle').click(function(){
                 $('#lock').checkbox('toggle');
         });
         
