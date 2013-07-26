@@ -362,6 +362,7 @@ var permiso="";
         
 }		
  function getData(){
+        console.log("permiso "+permiso);
         var anio = $('#anyo').val();
         var meses = $('#meses').val();
         var country = $('#country').val();
