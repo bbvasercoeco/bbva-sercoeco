@@ -314,7 +314,7 @@ p.app_texto {
 
 <script type="text/javascript" src="https://bbva-sercoeco.googlecode.com/svn/trunk/bbcode2html.js"></script>    
         <script type="text/javascript">
-                var prefs = new gadgets.Prefs();
+              /*  var prefs = new gadgets.Prefs();
                
                 var titlepage = prefs.getString("titlepage");
                 var titlepage1 = prefs.getString("titlepage1");
@@ -338,7 +338,7 @@ p.app_texto {
                 document.getElementsByClassName("app_texto")[0].innerHTML = bbcode2html(textconsumo);
                 document.getElementsByClassName("app_texto")[1].innerHTML = bbcode2html(textreciclado);
                 document.getElementsByClassName("app_texto")[2].innerHTML = bbcode2html(textpersonal);
-                document.getElementsByClassName("app_texto")[3].innerHTML = bbcode2html(textadmin);
+                document.getElementsByClassName("app_texto")[3].innerHTML = bbcode2html(textadmin);*/
                
                 function cargar(){
                         document.getElementById("consumo").onclick = function(){ Go(urlconsumo);};
