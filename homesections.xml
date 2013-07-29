@@ -347,7 +347,7 @@ p.app_texto {
                 function cargar(){
 				console.log("contador "+contador);
 						if(contador=0){
-								
+								console.log("entro en if(contador=0)");
 							    var htmlaux="";
 								htmlaux += "<p style='color: #FF9900;'><b>IMPORTANTE. (!): Autorización de Identidad.</b></p>";
 								htmlaux += "<p style='color: #FF9900;'>Si esta es la primera vez que accedes a este sitio es necesario que sigas este <a target='_parent' href='https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec?prefix=getUser' >ENLACE</a> y autorices a la aplicación para que pueda validar tu identidad.</p>";
