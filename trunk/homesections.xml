@@ -32,7 +32,7 @@
 				<div id="cuerpo"></div>
 
 <script>
-var contador =0;				
+var contador = 0;				
 function getUser(){
  // alert(arguments[0].user);
   contador = 1;
