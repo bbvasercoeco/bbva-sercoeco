@@ -367,7 +367,8 @@ function getData(){
 	//var country = $('#country').val();
 	var country = permiso;
 	if(country=="USA"){
-		document.getElementsByClassName('medida')[2].innerHTML = "Pounds";
+		document.getElementsByClassName('medida')[2].innerHTML = "pounds";
+		document.getElementsByClassName('medida')[4].innerHTML = "gallons";
 	}
 	$.ajax({
 		type: "POST",
