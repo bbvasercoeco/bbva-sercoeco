@@ -364,8 +364,8 @@ function backCall(){
 function getData(){
 	var anio = $('#anyo').val();
 	var meses = $('#meses').val();
-	var country = $('#country').val();
-
+	//var country = $('#country').val();
+	var country = permiso;
 	$.ajax({
 		type: "POST",
 		url: "https://script.google.com/macros/s/AKfycbzutnBun8urkdav2n8UlCULgoc1mrKoG58DvLMUwwqt2Pb4sF9H/exec?callback=backCall",
