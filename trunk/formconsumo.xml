@@ -631,8 +631,8 @@ Loaditems();
 
  function writeConsumo(){
 
-  /*alert("entro en writeConsumo vers 43");
-  if(permiso=="ADMIN"){
+  console.log("entro en writeConsumo vers 1");
+  /*if(permiso=="ADMIN"){
   var aux = document.forms["admin"]["country"].value;
   alert(aux);
   aux = decodeURIComponent(aux);
@@ -654,7 +654,7 @@ Loaditems();
 	params += "&country="+permiso;
   }
   params = decodeURIComponent(params);
-  //alert("params "+params);
+  console.log("params "+params);
   $.ajax({
     type: "GET",       
     url: "https://script.google.com/macros/s/AKfycbyUk-dB9sktomMyVJtgWxRYtBihVV355_JiOAQ8ID0Q9TwG6BQ/exec",
