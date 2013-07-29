@@ -345,6 +345,7 @@ p.app_texto {
                 document.getElementsByClassName("app_texto")[3].innerHTML = bbcode2html(textadmin);*/
                
                 function cargar(){
+				console.log("contador "+contador);
 						if(contador=0){
 								
 							    var htmlaux="";
