@@ -376,7 +376,9 @@ function getData(){
 	});
 	
 }
-
+function selectDateOption(newpermission){
+permiso = newpermission;
+}
  function getUser(){
   //alert(arguments[0].user);
    permiso = arguments[0].user;
