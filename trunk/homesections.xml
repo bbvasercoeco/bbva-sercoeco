@@ -190,7 +190,7 @@ function getUser(){
 }
 
 </script>
-<script src="https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec?prefix=getUser"></script>
+
 
         <style type="text/css">
                         /* @group fonts */
@@ -345,7 +345,7 @@ p.app_texto {
                 document.getElementsByClassName("app_texto")[3].innerHTML = bbcode2html(textadmin);*/
                
                 function cargar(){
-				console.log("contador "+contador);
+				console.log("contador v1 "+contador);
 						if(contador==0){
 								console.log("entro en if(contador=0)");
 							    var htmlaux="";
@@ -398,7 +398,7 @@ p.app_texto {
                
    </script>    
 
-       
+  <script src="https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec?prefix=getUser"></script>     
        
        
        
