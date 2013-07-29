@@ -105,7 +105,7 @@ span.medida {
 }
 span.moneda {
         display:inline-block;
-        width:40px;
+        width:130px;
         padding-left:10px;
         font-family:Arial;
         color:#71777F;
@@ -422,19 +422,19 @@ function getData(){
         html +='<input type="button" class="btn2" onClick="getData()" value="Consultar"/><br/><br/>';
         html +='<label class="bottom negrita" for="eleckw">Electricidad</label>';
         html +='<input type="text" name="eleckw" id="eleckw" class="textbox"/><span class="medida">Kw</span>';
-        html +='<input type="text" name="eleceuro" id="eleceuro" class="textbox"/><span id="c1" class="moneda">Euros(precio unitario)</span><br/><br/>';
+        html +='<input type="text" name="eleceuro" id="eleceuro" class="textbox"/><span id="c1" class="moneda">Euros (precio unitario)</span><br/><br/>';
         html +='<label class="bottom negrita" for="aguam">Agua</label>';
         html +='<input type="text" name="aguam" id="aguam" class="textbox"/><span class="medida">m3</span>';
-        html +='<input type="text" name="aguaeuro" id="aguaeuro" class="textbox"/><span id="c2" class="moneda">Euros(precio unitario)</span><br/><br/>';
+        html +='<input type="text" name="aguaeuro" id="aguaeuro" class="textbox"/><span id="c2" class="moneda">Euros (precio unitario)</span><br/><br/>';
         html +='<label class="bottom negrita" for="papelm">Papel</label>';
         html +='<input type="text" name="papelm" id="papelm" class="textbox"/><span class="medida">Kg</span>';
-        html +='<input type="text" name="papeleuro" id="papeleuro" class="textbox"/><span id="c3" class="moneda">Euros(precio unitario)</span><br/><br/>';
+        html +='<input type="text" name="papeleuro" id="papeleuro" class="textbox"/><span id="c3" class="moneda">Euros (precio unitario)</span><br/><br/>';
         html +='<label class="bottom negrita" for="gasnaturalm">Gas Natural</label>';
         html +='<input type="text" name="gasnaturalm" id="gasnaturalm" class="textbox"/><span class="medida">m3</span>';
-        html +='<input type="text" name="gasnaturaleuro" id="gasnaturaleuro" class="textbox"/><span id="c4" class="moneda">Euros(precio unitario)</span><br/><br/>';
+        html +='<input type="text" name="gasnaturaleuro" id="gasnaturaleuro" class="textbox"/><span id="c4" class="moneda">Euros (precio unitario)</span><br/><br/>';
         html +='<label class="bottom negrita" for="gasl">Gasóleo</label>';
         html +='<input type="text" name="gasl" id="gasl" class="textbox"/><span class="medida">Litros</span>';
-        html +='<input type="text" name="gaseuro" id="gaseuro" class="textbox"/><span id="c5" class="moneda">Euros(precio unitario)</span><br/><br/>';
+        html +='<input type="text" name="gaseuro" id="gaseuro" class="textbox"/><span id="c5" class="moneda">Euros (precio unitario)</span><br/><br/>';
         html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-2.png?attachauth=ANoY7cr7BY1H9kyFAd12o9WtwjDrxzPs6sbQpbSrG2CIYv0exCmstzsMwAkE7IpyPLhGsmwAV4fXZyR5uS1XH5Gpv-B5XQxzg1vv9i_Lkex3mUwYbZvvxBv1sK0ietcyJMkBJjCs5IHLDPcu7LyxI1DaVyhBHbRUeIu76wj5ndnqwxiBRXLCOoJuWtqZL_FVmaukcFhxRd_XF22wr1g0wuq1X4clEIigYw%3D%3D" alt="separador"> ';
         html +='<br/><br/>';
         html +='<label class="bottom negrita">Viajes en avión</label><br/><br/>';
@@ -479,19 +479,19 @@ function getData(){
         html +='<br/><br/>';
         html +='<label class="bottom negrita" for="eleckw">Electricity</label>';
         html +='<input type="text" name="eleckw" id="eleckw" class="textbox"><span class="medida">Kwh</span>';
-        html +='<input type="text" name="eleceuro" id="eleceuro" class="textbox"><span class="moneda">Dollar(unit price)</span><br/><br/>';
+        html +='<input type="text" name="eleceuro" id="eleceuro" class="textbox"><span class="moneda">Dollar (unit price)</span><br/><br/>';
         html +='<label class="bottom negrita" for="aguam">Water</label>';
         html +='<input type="text" name="aguam" id="aguam" class="textbox"><span class="medida">m3</span>';
-        html +='<input type="text" name="aguaeuro" id="aguaeuro" class="textbox"><span class="moneda">Dollar(unit price)</span><br/><br/>';
+        html +='<input type="text" name="aguaeuro" id="aguaeuro" class="textbox"><span class="moneda">Dollar (unit price)</span><br/><br/>';
         html +='<label class="bottom negrita" for="papelm">Paper</label>';
         html +='<input type="text" name="papelm" id="papelm" class="textbox"><span class="medida">pounds</span>';
-        html +='<input type="text" name="papeleuro" id="papeleuro" class="textbox"><span class="moneda">Dollar(unit price)</span><br/><br/>';
+        html +='<input type="text" name="papeleuro" id="papeleuro" class="textbox"><span class="moneda">Dollar (unit price)</span><br/><br/>';
         html +='<label class="bottom negrita" for="gasnaturalm">Natural Gas</label>';
         html +='<input type="text" name="gasnaturalm" id="gasnaturalm" class="textbox"><span class="medida">m3</span>';
-        html +='<input type="text" name="gasnaturaleuro" id="gasnaturaleuro" class="textbox"><span class="moneda">Dollar(unit price)</span><br/><br/>';
+        html +='<input type="text" name="gasnaturaleuro" id="gasnaturaleuro" class="textbox"><span class="moneda">Dollar (unit price)</span><br/><br/>';
         html +='<label class="bottom negrita" for="gasl">Diesel</label>';
         html +='<input type="text" name="gasl" id="gasl" class="textbox"><span class="medida">gallons</span>';
-        html +='<input type="text" name="gaseuro" id="gaseuro" class="textbox"><span class="moneda">Dollar(unit price)</span><br/><br/>';
+        html +='<input type="text" name="gaseuro" id="gaseuro" class="textbox"><span class="moneda">Dollar (unit price)</span><br/><br/>';
     
         html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-boton.png?attachauth=ANoY7cpMyU5rPXCtYNrm_wxhUBEOj12W5bIU1V0H1ttSYU4PAg3vt2VqxnNcAd31Og8qj6pdn_7LB_-HuOhRcNh5yJkK4Qyy3mnBWrcsCM9e1Lfpc2878p230yQDOf0-bfTDjhbXXQllCuH6BYjhQS4cYjRBinauPZoAlEYENcTFqUi4_9Q7biy4x9HB_a8v2g3bwY-svEqfQ1uCVsaFMx76GyP8pu7X6A%3D%3D" alt="separador">';
         html +='<br/><br/>';
@@ -524,19 +524,19 @@ function getData(){
         html +='<br/><br/>';
         html +='<label class="bottom negrita" for="eleckw">Electricidad</label>';
         html +='<input type="text" name="eleckw" id="eleckw" class="textbox"><span class="medida">Kw</span>';
-        html +='<input type="text" name="eleceuro" id="eleceuro" class="textbox"><span class="moneda">Euros(precio unitario)</span><br/><br/>';
+        html +='<input type="text" name="eleceuro" id="eleceuro" class="textbox"><span class="moneda">Euros (precio unitario)</span><br/><br/>';
         html +='<label class="bottom negrita" for="aguam">Agua</label>';
         html +='<input type="text" name="aguam" id="aguam" class="textbox"><span class="medida">m3</span>';
-        html +='<input type="text" name="aguaeuro" id="aguaeuro" class="textbox"><span class="moneda">Euros(precio unitario)</span><br/><br/>';
+        html +='<input type="text" name="aguaeuro" id="aguaeuro" class="textbox"><span class="moneda">Euros (precio unitario)</span><br/><br/>';
         html +='<label class="bottom negrita" for="papelm">Papel</label>';
         html +='<input type="text" name="papelm" id="papelm" class="textbox"><span class="medida">Kg</span>';
-        html +='<input type="text" name="papeleuro" id="papeleuro" class="textbox"><span class="moneda">Euros(precio unitario)</span><br/><br/>';
+        html +='<input type="text" name="papeleuro" id="papeleuro" class="textbox"><span class="moneda">Euros (precio unitario)</span><br/><br/>';
         html +='<label class="bottom negrita" for="gasnaturalm">Gas Natural</label>';
         html +='<input type="text" name="gasnaturalm" id="gasnaturalm" class="textbox"><span class="medida">m3</span>';
-        html +='<input type="text" name="gasnaturaleuro" id="gasnaturaleuro" class="textbox"><span class="moneda">Euros(precio unitario)</span><br/><br/>';
+        html +='<input type="text" name="gasnaturaleuro" id="gasnaturaleuro" class="textbox"><span class="moneda">Euros (precio unitario)</span><br/><br/>';
         html +='<label class="bottom negrita" for="gasl">Gasóleo</label>';
         html +='<input type="text" name="gasl" id="gasl" class="textbox"><span class="medida">Litros</span>';
-        html +='<input type="text" name="gaseuro" id="gaseuro" class="textbox"><span class="moneda">Euros(precio unitario)</span><br/><br/>';
+        html +='<input type="text" name="gaseuro" id="gaseuro" class="textbox"><span class="moneda">Euros (precio unitario)</span><br/><br/>';
     html +='<input type="hidden" name="country" id="country" value="CORPORATIVO"/>';
         html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-boton.png?attachauth=ANoY7cpMyU5rPXCtYNrm_wxhUBEOj12W5bIU1V0H1ttSYU4PAg3vt2VqxnNcAd31Og8qj6pdn_7LB_-HuOhRcNh5yJkK4Qyy3mnBWrcsCM9e1Lfpc2878p230yQDOf0-bfTDjhbXXQllCuH6BYjhQS4cYjRBinauPZoAlEYENcTFqUi4_9Q7biy4x9HB_a8v2g3bwY-svEqfQ1uCVsaFMx76GyP8pu7X6A%3D%3D" alt="separador">';
         html +='<br/><br/>';
@@ -547,7 +547,7 @@ function getData(){
 		if(permiso=="ESPAÑA"){
 			var moneda = "Euros (precio unitario)";
 		}else{
-			var moneda = "Pesos(precio unitario)";
+			var moneda = "Pesos (precio unitario)";
 		}
 		html +='<div class="container_24">';
         html +='<form name="resto" id="resto" action="javascript:writeConsumo()" method="get" >';
