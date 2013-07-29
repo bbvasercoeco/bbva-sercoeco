@@ -378,6 +378,7 @@ function getData(){
 }
 function selectDateOption(newpermission){
 permiso = newpermission;
+console.log("permiso en selectDateOption "+permiso);
 }
  function getUser(){
   //alert(arguments[0].user);
