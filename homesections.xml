@@ -346,7 +346,7 @@ p.app_texto {
                
                 function cargar(){
 				console.log("contador "+contador);
-						if(contador=0){
+						if(contador==0){
 								console.log("entro en if(contador=0)");
 							    var htmlaux="";
 								htmlaux += "<p style='color: #FF9900;'><b>IMPORTANTE. (!): Autorización de Identidad.</b></p>";
