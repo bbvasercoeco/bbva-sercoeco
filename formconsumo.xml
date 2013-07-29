@@ -366,6 +366,9 @@ function getData(){
 	var meses = $('#meses').val();
 	//var country = $('#country').val();
 	var country = permiso;
+	if(country=="USA"){
+		document.getElementsByClassName('medida')[2].innerHTML = "Pounds";
+	}
 	$.ajax({
 		type: "POST",
 		url: "https://script.google.com/macros/s/AKfycbzutnBun8urkdav2n8UlCULgoc1mrKoG58DvLMUwwqt2Pb4sF9H/exec?callback=backCall",
