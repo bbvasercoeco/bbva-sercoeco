@@ -150,6 +150,7 @@ function getUser(){
     html += "</div>";
 
  }else{    
+ console.log("entro en else ult");
   html += "<img src='https://sites.google.com/a/bbva.com/sercoeco/cabeceraHomeSerc.png' />";
 
         html += "<h1 id='titlepage'>Objetivos del plan</h1>";        
