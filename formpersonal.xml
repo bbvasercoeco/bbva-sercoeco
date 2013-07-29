@@ -367,7 +367,7 @@ var permiso="";
         var meses = $('#meses').val();
         //var country = $('#country').val();
 		var country = permiso;
-		console.log("country "+country);
+		//console.log("country "+country);
         $.ajax({
                 type: "POST",
                 url: "https://script.google.com/macros/s/AKfycbyPhh6urdlKTkgewUVulrxZ7pYvbq5gSPynfMHZe0ulGOS4SJhi/exec?callback=backCall",
