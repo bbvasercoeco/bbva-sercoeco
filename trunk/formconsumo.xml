@@ -339,6 +339,7 @@ function backCall(){
 	if(pais=="USA"){
 		$('#aguam').val(arguments[0].agua);
 		$('#aguaeuro').val(arguments[0].aguaEur);
+		console.log("arguments[0].avion1 "+arguments[0].avion1);
 		$('#viajeavion').val(arguments[0].avion1 / 1.6093);
 		$('#viajeavion2').val(arguments[0].avion2 / 1.6093);
 		$('#viajeavion3').val(arguments[0].avion3 / 1.6093);
