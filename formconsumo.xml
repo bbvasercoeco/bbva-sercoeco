@@ -429,7 +429,7 @@ if(permiso != "ADMIN"){
 	permiso = newpermission;
 }
 console.log("permiso en selectDateOption "+permiso);
-if(newpermission=="USA"){
+if((newpermission=="USA")&&(permiso != "ADMIN")){
     document.getElementsByClassName('medida')[0].innerHTML = "Kwh";
 	document.getElementsByClassName('medida')[2].innerHTML = "pounds";
 	document.getElementsByClassName('medida')[4].innerHTML = "gallons";
