@@ -672,7 +672,7 @@ Loaditems();
  //alert(permiso);
   if(permiso=="ADMIN"){
   console.log("entro en permiso = ADMIN ");
-  console.log("$(#country) "+$("#country"));
+  console.log("document.getElementById(country).innerHTML "+document.getElementById('country').innerHTML);
     if(document.getElementById('country')=="USA"){
 	    console.log("entro en if country =USA");
 	    var convertgasl = document.getElementById('country');
