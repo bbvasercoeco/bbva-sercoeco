@@ -671,6 +671,11 @@ Loaditems();
  alert($("#country").val);*/
  //alert(permiso);
   if(permiso=="ADMIN"){
+    if($("#country").val=="USA"){
+	    var convertgasl = $("#gasl").val;
+		convertgasl = convertgasl * 3.7841178;
+		$("#gasl").val = convertgasl;
+	}
 	var params = $("#admin").serialize();
   }else if(permiso=="USA"){
 	var params = $("#usa").serialize();
