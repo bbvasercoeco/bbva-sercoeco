@@ -390,7 +390,7 @@ function getData(){
 	var meses = $('#meses').val();
 	//var country = $('#country').val();
 	var country = permiso;
-	if(country=="USA"){
+	if(permiso=="USA"){
 		document.getElementsByClassName('medida')[2].innerHTML = "pounds";
 		document.getElementsByClassName('medida')[4].innerHTML = "gallons";
 		
