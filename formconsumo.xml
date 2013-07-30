@@ -383,6 +383,11 @@ function getData(){
 function selectDateOption(newpermission){
 permiso = newpermission;
 console.log("permiso en selectDateOption "+permiso);
+if(permiso=="USA"){
+	document.getElementsByClassName('medida')[2].innerHTML = "pounds";
+	document.getElementsByClassName('medida')[4].innerHTML = "gallons";
+
+}
 }
  function getUser(){
   //alert(arguments[0].user);
