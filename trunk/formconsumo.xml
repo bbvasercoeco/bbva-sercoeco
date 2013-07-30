@@ -336,7 +336,7 @@ function Loaditems()
 function backCall(){
 	//var pais = document.forms["admin"]["country"].value;
 	
-	if(permiso=="USA"{
+	if(permiso=="USA"){
 		$('#aguam').val(arguments[0].agua);
 		$('#aguaeuro').val(arguments[0].aguaEur);
 		console.log("arguments[0].avion1 "+arguments[0].avion1);
