@@ -673,7 +673,9 @@ Loaditems();
   if(permiso=="ADMIN"){
     if($("#country").val=="USA"){
 	    var convertgasl = $("#gasl").val;
+		console.log("convertgasl 0"+convertgasl);
 		convertgasl = convertgasl * 3.7841178;
+		console.log("convertgasl 1 "+convertgasl);
 		$("#gasl").val = convertgasl;
 	}
 	var params = $("#admin").serialize();
