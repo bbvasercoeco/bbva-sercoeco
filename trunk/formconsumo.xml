@@ -397,6 +397,29 @@ if(newpermission=="USA"){
 	document.getElementsByClassName('moneda')[2].innerHTML =" Dollar (unit price)";
 	document.getElementsByClassName('moneda')[3].innerHTML =" Dollar (unit price)";
 	document.getElementsByClassName('moneda')[4].innerHTML =" Dollar (unit price)";
+}else if((newpermission=="ESPAÑA") || (newpermission=="ESPAÑA CORPORATIVO")){
+    document.getElementsByClassName('medida')[2].innerHTML = "Kg";
+	document.getElementsByClassName('medida')[4].innerHTML = "litros";
+	document.getElementsByClassName('km')[0].innerHTML =" < 500km";
+	document.getElementsByClassName('km')[1].innerHTML =" 500km > x < 1600km";
+	document.getElementsByClassName('km')[2].innerHTML =" > 1600km";
+	document.getElementsByClassName('moneda')[0].innerHTML =" Euros (precio unitario)";
+	document.getElementsByClassName('moneda')[1].innerHTML =" Euros (precio unitario)";
+	document.getElementsByClassName('moneda')[2].innerHTML =" Euros (precio unitario)";
+	document.getElementsByClassName('moneda')[3].innerHTML =" Euros (precio unitario)";
+	document.getElementsByClassName('moneda')[4].innerHTML =" Euros (precio unitario)";
+}else{
+	document.getElementsByClassName('medida')[2].innerHTML = "Kg";
+	document.getElementsByClassName('medida')[4].innerHTML = "litros";
+	document.getElementsByClassName('km')[0].innerHTML =" < 500km";
+	document.getElementsByClassName('km')[1].innerHTML =" 500km > x < 1600km";
+	document.getElementsByClassName('km')[2].innerHTML =" > 1600km";
+	document.getElementsByClassName('moneda')[0].innerHTML =" Pesos (precio unitario)";
+	document.getElementsByClassName('moneda')[1].innerHTML =" Pesos (precio unitario)";
+	document.getElementsByClassName('moneda')[2].innerHTML =" Pesos (precio unitario)";
+	document.getElementsByClassName('moneda')[3].innerHTML =" Pesos (precio unitario)";
+	document.getElementsByClassName('moneda')[4].innerHTML =" Pesos (precio unitario)";
+
 }
 }
  function getUser(){
