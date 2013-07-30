@@ -676,11 +676,11 @@ Loaditems();
   console.log("aux1 "+aux1);
     if(aux1=="USA"){
 	    console.log("entro en if country =USA");
-	    var convertgasl = document.getElementById('country');
+	    var convertgasl = document.forms["admin"]["gasl"].value;
 		console.log("convertgasl 0"+convertgasl);
 		convertgasl = convertgasl * 3.7841178;
 		console.log("convertgasl 1 "+convertgasl);
-		document.getElementById('country') = convertgasl;
+		document.forms["admin"]["gasl"].value = convertgasl;
 	}
 	var params = $("#admin").serialize();
   }else if(permiso=="USA"){
