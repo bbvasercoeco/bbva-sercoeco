@@ -369,6 +369,26 @@ function getData(){
 	if(country=="USA"){
 		document.getElementsByClassName('medida')[2].innerHTML = "pounds";
 		document.getElementsByClassName('medida')[4].innerHTML = "gallons";
+		
+		var convertgasl = document.forms["admin"]["gasl"].value;
+		var convertgaslaux = convertgasl / 3.7841178;
+		document.forms["admin"]["gasl"].value = convertgaslaux;
+		
+		var convertpapelm = document.forms["admin"]["papelm"].value;
+		var convertpapelmaux = convertpapelm / 2.2;
+		document.forms["admin"]["papelm"].value = convertpapelmaux;
+		
+		var convertviajeavion = document.forms["admin"]["viajeavion"].value;
+		var convertviajeavionaux = convertviajeavion / 1.6093;
+		document.forms["admin"]["viajeavion"].value = convertviajeavionaux;
+		
+		var convertviajeavion2 = document.forms["admin"]["viajeavion2"].value;
+		var convertviajeavion2aux = convertviajeavion2 / 1.6093;
+		document.forms["admin"]["viajeavion2"].value = convertviajeavion2aux;
+		
+		var convertviajeavion3 = document.forms["admin"]["viajeavion3"].value;
+		var convertviajeavion3aux = convertviajeavion3 / 1.6093;
+		document.forms["admin"]["viajeavion3"].value = convertviajeavion3aux;
 	}
 	$.ajax({
 		type: "POST",
