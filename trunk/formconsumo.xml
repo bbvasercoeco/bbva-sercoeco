@@ -381,7 +381,9 @@ function getData(){
 	
 }
 function selectDateOption(newpermission){
-permiso = newpermission;
+if(permiso != "ADMIN"){
+	permiso = newpermission;
+}
 console.log("permiso en selectDateOption "+permiso);
 if(permiso=="USA"){
 	document.getElementsByClassName('medida')[2].innerHTML = "pounds";
