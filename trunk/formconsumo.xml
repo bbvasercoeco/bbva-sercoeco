@@ -674,7 +674,7 @@ Loaditems();
   console.log("entro en permiso = ADMIN ");
   var aux1 = document.forms["admin"]["country"].value;
   console.log("aux1 "+aux1);
-    if(document.getElementById('country')=="USA"){
+    if(aux1=="USA"){
 	    console.log("entro en if country =USA");
 	    var convertgasl = document.getElementById('country');
 		console.log("convertgasl 0"+convertgasl);
