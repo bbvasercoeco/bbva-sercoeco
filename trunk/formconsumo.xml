@@ -671,12 +671,12 @@ Loaditems();
  alert($("#country").val);*/
  //alert(permiso);
   if(permiso=="ADMIN"){
-    if($("#country").val=="USA"){
-	    var convertgasl = $("#gasl").val;
+    if(document.getElementById('country')=="USA"){
+	    var convertgasl = document.getElementById('country');
 		console.log("convertgasl 0"+convertgasl);
 		convertgasl = convertgasl * 3.7841178;
 		console.log("convertgasl 1 "+convertgasl);
-		$("#gasl").val = convertgasl;
+		document.getElementById('country') = convertgasl;
 	}
 	var params = $("#admin").serialize();
   }else if(permiso=="USA"){
