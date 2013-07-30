@@ -674,14 +674,29 @@ Loaditems();
   console.log("entro en permiso = ADMIN ");
   var aux1 = document.forms["admin"]["country"].value;
   console.log("aux1 "+aux1);
-    if(aux1=="USA"){
+   /* if(aux1=="USA"){
 	    console.log("entro en if country =USA");
 	    var convertgasl = document.forms["admin"]["gasl"].value;
 		console.log("convertgasl 0"+convertgasl);
-		convertgasl = convertgasl * 3.7841178;
-		console.log("convertgasl 1 "+convertgasl);
-		document.forms["admin"]["gasl"].value = convertgasl;
-	}
+		var convertgaslaux = convertgasl * 3.7841178;
+		console.log("convertgasl 1 "+convertgaslaux);
+		document.forms["admin"]["gasl"].value = convertgaslaux;
+		var convertpapelm = document.forms["admin"]["papelm"].value;
+		var convertpapelmaux = convertpapelm * 2.2;
+		document.forms["admin"]["papelm"].value = convertpapelmaux;
+		
+		var convertviajeavion = document.forms["admin"]["viajeavion"].value;
+		var convertviajeavionaux = convertviajeavion * 1.6093;
+		document.forms["admin"]["viajeavion"].value = convertviajeavionaux;
+		
+		var convertviajeavion2 = document.forms["admin"]["viajeavion2"].value;
+		var convertviajeavion2aux = convertviajeavion2 * 1.6093;
+		document.forms["admin"]["viajeavion2"].value = convertviajeavion2aux;
+		
+		var convertviajeavion3 = document.forms["admin"]["viajeavion3"].value;
+		var convertviajeavion3aux = convertviajeavion3 * 1.6093;
+		document.forms["admin"]["viajeavion3"].value = convertviajeavion3aux;
+	}*/
 	var params = $("#admin").serialize();
   }else if(permiso=="USA"){
 	var params = $("#usa").serialize();
