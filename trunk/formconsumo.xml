@@ -370,7 +370,7 @@ function getData(){
 		document.getElementsByClassName('medida')[2].innerHTML = "pounds";
 		document.getElementsByClassName('medida')[4].innerHTML = "gallons";
 		
-		var convertgasl = document.forms["admin"]["gasl"].value;
+		/*var convertgasl = document.forms["admin"]["gasl"].value;
 		var convertgaslaux = convertgasl / 3.7841178;
 		document.forms["admin"]["gasl"].value = convertgaslaux;
 		
@@ -388,7 +388,7 @@ function getData(){
 		
 		var convertviajeavion3 = document.forms["admin"]["viajeavion3"].value;
 		var convertviajeavion3aux = convertviajeavion3 / 1.6093;
-		document.forms["admin"]["viajeavion3"].value = convertviajeavion3aux;
+		document.forms["admin"]["viajeavion3"].value = convertviajeavion3aux;*/
 	}
 	$.ajax({
 		type: "POST",
