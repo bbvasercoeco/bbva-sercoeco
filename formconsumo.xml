@@ -334,30 +334,52 @@ function Loaditems()
 
 	}
 function backCall(){
-
+	console.log("en backCall() "+permiso);
+	if(permiso=="USA"){
+		$('#aguam').val(arguments[0].agua);
+		$('#aguaeuro').val(arguments[0].aguaEur);
+		$('#viajeavion').val(arguments[0].avion1 / 1.6093);
+		$('#viajeavion2').val(arguments[0].avion2 / 1.6093);
+		$('#viajeavion3').val(arguments[0].avion3 / 1.6093);
+		$('#videotele').val(arguments[0].conferencia);
+		$('#eleckw').val(arguments[0].elect);
+		$('#eleceuro').val(arguments[0].electEur);
+		$('#gasnaturalm').val(arguments[0].gas);
+		$('#gasnaturaleuro').val(arguments[0].gasEur);
+		$('#gasl').val(arguments[0].gasoleo / 3.7841178);
+		$('#gaseuro').val(arguments[0].gasoleoEur);
+		//$('#eleckw').val(arguments[0].moneda);
+		$('#papelm').val(arguments[0].papel / 2.2);
+		$('#papeleuro').val(arguments[0].papelEur);
 	
-	$('#aguam').val(arguments[0].agua);
-	$('#aguaeuro').val(arguments[0].aguaEur);
-	$('#viajeavion').val(arguments[0].avion1);
-	$('#viajeavion2').val(arguments[0].avion2);
-	$('#viajeavion3').val(arguments[0].avion3);
-	$('#videotele').val(arguments[0].conferencia);
-	$('#eleckw').val(arguments[0].elect);
-	$('#eleceuro').val(arguments[0].electEur);
-	$('#gasnaturalm').val(arguments[0].gas);
-	$('#gasnaturaleuro').val(arguments[0].gasEur);
-	$('#gasl').val(arguments[0].gasoleo);
-	$('#gaseuro').val(arguments[0].gasoleoEur);
-	//$('#eleckw').val(arguments[0].moneda);
-	$('#papelm').val(arguments[0].papel);
-	$('#papeleuro').val(arguments[0].papelEur);
+		$('#c1').html(arguments[0].moneda+" (precio unitario)");
+		$('#c2').html(arguments[0].moneda+" (precio unitario)");
+		$('#c3').html(arguments[0].moneda+" (precio unitario)");
+		$('#c4').html(arguments[0].moneda+" (precio unitario)");
+		$('#c5').html(arguments[0].moneda+" (precio unitario)");
+	}else{
+		$('#aguam').val(arguments[0].agua);
+		$('#aguaeuro').val(arguments[0].aguaEur);
+		$('#viajeavion').val(arguments[0].avion1);
+		$('#viajeavion2').val(arguments[0].avion2);
+		$('#viajeavion3').val(arguments[0].avion3);
+		$('#videotele').val(arguments[0].conferencia);
+		$('#eleckw').val(arguments[0].elect);
+		$('#eleceuro').val(arguments[0].electEur);
+		$('#gasnaturalm').val(arguments[0].gas);
+		$('#gasnaturaleuro').val(arguments[0].gasEur);
+		$('#gasl').val(arguments[0].gasoleo);
+		$('#gaseuro').val(arguments[0].gasoleoEur);
+		//$('#eleckw').val(arguments[0].moneda);
+		$('#papelm').val(arguments[0].papel);
+		$('#papeleuro').val(arguments[0].papelEur);
 	
-	$('#c1').html(arguments[0].moneda+" (precio unitario)");
-	$('#c2').html(arguments[0].moneda+" (precio unitario)");
-	$('#c3').html(arguments[0].moneda+" (precio unitario)");
-	$('#c4').html(arguments[0].moneda+" (precio unitario)");
-	$('#c5').html(arguments[0].moneda+" (precio unitario)");
-	
+		$('#c1').html(arguments[0].moneda+" (precio unitario)");
+		$('#c2').html(arguments[0].moneda+" (precio unitario)");
+		$('#c3').html(arguments[0].moneda+" (precio unitario)");
+		$('#c4').html(arguments[0].moneda+" (precio unitario)");
+		$('#c5').html(arguments[0].moneda+" (precio unitario)");
+	}
 	
 }
 
