@@ -391,6 +391,12 @@ if(newpermission=="USA"){
 	document.getElementsByClassName('km')[0].innerHTML =" < 310 mi";
 	document.getElementsByClassName('km')[1].innerHTML =" 310 mi > x < 994 mi";
 	document.getElementsByClassName('km')[2].innerHTML =" > 994 mi";
+	
+	document.getElementsByClassName('moneda')[0].innerHTML =" Dollar (unit price)";
+	document.getElementsByClassName('moneda')[1].innerHTML =" Dollar (unit price)";
+	document.getElementsByClassName('moneda')[2].innerHTML =" Dollar (unit price)";
+	document.getElementsByClassName('moneda')[3].innerHTML =" Dollar (unit price)";
+	document.getElementsByClassName('moneda')[4].innerHTML =" Dollar (unit price)";
 }
 }
  function getUser(){
