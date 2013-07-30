@@ -334,7 +334,8 @@ function Loaditems()
 
 	}
 function backCall(){
-	console.log("en backCall() "+permiso);
+	console.log("en backCall() form admin "+document.forms["admin"]["country"].value);
+	console.log("en backCall() form usa "+document.forms["usa"]["country"].value);
 	if(permiso=="USA"){
 		$('#aguam').val(arguments[0].agua);
 		$('#aguaeuro').val(arguments[0].aguaEur);
