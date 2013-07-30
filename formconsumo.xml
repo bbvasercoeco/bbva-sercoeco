@@ -386,6 +386,7 @@ if(permiso != "ADMIN"){
 }
 console.log("permiso en selectDateOption "+permiso);
 if(newpermission=="USA"){
+    document.getElementsByClassName('medida')[0].innerHTML = "Kwh";
 	document.getElementsByClassName('medida')[2].innerHTML = "pounds";
 	document.getElementsByClassName('medida')[4].innerHTML = "gallons";
 	document.getElementsByClassName('km')[0].innerHTML =" < 310 mi";
@@ -398,6 +399,7 @@ if(newpermission=="USA"){
 	document.getElementsByClassName('moneda')[3].innerHTML =" Dollar (unit price)";
 	document.getElementsByClassName('moneda')[4].innerHTML =" Dollar (unit price)";
 }else if((newpermission=="ESPAÑA") || (newpermission=="ESPAÑA CORPORATIVO")){
+	document.getElementsByClassName('medida')[0].innerHTML = "Kw";
     document.getElementsByClassName('medida')[2].innerHTML = "Kg";
 	document.getElementsByClassName('medida')[4].innerHTML = "litros";
 	document.getElementsByClassName('km')[0].innerHTML =" < 500km";
@@ -409,6 +411,7 @@ if(newpermission=="USA"){
 	document.getElementsByClassName('moneda')[3].innerHTML =" Euros (precio unitario)";
 	document.getElementsByClassName('moneda')[4].innerHTML =" Euros (precio unitario)";
 }else{
+    document.getElementsByClassName('medida')[0].innerHTML = "Kw";
 	document.getElementsByClassName('medida')[2].innerHTML = "Kg";
 	document.getElementsByClassName('medida')[4].innerHTML = "litros";
 	document.getElementsByClassName('km')[0].innerHTML =" < 500km";
