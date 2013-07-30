@@ -385,7 +385,7 @@ if(permiso != "ADMIN"){
 	permiso = newpermission;
 }
 console.log("permiso en selectDateOption "+permiso);
-if(permiso=="USA"){
+if(newpermission=="USA"){
 	document.getElementsByClassName('medida')[2].innerHTML = "pounds";
 	document.getElementsByClassName('medida')[4].innerHTML = "gallons";
 	document.getElementsByClassName('km')[0].innerHTML =" < 310 mi";
