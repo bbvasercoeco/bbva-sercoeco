@@ -28,11 +28,16 @@
 
 function backCall(){
 
-       
-        $('#papelkg').val(arguments[0].papel);
-        $('#tonerkg').val(arguments[0].toner);
-        $('#rraaees').val(arguments[0].rraaee);
-
+		if(permiso=="USA"){
+			$('#papelkg').val(arguments[0].papel / 2.2);
+			$('#tonerkg').val(arguments[0].toner / 2.2);
+			$('#rraaees').val(arguments[0].rraaee / 2.2);
+		
+		}else{
+			$('#papelkg').val(arguments[0].papel);
+			$('#tonerkg').val(arguments[0].toner);
+			$('#rraaees').val(arguments[0].rraaee);
+		}
        
        
        
