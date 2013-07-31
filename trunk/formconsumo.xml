@@ -388,8 +388,8 @@ function backCall(){
 function getData(){
 	var anio = $('#anyo').val();
 	var meses = $('#meses').val();
-	//var country = $('#country').val();
-	var country = permiso;
+	var country = $('#country').val();
+	//var country = permiso;
 	if(permiso=="USA"){
 		document.getElementsByClassName('medida')[2].innerHTML = "pounds";
 		document.getElementsByClassName('medida')[4].innerHTML = "gallons";
