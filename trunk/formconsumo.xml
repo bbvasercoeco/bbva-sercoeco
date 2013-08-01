@@ -705,6 +705,18 @@ else if(newpermission=="PERU"){
   }else{
 		if(permiso=="ESPAÑA"){
 			var moneda = "Euros (precio unitario)";
+		}else if(permiso=="VENEZUELA"){
+			var moneda = "Bolívares (precio unitario)";
+		
+		}else if(permiso=="PANAMA"){
+			var moneda = "Dolares (precio unitario)";
+		
+		}else if(permiso=="PERU"){
+			var moneda = "Soles (precio unitario)";
+		
+		}else if(permiso=="PARAGUAY"){
+			var moneda = "Guaranís (precio unitario)";
+		
 		}else{
 			var moneda = "Pesos (precio unitario)";
 		
