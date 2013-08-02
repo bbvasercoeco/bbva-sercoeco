@@ -514,7 +514,7 @@ else if(newpermission=="PERU"){
 	document.getElementsByClassName('km')[0].innerHTML =" < 500km";
 	document.getElementsByClassName('km')[1].innerHTML =" 500km > x < 1600km";
 	document.getElementsByClassName('km')[2].innerHTML =" > 1600km";
-	document.getElementsByClassName('moneda')[0].innerHTML =" Pesos(precio unitario)";
+	document.getElementsByClassName('moneda')[0].innerHTML =" Pesos	(precio unitario)";
 	document.getElementsByClassName('moneda')[1].innerHTML =" Pesos (precio unitario)";
 	document.getElementsByClassName('moneda')[2].innerHTML =" Pesos (precio unitario)";
 	document.getElementsByClassName('moneda')[3].innerHTML =" Pesos (precio unitario)";
