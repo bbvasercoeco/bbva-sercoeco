@@ -48,9 +48,9 @@ function getData(){
         var anio = $('#anyo').val();
         var meses = $('#meses').val();
         var country = $('#country').val();
-		if(permiso!="ADMIN"){ 
+		/*if(permiso!="ADMIN"){ 
 			country = permiso;
-		}	
+		}	*/
         $.ajax({
                 type: "POST",
                 url: "https://script.google.com/a/macros/bbva.com/s/AKfycby5pBMijrPp6vhdO__EjdP8CGIGwutjM39zkitHhiQY/exec?callback=backCall",   //"https://script.google.com/macros/s/AKfycbyFMmwVCMIF1HuiAYCVNx6d5R2aaN5CNINGKp0wU1EGy8cMNBml/exec?callback=backCall",
