@@ -443,7 +443,7 @@ if((newpermission=="USA")&&(permiso != "ADMIN")){
 	document.getElementsByClassName('moneda')[2].innerHTML =" Dollar (unit price)";
 	document.getElementsByClassName('moneda')[3].innerHTML =" Dollar (unit price)";
 	document.getElementsByClassName('moneda')[4].innerHTML =" Dollar (unit price)";
-}else if((newpermission=="ESPAÑA") || (newpermission=="ESPAÑA CORPORATIVO") || (newpermission=="PORTUGAL")){
+}else if((newpermission=="ESPAÑA") || (newpermission=="CORPORATIVOS") || (newpermission=="PORTUGAL")){
 	document.getElementsByClassName('medida')[0].innerHTML = "Kw";
     document.getElementsByClassName('medida')[2].innerHTML = "Kg";
 	document.getElementsByClassName('medida')[4].innerHTML = "litros";
