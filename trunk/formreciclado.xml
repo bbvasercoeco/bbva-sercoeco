@@ -48,13 +48,12 @@ function getData(){
         var anio = $('#anyo').val();
         var meses = $('#meses').val();
         var country = $('#country').val();
-		console.log("country "+country);
-		/*if(permiso!="ADMIN"){ 
+		if(permiso!="ADMIN"){ 
 			country = permiso;
-		}	*/
+		}	
         $.ajax({
                 type: "POST",
-                url: "https://script.google.com/macros/s/AKfycby5pBMijrPp6vhdO__EjdP8CGIGwutjM39zkitHhiQY/exec?callback=backCall",   //"https://script.google.com/macros/s/AKfycbyFMmwVCMIF1HuiAYCVNx6d5R2aaN5CNINGKp0wU1EGy8cMNBml/exec?callback=backCall",
+                url: "https://script.google.com/macros/s/AKfycbyFMmwVCMIF1HuiAYCVNx6d5R2aaN5CNINGKp0wU1EGy8cMNBml/exec?callback=backCall",   //"https://script.google.com/macros/s/AKfycbyFMmwVCMIF1HuiAYCVNx6d5R2aaN5CNINGKp0wU1EGy8cMNBml/exec?callback=backCall",
                 dataType: "jsonp",
                 data: { anio: anio, meses: meses, country: country }
                 }).done(function( msg ) {
@@ -391,8 +390,8 @@ if(permiso != "ADMIN"){
         html +='<li><label class="top" for="country">País:</label>';
         html +='<label style="display:inline-block;"><span class="c-form-combo" id="combo">';
         html +='<select  name="country" id="country" onchange="selectDateOption(this.options[this.selectedIndex].value);">';
-        html +='<option value="CORPORATIVOS" selected="selected">España (Inmuebles corp.)</option>';
-		html +='<option value="ESPAÑA" >España (Resto inmuebles)</option>';
+        html +='<option value="ESPAÑA" selected="selected">España</option>';
+        html +='<option value="CORPORATIVOS">Esp. Corp</option>';
         html +='<option value="ARGENTINA">Argentina</option>';
         html +='<option value="CHILE">Chile</option>';
         html +='<option value="COLOMBIA">Colombia</option>';
