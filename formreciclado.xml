@@ -54,7 +54,7 @@ function getData(){
 		}	*/
         $.ajax({
                 type: "POST",
-                url: "https://script.google.com/a/macros/bbva.com/s/AKfycby5pBMijrPp6vhdO__EjdP8CGIGwutjM39zkitHhiQY/exec?callback=backCall",   //"https://script.google.com/macros/s/AKfycbyFMmwVCMIF1HuiAYCVNx6d5R2aaN5CNINGKp0wU1EGy8cMNBml/exec?callback=backCall",
+                url: "https://script.google.com/macros/s/AKfycby5pBMijrPp6vhdO__EjdP8CGIGwutjM39zkitHhiQY/exec?callback=backCall",   //"https://script.google.com/macros/s/AKfycbyFMmwVCMIF1HuiAYCVNx6d5R2aaN5CNINGKp0wU1EGy8cMNBml/exec?callback=backCall",
                 dataType: "jsonp",
                 data: { anio: anio, meses: meses, country: country }
                 }).done(function( msg ) {
