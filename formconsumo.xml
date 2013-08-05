@@ -389,7 +389,7 @@ function getData(){
 	var anio = $('#anyo').val();
 	var meses = $('#meses').val();
 	var country = $('#country').val();
-	//console.log("country "+country);
+	console.log("country81 "+country);
 	//var country = permiso;
 	if(permiso=="USA"){
 		document.getElementsByClassName('medida')[2].innerHTML = "pounds";
