@@ -390,7 +390,9 @@ function getData(){
 	var meses = $('#meses').val();
 	var country = $('#country').val();
 	console.log("country81 "+country);
-	//var country = permiso;
+	if(permiso != "ADMIN"){
+		 country = permiso;
+	}
 	if(permiso=="USA"){
 		document.getElementsByClassName('medida')[2].innerHTML = "pounds";
 		document.getElementsByClassName('medida')[4].innerHTML = "gallons";
@@ -737,6 +739,7 @@ else if(newpermission=="PERU"){
 			var moneda = "Pesos (precio unitario)";
 		
 		}
+		
 		html +='<div class="container_24">';
         html +='<form name="resto" id="resto" action="javascript:writeConsumo()" method="get" >';
         html +='<li><label class="top" for="anyo">Año:</label>';
