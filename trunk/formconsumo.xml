@@ -874,9 +874,11 @@ Loaditems();
     dataType: 'jsonp',
     data: params,
     prefix: "doGet",
-    success: function doGet(){
-                  return alert("Data Saved:");
-				  window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/consumo";
+    success: function(){
+				  console.log("entro en success");
+				  document.getElementById('formularioconsumo').innerHTML = "<p>"+ msg +"</p>";
+                  //return alert("Data Saved:");
+				  //window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/consumo";
 				  
         },
     failure: function doGet(){
@@ -885,7 +887,7 @@ Loaditems();
     }
   })
 
- document.getElementById('formularioconsumo').innerHTML = "<p>"+ msg +"</p>"; 
+  
 }
 
   
