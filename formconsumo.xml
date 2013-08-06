@@ -811,10 +811,17 @@ Loaditems();
 <script type="text/javascript" src="https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec?prefix=getUser"></script>
 
 <script type="text/javascript">
+var msg="Formulario enviado correctamente";
 
+function confirmForm(){
+		console.log("entro en confirmForm");
+		document.getElementById('formularioconsumo').innerHTML = "<p>"+ msg +"</p>";
+
+
+}
 
  function writeConsumo(){
-  var msg="Formulario enviado correctamente";
+  
   console.log("entro en writeConsumo vers 1");
   /*if(permiso=="ADMIN"){
   var aux = document.forms["admin"]["country"].value;
@@ -869,16 +876,15 @@ Loaditems();
   console.log("params "+params);
   $.ajax({
     type: "GET",       
-    url: "https://script.google.com/macros/s/AKfycbxe7IDJDZChnmP7EOWAcLS2dboKruvP1NeqQp_G4AY/exec",  //"https://script.google.com/macros/s/AKfycbyUk-dB9sktomMyVJtgWxRYtBihVV355_JiOAQ8ID0Q9TwG6BQ/exec",
+    url: "https://script.google.com/macros/s/AKfycbxe7IDJDZChnmP7EOWAcLS2dboKruvP1NeqQp_G4AY/exec?callback=confirmForm",  //"https://script.google.com/macros/s/AKfycbyUk-dB9sktomMyVJtgWxRYtBihVV355_JiOAQ8ID0Q9TwG6BQ/exec",
     contentType: 'application/json',
     dataType: 'jsonp',
     data: params,
     prefix: "doGet",
-    success: function(){
-				  console.log("entro en success");
-				  document.getElementById('formularioconsumo').innerHTML = "<p>"+ msg +"</p>";
-                  //return alert("Data Saved:");
-				  //window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/consumo";
+    success: function doGet(){
+				 
+                  return alert("Data Saved:");
+				  window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/consumo";
 				  
         },
     failure: function doGet(){
