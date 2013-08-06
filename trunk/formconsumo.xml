@@ -826,7 +826,7 @@ return false;
 
 
 function writeConsumo(){
-  
+  var idform="";
   console.log("entro en writeConsumo vers 1");
   /*if(permiso=="ADMIN"){
   var aux = document.forms["admin"]["country"].value;
@@ -841,46 +841,42 @@ function writeConsumo(){
   console.log("entro en permiso = ADMIN ");
   var aux1 = document.forms["admin"]["country"].value;
   console.log("aux1 "+aux1);
-   /* if(aux1=="USA"){
-	    console.log("entro en if country =USA");
-	    var convertgasl = document.forms["admin"]["gasl"].value;
-		console.log("convertgasl 0"+convertgasl);
-		var convertgaslaux = convertgasl * 3.7841178;
-		console.log("convertgasl 1 "+convertgaslaux);
-		document.forms["admin"]["gasl"].value = convertgaslaux;
-		var convertpapelm = document.forms["admin"]["papelm"].value;
-		var convertpapelmaux = convertpapelm * 2.2;
-		document.forms["admin"]["papelm"].value = convertpapelmaux;
-		
-		var convertviajeavion = document.forms["admin"]["viajeavion"].value;
-		var convertviajeavionaux = convertviajeavion * 1.6093;
-		document.forms["admin"]["viajeavion"].value = convertviajeavionaux;
-		
-		var convertviajeavion2 = document.forms["admin"]["viajeavion2"].value;
-		var convertviajeavion2aux = convertviajeavion2 * 1.6093;
-		document.forms["admin"]["viajeavion2"].value = convertviajeavion2aux;
-		
-		var convertviajeavion3 = document.forms["admin"]["viajeavion3"].value;
-		var convertviajeavion3aux = convertviajeavion3 * 1.6093;
-		document.forms["admin"]["viajeavion3"].value = convertviajeavion3aux;
-	}*/
+  idform ="admin";
 	var params = $("#admin").serialize();
   }else if(permiso=="USA"){
 	var params = $("#usa").serialize();
 	params += "&country="+permiso;
 	msg="Form submitted successfully";
+	idform ="usa";
   }else if(permiso=="ESPAÑA CORPORATIVO"){
 	var params = $("#corporativos").serialize();
 	document.forms["corporativos"]["country"].value = "CORPORATIVOS";
 	//params += "&country="+permiso;
+	idform ="corporativo";
   }else{
 	var params = $("#resto").serialize();
 	params += "&country="+permiso;
+	idform ="resto";
   }
   params = decodeURIComponent(params);
   console.log("params "+params);
-  console.log("82 "+$("#eleckw").val(arguments[0].eleckw));
-  if(($("#eleckw").val!="")&&($("#eleceuro").val!="")&&($("#eleceuro").val!="")&&($("#aguam").val!="")&&($("#aguaeuro").val!="")&&($("#papelm").val!="")&&($("#papeleuro").val!="")&&($("#gasnaturalm").val!="")&&($("#gasnaturaleuro").val!="")&&($("#gasl").val!="")&&($("#gaseuro").val!="")&&($("#viajeavion").val!="")&&($("#viajeavion2").val!="")&&($("#viajeavion3").val!="")&&($("#videotele").val!="")){
+  
+  var eleckw = document.forms[idform]["eleckw"].value;
+  var eleceuro = document.forms[idform]["eleceuro"].value;
+  var aguam = document.forms[idform]["aguam"].value;
+  var aguaeuro = document.forms[idform]["aguaeuro"].value;
+  var papelm = document.forms[idform]["papelm"].value;
+  var papeleuro = document.forms[idform]["papeleuro"].value;
+  var gasnaturalm = document.forms[idform]["gasnaturalm"].value;
+  var gasnaturaleuro = document.forms[idform]["gasnaturaleuro"].value;
+  var gasl = document.forms[idform]["gasl"].value;
+  var gaseuro = document.forms[idform]["gaseuro"].value;
+  var viajeavion = document.forms[idform]["viajeavion"].value;
+  var viajeavion2 = document.forms[idform]["viajeavion2"].value;
+  var viajeavion3 = document.forms[idform]["viajeavion3"].value;
+  var videotele = document.forms[idform]["videotele"].value;
+  
+  if((eleckw!="")&&(eleceuro!="")&&(aguam!="")&&(aguaeuro!="")&&(papelm!="")&&(papeleuro!="")&&(gasnaturalm!="")&&(gasnaturaleuro!="")&&(gasl!="")&&(gaseuro!="")&&(viajeavion!="")&&(viajeavion2!="")&&(viajeavion3!="")&&(videotele!="")){
  
 	$.ajax({
     type: "GET",       
