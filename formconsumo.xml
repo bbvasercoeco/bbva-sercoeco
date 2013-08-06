@@ -313,6 +313,7 @@ ul li span.c-form-combo{
 	font-family: Arial;
 	font-weight: bold;
 	color:#0072C9;
+	margin-bottom:10px;
 	}
 
  </style>
