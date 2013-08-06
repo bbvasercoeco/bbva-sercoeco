@@ -814,7 +814,7 @@ Loaditems();
 
 
  function writeConsumo(){
-
+  var msg="Formulario enviado correctamente";
   console.log("entro en writeConsumo vers 1");
   /*if(permiso=="ADMIN"){
   var aux = document.forms["admin"]["country"].value;
@@ -856,6 +856,7 @@ Loaditems();
   }else if(permiso=="USA"){
 	var params = $("#usa").serialize();
 	params += "&country="+permiso;
+	msg="Form submitted successfully";
   }else if(permiso=="ESPAÑA CORPORATIVO"){
 	var params = $("#corporativos").serialize();
 	document.forms["corporativos"]["country"].value = "CORPORATIVOS";
@@ -876,7 +877,7 @@ Loaditems();
     success: function doGet(){
                   return alert("Data Saved:");
 				  window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/consumo";
-        
+				  document.getElementsByClassName('container_24')[0].innerHTML ="<p>"+ msg +"</p>";
         },
     failure: function doGet(){
                   return  alert("Data NOT Saved:");   
