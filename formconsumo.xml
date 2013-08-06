@@ -879,6 +879,7 @@ function writeConsumo(){
   }
   params = decodeURIComponent(params);
   console.log("params "+params);
+  console.log("81 "+$("#eleckw").val);
   if(($("#eleckw").val!="")&&($("#eleceuro").val!="")&&($("#eleceuro").val!="")&&($("#aguam").val!="")&&($("#aguaeuro").val!="")&&($("#papelm").val!="")&&($("#papeleuro").val!="")&&($("#gasnaturalm").val!="")&&($("#gasnaturaleuro").val!="")&&($("#gasl").val!="")&&($("#gaseuro").val!="")&&($("#viajeavion").val!="")&&($("#viajeavion2").val!="")&&($("#viajeavion3").val!="")&&($("#videotele").val!="")){
  
 	$.ajax({
