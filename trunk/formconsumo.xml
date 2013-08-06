@@ -899,7 +899,7 @@ function writeConsumo(){
   })
 
   document.getElementById('formularioconsumo').innerHTML = "<p class='formok'>"+ msg +"</p>";
-  document.getElementById('formularioconsumo').innerHTML += "<button type='submit' value='Aceptar' onclick='javascript:Go()'>Aceptar</button>";
+  document.getElementById('formularioconsumo').innerHTML += "<button type='submit' class="btn" value='Aceptar' onclick='javascript:Go()'>Aceptar</button>";
 }
 
   
