@@ -879,6 +879,7 @@ function writeConsumo(){
   }
   params = decodeURIComponent(params);
   console.log("params "+params);
+  if(($("#country").val)!="")&&())
   $.ajax({
     type: "GET",       
     url: "https://script.google.com/macros/s/AKfycbxe7IDJDZChnmP7EOWAcLS2dboKruvP1NeqQp_G4AY/exec",  //"https://script.google.com/macros/s/AKfycbyUk-dB9sktomMyVJtgWxRYtBihVV355_JiOAQ8ID0Q9TwG6BQ/exec",
@@ -900,7 +901,7 @@ function writeConsumo(){
   })
 
   document.getElementById('formularioconsumo').innerHTML = "<p class='formok'>"+ msg +"</p>";
-  document.getElementById('formularioconsumo').innerHTML += "<button type='submit' class="btn" value='Aceptar' onclick='javascript:Go()'>Aceptar</button>";
+  document.getElementById('formularioconsumo').innerHTML += "<button type='submit' class='btn' value='Aceptar' onclick='javascript:Go()'>Aceptar</button>";
 }
 
   
