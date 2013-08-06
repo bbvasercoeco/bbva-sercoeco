@@ -308,7 +308,12 @@ ul li span.c-form-combo{
 	font-weight: bold;
 	color: #0073C9;
 	}
-
+	.formok p{
+	font-size: 14px; 
+	font-family: Arial;
+	font-weight: bold;
+	color:#0072C9;
+	}
 
  </style>
  
@@ -813,12 +818,7 @@ Loaditems();
 <script type="text/javascript">
 var msg="Formulario enviado correctamente";
 
-/*function confirmForm(){
-		console.log("entro en confirmForm");
-		document.getElementById('formularioconsumo').innerHTML = "<p>"+ msg +"</p>";
 
-
-}*/
 
  function writeConsumo(){
   
@@ -876,7 +876,7 @@ var msg="Formulario enviado correctamente";
   console.log("params "+params);
   $.ajax({
     type: "GET",       
-    url: "https://script.google.com/macros/s/AKfycbxe7IDJDZChnmP7EOWAcLS2dboKruvP1NeqQp_G4AY/exec?callback=doGet",  //"https://script.google.com/macros/s/AKfycbyUk-dB9sktomMyVJtgWxRYtBihVV355_JiOAQ8ID0Q9TwG6BQ/exec",
+    url: "https://script.google.com/macros/s/AKfycbxe7IDJDZChnmP7EOWAcLS2dboKruvP1NeqQp_G4AY/exec",  //"https://script.google.com/macros/s/AKfycbyUk-dB9sktomMyVJtgWxRYtBihVV355_JiOAQ8ID0Q9TwG6BQ/exec",
     contentType: 'application/json',
     dataType: 'jsonp',
     data: params,
@@ -894,7 +894,7 @@ var msg="Formulario enviado correctamente";
     }
   })
 
-  
+  document.getElementById('formularioconsumo').innerHTML = "<p class='formok'>"+ msg +"</p>";
 }
 
   
