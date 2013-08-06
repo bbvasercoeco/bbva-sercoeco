@@ -818,6 +818,10 @@ Loaditems();
 <script type="text/javascript">
 var msg="Formulario enviado correctamente";
 
+function Go(){
+window.parent.location.href="window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/consumo";
+return false;
+}
 
 
  function writeConsumo(){
@@ -895,6 +899,7 @@ var msg="Formulario enviado correctamente";
   })
 
   document.getElementById('formularioconsumo').innerHTML = "<p class='formok'>"+ msg +"</p>";
+  document.getElementById('formularioconsumo').innerHTML += "<button type='submit' value='Aceptar' onclick='javascript:Go()'>Aceptar</button>";
 }
 
   
