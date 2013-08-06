@@ -879,8 +879,9 @@ function writeConsumo(){
   }
   params = decodeURIComponent(params);
   console.log("params "+params);
-  if(($("#country").val)!="")&&())
-  $.ajax({
+  if(($("#eleckw").val!="")&&($("#eleceuro").val!="")&&($("#eleceuro").val!="")&&($("#aguam").val!="")&&($("#aguaeuro").val!="")&&($("#papelm").val!="")&&($("#papeleuro").val!="")&&($("#gasnaturalm").val!="")&&($("#gasnaturaleuro").val!="")&&($("#gasl").val!="")&&($("#gaseuro").val!="")&&($("#viajeavion").val!="")&&($("#viajeavion2").val!="")&&($("#viajeavion3").val!="")&&($("#videotele").val!="")){
+ 
+	$.ajax({
     type: "GET",       
     url: "https://script.google.com/macros/s/AKfycbxe7IDJDZChnmP7EOWAcLS2dboKruvP1NeqQp_G4AY/exec",  //"https://script.google.com/macros/s/AKfycbyUk-dB9sktomMyVJtgWxRYtBihVV355_JiOAQ8ID0Q9TwG6BQ/exec",
     contentType: 'application/json',
@@ -902,6 +903,10 @@ function writeConsumo(){
 
   document.getElementById('formularioconsumo').innerHTML = "<p class='formok'>"+ msg +"</p>";
   document.getElementById('formularioconsumo').innerHTML += "<button type='submit' class='btn' value='Aceptar' onclick='javascript:Go()'>Aceptar</button>";
+ 
+ }else{
+  alert("Faltan campos por rellenar");
+  }
 }
 
   
