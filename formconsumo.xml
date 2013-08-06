@@ -869,7 +869,7 @@ Loaditems();
   console.log("params "+params);
   $.ajax({
     type: "GET",       
-    url: "https://script.google.com/macros/s/AKfycbxe7IDJDZChnmP7EOWAcLS2dboKruvP1NeqQp_G4AY/exec?callback=success",  //"https://script.google.com/macros/s/AKfycbyUk-dB9sktomMyVJtgWxRYtBihVV355_JiOAQ8ID0Q9TwG6BQ/exec",
+    url: "https://script.google.com/macros/s/AKfycbxe7IDJDZChnmP7EOWAcLS2dboKruvP1NeqQp_G4AY/exec",  //"https://script.google.com/macros/s/AKfycbyUk-dB9sktomMyVJtgWxRYtBihVV355_JiOAQ8ID0Q9TwG6BQ/exec",
     contentType: 'application/json',
     dataType: 'jsonp',
     data: params,
@@ -877,14 +877,15 @@ Loaditems();
     success: function doGet(){
                   return alert("Data Saved:");
 				  window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/consumo";
-				  document.getElementsByClassName('container_24')[0].innerHTML ="<p>"+ msg +"</p>";
+				  
         },
     failure: function doGet(){
                   return  alert("Data NOT Saved:");   
 				  window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/consumo";
     }
   })
-  
+
+ document.getElementById('formularioconsumo').innerHTML = "<p>"+ msg +"</p>"; 
 }
 
   
