@@ -871,7 +871,7 @@ Loaditems();
     type: "GET",       
     url: "https://script.google.com/macros/s/AKfycbxe7IDJDZChnmP7EOWAcLS2dboKruvP1NeqQp_G4AY/exec",  //"https://script.google.com/macros/s/AKfycbyUk-dB9sktomMyVJtgWxRYtBihVV355_JiOAQ8ID0Q9TwG6BQ/exec",
     contentType: 'application/json',
-    dataType: 'json',
+    dataType: 'jsonp',
     data: params,
     prefix: "doGet",
     success: function(){
