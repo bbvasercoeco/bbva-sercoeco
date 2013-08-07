@@ -594,25 +594,44 @@ Loaditems();
 <script type="text/javascript" src="https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec?prefix=getUser"></script>
 
 <script type="text/javascript">
+var msg="Formulario enviado correctamente";
+var msgusa="Form submitted successfully";
 
+function Go(){
+window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/personal";
+return false;
+}
 
  function writePersonal(){
  // alert("permiso "+permiso);
  // alert("entro en writePersonal vers 1");
+ var auxiliar="";
+ var idform="";
+ 
   if(permiso=="ADMIN"){
 	var params = $("#admin").serialize();
+	idform ="admin";
   }else if(permiso=="USA"){
 	var params = $("#usa").serialize();
 	params += "&country="+permiso;
+	idform ="usa";
   }else if(permiso=="ESPAÑA CORPORATIVO"){
 	var params = $("#corporativos").serialize();
 	//params += "&country="+permiso;
+	idform ="corporativo";
   }else{
 	var params = $("#resto").serialize();
 	params += "&country="+permiso;
+	idform ="resto";
   }
+  var certiso14001 = document.forms[idform]["certiso14001"].value;
+  var certisoem = document.forms[idform]["certisoem"].value;
+  var certifleededif = document.forms[idform]["certifleededif"].value;
+  var certifleedem = document.forms[idform]["certifleedem"].value;
+  var ocunoem = document.forms[idform]["ocunoem"].value;
   params = decodeURIComponent(params);
  // alert("params "+params);
+ if((certiso14001!="")&&(certisoem!="")&&(certifleededif!="")&&(certifleedem!="")&&(ocunoem!="")){
   $.ajax({
     type: "GET",       
     url: "https://script.google.com/macros/s/AKfycbz2waXct2pNDHl5xmAIzYyi9Wj7Kz_ctoPxwcQLbng/exec",
@@ -632,6 +651,26 @@ Loaditems();
     }
   })
   
+  if(permiso=="ADMIN"){
+	auxiliar = document.forms["admin"]["country"].value;
+  }
+  if((permiso=="USA")||(auxiliar=="USA")){
+    document.getElementById('formularioconsumo').innerHTML = "<p class='formok'>"+ msgusa +"</p>";
+	document.getElementById('formularioconsumo').innerHTML += "<button type='submit' class='btn' style='margin-left:0px;' value='Aceptar' onclick='javascript:Go()'>Accept</button>";
+
+  }else{
+    document.getElementById('formularioconsumo').innerHTML = "<p class='formok'>"+ msg +"</p>";
+	document.getElementById('formularioconsumo').innerHTML += "<button type='submit' class='btn' style='margin-left:0px;' value='Aceptar' onclick='javascript:Go()'>Aceptar</button>";
+  }
+ }else{
+	if((permiso=="USA")||(auxiliar=="USA")){
+		alert("You must fill in all fields on the form, but the value is zero.");
+	
+	}else{
+		alert("Es necesario rellenar todos los campos del formulario, aunque el valor sea cero.");
+	}
+ 
+ }
 }
 
   
