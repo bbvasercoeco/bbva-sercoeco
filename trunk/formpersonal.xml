@@ -375,6 +375,9 @@ var permiso="";
         var country = $('#country').val();
 		//var country = permiso;
 		console.log("country "+country);
+		if(permiso != "ADMIN"){ 
+			country = permiso;
+		}
         $.ajax({
                 type: "POST",
                 url: "https://script.google.com/macros/s/AKfycbw3DkOB-Hg6Ct0PQc032sbw984rmwms0CvHbgESKpi7/exec?callback=backCall", //"https://script.google.com/macros/s/AKfycbyPhh6urdlKTkgewUVulrxZ7pYvbq5gSPynfMHZe0ulGOS4SJhi/exec?callback=backCall",
