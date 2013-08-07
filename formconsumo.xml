@@ -902,7 +902,7 @@ function writeConsumo(){
   document.getElementById('formularioconsumo').innerHTML += "<button type='submit' class='btn' style='margin-left:0px;' value='Aceptar' onclick='javascript:Go()'>Aceptar</button>";
  
  }else{
-  alert("Faltan campos por rellenar");
+  alert("Es necesario rellenar todos los campos del formulario, aunque el valor sea cero.");
   }
 }
 
