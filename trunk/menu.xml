@@ -297,7 +297,7 @@ function getUser(){
 				html +='<ul>';
 				html +='<li id="home" class="op1"><a class="enlace" href="https://sites.google.com/a/bbva.com/sercoeco/"   target="_parent"  title="home"></a></li>';
 				html +='<li id="consumo" class="op2"><span class="enlace" tabindex="0"><span><a href="https://sites.google.com/a/bbva.com/sercoeco/home/consumo"  target="_parent">Consumo</a></span></span></li>';
-				html +='<li id="personal" class="op3" ><span class="enlace" tabindex="0"><span><a href="https://sites.google.com/a/bbva.com/sercoeco/home/personal"  target="_parent">Personal</a></span></span></li>';
+				html +='<li id="personal" class="op3" ><span class="enlace" tabindex="0"><span><a href="https://sites.google.com/a/bbva.com/sercoeco/home/otros-datos"  target="_parent">Otros datos</a></span></span></li>';
                 html +='<li id="reciclado" class="op4"><span class="enlace" tabindex="0"><span><a href="https://sites.google.com/a/bbva.com/sercoeco/home/reciclado"  target="_parent">Reciclado</a></span></span></li>';
 				html +='<li id="factores" class="op5"><span class="enlace" tabindex="0"><span><a href="https://sites.google.com/a/bbva.com/sercoeco/home/factores-de-conversion"  target="_parent">Factores de conversión</a></span></span></li>';
 				html +='<li id="cambio" class="op6"><span class="enlace" tabindex="0"><span><a href="https://sites.google.com/a/bbva.com/sercoeco/home/tipo-de-cambio"  target="_parent">Tipo de cambio</a></span></span></li>';
@@ -310,7 +310,7 @@ function getUser(){
 				html +='<ul>';
 				html +='<li id="home" class="op1"><a class="enlace" href="https://sites.google.com/a/bbva.com/sercoeco/"   target="_parent"  title="home"></a></li>';
 				html +='<li id="consumo" class="op9"><span class="enlace" tabindex="0"><span><a href="https://sites.google.com/a/bbva.com/sercoeco/home/consumo"  target="_parent">Consumption</a></span></span></li>';
-				html +='<li id="personal" class="op3" ><span class="enlace" tabindex="0"><span><a href="https://sites.google.com/a/bbva.com/sercoeco/home/personal"  target="_parent">Personal</a></span></span></li>';
+				html +='<li id="personal" class="op3" ><span class="enlace" tabindex="0"><span><a href="https://sites.google.com/a/bbva.com/sercoeco/home/otros-datos"  target="_parent">Other data</a></span></span></li>';
                 html +='<li id="reciclado" class="op4"><span class="enlace" tabindex="0"><span><a href="https://sites.google.com/a/bbva.com/sercoeco/home/reciclado"  target="_parent">Recycling</a></span></span></li>';
 				//html +='<li id="factores" class="op5"><span class="enlace" tabindex="0"><span><a href="https://sites.google.com/a/bbva.com/sercoeco/home/factores-de-conversion"  target="_parent">Factores de conversión</a></span></span></li>';
 				//html +='<li id="cambio" class="op6"><span class="enlace" tabindex="0"><span><a href="https://sites.google.com/a/bbva.com/sercoeco/home/tipo-de-cambio"  target="_parent">Tipo de cambio</a></span></span></li>';
