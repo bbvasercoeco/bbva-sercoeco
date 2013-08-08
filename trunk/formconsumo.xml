@@ -395,14 +395,14 @@ function getData(){
 	var anio = $('#anyo').val();
 	var meses = $('#meses').val();
 	var country = $('#country').val();
-	console.log("country82 "+country);
+	//console.log("country82 "+country);
 	if(permiso != "ADMIN"){
 	     if(permiso=="ESPAÑA CORPORATIVOS"){ 
 			country ="CORPORATIVOS";
 		 }else{
 			country = permiso;
 		 }
-		 console.log("country aki "+ country);
+		// console.log("country aki "+ country);
 	}
 	if(permiso=="USA"){
 		document.getElementsByClassName('medida')[2].innerHTML = "pounds";
