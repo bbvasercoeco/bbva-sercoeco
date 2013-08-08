@@ -732,7 +732,7 @@ else if(newpermission=="PERU"){
         html +='</div>';
   
   }else{
-		if(permiso=="ESPAÑA"){
+		if((permiso=="ESPAÑA")||(permiso=="PORTUGAL")){
 			var moneda = "Euros (precio unitario)";
 		}else if(permiso=="VENEZUELA"){
 			var moneda = "Bolívares (precio unitario)";
