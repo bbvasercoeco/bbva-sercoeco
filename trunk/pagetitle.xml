@@ -124,17 +124,18 @@
 
    	<script type="text/javascript">
 	var titlepage="";
+	var per="";
 	var gadgetHelper = null;
 	var prefs = new gadgets.Prefs();
 	var rutapadre = gadgets.util.getUrlParameters()["parent"];
 	console.log("rutapadre "+rutapadre);
 	titlepage = prefs.getString("titlepage");
 	function getUser(){
-		var per = arguments[0].user;
+	    per = arguments[0].user;
 		console.log("per "+per);
 		if((rutapadre=="https://sites.google.com/a/bbva.com/sercoeco/home/otros-datos")&&(per=="USA")){
 			document.getElementById('titlepage').innerHTML = "Other data";
-			document.getElementsByClassName('currentBreadCrumb')[0].innerHTML = "Other data";
+			
 		}
 	
 	
@@ -367,6 +368,9 @@ if (!Array.prototype.indexOf) {
 					else
 					{	
 						if(litEnlace=="inmuebles resto espana"){litEnlace="Inmuebles resto de España";}
+						if((rutapadre=="https://sites.google.com/a/bbva.com/sercoeco/home/otros-datos")&&(per=="USA")){
+						 litEnlace = "Other data";
+						}
 						s = s + " <img class='breadmax' src='https://sites.google.com/a/bbva.com/sercoeco/separatorbreadcrumb.png?attredirects=0'/><span class=\'currentBreadCrumb\' + parametros[j] + barra + \' >&nbsp;" + litEnlace + "</span>";
 					}
 				}
