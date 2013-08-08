@@ -134,6 +134,7 @@
 		console.log("per "+per);
 		if((rutapadre=="https://sites.google.com/a/bbva.com/sercoeco/home/otros-datos")&&(per=="USA")){
 			document.getElementById('titlepage').innerHTML = "Other data";
+			document.getElementsByClassName('currentBreadCrumb')[0].innerHTML = "Other data";
 		}
 	
 	
