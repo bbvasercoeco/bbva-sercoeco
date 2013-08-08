@@ -397,6 +397,7 @@ function getData(){
 	var country = $('#country').val();
 	console.log("country81 "+country);
 	if(permiso != "ADMIN"){
+	     if(permiso=="ESPAÑA CORPORATIVOS"){ country ="CORPORATIVOS";}
 		 country = permiso;
 	}
 	if(permiso=="USA"){
