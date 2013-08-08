@@ -232,6 +232,10 @@ if (!Array.prototype.indexOf) {
 	 	var prefs = new gadgets.Prefs();
 		var rutapadre = gadgets.util.getUrlParameters()["parent"];
 	 	var titlepage = prefs.getString("titlepage");
+		var per = arguments[0].user;
+		if((rutapadre=="https://sites.google.com/a/bbva.com/sercoeco/home/otros-datos")&&(per=="USA")){
+			titlepage = "Other data";
+		}
 		var parametrosAux = gadgets.util.getUrlParameters()["parent"].split("=");
 		var product = "product";
 		var category = "category1";
@@ -558,6 +562,7 @@ if (!Array.prototype.indexOf) {
 		}
 
    </script>
+<script type="text/javascript" src="https://script.google.com/macros/s/AKfycby1IT3SwvDuTTxKqpDY8ShStQlZtyx1RygKQNjZf7HYROA8l98/exec?prefix=getUser"></script>
 
     ]]>
  </Content>
