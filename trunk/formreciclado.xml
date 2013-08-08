@@ -615,7 +615,7 @@ return false;
   var tonerkg = document.forms[idform]["tonerkg"].value;
   var rraaees = document.forms[idform]["rraaees"].value;
   params = decodeURIComponent(params);
- // alert("params "+params);
+ console.log("params "+params);
  
  if((papelkg!="")&&(tonerkg!="")&&(rraaees!="")){
   $.ajax({
