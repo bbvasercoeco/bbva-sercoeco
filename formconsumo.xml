@@ -397,8 +397,12 @@ function getData(){
 	var country = $('#country').val();
 	console.log("country81 "+country);
 	if(permiso != "ADMIN"){
-	     if(permiso=="ESPAÑA CORPORATIVOS"){ country ="CORPORATIVOS";}
-		 country = permiso;
+	     if(permiso=="ESPAÑA CORPORATIVOS"){ 
+			country ="CORPORATIVOS";
+		 }else{
+			country = permiso;
+		 }
+		 console.log("country aki "+ country);
 	}
 	if(permiso=="USA"){
 		document.getElementsByClassName('medida')[2].innerHTML = "pounds";
