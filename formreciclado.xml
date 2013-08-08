@@ -38,7 +38,9 @@ function backCall(){
 			$('#papelkg').val(arguments[0].papel);
 			$('#tonerkg').val(arguments[0].toner);
 			$('#rraaees').val(arguments[0].rraaee);
-			$('#numequipos').val(arguments[0].numequipos);
+			if(permiso!="ESPAÑA"){
+				$('#numequipos').val(arguments[0].numequipos);
+			}
 		}
        
        
