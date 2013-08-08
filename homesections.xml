@@ -68,7 +68,7 @@ function getUser(){
     html += "  </div>";
     html += "  <div class='app'>";
     html += "          <img src='https://bbva-sercoeco.googlecode.com/svn/trunk/img/personal.png' alt='' class='ico'>";
-    html += "          <h3 class='app_titulo'>Personal</h3>";
+    html += "          <h3 class='app_titulo'>Otros datos</h3>";
     html += "          <p class='app_texto'>Introducción de ocupantes externos y certificaciones.</p>";
     html += "          <button id='personal' class='btn' type='button'>Acceder</button>";
     html += "  </div>";
@@ -105,7 +105,7 @@ function getUser(){
     html += "  </div>";
     html += "  <div class='app'>";
     html += "          <img src='https://bbva-sercoeco.googlecode.com/svn/trunk/img/personal.png' alt='' class='ico'>";
-    html += "          <h3 class='app_titulo'>Personal</h3>";
+    html += "          <h3 class='app_titulo'>Other data</h3>";
     html += "          <p class='app_texto'>Introduction of external staff and certifications.</p>";
     html += "          <button id='personal' class='btn' type='button'>Log in</button>";
     html += "  </div>";
@@ -142,7 +142,7 @@ function getUser(){
     html += "  </div>";
     html += "  <div class='app'>";
     html += "          <img src='https://bbva-sercoeco.googlecode.com/svn/trunk/img/personal.png' alt='' class='ico'>";
-    html += "          <h3 class='app_titulo'>Personal</h3>";
+    html += "          <h3 class='app_titulo'>Otros datos</h3>";
     html += "          <p class='app_texto'>Introducción de ocupantes externos y certificaciones.</p>";
     html += "          <button id='personal' class='btn' type='button'>Acceder</button>";
     html += "  </div>";
@@ -177,7 +177,7 @@ function getUser(){
     html += "  </div>";
     html += "  <div class='app'>";
     html += "          <img src='https://bbva-sercoeco.googlecode.com/svn/trunk/img/personal.png' alt='' class='ico'>";
-    html += "          <h3 class='app_titulo'>Personal</h3>";
+    html += "          <h3 class='app_titulo'>Otros datos</h3>";
     html += "          <p class='app_texto'>Introducción de ocupantes externos y certificaciones.</p>";
     html += "          <button id='personal' class='btn' type='button'>Acceder</button>";
     html += "  </div>";
@@ -376,7 +376,8 @@ p.app_texto {
 								htmlaux += "  </div>";
 								htmlaux += "  <div class='app'>";
 								htmlaux += "          <img src='https://bbva-sercoeco.googlecode.com/svn/trunk/img/personal.png' alt='' class='ico'>";
-								htmlaux += "          <h3 class='app_titulo'>Personal</h3>";
+								
+								htmlaux += "          <h3 class='app_titulo'>Otros datos</h3>";
 								htmlaux += "          <p class='app_texto'>Introducción de ocupantes externos y certificaciones.</p>";
 								htmlaux += "          <button id='personal' class='btn' type='button'>Acceder</button>";
 								htmlaux += "  </div>";
@@ -467,7 +468,7 @@ p.app_texto {
                         </tr>
                         <tr>            
                                 <td>
-                                        Url Personal: <input type="text" id="urlpersonal" value="__UP_urlpersonal__" onchange="registra('urlpersonal')">                                        
+                                        Url Otros datos: <input type="text" id="urlpersonal" value="__UP_urlpersonal__" onchange="registra('urlpersonal')">                                        
                                 </td>
                         </tr>
                         <tr>            
