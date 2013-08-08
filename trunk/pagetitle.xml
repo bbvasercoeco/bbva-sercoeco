@@ -128,11 +128,11 @@
 	var gadgetHelper = null;
 	var prefs = new gadgets.Prefs();
 	var rutapadre = gadgets.util.getUrlParameters()["parent"];
-	console.log("rutapadre "+rutapadre);
+	//console.log("rutapadre "+rutapadre);
 	titlepage = prefs.getString("titlepage");
 	function getUser(){
 	    per = arguments[0].user;
-		console.log("per "+per);
+		//console.log("per "+per);
 		if((rutapadre=="https://sites.google.com/a/bbva.com/sercoeco/home/otros-datos")&&(per=="USA")){
 			document.getElementById('titlepage').innerHTML = "Other data";
 			
