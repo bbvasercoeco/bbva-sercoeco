@@ -608,7 +608,7 @@ var msg="Formulario enviado correctamente";
 var msgusa="Form submitted successfully";
 
 function Go(){
-window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/personal";
+window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/otros-datos";
 return false;
 }
 
@@ -651,13 +651,13 @@ return false;
     prefix: "doGet",
     success: function doGet(){
                         return alert("Data Saved:");
-						window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/personal";
+						window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/otros-datos";
         
         
         },
     failure: function doGet(){
                     return alert("Data NOT Saved:");  
-					window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/personal";
+					window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/otros-datos";
     }
   })
   
