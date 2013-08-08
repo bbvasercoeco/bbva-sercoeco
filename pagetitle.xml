@@ -131,7 +131,7 @@
 	function getUser(){
 		var per = arguments[0].user;
 		if((rutapadre=="https://sites.google.com/a/bbva.com/sercoeco/home/otros-datos")&&(per=="USA")){
-			titlepage = "Other data";
+			document.getElementById('titlepage').innerHTML = "Other data";
 		}
 	
 	
