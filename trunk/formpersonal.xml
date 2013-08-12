@@ -502,7 +502,7 @@ var permiso="";
   }else if (permiso=="ESPAÑA CORPORATIVOS"){
         html +='<div class="container_24">';
         html +='<form name="corporativos" id="corporativos" action="javascript:writePersonal();" method="get">';
-        /*html +='<li><label class="top" for="anyo">Año:</label>';
+        html +='<li><label class="top" for="anyo">Año:</label>';
         html +='<label style="display:inline-block;">';
         html +='<span class="c-form-combo" id="combo">';
         html +='<select id="anyo" name="anyo">';
@@ -520,7 +520,7 @@ var permiso="";
         html +='</select></span></label></li>';
         html +='&nbsp;&nbsp;&nbsp;&nbsp;';
         html +='<input type="button" class="btn2" onClick="getData()" value="Consultar"/><br/><br/>';
-        html +='<label class="bottom">Certificaciones ISO14001</label>';
+        /*html +='<label class="bottom">Certificaciones ISO14001</label>';
         html +='<label class="medida" for="certiso14001">Nº de Edificios</label>';
         html +='<input type="text" name="certiso14001"id="certiso14001" class="textbox"/><br/><br/>';
         html +='<label class="medida2" for="certisoem">Nº de empleados</label>';
