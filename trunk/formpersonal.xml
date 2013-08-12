@@ -502,6 +502,7 @@ var permiso="";
         
         
   }else if (permiso=="ESPAÑA CORPORATIVOS"){
+  console.log("entro en corporativos");
         html +='<div class="container_24">';
         html +='<form name="corporativos" id="corporativos" action="javascript:writePersonal();" method="get">';
         /*html +='<li><label class="top" for="anyo">Año:</label>';
