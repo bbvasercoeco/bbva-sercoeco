@@ -711,7 +711,7 @@ console.log("params-- "+params);
 					window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/otros-datos";
     }
   })
-  
+  console.log("after ajax call-- ");
   if(permiso=="ADMIN"){
 	auxiliar = document.forms["admin"]["country"].value;
   }
