@@ -639,7 +639,7 @@ return false;
 	idform ="resto";
   }
   if((permiso!="ESPAÑA")){
-  console.log("entro1");
+  console.log("entro11");
   var certiso14001 = document.forms[idform]["certiso14001"].value;
   var certisoem = document.forms[idform]["certisoem"].value;
   var certifleededif = document.forms[idform]["certifleededif"].value;
