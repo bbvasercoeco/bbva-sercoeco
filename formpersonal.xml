@@ -520,7 +520,7 @@ var permiso="";
         html +='</select></span></label></li>';
         html +='&nbsp;&nbsp;&nbsp;&nbsp;';
         html +='<input type="button" class="btn2" onClick="getData()" value="Consultar"/><br/><br/>';
-        /*
+        
 		html +='<label class="bottom">Certificaciones ISO14001</label>';
         html +='<label class="medida" for="certiso14001">Nº de Edificios</label>';
         html +='<input type="text" name="certiso14001"id="certiso14001" class="textbox"/><br/><br/>';
@@ -534,7 +534,7 @@ var permiso="";
         html +='<label class="medida2" for="certifleedem">Nº de empleados</label>';
         html +='<input type="text" name="certifleedem" id="certifleedem" class="textbox"/><br/><br/>';
         html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-2.png?attachauth=ANoY7cr7BY1H9kyFAd12o9WtwjDrxzPs6sbQpbSrG2CIYv0exCmstzsMwAkE7IpyPLhGsmwAV4fXZyR5uS1XH5Gpv-B5XQxzg1vv9i_Lkex3mUwYbZvvxBv1sK0ietcyJMkBJjCs5IHLDPcu7LyxI1DaVyhBHbRUeIu76wj5ndnqwxiBRXLCOoJuWtqZL_FVmaukcFhxRd_XF22wr1g0wuq1X4clEIigYw%3D%3D" alt="separador">';
-        html +='<br/><br/>';*/
+        html +='<br/><br/>';
         html +='<label class="bottom">Ocupantes no empleados</label>';
         html +='<label class="medida" for="ocunoem">Nº</label>';
         html +='<input type="text" name="ocunoem" id="ocunoem" class="textbox" style="margin-bottom:15px;"/>';
@@ -638,7 +638,7 @@ return false;
 	params += "&country="+permiso;
 	idform ="resto";
   }
-  if((permiso!="ESPAÑA")&&(permiso!="ESPAÑA CORPORATIVOS")){
+  if((permiso!="ESPAÑA")){
   console.log("entro1");
   var certiso14001 = document.forms[idform]["certiso14001"].value;
   var certisoem = document.forms[idform]["certisoem"].value;
