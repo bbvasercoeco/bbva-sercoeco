@@ -520,7 +520,8 @@ var permiso="";
         html +='</select></span></label></li>';
         html +='&nbsp;&nbsp;&nbsp;&nbsp;';
         html +='<input type="button" class="btn2" onClick="getData()" value="Consultar"/><br/><br/>';
-        /*html +='<label class="bottom">Certificaciones ISO14001</label>';
+        /*
+		html +='<label class="bottom">Certificaciones ISO14001</label>';
         html +='<label class="medida" for="certiso14001">Nº de Edificios</label>';
         html +='<input type="text" name="certiso14001"id="certiso14001" class="textbox"/><br/><br/>';
         html +='<label class="medida2" for="certisoem">Nº de empleados</label>';
@@ -686,7 +687,7 @@ return false;
  
  }
 }else{
-console.log("entro2");
+console.log("entro2 v 1");
 console.log("permiso "+permiso);
 console.log("idform "+idform);
 var ocunoem = document.forms[idform]["ocunoem"].value;
