@@ -391,7 +391,9 @@ var permiso="";
        
  function getUser(){
   //alert(arguments[0].user);
+  
   permiso = arguments[0].user;
+  console.log("permiso1 "+permiso);
   var html="";
   if(arguments[0].user=="ADMIN"){
      
@@ -615,7 +617,7 @@ return false;
 }
 
  function writePersonal(){
- // alert("permiso "+permiso);
+ console.log("permiso2 "+permiso);
  // alert("entro en writePersonal vers 1");
  var auxiliar="";
  var idform="";
