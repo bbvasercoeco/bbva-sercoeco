@@ -687,6 +687,7 @@ return false;
  }
 }else{
 console.log("entro2");
+console.log("permiso "+permiso);
 console.log("idform "+idform);
 var ocunoem = document.forms[idform]["ocunoem"].value;
 params = decodeURIComponent(params);
