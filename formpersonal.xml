@@ -686,7 +686,7 @@ return false;
   
   
   
-  }else{
+}else{
   
   var certiso14001 = document.forms[idform]["certiso14001"].value;
   var certisoem = document.forms[idform]["certisoem"].value;
@@ -737,7 +737,7 @@ return false;
 		alert("Es necesario rellenar todos los campos del formulario, aunque el valor sea cero.");
 	}
  
- }
+  }
  }
 }
 
