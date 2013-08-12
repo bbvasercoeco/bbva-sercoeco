@@ -686,6 +686,8 @@ return false;
  
  }
 }else{
+var ocunoem = document.forms[idform]["ocunoem"].value;
+params = decodeURIComponent(params);
  if(ocunoem!=""){
   $.ajax({
     type: "GET",       
