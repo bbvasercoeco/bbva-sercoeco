@@ -501,8 +501,8 @@ var permiso="";
         
   }else if (permiso=="ESPAÑA CORPORATIVOS"){
         html +='<div class="container_24">';
-        /*html +='<form name="corporativos" id="corporativos" action="javascript:writePersonal();" method="get">';
-        html +='<li><label class="top" for="anyo">Año:</label>';
+        html +='<form name="corporativos" id="corporativos" action="javascript:writePersonal();" method="get">';
+        /*html +='<li><label class="top" for="anyo">Año:</label>';
         html +='<label style="display:inline-block;">';
         html +='<span class="c-form-combo" id="combo">';
         html +='<select id="anyo" name="anyo">';
@@ -630,14 +630,14 @@ return false;
   }else if(permiso=="ESPAÑA CORPORATIVO"){
 	var params = $("#corporativos").serialize();
 	//params += "&country="+permiso;
-	idform ="corporativo";
+	idform ="corporativos";
   }else{
 	var params = $("#resto").serialize();
 	params += "&country="+permiso;
 	idform ="resto";
   }
   if((permiso!="ESPAÑA")&&(permiso!="ESPAÑA CORPORATIVOS")){
-  
+  console.log("entro1");
   var certiso14001 = document.forms[idform]["certiso14001"].value;
   var certisoem = document.forms[idform]["certisoem"].value;
   var certifleededif = document.forms[idform]["certifleededif"].value;
@@ -686,6 +686,7 @@ return false;
  
  }
 }else{
+console.log("entro2");
 var ocunoem = document.forms[idform]["ocunoem"].value;
 params = decodeURIComponent(params);
  if(ocunoem!=""){
