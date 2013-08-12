@@ -617,7 +617,7 @@ window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/o
 return false;
 }
 
- function writePersonal(){
+function writePersonal(){
  console.log("permiso2 "+permiso);
  // alert("entro en writePersonal vers 1");
  var auxiliar="";
