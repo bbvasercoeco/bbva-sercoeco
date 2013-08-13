@@ -638,15 +638,16 @@ return false;
   var papelkg = document.forms[idform]["papelkg"].value;
   var tonerkg = document.forms[idform]["tonerkg"].value;
   var rraaees = document.forms[idform]["rraaees"].value;
+  var numequipos = document.forms[idform]["numequipos"].value;
   }else if(permiso=="ESPAÑA"){
 	var papelkg = document.forms[idform]["papelkg"].value;
-	var tonerkg = document.forms[idform]["rraaees"].value;
-	var rraaees = document.forms[idform]["numequipos"].value;
+	var rraaees = document.forms[idform]["rraaees"].value;
+	var numequipos = document.forms[idform]["numequipos"].value;
   
   }else{
   var papelkg = document.forms[idform]["papelkg"].value;
   var tonerkg = document.forms[idform]["tonerkg"].value;
-  var rraaees = document.forms[idform]["residuos"].value;
+  var residuos = document.forms[idform]["residuos"].value;
   
   
   }
