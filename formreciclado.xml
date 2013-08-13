@@ -34,6 +34,11 @@ function backCall(){
 			$('#rraaees').val(arguments[0].rraaee / 2.2);
 			$('#numequipos').val(arguments[0].numequipos);
 		
+		}else if(permiso=="ESPAÑA CORPORATIVOS"){
+			$('#papelkg').val(arguments[0].papel);
+			$('#tonerkg').val(arguments[0].toner);
+			$('#residuos').val(arguments[0].residuos);
+			
 		}else{
 			$('#papelkg').val(arguments[0].papel);
 			$('#tonerkg').val(arguments[0].toner);
