@@ -643,7 +643,7 @@ return false;
  if((papelkg!="")&&(tonerkg!="")&&(rraaees!="")){
   $.ajax({
     type: "GET",      
-    url: "https://script.google.com/macros/s/AKfycbww3mqNInxDkOmECfOmMZI3RU7lNEb3nOxrm_-dqKGZ/exec", //"https://script.google.com/macros/s/AKfycbzfSDlpdJf_eIAV8ws_ltQyIEnNnXU_E5NCPGf1v1FKiNVUQX1G/exec",
+    url: "https://script.google.com/macros/s/AKfycbzfSDlpdJf_eIAV8ws_ltQyIEnNnXU_E5NCPGf1v1FKiNVUQX1G/exec", //"https://script.google.com/macros/s/AKfycbzfSDlpdJf_eIAV8ws_ltQyIEnNnXU_E5NCPGf1v1FKiNVUQX1G/exec",
     contentType: 'application/json',
     dataType: 'jsonp',
     data: params,
@@ -684,7 +684,7 @@ return false;
   if((papelkg!="")&&(tonerkg!="")&&(residuos!="")){
   $.ajax({
     type: "GET",      
-    url: "https://script.google.com/macros/s/AKfycbww3mqNInxDkOmECfOmMZI3RU7lNEb3nOxrm_-dqKGZ/exec", //"https://script.google.com/macros/s/AKfycbzfSDlpdJf_eIAV8ws_ltQyIEnNnXU_E5NCPGf1v1FKiNVUQX1G/exec",
+    url: "https://script.google.com/macros/s/AKfycbzfSDlpdJf_eIAV8ws_ltQyIEnNnXU_E5NCPGf1v1FKiNVUQX1G/exec", //"https://script.google.com/macros/s/AKfycbzfSDlpdJf_eIAV8ws_ltQyIEnNnXU_E5NCPGf1v1FKiNVUQX1G/exec",
     contentType: 'application/json',
     dataType: 'jsonp',
     data: params,
