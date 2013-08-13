@@ -493,7 +493,7 @@ if(permiso != "ADMIN"){
         html +='<input type="submit" class="btn" value="Save"></form>';
         html +='</div>';
        
-  }else if (permiso=="ESPAÑA CORPORATIVO"){
+  }else if (permiso=="ESPAÑA CORPORATIVOS"){
     html +='<div class="container_24">';
         html +='<form name="corporativos" id="corporativos" action="javascript:writeReciclado();" method="get">';
         html +='<li><label class="top" for="anyo">Año:</label>';
