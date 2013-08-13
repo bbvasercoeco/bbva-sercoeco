@@ -620,12 +620,13 @@ return false;
   }else if(permiso=="ESPAÑA CORPORATIVO"){
         var params = $("#corporativos").serialize();
         //params += "&country="+permiso;
-		idform ="corporativo";
+		idform ="corporativos";
   }else{
         var params = $("#resto").serialize();
         params += "&country="+permiso;
 		idform ="resto";
   }
+ 
  if(permiso!="ESPAÑA CORPORATIVOS"){
   var papelkg = document.forms[idform]["papelkg"].value;
   var tonerkg = document.forms[idform]["tonerkg"].value;
