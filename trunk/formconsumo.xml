@@ -703,7 +703,7 @@ else if(newpermission=="PERU"){
         html +='<label style="display:inline-block;">';
         html +='<span class="c-form-combo" id="combo">';
         html +='<select id="meses" name="meses">';
-        html +='<option value="1">JAN - MAY</option>';
+        html +='<option value="1">ENE - MAY</option>';
         html +='<option value="2">JUN - OCT</option>';
         html +='<option value="3">NOV - DIC</option>';
         html +='</select></span></label></li>';
@@ -717,9 +717,9 @@ else if(newpermission=="PERU"){
         html +='<label class="bottom negrita" for="aguam">Agua</label>';
         html +='<input type="text" name="aguam" id="aguam" class="textbox"><span class="medida">m3</span>';
         html +='<input type="text" name="aguaeuro" id="aguaeuro" class="textbox"><span class="moneda">Euros (precio unitario)</span><br/><br/>';
-        html +='<label class="bottom negrita" for="papelm">Papel</label>';
+        /*html +='<label class="bottom negrita" for="papelm">Papel</label>';
         html +='<input type="text" name="papelm" id="papelm" class="textbox"><span class="medida">Kg</span>';
-        html +='<input type="text" name="papeleuro" id="papeleuro" class="textbox"><span class="moneda">Euros (precio unitario)</span><br/><br/>';
+        html +='<input type="text" name="papeleuro" id="papeleuro" class="textbox"><span class="moneda">Euros (precio unitario)</span><br/><br/>';*/
         html +='<label class="bottom negrita" for="gasnaturalm">Gas Natural</label>';
         html +='<input type="text" name="gasnaturalm" id="gasnaturalm" class="textbox"><span class="medida">m3</span>';
         html +='<input type="text" name="gasnaturaleuro" id="gasnaturaleuro" class="textbox"><span class="moneda">Euros (precio unitario)</span><br/><br/>';
