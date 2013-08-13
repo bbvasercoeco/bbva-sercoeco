@@ -647,7 +647,7 @@ return false;
   var papelkg = document.forms[idform]["papelkg"].value;
   var tonerkg = document.forms[idform]["tonerkg"].value;
   var rraaees = document.forms[idform]["residuos"].value;
-  var rraaees = document.forms[idform]["numequipos"].value;
+  
   
   }
   params = decodeURIComponent(params);
