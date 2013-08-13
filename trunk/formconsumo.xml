@@ -855,11 +855,11 @@ function writeConsumo(){
 	params += "&country="+permiso;
 	msg="Form submitted successfully";
 	idform ="usa";
-  }else if(permiso=="ESPAÑA CORPORATIVO"){
+  }else if(permiso=="ESPAÑA CORPORATIVOS"){
 	var params = $("#corporativos").serialize();
 	document.forms["corporativos"]["country"].value = "CORPORATIVOS";
 	//params += "&country="+permiso;
-	idform ="corporativo";
+	idform ="corporativos";
   }else{
 	var params = $("#resto").serialize();
 	params += "&country="+permiso;
