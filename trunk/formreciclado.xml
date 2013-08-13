@@ -396,6 +396,7 @@ if(permiso != "ADMIN"){
  function getUser(){
   //alert(arguments[0].user);
   permiso = arguments[0].user;
+  console.log("permiso "+permiso);
   var html="";
   if(arguments[0].user=="ADMIN"){
      
