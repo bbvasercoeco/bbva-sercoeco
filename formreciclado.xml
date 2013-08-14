@@ -29,6 +29,7 @@
 function backCall(){
 
 		if(permiso=="USA"){
+		console.log($('#papelkg').val(arguments[0].papel));
 		   if($('#papelkg').val(arguments[0].papel)!=""){
 				$('#papelkg').val(arguments[0].papel / 2.2);
 		   }
