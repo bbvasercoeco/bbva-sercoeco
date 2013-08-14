@@ -47,7 +47,9 @@ function backCall(){
 			$('#rraaees').val(arguments[0].rraaee);
 			
 		    $('#numequipos').val(arguments[0].numequipos);
-			
+			if(permiso="ADMIN"){
+			$('#residuos').val(arguments[0].residuos);
+			}
 		}
        
        
