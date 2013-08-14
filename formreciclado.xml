@@ -29,9 +29,9 @@
 function backCall(){
 
 		if(permiso=="USA"){
-		var aux = $('#papelkg').val(arguments[0].papel).value;
+		var aux = arguments[0].papel; //document.getElementById('papelkg').value;
 		console.log("aux "+ aux);
-		   if($('#papelkg').val(arguments[0].papel)!=""){
+		   if(aux!=""){
 				$('#papelkg').val(arguments[0].papel / 2.2);
 		   }
 		   if($('#tonerkg').val(arguments[0].toner)!=""){
