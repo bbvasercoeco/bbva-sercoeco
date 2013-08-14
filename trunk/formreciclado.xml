@@ -456,6 +456,9 @@ if(permiso != "ADMIN"){
 		html +='<label class="bottom negrita" for="numequipos" style="position:relative;top:10px;">nº de unidades de Equipos Informáticos Donados</label>';
         html +='<input type="text" name="numequipos" id="numequipos" class="textbox"/>';
         html +='<span class="medida">Cantidad total</span><br/><br/>';
+		html +='<label class="bottom negrita" for="residuos" style="position:relative;top:10px;">Residuos peligrosos enviados a reciclar</label>';
+        html +='<input type="text" name="residuos" id="residuos" class="textbox"/>';
+        html +='<span class="medida">Kg</span><br/><br/>';
         html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-boton.png?attachauth=ANoY7cpMyU5rPXCtYNrm_wxhUBEOj12W5bIU1V0H1ttSYU4PAg3vt2VqxnNcAd31Og8qj6pdn_7LB_-HuOhRcNh5yJkK4Qyy3mnBWrcsCM9e1Lfpc2878p230yQDOf0-bfTDjhbXXQllCuH6BYjhQS4cYjRBinauPZoAlEYENcTFqUi4_9Q7biy4x9HB_a8v2g3bwY-svEqfQ1uCVsaFMx76GyP8pu7X6A%3D%3D" alt="separador"> ';
         html +='<br/><br/>';
         html +='<input type="submit" class="btn" value="Guardar"></form>';
@@ -634,11 +637,19 @@ return false;
 		idform ="resto";
   }
  
- if((permiso!="ESPAÑA CORPORATIVOS")&&(permiso!="ESPAÑA")){
+ if((permiso!="ESPAÑA CORPORATIVOS")&&(permiso!="ESPAÑA")&&(permiso!="ADMIN")){
   var papelkg = document.forms[idform]["papelkg"].value;
   var tonerkg = document.forms[idform]["tonerkg"].value;
   var rraaees = document.forms[idform]["rraaees"].value;
   var numequipos = document.forms[idform]["numequipos"].value;
+  }else if(permiso=="ADMIN"{
+	var papelkg = document.forms[idform]["papelkg"].value;
+	var tonerkg = document.forms[idform]["tonerkg"].value;
+	var rraaees = document.forms[idform]["rraaees"].value;
+	var numequipos = document.forms[idform]["numequipos"].value;
+	var residuos = document.forms[idform]["residuos"].value;
+  
+  
   }else if(permiso=="ESPAÑA"){
 	var papelkg = document.forms[idform]["papelkg"].value;
 	var rraaees = document.forms[idform]["rraaees"].value;
@@ -653,7 +664,7 @@ return false;
   }
   params = decodeURIComponent(params);
  console.log("params "+params);
- if((permiso!="ESPAÑA CORPORATIVOS")&&(permiso!="ESPAÑA")){ 
+ if((permiso!="ESPAÑA CORPORATIVOS")&&(permiso!="ESPAÑA")&&(permiso!="ADMIN")){ 
  if((papelkg!="")&&(tonerkg!="")&&(rraaees!="")&&(numequipos!="")){
   $.ajax({
     type: "GET",      
@@ -693,6 +704,48 @@ return false;
 	}
  
  }
+ 
+ }else if(permiso=="ADMIN"){
+  if((papelkg!="")&&(tonerkg!="")&&(rraaees!="")&&(numequipos!="")&&(residuos!="")){
+  $.ajax({
+    type: "GET",      
+    url: "https://script.google.com/macros/s/AKfycbzfSDlpdJf_eIAV8ws_ltQyIEnNnXU_E5NCPGf1v1FKiNVUQX1G/exec", //"https://script.google.com/macros/s/AKfycbzfSDlpdJf_eIAV8ws_ltQyIEnNnXU_E5NCPGf1v1FKiNVUQX1G/exec",
+    contentType: 'application/json',
+    dataType: 'jsonp',
+    data: params,
+        prefix: "doGet",
+    success: function doGet(){
+                        return alert("Data Saved:");
+                        window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/reciclado";
+       
+       
+        },
+    failure: function doGet(){
+                    return alert("Data NOT Saved:");  
+                        window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/reciclado";
+    }
+  })
+ if(permiso=="ADMIN"){
+	auxiliar = document.forms["admin"]["country"].value;
+  }
+  if((permiso=="USA")||(auxiliar=="USA")){
+    document.getElementById('formularioreciclado').innerHTML = "<p class='formok'>"+ msgusa +"</p>";
+	document.getElementById('formularioreciclado').innerHTML += "<button type='submit' class='btn' style='margin-left:0px;' value='Aceptar' onclick='javascript:Go()'>Accept</button>";
+
+  }else{
+    document.getElementById('formularioreciclado').innerHTML = "<p class='formok'>"+ msg +"</p>";
+	document.getElementById('formularioreciclado').innerHTML += "<button type='submit' class='btn' style='margin-left:0px;' value='Aceptar' onclick='javascript:Go()'>Aceptar</button>";
+  }
+ }else{
+	if((permiso=="USA")||(auxiliar=="USA")){
+		alert("You must fill in all fields on the form, but the value is zero.");
+	
+	}else{
+		alert("Es necesario rellenar todos los campos del formulario, aunque el valor sea cero.");
+	}
+ 
+ }
+ 
  
  }else if(permiso=="ESPAÑA"){
    if((papelkg!="")&&(rraaees!="")&&(numequipos!="")){
