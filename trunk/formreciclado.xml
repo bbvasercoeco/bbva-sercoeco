@@ -486,13 +486,13 @@ if(permiso != "ADMIN"){
         html +='<input type="button" class="btn2" onClick="getData()" value="See"/><br/><br/>';
         html +='<label class="bottom negrita" for="papelkg">Paper sent to recycle</label>';
         html +='<input type="text" name="papelkg" id="papelkg" class="textbox"/>';
-        html +='<span class="medida">Kg</span><br/><br/>';
+        html +='<span class="medida">lbs</span><br/><br/>';
         html +='<label class="bottom negrita" for="tonerkg">Toner sent to recycle</label>';
         html +='<input type="text" name="tonerkg" id="tonerkg" class="textbox"/>';
-        html +='<span class="medida">Kg</span><br/><br/>';
+        html +='<span class="medida">lbs</span><br/><br/>';
         html +='<label class="bottom negrita" for="rraaees" style="position:relative;top:10px;">Electrical and electronic equipment sent for recycling</label>';
         html +='<input type="text" name="rraaees" id="rraaees" class="textbox"/>';
-        html +='<span class="medida">Kg</span><br/><br/>';
+        html +='<span class="medida">lbs</span><br/><br/>';
 		html +='<label class="bottom negrita" for="numequipos" style="position:relative;top:10px;">number of units Donated Computer Equipment</label>';
         html +='<input type="text" name="numequipos" id="numequipos" class="textbox"/>';
         html +='<span class="medida">total</span><br/><br/>';
