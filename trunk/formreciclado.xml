@@ -642,7 +642,7 @@ return false;
   var tonerkg = document.forms[idform]["tonerkg"].value;
   var rraaees = document.forms[idform]["rraaees"].value;
   var numequipos = document.forms[idform]["numequipos"].value;
-  }else if(permiso=="ADMIN"{
+  }else if(permiso=="ADMIN"){
 	var papelkg = document.forms[idform]["papelkg"].value;
 	var tonerkg = document.forms[idform]["tonerkg"].value;
 	var rraaees = document.forms[idform]["rraaees"].value;
