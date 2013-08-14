@@ -69,6 +69,7 @@ function getData(){
 		
 		}	
 		console.log("countryy "+country);
+		console.log("mesess "+meses);
         $.ajax({
                 type: "POST",
                 url: "https://script.google.com/macros/s/AKfycbyFMmwVCMIF1HuiAYCVNx6d5R2aaN5CNINGKp0wU1EGy8cMNBml/exec?callback=backCall",   //"https://script.google.com/macros/s/AKfycbyFMmwVCMIF1HuiAYCVNx6d5R2aaN5CNINGKp0wU1EGy8cMNBml/exec?callback=backCall",
