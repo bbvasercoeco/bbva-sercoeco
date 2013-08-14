@@ -405,8 +405,8 @@ function getData(){
 		// console.log("country aki "+ country);
 	}
 	if(permiso=="USA"){
-		document.getElementsByClassName('medida')[2].innerHTML = "pounds";
-		document.getElementsByClassName('medida')[4].innerHTML = "gallons";
+		document.getElementsByClassName('medida')[2].innerHTML = "lbs";
+		document.getElementsByClassName('medida')[4].innerHTML = "gal";
 		
 		/*var convertgasl = document.forms["admin"]["gasl"].value;
 		var convertgaslaux = convertgasl / 3.7841178;
@@ -446,8 +446,8 @@ console.log("permiso en selectDateOption "+permiso);
 console.log("newpermission "+newpermission);
 if((newpermission=="USA")&&(permiso != "ADMIN")){
     document.getElementsByClassName('medida')[0].innerHTML = "Kwh";
-	document.getElementsByClassName('medida')[2].innerHTML = "pounds";
-	document.getElementsByClassName('medida')[4].innerHTML = "gallons";
+	document.getElementsByClassName('medida')[2].innerHTML = "lbs";
+	document.getElementsByClassName('medida')[4].innerHTML = "gal";
 	document.getElementsByClassName('km')[0].innerHTML =" < 310 mi";
 	document.getElementsByClassName('km')[1].innerHTML =" 310 mi > x < 994 mi";
 	document.getElementsByClassName('km')[2].innerHTML =" > 994 mi";
@@ -524,8 +524,8 @@ else if(newpermission=="PERU"){
 
 }else if(newpermission=="USA"){
     document.getElementsByClassName('medida')[0].innerHTML = "Kwh";
-	document.getElementsByClassName('medida')[2].innerHTML = "pounds";
-	document.getElementsByClassName('medida')[4].innerHTML = "gallons";
+	document.getElementsByClassName('medida')[2].innerHTML = "lbs";
+	document.getElementsByClassName('medida')[4].innerHTML = "gal";
 	document.getElementsByClassName('km')[0].innerHTML =" < 310 mi";
 	document.getElementsByClassName('km')[1].innerHTML =" 310 mi > x < 994 mi";
 	document.getElementsByClassName('km')[2].innerHTML =" > 994 mi";
@@ -659,13 +659,13 @@ else if(newpermission=="PERU"){
         html +='<input type="text" name="aguam" id="aguam" class="textbox"><span class="medida">m3</span>';
         html +='<input type="text" name="aguaeuro" id="aguaeuro" class="textbox"><span class="moneda">Dollar (unit price)</span><br/><br/>';
         html +='<label class="bottom negrita" for="papelm">Paper</label>';
-        html +='<input type="text" name="papelm" id="papelm" class="textbox"><span class="medida">pounds</span>';
+        html +='<input type="text" name="papelm" id="papelm" class="textbox"><span class="medida">lbs</span>';
         html +='<input type="text" name="papeleuro" id="papeleuro" class="textbox"><span class="moneda">Dollar (unit price)</span><br/><br/>';
         html +='<label class="bottom negrita" for="gasnaturalm">Natural Gas</label>';
         html +='<input type="text" name="gasnaturalm" id="gasnaturalm" class="textbox"><span class="medida">m3</span>';
         html +='<input type="text" name="gasnaturaleuro" id="gasnaturaleuro" class="textbox"><span class="moneda">Dollar (unit price)</span><br/><br/>';
         html +='<label class="bottom negrita" for="gasl">Diesel</label>';
-        html +='<input type="text" name="gasl" id="gasl" class="textbox"><span class="medida">gallons</span>';
+        html +='<input type="text" name="gasl" id="gasl" class="textbox"><span class="medida">gal</span>';
         html +='<input type="text" name="gaseuro" id="gaseuro" class="textbox"><span class="moneda">Dollar (unit price)</span><br/><br/>';
     
         html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-boton.png?attachauth=ANoY7cpMyU5rPXCtYNrm_wxhUBEOj12W5bIU1V0H1ttSYU4PAg3vt2VqxnNcAd31Og8qj6pdn_7LB_-HuOhRcNh5yJkK4Qyy3mnBWrcsCM9e1Lfpc2878p230yQDOf0-bfTDjhbXXQllCuH6BYjhQS4cYjRBinauPZoAlEYENcTFqUi4_9Q7biy4x9HB_a8v2g3bwY-svEqfQ1uCVsaFMx76GyP8pu7X6A%3D%3D" alt="separador">';
