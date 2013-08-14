@@ -372,7 +372,7 @@ var permiso="";
         
         var anio = $('#anyo').val();
         //var meses = $('#meses').val();
-		var meses = document.getElementById('meses');
+		var meses = document.getElementById('meses').value;
         var country = $('#country').val();
 		//var country = permiso;
 		console.log("country "+country);
