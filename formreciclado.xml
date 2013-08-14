@@ -29,17 +29,27 @@
 function backCall(){
 
 		if(permiso=="USA"){
-		var aux = arguments[0].papel; //document.getElementById('papelkg').value;
+		var aux = arguments[0].papel; 
+		var aux1 = arguments[0].toner;
+		var aux2 = arguments[0].rraaee;
 		console.log("aux "+ aux);
 		   if(aux!=""){
 				$('#papelkg').val(arguments[0].papel / 2.2);
+		   }else{
+				document.getElementById('papelkg').value = "";
+		   
 		   }
-		   if($('#tonerkg').val(arguments[0].toner)!=""){
+		   if(aux1!=""){
 			 $('#tonerkg').val(arguments[0].toner / 2.2);
+		   }else{
+			document.getElementById('tonerkg').value = "";
 		   }
-		   if($('#rraaees').val(arguments[0].rraaee)!=""){
+		   
+		   if(aux2!=""){
 				$('#rraaees').val(arguments[0].rraaee / 2.2);
-			}	
+			}else{
+				document.getElementById('rraaees').value = "";
+			}
 			$('#numequipos').val(arguments[0].numequipos);
 		
 		}else if(permiso=="ESPAÑA CORPORATIVOS"){
