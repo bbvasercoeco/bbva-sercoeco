@@ -29,9 +29,15 @@
 function backCall(){
 
 		if(permiso=="USA"){
-			$('#papelkg').val(arguments[0].papel / 2.2);
-			$('#tonerkg').val(arguments[0].toner / 2.2);
-			$('#rraaees').val(arguments[0].rraaee / 2.2);
+		   if($('#papelkg').val(arguments[0].papel)!=""){
+				$('#papelkg').val(arguments[0].papel / 2.2);
+		   }
+		   if($('#tonerkg').val(arguments[0].toner)!=""){
+			 $('#tonerkg').val(arguments[0].toner / 2.2);
+		   }
+		   if($('#rraaees').val(arguments[0].rraaee)!=""){
+				$('#rraaees').val(arguments[0].rraaee / 2.2);
+			}	
 			$('#numequipos').val(arguments[0].numequipos);
 		
 		}else if(permiso=="ESPAÑA CORPORATIVOS"){
@@ -68,8 +74,8 @@ function getData(){
 			country = "CORPORATIVOS";
 		
 		}	
-		console.log("countryy "+country);
-		console.log("mesess "+meses);
+		//console.log("countryy "+country);
+		//console.log("mesess "+meses);
         $.ajax({
                 type: "POST",
                 url: "https://script.google.com/macros/s/AKfycbyFMmwVCMIF1HuiAYCVNx6d5R2aaN5CNINGKp0wU1EGy8cMNBml/exec?callback=backCall",   //"https://script.google.com/macros/s/AKfycbyFMmwVCMIF1HuiAYCVNx6d5R2aaN5CNINGKp0wU1EGy8cMNBml/exec?callback=backCall",
