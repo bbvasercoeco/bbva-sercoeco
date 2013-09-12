@@ -893,6 +893,7 @@ function writeConsumo(){
   }
   
   params = decodeURIComponent(params);
+  params = params.replace(/\./,",");
   console.log("params "+params);
   
   if(idform =="corporativos"){
