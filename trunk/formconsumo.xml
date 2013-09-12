@@ -866,13 +866,14 @@ function writeConsumo(){
     console.log("entro en este else");
 	var params = $("#resto").serialize();
 	params = params.replace(/\./g,",");
+	
 	params += "&country="+permiso;
 	idform ="resto";
   }
   
   
   var eleckw = document.forms[idform]["eleckw"].value;
-  var eleceuro = document.forms[idform]["eleceuro"].value;
+  var eleceuro = parseFloat(document.forms[idform]["eleceuro"].value);
   var aguam = document.forms[idform]["aguam"].value;
   var aguaeuro = document.forms[idform]["aguaeuro"].value;
   
