@@ -865,7 +865,7 @@ function writeConsumo(){
   }else{
     console.log("entro en este else");
 	var params = $("#resto").serialize();
-	params = params.replace(/\./,",");
+	params = params.replace(/\./g,",");
 	params += "&country="+permiso;
 	idform ="resto";
   }
