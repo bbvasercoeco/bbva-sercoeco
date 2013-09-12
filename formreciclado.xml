@@ -53,9 +53,9 @@ function backCall(){
 			$('#numequipos').val(arguments[0].numequipos);
 		
 		}else if(permiso=="ESPAÑA CORPORATIVOS"){
-			$('#papelkg').val(arguments[0].papel.replace(/\./,","));
-			$('#tonerkg').val(arguments[0].toner.replace(/\./,","));
-			$('#residuos').val(arguments[0].residuos.replace(/\./,","));
+			$('#papelkg').val(arguments[0].papel.toString().replace(/\./,","));
+			$('#tonerkg').val(arguments[0].toner.toString().replace(/\./,","));
+			$('#residuos').val(arguments[0].residuos.toString().replace(/\./,","));
 			
 		}else{
 			$('#papelkg').val(arguments[0].papel);
