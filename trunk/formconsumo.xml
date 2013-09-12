@@ -834,7 +834,7 @@ return false;
 function writeConsumo(){
   var auxiliar="";
   var idform="";
-  console.log("entro en writeConsumo vers 16");
+  console.log("entro en writeConsumo vers 17");
   /*if(permiso=="ADMIN"){
   var aux = document.forms["admin"]["country"].value;
   alert(aux);
@@ -893,7 +893,7 @@ function writeConsumo(){
   }
   
   params = decodeURIComponent(params);
-  params = params[eleckw].replace(/\./,",");
+  params = params['eleckw'].replace(/\./,",");
   console.log("params "+params);
   
   if(idform =="corporativos"){
