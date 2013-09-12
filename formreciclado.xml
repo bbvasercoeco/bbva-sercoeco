@@ -651,6 +651,7 @@ return false;
 		idform ="usa";
   }else if(permiso=="ESPAÑA CORPORATIVOS"){
         var params = $("#corporativos").serialize();
+		params = params.replace(/\./g,",");
         //params += "&country="+permiso;
 		idform ="corporativos";
   }else{
