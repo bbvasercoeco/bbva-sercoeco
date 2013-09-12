@@ -834,7 +834,7 @@ return false;
 function writeConsumo(){
   var auxiliar="";
   var idform="";
-  console.log("entro en writeConsumo vers 10");
+  console.log("entro en writeConsumo vers 11");
   /*if(permiso=="ADMIN"){
   var aux = document.forms["admin"]["country"].value;
   alert(aux);
@@ -871,7 +871,7 @@ function writeConsumo(){
   console.log("params "+params);
   
   var eleckw = document.forms[idform]["eleckw"].value;
-  eleckw = eleckw.replace(".",",");
+  eleckw = eleckw.toString().replace(".",",");
   document.forms[idform]["eleckw"].value = eleckw;
   var eleceuro = document.forms[idform]["eleceuro"].value;
   var aguam = document.forms[idform]["aguam"].value;
