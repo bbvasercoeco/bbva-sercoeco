@@ -834,7 +834,7 @@ return false;
 function writeConsumo(){
   var auxiliar="";
   var idform="";
-  console.log("entro en writeConsumo vers 5");
+  console.log("entro en writeConsumo vers 6");
   /*if(permiso=="ADMIN"){
   var aux = document.forms["admin"]["country"].value;
   alert(aux);
@@ -874,13 +874,15 @@ function writeConsumo(){
   var eleceuro = document.forms[idform]["eleceuro"].value;
   var aguam = document.forms[idform]["aguam"].value;
   var aguaeuro = document.forms[idform]["aguaeuro"].value;
-  var papelm = document.forms[idform]["papelm"].value;
-  var papeleuro = document.forms[idform]["papeleuro"].value;
+  
   var gasnaturalm = document.forms[idform]["gasnaturalm"].value;
   var gasnaturaleuro = document.forms[idform]["gasnaturaleuro"].value;
   var gasl = document.forms[idform]["gasl"].value;
   var gaseuro = document.forms[idform]["gaseuro"].value;
+  
   if(idform !="corporativos"){
+  var papelm = document.forms[idform]["papelm"].value;
+  var papeleuro = document.forms[idform]["papeleuro"].value;
   var viajeavion = document.forms[idform]["viajeavion"].value;
   var viajeavion2 = document.forms[idform]["viajeavion2"].value;
   var viajeavion3 = document.forms[idform]["viajeavion3"].value;
