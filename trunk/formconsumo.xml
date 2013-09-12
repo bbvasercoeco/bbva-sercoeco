@@ -834,7 +834,7 @@ return false;
 function writeConsumo(){
   var auxiliar="";
   var idform="";
-  console.log("entro en writeConsumo vers 4");
+  console.log("entro en writeConsumo vers 5");
   /*if(permiso=="ADMIN"){
   var aux = document.forms["admin"]["country"].value;
   alert(aux);
@@ -880,12 +880,37 @@ function writeConsumo(){
   var gasnaturaleuro = document.forms[idform]["gasnaturaleuro"].value;
   var gasl = document.forms[idform]["gasl"].value;
   var gaseuro = document.forms[idform]["gaseuro"].value;
+  if(idform !="corporativos"){
   var viajeavion = document.forms[idform]["viajeavion"].value;
   var viajeavion2 = document.forms[idform]["viajeavion2"].value;
   var viajeavion3 = document.forms[idform]["viajeavion3"].value;
   var videotele = document.forms[idform]["videotele"].value;
+  }
+  if(idform =="corporativos"){
+	if((eleckw!="")&&(eleceuro!="")&&(aguam!="")&&(aguaeuro!="")&&(papelm!="")&&(papeleuro!="")&&(gasnaturalm!="")&&(gasnaturaleuro!="")&&(gasl!="")&&(gaseuro!="")){
+		$.ajax({
+    type: "GET",       
+    url: "https://script.google.com/macros/s/AKfycbyUk-dB9sktomMyVJtgWxRYtBihVV355_JiOAQ8ID0Q9TwG6BQ/exec",  //"https://script.google.com/macros/s/AKfycbyUk-dB9sktomMyVJtgWxRYtBihVV355_JiOAQ8ID0Q9TwG6BQ/exec",
+    contentType: 'application/json',
+    dataType: 'jsonp',
+    data: params,
+    prefix: "doGet",
+    success: function doGet(){
+				  console.log("entro en success");
+				  document.getElementById('formularioconsumo').innerHTML = "<p>"+ msg +"</p>";
+                  return alert("Data Saved:");
+				  window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/consumo";
+				  
+        },
+    failure: function doGet(){
+                  return  alert("Data NOT Saved:");   
+				  window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/consumo";
+    }
+  })
+   
+ }
   
-  if((eleckw!="")&&(eleceuro!="")&&(aguam!="")&&(aguaeuro!="")&&(papelm!="")&&(papeleuro!="")&&(gasnaturalm!="")&&(gasnaturaleuro!="")&&(gasl!="")&&(gaseuro!="")&&(viajeavion!="")&&(viajeavion2!="")&&(viajeavion3!="")&&(videotele!="")){
+}else if((eleckw!="")&&(eleceuro!="")&&(aguam!="")&&(aguaeuro!="")&&(papelm!="")&&(papeleuro!="")&&(gasnaturalm!="")&&(gasnaturaleuro!="")&&(gasl!="")&&(gaseuro!="")&&(viajeavion!="")&&(viajeavion2!="")&&(viajeavion3!="")&&(videotele!="")){
  
 	$.ajax({
     type: "GET",       
