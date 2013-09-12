@@ -366,7 +366,7 @@ function backCall(){
 		$('#c4').html(arguments[0].moneda+" (precio unitario)");
 		$('#c5').html(arguments[0].moneda+" (precio unitario)");
 	}else{
-		$('#aguam').val(arguments[0].agua);
+		$('#aguam').val(arguments[0].agua.replace(/\./,","));
 		$('#aguaeuro').val(arguments[0].aguaEur.replace(/\./,","));
 		$('#viajeavion').val(arguments[0].avion1.replace(/\./,","));
 		$('#viajeavion2').val(arguments[0].avion2.replace(/\./,","));
