@@ -834,7 +834,7 @@ return false;
 function writeConsumo(){
   var auxiliar="";
   var idform="";
-  console.log("entro en writeConsumo vers 2");
+  console.log("entro en writeConsumo vers 3");
   /*if(permiso=="ADMIN"){
   var aux = document.forms["admin"]["country"].value;
   alert(aux);
@@ -858,7 +858,9 @@ function writeConsumo(){
   }else if(permiso=="ESPAÑA CORPORATIVOS"){
 	var params = $("#corporativos").serialize();
 	document.forms["corporativos"]["country"].value = "CORPORATIVO";
+	console.log("entro en if corporativos");
 	//params += "&country="+permiso;
+	console.log("valor country" +document.forms["corporativos"]["country"].value);
 	idform ="corporativos";
   }else{
 	var params = $("#resto").serialize();
