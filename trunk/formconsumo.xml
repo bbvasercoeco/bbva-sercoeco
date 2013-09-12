@@ -834,7 +834,7 @@ return false;
 function writeConsumo(){
   var auxiliar="";
   var idform="";
-  console.log("entro en writeConsumo vers 13");
+  console.log("entro en writeConsumo vers 14");
   /*if(permiso=="ADMIN"){
   var aux = document.forms["admin"]["country"].value;
   alert(aux);
@@ -870,7 +870,7 @@ function writeConsumo(){
   
   
   var eleckw = document.forms[idform]["eleckw"].value;
-  eleckw = eleckw.toString().replace(/\./,",");
+  eleckw = $("#eleckw").toString().replace(/\./,",");
   document.forms[idform]["eleckw"].value = eleckw;
   console.log("aqui");
   console.log($("#eleckw").val);
