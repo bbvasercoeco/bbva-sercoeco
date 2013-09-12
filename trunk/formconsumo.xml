@@ -502,11 +502,11 @@ if((newpermission=="USA")&&(permiso != "ADMIN")){
 	document.getElementsByClassName('km')[0].innerHTML =" < 500km";
 	document.getElementsByClassName('km')[1].innerHTML =" 500km > x < 1600km";
 	document.getElementsByClassName('km')[2].innerHTML =" > 1600km";
-	document.getElementsByClassName('moneda')[0].innerHTML =" Guaranís (precio unitario)";
-	document.getElementsByClassName('moneda')[1].innerHTML =" Guaranís (precio unitario)";
-	document.getElementsByClassName('moneda')[2].innerHTML =" Guaranís (precio unitario)";
-	document.getElementsByClassName('moneda')[3].innerHTML =" Guaranís (precio unitario)";
-	document.getElementsByClassName('moneda')[4].innerHTML =" Guaranís (precio unitario)";
+	document.getElementsByClassName('moneda')[0].innerHTML =" Guaraníes (precio unitario)";
+	document.getElementsByClassName('moneda')[1].innerHTML =" Guaraníes (precio unitario)";
+	document.getElementsByClassName('moneda')[2].innerHTML =" Guaraníes (precio unitario)";
+	document.getElementsByClassName('moneda')[3].innerHTML =" Guaraníes (precio unitario)";
+	document.getElementsByClassName('moneda')[4].innerHTML =" Guaraníes (precio unitario)";
 
 }
 else if(newpermission=="PERU"){
@@ -745,7 +745,7 @@ else if(newpermission=="PERU"){
 			var moneda = "Soles (precio unitario)";
 		
 		}else if(permiso=="PARAGUAY"){
-			var moneda = "Guaranís (precio unitario)";
+			var moneda = "Guaraníes (precio unitario)";
 		
 		}else{
 			var moneda = "Pesos (precio unitario)";
