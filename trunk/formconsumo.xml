@@ -366,21 +366,21 @@ function backCall(){
 		$('#c4').html(arguments[0].moneda+" (precio unitario)");
 		$('#c5').html(arguments[0].moneda+" (precio unitario)");
 	}else{
-		$('#aguam').val(arguments[0].agua.replace(/\./,","));
-		$('#aguaeuro').val(arguments[0].aguaEur.replace(/\./,","));
-		$('#viajeavion').val(arguments[0].avion1.replace(/\./,","));
-		$('#viajeavion2').val(arguments[0].avion2.replace(/\./,","));
-		$('#viajeavion3').val(arguments[0].avion3.replace(/\./,","));
-		$('#videotele').val(arguments[0].conferencia.replace(/\./,","));
+		$('#aguam').val(arguments[0].agua);
+		$('#aguaeuro').val(arguments[0].aguaEur);
+		$('#viajeavion').val(arguments[0].avion1);
+		$('#viajeavion2').val(arguments[0].avion2);
+		$('#viajeavion3').val(arguments[0].avion3);
+		$('#videotele').val(arguments[0].conferencia);
 		$('#eleckw').val(arguments[0].elect.replace(/\./,","));
 		$('#eleceuro').val(arguments[0].electEur.replace(/\./,","));
-		$('#gasnaturalm').val(arguments[0].gas.replace(/\./,","));
-		$('#gasnaturaleuro').val(arguments[0].gasEur.replace(/\./,","));
-		$('#gasl').val(arguments[0].gasoleo.replace(/\./,","));
-		$('#gaseuro').val(arguments[0].gasoleoEur.replace(/\./,","));
-		//$('#eleckw').val(arguments[0].moneda.replace(/\./,","));
-		$('#papelm').val(arguments[0].papel.replace(/\./,","));
-		$('#papeleuro').val(arguments[0].papelEur.replace(/\./,","));
+		$('#gasnaturalm').val(arguments[0].gas);
+		$('#gasnaturaleuro').val(arguments[0].gasEur);
+		$('#gasl').val(arguments[0].gasoleo);
+		$('#gaseuro').val(arguments[0].gasoleoEur);
+		//$('#eleckw').val(arguments[0].moneda);
+		$('#papelm').val(arguments[0].papel);
+		$('#papeleuro').val(arguments[0].papelEur);
 	
 		$('#c1').html(arguments[0].moneda+" (precio unitario)");
 		$('#c2').html(arguments[0].moneda+" (precio unitario)");
