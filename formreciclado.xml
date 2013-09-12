@@ -29,9 +29,9 @@
 function backCall(){
 
 		if(permiso=="USA"){
-		var aux = arguments[0].papel; 
-		var aux1 = arguments[0].toner;
-		var aux2 = arguments[0].rraaee;
+		var aux = arguments[0].papel.replace(/\./,","); 
+		var aux1 = arguments[0].toner.replace(/\./,",");
+		var aux2 = arguments[0].rraaee.replace(/\./,",");
 		//console.log("aux "+ aux);
 		   if(aux!=""){
 				$('#papelkg').val(arguments[0].papel / 2.2);
@@ -50,23 +50,23 @@ function backCall(){
 			}else{
 				document.getElementById('rraaees').value = "";
 			}
-			$('#numequipos').val(arguments[0].numequipos);
+			$('#numequipos').val(arguments[0].numequipos.replace(/\./,","));
 		
 		}else if(permiso=="ESPAÑA CORPORATIVOS"){
-			$('#papelkg').val(arguments[0].papel);
-			$('#tonerkg').val(arguments[0].toner);
-			$('#residuos').val(arguments[0].residuos);
+			$('#papelkg').val(arguments[0].papel.replace(/\./,","));
+			$('#tonerkg').val(arguments[0].toner.replace(/\./,","));
+			$('#residuos').val(arguments[0].residuos.replace(/\./,","));
 			
 		}else{
-			$('#papelkg').val(arguments[0].papel);
+			$('#papelkg').val(arguments[0].papel.replace(/\./,","));
 			if(permiso!="ESPAÑA"){
-			$('#tonerkg').val(arguments[0].toner);
+			$('#tonerkg').val(arguments[0].toner.replace(/\./,","));
 			}
-			$('#rraaees').val(arguments[0].rraaee);
+			$('#rraaees').val(arguments[0].rraaee.replace(/\./,","));
 			
-		    $('#numequipos').val(arguments[0].numequipos);
+		    $('#numequipos').val(arguments[0].numequipos.replace(/\./,","));
 			if(permiso="ADMIN"){
-			$('#residuos').val(arguments[0].residuos);
+			$('#residuos').val(arguments[0].residuos.replace(/\./,","));
 			}
 		}
        
@@ -644,9 +644,11 @@ return false;
   //alert("entro en writeReciclado vers 1");
   if(permiso=="ADMIN"){
         var params = $("#admin").serialize();
+		params = params.replace(/\./g,",");
 		idform ="admin";
   }else if(permiso=="USA"){
         var params = $("#usa").serialize();
+		params = params.replace(/\./g,",");
         params += "&country="+permiso;
 		idform ="usa";
   }else if(permiso=="ESPAÑA CORPORATIVOS"){
