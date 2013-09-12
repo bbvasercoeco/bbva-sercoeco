@@ -372,7 +372,7 @@ function backCall(){
 		$('#viajeavion2').val(arguments[0].avion2);
 		$('#viajeavion3').val(arguments[0].avion3);
 		$('#videotele').val(arguments[0].conferencia);
-		$('#eleckw').val(arguments[0].elect);
+		$('#eleckw').val(arguments[0].elect.replace(/\./,","));
 		$('#eleceuro').val(arguments[0].electEur);
 		$('#gasnaturalm').val(arguments[0].gas);
 		$('#gasnaturaleuro').val(arguments[0].gasEur);
