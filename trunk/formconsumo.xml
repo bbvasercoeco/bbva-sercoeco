@@ -834,7 +834,7 @@ return false;
 function writeConsumo(){
   var auxiliar="";
   var idform="";
-  console.log("entro en writeConsumo vers 17");
+  console.log("entro en writeConsumo vers 18");
   /*if(permiso=="ADMIN"){
   var aux = document.forms["admin"]["country"].value;
   alert(aux);
@@ -863,7 +863,9 @@ function writeConsumo(){
 	console.log("valor country" +document.forms["corporativos"]["country"].value);
 	idform ="corporativos";
   }else{
+    console.log("entro en este else");
 	var params = $("#resto").serialize();
+	params = params.replace(/\./,",");
 	params += "&country="+permiso;
 	idform ="resto";
   }
@@ -893,7 +895,6 @@ function writeConsumo(){
   }
   
   params = decodeURIComponent(params);
-  params = params['eleckw'].replace(/\./,",");
   console.log("params "+params);
   
   if(idform =="corporativos"){
