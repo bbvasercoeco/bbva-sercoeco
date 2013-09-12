@@ -834,7 +834,7 @@ return false;
 function writeConsumo(){
   var auxiliar="";
   var idform="";
-  console.log("entro en writeConsumo vers 6");
+  console.log("entro en writeConsumo vers 7");
   /*if(permiso=="ADMIN"){
   var aux = document.forms["admin"]["country"].value;
   alert(aux);
@@ -911,7 +911,8 @@ function writeConsumo(){
   })
    
  }
-  
+  	document.getElementById('formularioconsumo').innerHTML = "<p class='formok'>"+ msgusa +"</p>";
+	document.getElementById('formularioconsumo').innerHTML += "<button type='submit' class='btn' style='margin-left:0px;' value='Aceptar' onclick='javascript:Go()'>Accept</button>";
 }else if((eleckw!="")&&(eleceuro!="")&&(aguam!="")&&(aguaeuro!="")&&(papelm!="")&&(papeleuro!="")&&(gasnaturalm!="")&&(gasnaturaleuro!="")&&(gasl!="")&&(gaseuro!="")&&(viajeavion!="")&&(viajeavion2!="")&&(viajeavion3!="")&&(videotele!="")){
  
 	$.ajax({
