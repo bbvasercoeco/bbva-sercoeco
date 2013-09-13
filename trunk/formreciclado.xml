@@ -35,18 +35,21 @@ function backCall(){
 		//console.log("aux "+ aux);
 		   if(aux!=""){
 				$('#papelkg').val(arguments[0].papel / 2.2);
+				$('#papelkg').toString().replace(/\./,",");
 		   }else{
 				document.getElementById('papelkg').value = "";
 		   
 		   }
 		   if(aux1!=""){
 			 $('#tonerkg').val(arguments[0].toner / 2.2);
+			 $('#tonerkg').toString().replace(/\./,",");
 		   }else{
 			document.getElementById('tonerkg').value = "";
 		   }
 		   
 		   if(aux2!=""){
 				$('#rraaees').val(arguments[0].rraaee / 2.2);
+				$('#rraaees').toString().replace(/\./,",");
 			}else{
 				document.getElementById('rraaees').value = "";
 			}
