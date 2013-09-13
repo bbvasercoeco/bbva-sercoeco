@@ -857,6 +857,7 @@ function writeConsumo(){
 	idform ="usa";
   }else if(permiso=="ESPAÑA CORPORATIVOS"){
 	var params = $("#corporativos").serialize();
+	params = params.replace(/\./g,",");
 	document.forms["corporativos"]["country"].value = "CORPORATIVO";
 	console.log("entro en if corporativos");
 	//params += "&country="+permiso;
