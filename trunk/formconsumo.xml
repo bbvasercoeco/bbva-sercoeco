@@ -554,7 +554,7 @@ else if(newpermission=="PERU"){
  function getUser(){
   //alert(arguments[0].user);
    permiso = arguments[0].user;
-   console.log("permiso88 "+permiso);
+   //console.log("permiso88 "+permiso);
   //var permiso = "ADMIN";
   var html="";
   if(permiso=="ADMIN"){
