@@ -358,11 +358,11 @@ var permiso="";
  function backCall(){
 
         
-        $('#certiso14001').val(arguments[0].isoEmpleados);
-        $('#certisoem').val(arguments[0].isoEdificios);
-        $('#certifleedem').val(arguments[0].leedEmpleados);
-        $('#certifleededif').val(arguments[0].leedEdificios);
-        $('#ocunoem').val(arguments[0].ocupantes);
+        $('#certiso14001').val(arguments[0].isoEmpleados.toString().replace(/\./,","));
+        $('#certisoem').val(arguments[0].isoEdificios.toString().replace(/\./,","));
+        $('#certifleedem').val(arguments[0].leedEmpleados.toString().replace(/\./,","));
+        $('#certifleededif').val(arguments[0].leedEdificios.toString().replace(/\./,","));
+        $('#ocunoem').val(arguments[0].ocupantes.toString().replace(/\./,","));
         
         
         
@@ -630,17 +630,21 @@ return false;
  
   if(permiso=="ADMIN"){
 	var params = $("#admin").serialize();
+	params = params.replace(/\./g,",");
 	idform ="admin";
   }else if(permiso=="USA"){
 	var params = $("#usa").serialize();
+	params = params.replace(/\./g,",");
 	params += "&country="+permiso;
 	idform ="usa";
   }else if(permiso=="ESPAÑA CORPORATIVOS"){
 	var params = $("#corporativos").serialize();
+	params = params.replace(/\./g,",");
 	//params += "&country="+permiso;
 	idform ="corporativos";
   }else{
 	var params = $("#resto").serialize();
+	params = params.replace(/\./g,",");
 	params += "&country="+permiso;
 	idform ="resto";
   }
