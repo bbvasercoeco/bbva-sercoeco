@@ -344,7 +344,7 @@ function getUser(){
 				html +='</ul>';
   }
   
-  console.log("html "+html);
+  //console.log("html "+html);
   $(document).ready(function() {
     //document.getElementsByClassName('bloqueEnlaces')[0].innerHTML = html2;
 	document.getElementsByClassName('cabeceramenu')[0].innerHTML = html;
