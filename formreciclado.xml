@@ -489,7 +489,7 @@ if(permiso != "ADMIN"){
        
        
   }else if (permiso=="USA"){    
-        //alert("entro en Usa");
+        console.log("entro en Usa");
         html +='<div class="container_24">';
         html +='<form name="usa" id="usa" action="javascript:writeReciclado();" method="get">';
         html +='<li><label class="top" for="anyo">Year:</label>';
