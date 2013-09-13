@@ -140,7 +140,7 @@
 	
 	
 	}
-		console.log("pagetitle.xml v7");
+		//console.log("pagetitle.xml v7");
 		if(typeof document.querySelector == "undefined") {
     document.querySelectorAll = function(sel) {
         var sels = sel.split(","),
