@@ -666,6 +666,7 @@ return false;
 		idform ="corporativos";
   }else{
         var params = $("#resto").serialize();
+		params = params.replace(/\./g,",");
         params += "&country="+permiso;
 		idform ="resto";
   }
