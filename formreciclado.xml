@@ -50,6 +50,7 @@ function backCall(){
 			}else{
 				document.getElementById('rraaees').value = "";
 			}
+			console.log("arguments[0].numequipos "+arguments[0].numequipos);
 			$('#numequipos').val(arguments[0].numequipos.replace(/\./,","));
 		
 		}else if(permiso=="ESPAÑA CORPORATIVOS"){
