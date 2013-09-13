@@ -421,7 +421,11 @@ if(permiso != "ADMIN"){
                         $('#meses').selectmenu({ width: 225 });
                         //console.log("cargo los select");
                         $('#country-button').css({ marginLeft : "24px"});
-                        $('#anyo-button').css({ marginLeft : "15px"});
+						if(permiso=="USA"){
+							$('#anyo-button').css({ marginLeft : "15px"});
+						}else{
+							$('#anyo-button').css({ marginLeft : "26px"});
+						}
                 });
 
         }
