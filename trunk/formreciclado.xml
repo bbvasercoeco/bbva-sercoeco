@@ -62,15 +62,15 @@ function backCall(){
 			$('#residuos').val(arguments[0].residuos.toString().replace(/\./,","));
 			
 		}else{
-			$('#papelkg').val(arguments[0].papel.replace(/\./,","));
+			$('#papelkg').val(arguments[0].papel.toString().replace(/\./,","));
 			if(permiso!="ESPAÑA"){
-			$('#tonerkg').val(arguments[0].toner.replace(/\./,","));
+			$('#tonerkg').val(arguments[0].toner.toString().replace(/\./,","));
 			}
-			$('#rraaees').val(arguments[0].rraaee.replace(/\./,","));
+			$('#rraaees').val(arguments[0].rraaee.toString().replace(/\./,","));
 			
-		    $('#numequipos').val(arguments[0].numequipos.replace(/\./,","));
+		    $('#numequipos').val(arguments[0].numequipos.toString().replace(/\./,","));
 			if(permiso="ADMIN"){
-			$('#residuos').val(arguments[0].residuos.replace(/\./,","));
+			$('#residuos').val(arguments[0].residuos.toString().replace(/\./,","));
 			}
 		}
        
