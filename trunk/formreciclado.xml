@@ -50,7 +50,7 @@ function backCall(){
 			}else{
 				document.getElementById('rraaees').value = "";
 			}
-			$('#numequipos').val(arguments[0].numequipos);
+			$('#numequipos').val(arguments[0].numequipos.replace(/\./,","));
 		
 		}else if(permiso=="ESPAÑA CORPORATIVOS"){
 			$('#papelkg').val(arguments[0].papel.toString().replace(/\./,","));
@@ -58,15 +58,15 @@ function backCall(){
 			$('#residuos').val(arguments[0].residuos.toString().replace(/\./,","));
 			
 		}else{
-			$('#papelkg').val(arguments[0].papel);
+			$('#papelkg').val(arguments[0].papel.replace(/\./,","));
 			if(permiso!="ESPAÑA"){
-			$('#tonerkg').val(arguments[0].toner);
+			$('#tonerkg').val(arguments[0].toner.replace(/\./,","));
 			}
-			$('#rraaees').val(arguments[0].rraaee);
+			$('#rraaees').val(arguments[0].rraaee.replace(/\./,","));
 			
-		    $('#numequipos').val(arguments[0].numequipos);
+		    $('#numequipos').val(arguments[0].numequipos.replace(/\./,","));
 			if(permiso="ADMIN"){
-			$('#residuos').val(arguments[0].residuos);
+			$('#residuos').val(arguments[0].residuos.replace(/\./,","));
 			}
 		}
        
