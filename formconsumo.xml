@@ -354,7 +354,7 @@ function backCall(){
 		$('#eleceuro').val(arguments[0].electEur);
 		$('#gasnaturalm').val(arguments[0].gas);
 		$('#gasnaturaleuro').val(arguments[0].gasEur);
-		$('#gasl').val(arguments[0].gasoleo / 3.7841178);
+		$('#gasl').val(arguments[0].gasoleo / 3.785411784);   //3.7841178
 		$('#gaseuro').val(arguments[0].gasoleoEur);
 		//$('#eleckw').val(arguments[0].moneda);
 		$('#papelm').val(arguments[0].papel / 2.2);
