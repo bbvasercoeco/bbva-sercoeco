@@ -896,6 +896,8 @@ function writeConsumo(){
   var viajeavion2 = document.forms[idform]["viajeavion2"].value;
   var viajeavion3 = document.forms[idform]["viajeavion3"].value;
   var videotele = document.forms[idform]["videotele"].value;
+  var audioconf = document.forms[idform]["audioconf"].value;
+  var telepres = document.forms[idform]["telepres"].value;
   }
   
   params = decodeURIComponent(params);
@@ -926,7 +928,7 @@ function writeConsumo(){
  }
   	document.getElementById('formularioconsumo').innerHTML = "<p class='formok'>"+ msg +"</p>";
 	document.getElementById('formularioconsumo').innerHTML += "<button type='submit' class='btn' style='margin-left:0px;' value='Aceptar' onclick='javascript:Go()'>Aceptar</button>";
-}else if((eleckw!="")&&(eleceuro!="")&&(aguam!="")&&(aguaeuro!="")&&(papelm!="")&&(papeleuro!="")&&(gasnaturalm!="")&&(gasnaturaleuro!="")&&(gasl!="")&&(gaseuro!="")&&(viajeavion!="")&&(viajeavion2!="")&&(viajeavion3!="")&&(videotele!="")){
+}else if((eleckw!="")&&(eleceuro!="")&&(aguam!="")&&(aguaeuro!="")&&(papelm!="")&&(papeleuro!="")&&(gasnaturalm!="")&&(gasnaturaleuro!="")&&(gasl!="")&&(gaseuro!="")&&(viajeavion!="")&&(viajeavion2!="")&&(viajeavion3!="")&&(videotele!="")&&(telepres!="")&&(audioconf!="")){
  
 	$.ajax({
     type: "GET",       
