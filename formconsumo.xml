@@ -626,8 +626,8 @@ else if(newpermission=="PERU"){
 		html +='<label class="km" for="audioconf">Nº de Audioconferencias</label>';
 		html +='<label class="km" for="telepres">Nº de Telepresencias</label><br/>';
         html +='<input type="text" name="videotele" id="videotele" class="textbox"/>&nbsp;&nbsp;';
-		html +='<input type="text" name="videotele" id="audioconf" class="textbox"/>&nbsp;&nbsp;';
-		html +='<input type="text" name="videotele" id="telepres" class="textbox"/><br/><br/>';
+		html +='<input type="text" name="audioconf" id="audioconf" class="textbox"/>&nbsp;&nbsp;';
+		html +='<input type="text" name="telepres"  id="telepres" class="textbox"/><br/><br/>';
 		
         html +='<br/><br/>';
         html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-boton.png?attachauth=ANoY7cpMyU5rPXCtYNrm_wxhUBEOj12W5bIU1V0H1ttSYU4PAg3vt2VqxnNcAd31Og8qj6pdn_7LB_-HuOhRcNh5yJkK4Qyy3mnBWrcsCM9e1Lfpc2878p230yQDOf0-bfTDjhbXXQllCuH6BYjhQS4cYjRBinauPZoAlEYENcTFqUi4_9Q7biy4x9HB_a8v2g3bwY-svEqfQ1uCVsaFMx76GyP8pu7X6A%3D%3D" alt="separador">';
