@@ -350,6 +350,8 @@ function backCall(){
 		$('#viajeavion2').val(arguments[0].avion2 / 1.6093);
 		$('#viajeavion3').val(arguments[0].avion3 / 1.6093);
 		$('#videotele').val(arguments[0].conferencia);
+		$('#audioconf').val(arguments[0].audio);
+		$('#telepres').val(arguments[0].tele);
 		$('#eleckw').val(arguments[0].elect);
 		$('#eleceuro').val(arguments[0].electEur);
 		$('#gasnaturalm').val(arguments[0].gas);
@@ -429,7 +431,7 @@ function getData(){
 		document.forms["admin"]["viajeavion3"].value = convertviajeavion3aux;*/
 	}
 	$.ajax({
-		type: "POST",
+		type: "POST", 
 		url: "https://script.google.com/macros/s/AKfycbzGhjNbczH6h3Xj3nnJ7qXhspvZMqs3IB8FQzXQpoK4/exec?callback=backCall", //"https://script.google.com/macros/s/AKfycbzutnBun8urkdav2n8UlCULgoc1mrKoG58DvLMUwwqt2Pb4sF9H/exec?callback=backCall",
 		dataType: "jsonp",
 		data: { anio: anio, meses: meses, country: country }
