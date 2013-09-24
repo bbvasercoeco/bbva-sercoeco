@@ -687,7 +687,7 @@ else if(newpermission=="PERU"){
         html +='<br/><br/>';
         html +='<label class="bottom negrita" style="width:172px;">Communication (no. sessions)</label><br/><br/>';
         html +='<label class="km" for="videotele">Nº of Videoconferencing</label>';
-		html +='<label class="km" for="audioconf">Nº de Audioconferencing</label>';
+		html +='<label class="km" for="audioconf">Nº of Audioconferencing</label>';
 		html +='<label class="km" for="telepres">Nº of Teletransfers</label><br/>';
         html +='<input type="text" name="videotele" id="videotele" class="textbox"/>&nbsp;&nbsp;';
 		html +='<input type="text" name="audioconf" id="audioconf" class="textbox"/>&nbsp;&nbsp;';
