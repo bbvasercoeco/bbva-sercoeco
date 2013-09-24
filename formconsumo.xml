@@ -374,6 +374,8 @@ function backCall(){
 		$('#viajeavion2').val(arguments[0].avion2.replace(/\./,","));
 		$('#viajeavion3').val(arguments[0].avion3.replace(/\./,","));
 		$('#videotele').val(arguments[0].conferencia.replace(/\./,","));
+		$('#audioconf').val(arguments[0].audio.replace(/\./,","));
+		$('#telepres').val(arguments[0].tele.replace(/\./,","));
 		$('#eleckw').val(arguments[0].elect.replace(/\./,","));
 		$('#eleceuro').val(arguments[0].electEur.replace(/\./,","));
 		$('#gasnaturalm').val(arguments[0].gas.replace(/\./,","));
