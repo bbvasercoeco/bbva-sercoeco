@@ -656,7 +656,7 @@ else if(newpermission=="PERU"){
         html +='<select id="meses" name="meses">';
         html +='<option value="1">JAN - MAY</option>';
         html +='<option value="2">JUN - OCT</option>';
-        html +='<option value="3">NOV - DIC</option>';
+        html +='<option value="3">NOV - DEC</option>';
         html +='</select></span></label></li>';
         html +='&nbsp;&nbsp;&nbsp;&nbsp;';
         html +='<input type="button" class="btn2" onClick="getData()" value="See" style="margin-left:26px;margin-top:-3px;"/><br/><br/>';
