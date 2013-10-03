@@ -286,6 +286,26 @@ margin-top:-19px;
 <![endif]--> 
 
 <script>
+ function Go(destination)
+  {
+    if(destination=='home'){window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/";}
+    
+    else if(destination=='consumo'){window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/consumo";}
+    
+    else if(destination=='personal'){window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/otros-datos";}
+    
+    else if(destination=='reciclado'){window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/reciclado";}
+    
+    else if(destination=='factores'){window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/factores-de-conversion";}
+    
+    else if(destination=='cambio'){window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/tipo-de-cambio";}
+    
+    else if(destination=='empleados'){window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/empleados";}
+    
+    else if(destination=='admin'){window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/administracion";}
+    
+    return false;
+  }
 function getUser(){
  // alert(arguments[0].user);
  
@@ -552,26 +572,7 @@ if (!Array.prototype.indexOf) {
   document.getElementById('admin').onclick = function (){Go('admin');};
   
   
-  function Go(destination)
-  {
-    if(destination=='home'){window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/";}
-    
-    else if(destination=='consumo'){window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/consumo";}
-    
-    else if(destination=='personal'){window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/otros-datos";}
-    
-    else if(destination=='reciclado'){window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/reciclado";}
-    
-    else if(destination=='factores'){window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/factores-de-conversion";}
-    
-    else if(destination=='cambio'){window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/tipo-de-cambio";}
-    
-    else if(destination=='empleados'){window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/empleados";}
-    
-    else if(destination=='admin'){window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/administracion";}
-    
-    return false;
-  }
+ 
   
   
 
