@@ -486,19 +486,6 @@ if((newpermission=="USA")&&(permiso != "ADMIN")){
 	document.getElementsByClassName('moneda')[3].innerHTML =" Bolívares (precio unitario)";
 	document.getElementsByClassName('moneda')[4].innerHTML =" Bolívares (precio unitario)";
 
-}else if(newpermission=="PANAMA"){
-    document.getElementsByClassName('medida')[0].innerHTML = "Kw";
-	document.getElementsByClassName('medida')[2].innerHTML = "Kg";
-	document.getElementsByClassName('medida')[4].innerHTML = "litros";
-	document.getElementsByClassName('km')[0].innerHTML =" < 500km";
-	document.getElementsByClassName('km')[1].innerHTML =" 500km > x < 1600km";
-	document.getElementsByClassName('km')[2].innerHTML =" > 1600km";
-	document.getElementsByClassName('moneda')[0].innerHTML =" Dollar (precio unitario)";
-	document.getElementsByClassName('moneda')[1].innerHTML =" Dollar (precio unitario)";
-	document.getElementsByClassName('moneda')[2].innerHTML =" Dollar (precio unitario)";
-	document.getElementsByClassName('moneda')[3].innerHTML =" Dollar (precio unitario)";
-	document.getElementsByClassName('moneda')[4].innerHTML =" Dollar (precio unitario)";
-
 }else if(newpermission=="PARAGUAY"){
     document.getElementsByClassName('medida')[0].innerHTML = "Kw";
 	document.getElementsByClassName('medida')[2].innerHTML = "Kg";
@@ -567,13 +554,12 @@ else if(newpermission=="PERU"){
 		html +='<li><label class="top" for="country">País:</label>';
         html +='<label style="display:inline-block;"><span class="c-form-combo" id="combo">';
         html +='<select  name="country" id="country" onchange="selectDateOption(this.options[this.selectedIndex].value);">';
-        html +='<option value="CORPORATIVO" selected="selected">España (Inmuebles corp.)</option>';
+        //html +='<option value="CORPORATIVO" selected="selected">España (Inmuebles corp.)</option>';
 		html +='<option value="ESPAÑA" >España (E y P)</option>';
         html +='<option value="ARGENTINA">Argentina</option>';
         html +='<option value="CHILE">Chile</option>';
         html +='<option value="COLOMBIA">Colombia</option>';
         html +='<option value="MEXICO">Mexico</option>';
-        html +='<option value="PANAMA">Panamá</option>';
         html +='<option value="PARAGUAY">Paraguay</option>';
         html +='<option value="PERU">Perú</option>';
         html +='<option value="PORTUGAL">Portugal</option>';
@@ -752,9 +738,6 @@ else if(newpermission=="PERU"){
 			var moneda = "Euros (precio unitario)";
 		}else if(permiso=="VENEZUELA"){
 			var moneda = "Bolívares (precio unitario)";
-		
-		}else if(permiso=="PANAMA"){
-			var moneda = "Dolares (precio unitario)";
 		
 		}else if(permiso=="PERU"){
 			var moneda = "Soles (precio unitario)";
