@@ -387,6 +387,17 @@ function getUser(){
 		console.log("html "+html);
 		$(document).ready(function() {
 			document.getElementsByClassName('cabeceramenu')[0].innerHTML = html;
+			
+			document.getElementsByClassName('op1')[0].onclick = function(){Go('home');};
+			document.getElementsByClassName('op2')[0].onclick = function(){Go('consumo');};
+			document.getElementsByClassName('op3')[0].onclick = function(){Go('personal');};
+			document.getElementsByClassName('op4')[0].onclick = function(){Go('reciclado');};
+			document.getElementsByClassName('op5')[0].onclick = function(){Go('factores');};
+			document.getElementsByClassName('op6')[0].onclick = function(){Go('cambio');};
+			document.getElementsByClassName('op7')[0].onclick = function(){Go('empleados');};
+			document.getElementsByClassName('op8')[0].onclick = function(){Go('admin');};
+  
+  
 	
 		});
 	});*/
@@ -532,18 +543,7 @@ if (!Array.prototype.indexOf) {
   document.getElementById('empleados').onclick = function (){Go('empleados');};
   document.getElementById('admin').onclick = function (){Go('admin');};
   
-  $(document).ready(function() {
   
-  document.getElementsByClassName('op1')[0].onclick = function(){Go('home');};
-  document.getElementsByClassName('op2')[0].onclick = function(){Go('consumo');};
-  document.getElementsByClassName('op3')[0].onclick = function(){Go('personal');};
-  document.getElementsByClassName('op4')[0].onclick = function(){Go('reciclado');};
-  document.getElementsByClassName('op5')[0].onclick = function(){Go('factores');};
-  document.getElementsByClassName('op6')[0].onclick = function(){Go('cambio');};
-  document.getElementsByClassName('op7')[0].onclick = function(){Go('empleados');};
-  document.getElementsByClassName('op8')[0].onclick = function(){Go('admin');};
-  
-  });
   function Go(destination)
   {
     if(destination=='home'){window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/";}
