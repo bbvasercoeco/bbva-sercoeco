@@ -375,15 +375,15 @@ var permiso="";
 		var meses = document.getElementById('meses').value;
         var country = $('#country').val();
 		//var country = permiso;
-		console.log("country "+country);
+		//console.log("country "+country);
 		if((permiso != "ADMIN")&&(permiso !="ESPAÑA CORPORATIVOS")){ 
 			country = permiso;
 		}else if(permiso =="ESPAÑA CORPORATIVOS"){
 			country = "CORPORATIVOS";
 		
 		}
-		console.log("country2 "+country);
-		console.log("meses "+meses);
+		//console.log("country2 "+country);
+		//console.log("meses "+meses);
         $.ajax({
                 type: "POST",
                 url: "https://script.google.com/macros/s/AKfycbw3DkOB-Hg6Ct0PQc032sbw984rmwms0CvHbgESKpi7/exec?callback=backCall", //"https://script.google.com/macros/s/AKfycbyPhh6urdlKTkgewUVulrxZ7pYvbq5gSPynfMHZe0ulGOS4SJhi/exec?callback=backCall",
@@ -649,14 +649,14 @@ return false;
 	idform ="resto";
   }
   if((permiso!="ESPAÑA")){
-  console.log("entro11");
+  //console.log("entro11");
   var certiso14001 = document.forms[idform]["certiso14001"].value;
   var certisoem = document.forms[idform]["certisoem"].value;
   var certifleededif = document.forms[idform]["certifleededif"].value;
   var certifleedem = document.forms[idform]["certifleedem"].value;
   var ocunoem = document.forms[idform]["ocunoem"].value;
   params = decodeURIComponent(params);
- console.log("params "+params);
+ //console.log("params "+params);
  if((certiso14001!="")&&(certisoem!="")&&(certifleededif!="")&&(certifleedem!="")&&(ocunoem!="")){
   $.ajax({
     type: "GET",       
@@ -698,12 +698,12 @@ return false;
  
  }
 }else{
-console.log("entro2 v 1");
-console.log("permiso "+permiso);
-console.log("idform "+idform);
+//console.log("entro2 v 1");
+//console.log("permiso "+permiso);
+//console.log("idform "+idform);
 var ocunoem = document.forms[idform]["ocunoem"].value;
 params = decodeURIComponent(params);
-console.log("params-- "+params);
+//console.log("params-- "+params);
  if(ocunoem!=""){
   $.ajax({
     type: "GET",       
@@ -723,7 +723,7 @@ console.log("params-- "+params);
 					window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/otros-datos";
     }
   })
-  console.log("after ajax call-- ");
+  //console.log("after ajax call-- ");
   if(permiso=="ADMIN"){
 	auxiliar = document.forms["admin"]["country"].value;
   }
