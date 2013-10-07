@@ -411,13 +411,13 @@ if(permiso != "ADMIN"){
 	}
 	console.log("llego1 "+newpermission);
  if(newpermission!="ESPAÑA"){
-	document.getElementsByClassName('bottom negrita')[4].innerHTML = "";
-	document.getElementById('residuos').innerHTML = "";
-	document.getElementsByClassName('medida')[4].innerHTML = "";
+	document.getElementsByClassName('bottom negrita')[4].style.display="none";
+	document.getElementById('residuos').style.display="none";
+	document.getElementsByClassName('medida')[4].style.display="none";
  }else{
-	document.getElementsByClassName('bottom negrita')[4].innerHTML = '<label class="bottom negrita" for="residuos" style="position:relative;top:10px;">Residuos peligrosos enviados a reciclar</label>';
-	document.getElementById('residuos').innerHTML = '<input type="text" name="residuos" id="residuos" class="textbox"/>';
-	document.getElementsByClassName('medida')[4].innerHTML = '<span class="medida">Kg</span><br/><br/>';
+	document.getElementsByClassName('bottom negrita')[4].style.display="";
+	document.getElementById('residuos').style.display="";
+	document.getElementsByClassName('medida')[4].style.display="";
  }
 }
 
