@@ -410,7 +410,7 @@ if(permiso != "ADMIN"){
 	permiso = newpermission;
 	}
 	console.log("llego1 "+newpermission);
- if(newpermission!=ESPAÑA){
+ if(newpermission!="ESPAÑA"){
 	document.getElementByID('residuos').style.hidden;
  }
 }
