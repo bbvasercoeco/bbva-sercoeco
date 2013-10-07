@@ -409,6 +409,7 @@ function selectDateOption(newpermission){
 if(permiso != "ADMIN"){
 	permiso = newpermission;
 	}
+	console.log("llego1 "+newpermission);
  if(newpermission!=ESPAÑA){
 	document.getElementByID('residuos').style.hidden;
  }
