@@ -753,8 +753,8 @@ return false;
  
  }
  
- }else if(permiso=="ADMIN"){
-  if((papelkg!="")&&(tonerkg!="")&&(rraaees!="")&&(numequipos!="")&&(residuos!="")){
+ }else if((permiso=="ADMIN") && (document.getElementById('country')!="ESPAÑA")){
+  if((papelkg!="")&&(tonerkg!="")&&(rraaees!="")&&(numequipos!="")){
   $.ajax({
     type: "GET",      
     url: "https://script.google.com/macros/s/AKfycbzfSDlpdJf_eIAV8ws_ltQyIEnNnXU_E5NCPGf1v1FKiNVUQX1G/exec", //"https://script.google.com/macros/s/AKfycbzfSDlpdJf_eIAV8ws_ltQyIEnNnXU_E5NCPGf1v1FKiNVUQX1G/exec",
@@ -795,8 +795,8 @@ return false;
  }
  
  
- }else if(permiso=="ESPAÑA"){
-   if((papelkg!="")&&(rraaees!="")&&(numequipos!="")){
+ }else if((permiso=="ESPAÑA") || (document.getElementById('country')=="ESPAÑA")){
+   if((papelkg!="")&&(rraaees!="")&&(numequipos!="")&&(residuos!="")){
   $.ajax({
     type: "GET",      
     url: "https://script.google.com/macros/s/AKfycbzfSDlpdJf_eIAV8ws_ltQyIEnNnXU_E5NCPGf1v1FKiNVUQX1G/exec", //"https://script.google.com/macros/s/AKfycbzfSDlpdJf_eIAV8ws_ltQyIEnNnXU_E5NCPGf1v1FKiNVUQX1G/exec",
