@@ -411,9 +411,9 @@ if(permiso != "ADMIN"){
 	}
 	console.log("llego1 "+newpermission);
  if(newpermission!="ESPAÑA"){
-	document.getElementsByClassName('bottom negrita')[5].style.display="none";
+	document.getElementsByClassName('bottom negrita')[4].style.display="none";
  }else{
-	document.getElementsByClassName('bottom negrita')[5].style.display="block";
+	document.getElementsByClassName('bottom negrita')[4].style.display="block";
  }
 }
 
