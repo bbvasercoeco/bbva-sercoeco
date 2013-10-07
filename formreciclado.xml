@@ -411,7 +411,7 @@ if(permiso != "ADMIN"){
 	}
 	console.log("llego1 "+newpermission);
  if(newpermission!="ESPAÑA"){
-	document.getElementByID('residuos').style.hidden;
+	document.getElementById('residuos').style.hidden;
  }
 }
 
