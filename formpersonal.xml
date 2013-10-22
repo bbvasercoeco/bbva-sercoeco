@@ -394,7 +394,13 @@ var permiso="";
         });
         
 }
-       
+function selectDateOption(newpermission){
+if(permiso != "ADMIN"){
+	permiso = newpermission;
+	}
+	//console.log("llego1 "+newpermission);
+ 
+}      
  function getUser(){
   //alert(arguments[0].user);
   permiso = arguments[0].user;
