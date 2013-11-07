@@ -904,7 +904,7 @@ function writeConsumo(){
 	if((eleckw!="")&&(eleceuro!="")&&(aguam!="")&&(aguaeuro!="")&&(papelm!="")&&(papeleuro!="")&&(gasnaturalm!="")&&(gasnaturaleuro!="")&&(gasl!="")&&(gaseuro!="")){
 		$.ajax({
     type: "GET",       
-    url: "https://script.google.com/macros/s/AKfycbzutnBun8urkdav2n8UlCULgoc1mrKoG58DvLMUwwqt2Pb4sF9H/exec",  //"https://script.google.com/macros/s/AKfycbyUk-dB9sktomMyVJtgWxRYtBihVV355_JiOAQ8ID0Q9TwG6BQ/exec",
+    url: "https://script.google.com/macros/s/AKfycbyUk-dB9sktomMyVJtgWxRYtBihVV355_JiOAQ8ID0Q9TwG6BQ/exec",  //"https://script.google.com/macros/s/AKfycbyUk-dB9sktomMyVJtgWxRYtBihVV355_JiOAQ8ID0Q9TwG6BQ/exec",
     contentType: 'application/json',
     dataType: 'jsonp',
     data: params,
@@ -929,7 +929,7 @@ function writeConsumo(){
  
 	$.ajax({
     type: "GET",       
-    url: "https://script.google.com/macros/s/AKfycbzutnBun8urkdav2n8UlCULgoc1mrKoG58DvLMUwwqt2Pb4sF9H/exec",  //"https://script.google.com/macros/s/AKfycbyUk-dB9sktomMyVJtgWxRYtBihVV355_JiOAQ8ID0Q9TwG6BQ/exec",
+    url: "https://script.google.com/macros/s/AKfycbyUk-dB9sktomMyVJtgWxRYtBihVV355_JiOAQ8ID0Q9TwG6BQ/exec",  //"https://script.google.com/macros/s/AKfycbyUk-dB9sktomMyVJtgWxRYtBihVV355_JiOAQ8ID0Q9TwG6BQ/exec",
     contentType: 'application/json',
     dataType: 'jsonp',
     data: params,
