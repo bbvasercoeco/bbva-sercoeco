@@ -346,9 +346,9 @@ function backCall(){
 		$('#aguam').val(arguments[0].agua);
 		$('#aguaeuro').val(arguments[0].aguaEur);
 		console.log("arguments[0].avion1 "+arguments[0].avion1);
-		$('#viajeavion').val(arguments[0].avion1 / 1.6093);
-		$('#viajeavion2').val(arguments[0].avion2 / 1.6093);
-		$('#viajeavion3').val(arguments[0].avion3 / 1.6093);
+		$('#viajeavion').val(arguments[0].avion1);
+		$('#viajeavion2').val(arguments[0].avion2);
+		$('#viajeavion3').val(arguments[0].avion3);
 		$('#videotele').val(arguments[0].conferencia);
 		$('#audioconf').val(arguments[0].audio);
 		$('#telepres').val(arguments[0].tele);
@@ -356,10 +356,10 @@ function backCall(){
 		$('#eleceuro').val(arguments[0].electEur);
 		$('#gasnaturalm').val(arguments[0].gas);
 		$('#gasnaturaleuro').val(arguments[0].gasEur);
-		$('#gasl').val(arguments[0].gasoleo / 3.785411784);   //3.7841178
+		$('#gasl').val(arguments[0].gasoleo);   //3.7841178
 		$('#gaseuro').val(arguments[0].gasoleoEur);
 		//$('#eleckw').val(arguments[0].moneda);
-		$('#papelm').val(arguments[0].papel / 2.2);
+		$('#papelm').val(arguments[0].papel);
 		$('#papeleuro').val(arguments[0].papelEur);
 	
 		$('#c1').html(arguments[0].moneda+" (precio unitario)");
@@ -413,23 +413,23 @@ function getData(){
 		document.getElementsByClassName('medida')[4].innerHTML = "gal";
 		
 		/*var convertgasl = document.forms["admin"]["gasl"].value;
-		var convertgaslaux = convertgasl / 3.7841178;
+		var convertgaslaux = convertgasl;
 		document.forms["admin"]["gasl"].value = convertgaslaux;
 		
 		var convertpapelm = document.forms["admin"]["papelm"].value;
-		var convertpapelmaux = convertpapelm / 2.2;
+		var convertpapelmaux = convertpapelm;
 		document.forms["admin"]["papelm"].value = convertpapelmaux;
 		
 		var convertviajeavion = document.forms["admin"]["viajeavion"].value;
-		var convertviajeavionaux = convertviajeavion / 1.6093;
+		var convertviajeavionaux = convertviajeavion;
 		document.forms["admin"]["viajeavion"].value = convertviajeavionaux;
 		
 		var convertviajeavion2 = document.forms["admin"]["viajeavion2"].value;
-		var convertviajeavion2aux = convertviajeavion2 / 1.6093;
+		var convertviajeavion2aux = convertviajeavion2;
 		document.forms["admin"]["viajeavion2"].value = convertviajeavion2aux;
 		
 		var convertviajeavion3 = document.forms["admin"]["viajeavion3"].value;
-		var convertviajeavion3aux = convertviajeavion3 / 1.6093;
+		var convertviajeavion3aux = convertviajeavion3;
 		document.forms["admin"]["viajeavion3"].value = convertviajeavion3aux;*/
 	}
 	$.ajax({
