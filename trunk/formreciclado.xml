@@ -410,6 +410,12 @@ if(permiso != "ADMIN"){
 	permiso = newpermission;
 	}
 	console.log("llego1 "+newpermission);
+ if (newpermission=="USA"){
+	document.getElementsByClassName('medida')[0].innerHTML = "lbs";
+	document.getElementsByClassName('medida')[1].innerHTML = "lbs";
+	document.getElementsByClassName('medida')[2].innerHTML = "lbs";
+	document.getElementsByClassName('medida')[4].innerHTML = "lbs";
+ } 
  if(newpermission!="ESPAÑA"){
 	document.getElementsByClassName('bottom negrita')[4].style.display="none";
 	document.getElementById('residuos').style.display="none";
