@@ -652,13 +652,13 @@ else if(newpermission=="PERU"){
         html +='<input type="text" name="eleckw" id="eleckw" class="textbox"><span class="medida">Kwh</span>';
         html +='<input type="text" name="eleceuro" id="eleceuro" class="textbox"><span class="moneda">Dollar (unit price)</span><br/><br/>';
         html +='<label class="bottom negrita" for="aguam">Water</label>';
-        html +='<input type="text" name="aguam" id="aguam" class="textbox"><span class="medida">m3</span>';
+        html +='<input type="text" name="aguam" id="aguam" class="textbox"><span class="medida">gal</span>';
         html +='<input type="text" name="aguaeuro" id="aguaeuro" class="textbox"><span class="moneda">Dollar (unit price)</span><br/><br/>';
         html +='<label class="bottom negrita" for="papelm">Paper</label>';
         html +='<input type="text" name="papelm" id="papelm" class="textbox"><span class="medida">lbs</span>';
         html +='<input type="text" name="papeleuro" id="papeleuro" class="textbox"><span class="moneda">Dollar (unit price)</span><br/><br/>';
         html +='<label class="bottom negrita" for="gasnaturalm">Natural Gas</label>';
-        html +='<input type="text" name="gasnaturalm" id="gasnaturalm" class="textbox"><span class="medida">m3</span>';
+        html +='<input type="text" name="gasnaturalm" id="gasnaturalm" class="textbox"><span class="medida">ccf</span>';
         html +='<input type="text" name="gasnaturaleuro" id="gasnaturaleuro" class="textbox"><span class="moneda">Dollar (unit price)</span><br/><br/>';
         html +='<label class="bottom negrita" for="gasl">Diesel</label>';
         html +='<input type="text" name="gasl" id="gasl" class="textbox"><span class="medida">gal</span>';
