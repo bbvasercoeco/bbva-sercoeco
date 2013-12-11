@@ -450,6 +450,8 @@ if(permiso != "ADMIN"){
 console.log("permiso en selectDateOption "+permiso);
 console.log("newpermission "+newpermission);
 if((newpermission=="USA")&&(permiso != "ADMIN")){
+    document.getElementsByClassName('medida')[1].innerHTML = "gal";
+    document.getElementsByClassName('medida')[3].innerHTML = "ccf";
     document.getElementsByClassName('medida')[0].innerHTML = "Kwh";
 	document.getElementsByClassName('medida')[2].innerHTML = "lbs";
 	document.getElementsByClassName('medida')[4].innerHTML = "gal";
