@@ -520,6 +520,8 @@ else if(newpermission=="PERU"){
     document.getElementsByClassName('medida')[0].innerHTML = "Kwh";
 	document.getElementsByClassName('medida')[2].innerHTML = "lbs";
 	document.getElementsByClassName('medida')[4].innerHTML = "gal";
+	document.getElementsByClassName('medida')[3].innerHTML = "ccf";
+	document.getElementsByClassName('medida')[1].innerHTML = "gal";
 	document.getElementsByClassName('km')[0].innerHTML =" < 310 mi";
 	document.getElementsByClassName('km')[1].innerHTML =" 310 mi > x < 994 mi";
 	document.getElementsByClassName('km')[2].innerHTML =" > 994 mi";
