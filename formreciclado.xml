@@ -595,6 +595,7 @@ if(permiso != "ADMIN"){
         html +='</div>';
  
   }else{
+        console.log("entro0 ");
         html +='<div class="container_24">';
         html +='<form name="resto" id="resto" action="javascript:writeReciclado();" method="get">';
         html +='<li><label class="top" for="anyo">Año:</label>';
@@ -667,7 +668,7 @@ return false;
 }
 
  function writeReciclado(){
- console.log("entro1 "+params);
+ console.log("entro1 ");
 	var auxiliar="";
 	var idform="";
   //alert("entro en writeReciclado vers 1");
