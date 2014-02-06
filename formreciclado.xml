@@ -595,7 +595,7 @@ if(permiso != "ADMIN"){
         html +='</div>';
  
   }else{
-        console.log("entro0 ");
+        console.log("entro0 "+ permiso);
         html +='<div class="container_24">';
         html +='<form name="resto" id="resto" action="javascript:writeReciclado();" method="get">';
         html +='<li><label class="top" for="anyo">Año:</label>';
