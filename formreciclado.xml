@@ -69,7 +69,7 @@ function backCall(){
 			$('#rraaees').val(arguments[0].rraaee.toString().replace(/\./,","));
 			
 		    $('#numequipos').val(arguments[0].numequipos.toString().replace(/\./,","));
-			if(permiso="ADMIN"){
+			if(permiso=="ADMIN"){
 			$('#residuos').val(arguments[0].residuos.toString().replace(/\./,","));
 			}
 		}
