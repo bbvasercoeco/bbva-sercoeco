@@ -668,6 +668,7 @@ return false;
 }
 
  function writeReciclado(){
+ console.log("entro11 "+permiso);
  console.log("entro1 ");
 	var auxiliar="";
 	var idform="";
