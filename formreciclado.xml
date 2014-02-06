@@ -406,6 +406,7 @@ function getData(){
 <div id="formularioreciclado"></div>
 
 <script type='text/javascript'>
+var permiso="";
 function selectDateOption(newpermission){
 if(permiso != "ADMIN"){
 	permiso = newpermission;
@@ -428,7 +429,7 @@ if(permiso != "ADMIN"){
  }
 }
 
- var permiso="";
+ 
  function Loaditems()
         {
                 $(document).ready(function()
