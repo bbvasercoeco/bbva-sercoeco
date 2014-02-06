@@ -80,6 +80,7 @@ function backCall(){
 }
 
 function getData(){
+		console.log("permiso en getData "+permiso);
         var anio = $('#anyo').val();
         var meses = $('#meses').val();
         var country = $('#country').val();
