@@ -692,6 +692,7 @@ return false;
   }
  
  if((permiso!="ESPAÑA CORPORATIVOS")&&(permiso!="ESPAÑA")&&(permiso!="ADMIN")){
+  console.log("entro1 "+params);
   var papelkg = document.forms[idform]["papelkg"].value;
   var tonerkg = document.forms[idform]["tonerkg"].value;
   var rraaees = document.forms[idform]["rraaees"].value;
