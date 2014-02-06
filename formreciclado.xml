@@ -408,8 +408,10 @@ function getData(){
 <script type='text/javascript'>
 var permiso="";
 function selectDateOption(newpermission){
+console.log("permiso en selectDateOption "+permiso );
 if(permiso != "ADMIN"){
 	permiso = newpermission;
+	console.log("permiso en selectDateOption2 "+permiso );
 	}
 	console.log("llego1 "+newpermission);
  if (newpermission=="USA"){
@@ -451,7 +453,7 @@ if(permiso != "ADMIN"){
  function getUser(){
   //alert(arguments[0].user);
   permiso = arguments[0].user;
-  console.log("permiso "+permiso);
+  console.log("permiso en getUser "+permiso);
   var html="";
   if(arguments[0].user=="ADMIN"){
      
@@ -640,7 +642,7 @@ if(permiso != "ADMIN"){
 		}
         html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-boton.png?attachauth=ANoY7cpMyU5rPXCtYNrm_wxhUBEOj12W5bIU1V0H1ttSYU4PAg3vt2VqxnNcAd31Og8qj6pdn_7LB_-HuOhRcNh5yJkK4Qyy3mnBWrcsCM9e1Lfpc2878p230yQDOf0-bfTDjhbXXQllCuH6BYjhQS4cYjRBinauPZoAlEYENcTFqUi4_9Q7biy4x9HB_a8v2g3bwY-svEqfQ1uCVsaFMx76GyP8pu7X6A%3D%3D" alt="separador"> ';
         html +='<br/><br/>';
-        //html +='<input type="hidden" name="country" id="country" value="'+permiso+'"/>';
+        html +='<input type="hidden" name="country" id="country" value="'+permiso+'"/>';
         html +='<input type="submit" class="btn" value="Guardar"></form>';
         html +='</div>';
  
@@ -671,13 +673,13 @@ return false;
 
 //inicio
  function writeReciclado(){
- console.log("entro1 "+permiso);
+ console.log("permiso en writeReciclado "+permiso);
  
 	var auxiliar="";
 	var idform="";
   //alert("entro en writeReciclado vers 1");
   if(permiso=="ADMIN"){
-        console.log("entro2 ");
+        //console.log("entro2 ");
         var params = $("#admin").serialize();
 		params = params.replace(/\./g,",");
 		idform ="admin";
@@ -697,7 +699,7 @@ return false;
         params += "&country="+permiso;
 		idform ="resto";
   }
- console.log("entro3 "+permiso);
+ //console.log("entro3 "+permiso);
  if((permiso!="ESPAÑA CORPORATIVOS")&&(permiso!="ESPAÑA")&&(permiso!="ADMIN")){
   console.log("entro2 "+params);
   var papelkg = document.forms[idform]["papelkg"].value;
