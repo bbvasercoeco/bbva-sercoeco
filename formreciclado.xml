@@ -101,7 +101,7 @@ function getData(){
                 }).done(function( msg ) {
                 alert( "Data Saved: " + msg );
         });
-       
+    console.log("permiso en getData2 "+permiso);   
 }
 
 </script>
