@@ -53,7 +53,7 @@ function backCall(){
 			}else{
 				document.getElementById('rraaees').value = "";
 			}
-			console.log("arguments[0].numequipos "+arguments[0].numequipos);
+			//console.log("arguments[0].numequipos "+arguments[0].numequipos);
 			$('#numequipos').val(arguments[0].numequipos.toString().replace(/\./,","));
 		
 		}else if(permiso=="ESPAÑA CORPORATIVOS"){
@@ -80,7 +80,7 @@ function backCall(){
 }
 
 function getData(){
-		console.log("permiso en getData "+permiso);
+		//console.log("permiso en getData "+permiso);
         var anio = $('#anyo').val();
         var meses = $('#meses').val();
         var country = $('#country').val();
@@ -91,8 +91,8 @@ function getData(){
 			country = "CORPORATIVOS";
 		
 		}	
-		console.log("countryy "+country);
-		console.log("mesess "+meses);
+		//console.log("countryy "+country);
+		//console.log("mesess "+meses);
         $.ajax({
                 type: "POST",
                 url: "https://script.google.com/macros/s/AKfycbyFMmwVCMIF1HuiAYCVNx6d5R2aaN5CNINGKp0wU1EGy8cMNBml/exec?callback=backCall",   //"https://script.google.com/macros/s/AKfycbyFMmwVCMIF1HuiAYCVNx6d5R2aaN5CNINGKp0wU1EGy8cMNBml/exec?callback=backCall",
@@ -101,7 +101,7 @@ function getData(){
                 }).done(function( msg ) {
                 alert( "Data Saved: " + msg );
         });
-    console.log("permiso en getData2 "+permiso);   
+    //console.log("permiso en getData2 "+permiso);   
 }
 
 </script>
@@ -408,12 +408,12 @@ function getData(){
 <script type='text/javascript'>
 var permiso="";
 function selectDateOption(newpermission){
-console.log("permiso en selectDateOption "+permiso );
+//console.log("permiso en selectDateOption "+permiso );
 if(permiso != "ADMIN"){
 	permiso = newpermission;
-	console.log("permiso en selectDateOption2 "+permiso );
+	//console.log("permiso en selectDateOption2 "+permiso );
 	}
-	console.log("llego1 "+newpermission);
+	//console.log("llego1 "+newpermission);
  if (newpermission=="USA"){
 	document.getElementsByClassName('medida')[0].innerHTML = "lbs";
 	document.getElementsByClassName('medida')[1].innerHTML = "lbs";
@@ -453,7 +453,7 @@ if(permiso != "ADMIN"){
  function getUser(){
   //alert(arguments[0].user);
   permiso = arguments[0].user;
-  console.log("permiso en getUser "+permiso);
+  //console.log("permiso en getUser "+permiso);
   var html="";
   if(arguments[0].user=="ADMIN"){
      
@@ -516,7 +516,7 @@ if(permiso != "ADMIN"){
        
        
   }else if (permiso=="USA"){    
-        console.log("entro en Usa");
+        //console.log("entro en Usa");
         html +='<div class="container_24">';
         html +='<form name="usa" id="usa" action="javascript:writeReciclado();" method="get">';
         html +='<li><label class="top" for="anyo">Year:</label>';
@@ -599,7 +599,7 @@ if(permiso != "ADMIN"){
         html +='</div>';
  
   }else{
-        console.log("entro0 "+ permiso);
+        //console.log("entro0 "+ permiso);
         html +='<div class="container_24">';
         html +='<form name="resto" id="resto" action="javascript:writeReciclado()" method="get">';
         html +='<li><label class="top" for="anyo">Año:</label>';
@@ -673,7 +673,7 @@ return false;
 
 //inicio
  function writeReciclado(){
- console.log("permiso en writeReciclado "+permiso);
+ //console.log("permiso en writeReciclado "+permiso);
  
 	var auxiliar="";
 	var idform="";
@@ -701,13 +701,13 @@ return false;
   }
  //console.log("entro3 "+permiso);
  if((permiso!="ESPAÑA CORPORATIVOS")&&(permiso!="ESPAÑA")&&(permiso!="ADMIN")){
-  console.log("entro2 "+params);
+  //console.log("entro2 "+params);
   var papelkg = document.forms[idform]["papelkg"].value;
   var tonerkg = document.forms[idform]["tonerkg"].value;
   var rraaees = document.forms[idform]["rraaees"].value;
   var numequipos = document.forms[idform]["numequipos"].value;
   }else if(permiso=="ADMIN"){
-    console.log("entro4 ");
+    //console.log("entro4 ");
 	var papelkg = document.forms[idform]["papelkg"].value;
 	var tonerkg = document.forms[idform]["tonerkg"].value;
 	var rraaees = document.forms[idform]["rraaees"].value;
@@ -728,7 +728,7 @@ return false;
   
   }
   params = decodeURIComponent(params);
- console.log("params "+params);
+ //console.log("params "+params);
  if((permiso!="ESPAÑA CORPORATIVOS")&&(permiso!="ESPAÑA")&&(permiso!="ADMIN")){ 
  if((papelkg!="")&&(tonerkg!="")&&(rraaees!="")&&(numequipos!="")){
   $.ajax({
