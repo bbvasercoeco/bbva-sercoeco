@@ -662,7 +662,7 @@ return false;
   var certifleedem = document.forms[idform]["certifleedem"].value;
   var ocunoem = document.forms[idform]["ocunoem"].value;
   params = decodeURIComponent(params);
- //console.log("params "+params);
+ console.log("params "+params);
  if((certiso14001!="")&&(certisoem!="")&&(certifleededif!="")&&(certifleedem!="")&&(ocunoem!="")){
   $.ajax({
     type: "GET",       
