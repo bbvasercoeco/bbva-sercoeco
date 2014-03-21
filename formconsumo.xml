@@ -576,8 +576,8 @@ else if(newpermission=="PERU"){
         html +='<label style="display:inline-block;">';
         html +='<span class="c-form-combo" id="combo">';
         html +='<select id="anyo" name="anyo">';
-        html +='<option selected="selected" value="2013">2013</option>';
-        html +='<option value="2014">2014</option><option value="2015">2015</option>';
+        //html +='<option selected="selected" value="2013">2013</option>';
+        html +='<option selected="selected" value="2014">2014</option><option value="2015">2015</option>';
         html +='<option value="2016">2016</option><option value="2017">2017</option>';
         html +='</select></span></label></li>';
         html +='<li><label class="top" for="meses">Periodo:</label>';
@@ -637,8 +637,8 @@ else if(newpermission=="PERU"){
         html +='<label style="display:inline-block;">';
         html +='<span class="c-form-combo" id="combo">';
         html +='<select id="anyo" name="anyo">';
-        html +='<option selected="selected" value="2013">2013</option>';
-        html +='<option value="2014">2014</option><option value="2015">2015</option>';
+        //html +='<option selected="selected" value="2013">2013</option>';
+        html +='<option selected="selected" value="2014">2014</option><option value="2015">2015</option>';
         html +='<option value="2016">2016</option><option value="2017">2017</option>';
         html +='</select></span></label></li>';
         html +='<li><label class="top" for="meses">Period:</label>';
@@ -701,8 +701,8 @@ else if(newpermission=="PERU"){
         html +='<label style="display:inline-block;">';
         html +='<span class="c-form-combo" id="combo">';
         html +='<select id="anyo" name="anyo">';
-        html +='<option selected="selected" value="2013">2013</option>';
-        html +='<option value="2014">2014</option><option value="2015">2015</option>';
+        //html +='<option selected="selected" value="2013">2013</option>';
+        html +='<option selected="selected" value="2014">2014</option><option value="2015">2015</option>';
         html +='<option value="2016">2016</option><option value="2017">2017</option>';
         html +='</select></span></label></li>';
         html +='<li><label class="top" for="meses">Periodo:</label>';
@@ -761,8 +761,8 @@ else if(newpermission=="PERU"){
         html +='<label style="display:inline-block;">';
         html +='<span class="c-form-combo" id="combo">';
         html +='<select id="anyo" name="anyo">';
-        html +='<option selected="selected" value="2013">2013</option>';
-        html +='<option value="2014">2014</option><option value="2015">2015</option>';
+        //html +='<option selected="selected" value="2013">2013</option>';
+        html +='<option selected="selected" value="2014">2014</option><option value="2015">2015</option>';
         html +='<option value="2016">2016</option><option value="2017">2017</option>';
         html +='</select></span></label></li>';
         html +='<li><label class="top" for="meses">Periodo:</label>';
