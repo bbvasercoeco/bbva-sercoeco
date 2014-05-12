@@ -411,7 +411,7 @@ function getData(){
 	console.log("country82 "+country);
 	if(permiso != "ADMIN"){
 	     if(permiso=="ESPAÑAyPORTUGAL"){ 
-			country ="EYP";
+			country ="ESPAÑAyPORTUGAL";
 		 }else{
 			country = permiso;
 		 }
