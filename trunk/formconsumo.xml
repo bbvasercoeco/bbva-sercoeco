@@ -367,7 +367,7 @@ function backCall(){
 		$('#c3').html(arguments[0].moneda+" (precio unitario)");
 		$('#c4').html(arguments[0].moneda+" (precio unitario)");
 		$('#c5').html(arguments[0].moneda+" (precio unitario)");
-	}else if(permiso=="ESPAÑA CORPORATIVOS"){
+	}else if(permiso=="ESPAÑAyPORTUGAL"){
 		$('#eleckw').val(arguments[0].elect.replace(/\./,","));
 		$('#eleceuro').val(arguments[0].electEur.replace(/\./,","));
 		$('#aguam').val(arguments[0].agua.replace(/\./,","));
@@ -410,8 +410,8 @@ function getData(){
 	var country = $('#country').val();
 	console.log("country82 "+country);
 	if(permiso != "ADMIN"){
-	     if(permiso=="ESPAÑA CORPORATIVOS"){ 
-			country ="CORPORATIVO";
+	     if(permiso=="ESPAÑAyPORTUGAL"){ 
+			country ="EYP";
 		 }else{
 			country = permiso;
 		 }
@@ -477,7 +477,7 @@ if((newpermission=="USA")&&(permiso != "ADMIN")){
 	document.getElementsByClassName('moneda')[2].innerHTML =" Dollar (unit price)";
 	document.getElementsByClassName('moneda')[3].innerHTML =" Dollar (unit price)";
 	document.getElementsByClassName('moneda')[4].innerHTML =" Dollar (unit price)";
-}else if((newpermission=="ESPAÑA") || (newpermission=="CORPORATIVOS") || (newpermission=="PORTUGAL")){
+}else if((newpermission=="ESPAÑA") || (newpermission=="ESPAÑAyPORTUGAL") || (newpermission=="PORTUGAL")){
 	document.getElementsByClassName('medida')[0].innerHTML = "Kw";
     document.getElementsByClassName('medida')[2].innerHTML = "Kg";
 	document.getElementsByClassName('medida')[4].innerHTML = "litros";
@@ -572,8 +572,8 @@ else if(newpermission=="PERU"){
 		html +='<li><label class="top" for="country">País:</label>';
         html +='<label style="display:inline-block;"><span class="c-form-combo" id="combo">';
         html +='<select  name="country" id="country" onchange="selectDateOption(this.options[this.selectedIndex].value);">';
-        //html +='<option value="CORPORATIVO" selected="selected">España (Inmuebles corp.)</option>';
-		html +='<option value="ESPAÑA" >España (E y P)</option>';
+        html +='<option value="ESPAÑAyPORTUGAL" selected="selected">España (E y P)</option>';
+		html +='<option value="ESPAÑA" >España (Inmuebles corp.)</option>';
         html +='<option value="ARGENTINA">Argentina</option>';
         html +='<option value="CHILE">Chile</option>';
         html +='<option value="COLOMBIA">Colombia</option>';
@@ -707,10 +707,10 @@ else if(newpermission=="PERU"){
 		html +='</div>';
 	
   
-  }else if (permiso=="ESPAÑA CORPORATIVOS"){
-  console.log("Entro en España corp");
+  }else if (permiso=="ESPAÑAyPORTUGAL"){
+		console.log("Entro en España corp");
 		html +='<div class="container_24">';
-        html +='<form name="CORPORATIVOS" id="corporativos" action="javascript:writeConsumo()" method="get" >';
+        html +='<form name="EyP" id="eyp" action="javascript:writeConsumo()" method="get" >';
         html +='<li><label class="top" for="anyo">Año:</label>';
         html +='<label style="display:inline-block;">';
         html +='<span class="c-form-combo" id="combo">';
@@ -746,7 +746,7 @@ else if(newpermission=="PERU"){
         html +='<label class="bottom negrita" for="gasl">Gasóleo</label>';
         html +='<input type="text" name="gasl" id="gasl" class="textbox"><span class="medida">Litros</span>';
         html +='<input type="text" name="gaseuro" id="gaseuro" class="textbox"><span class="moneda">Euros (precio unitario)</span><br/><br/>';
-		html +='<input type="hidden" name="country" id="country" value="CORPORATIVOS"/>';
+		html +='<input type="hidden" name="country" id="country" value="ESPAÑAyPORTUGAL"/>';
         html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-boton.png?attachauth=ANoY7cpMyU5rPXCtYNrm_wxhUBEOj12W5bIU1V0H1ttSYU4PAg3vt2VqxnNcAd31Og8qj6pdn_7LB_-HuOhRcNh5yJkK4Qyy3mnBWrcsCM9e1Lfpc2878p230yQDOf0-bfTDjhbXXQllCuH6BYjhQS4cYjRBinauPZoAlEYENcTFqUi4_9Q7biy4x9HB_a8v2g3bwY-svEqfQ1uCVsaFMx76GyP8pu7X6A%3D%3D" alt="separador">';
         html +='<br/><br/>';
         html +='<input type="submit" class="btn" value="Guardar"></form>';
@@ -877,14 +877,14 @@ function writeConsumo(){
 	params += "&country="+permiso;
 	msg="Form submitted successfully";
 	idform ="usa";
-  }else if(permiso=="ESPAÑA CORPORATIVOS"){
-	var params = $("#corporativos").serialize();
+  }else if(permiso=="ESPAÑAyPORTUGAL"){
+	var params = $("#eyp").serialize();
 	params = params.replace(/\./g,",");
-	document.forms["corporativos"]["country"].value = "CORPORATIVOS";
-	console.log("entro en if corporativos");
+	document.forms["eyp"]["country"].value = "EYP";
+	console.log("entro en if españa y portugal");
 	//params += "&country="+permiso;
-	console.log("valor country" +document.forms["corporativos"]["country"].value);
-	idform ="corporativos";
+	console.log("valor country" +document.forms["eyp"]["country"].value);
+	idform ="eyp";
   }else{
     console.log("entro en este else");
 	var params = $("#resto").serialize();
@@ -905,7 +905,7 @@ function writeConsumo(){
   var gasl = document.forms[idform]["gasl"].value;
   var gaseuro = document.forms[idform]["gaseuro"].value;
   
-  if(idform !="corporativos"){
+  if(idform !="eyp"){
   var papelm = document.forms[idform]["papelm"].value;
   var papeleuro = document.forms[idform]["papeleuro"].value;
   var viajeavion = document.forms[idform]["viajeavion"].value;
@@ -919,7 +919,7 @@ function writeConsumo(){
   params = decodeURIComponent(params);
   console.log("params "+params);
   
-  if(idform =="corporativos"){
+  if(idform =="eyp"){
 	if((eleckw!="")&&(eleceuro!="")&&(aguam!="")&&(aguaeuro!="")&&(papelm!="")&&(papeleuro!="")&&(gasnaturalm!="")&&(gasnaturaleuro!="")&&(gasl!="")&&(gaseuro!="")){
 		$.ajax({
     type: "GET",       
