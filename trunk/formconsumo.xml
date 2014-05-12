@@ -402,7 +402,7 @@ function getData(){
 	console.log("country82 "+country);
 	if(permiso != "ADMIN"){
 	     if(permiso=="ESPAÑA CORPORATIVOS"){ 
-			country ="CORPORATIVOS";
+			country ="CORPORATIVO";
 		 }else{
 			country = permiso;
 		 }
