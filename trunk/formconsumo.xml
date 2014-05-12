@@ -695,6 +695,7 @@ else if(newpermission=="PERU"){
 	
   
   }else if (permiso=="ESPAÑA CORPORATIVOS"){
+  console.log("Entro en España corp");
 		html +='<div class="container_24">';
         html +='<form name="CORPORATIVOS" id="corporativos" action="javascript:writeConsumo()" method="get" >';
         html +='<li><label class="top" for="anyo">Año:</label>';
