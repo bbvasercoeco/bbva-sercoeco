@@ -880,7 +880,7 @@ function writeConsumo(){
   }else if(permiso=="ESPAÑAyPORTUGAL"){
 	var params = $("#eyp").serialize();
 	params = params.replace(/\./g,",");
-	document.forms["eyp"]["country"].value = "EYP";
+	document.forms["eyp"]["country"].value = "ESPAÑAyPORTUGAL";
 	console.log("entro en if españa y portugal");
 	//params += "&country="+permiso;
 	console.log("valor country" +document.forms["eyp"]["country"].value);
