@@ -367,6 +367,15 @@ function backCall(){
 		$('#c3').html(arguments[0].moneda+" (precio unitario)");
 		$('#c4').html(arguments[0].moneda+" (precio unitario)");
 		$('#c5').html(arguments[0].moneda+" (precio unitario)");
+	}else if(permiso=="ESPAÑA CORPORATIVOS"){
+		$('#eleckw').val(arguments[0].elect.replace(/\./,","));
+		$('#eleceuro').val(arguments[0].electEur.replace(/\./,","));
+		$('#aguam').val(arguments[0].agua.replace(/\./,","));
+		$('#aguaeuro').val(arguments[0].aguaEur.replace(/\./,","));
+		$('#gasnaturalm').val(arguments[0].gas.replace(/\./,","));
+		$('#gasnaturaleuro').val(arguments[0].gasEur.replace(/\./,","));
+		$('#gasl').val(arguments[0].gasoleo.replace(/\./,","));
+		$('#gaseuro').val(arguments[0].gasoleoEur.replace(/\./,","));
 	}else{
 		$('#aguam').val(arguments[0].agua.replace(/\./,","));
 		$('#aguaeuro').val(arguments[0].aguaEur.replace(/\./,","));
