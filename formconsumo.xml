@@ -341,7 +341,7 @@ function Loaditems()
 	}
 function backCall(){
 	//var pais = document.forms["admin"]["country"].value;
-	
+	console.log("permiso en backCall "+permiso);
 	if(permiso=="USA"){
 		$('#aguam').val(arguments[0].agua);
 		$('#aguaeuro').val(arguments[0].aguaEur);
