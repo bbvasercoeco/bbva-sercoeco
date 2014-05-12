@@ -866,7 +866,7 @@ function writeConsumo(){
   }else if(permiso=="ESPAÑA CORPORATIVOS"){
 	var params = $("#corporativos").serialize();
 	params = params.replace(/\./g,",");
-	document.forms["corporativos"]["country"].value = "CORPORATIVO";
+	document.forms["corporativos"]["country"].value = "CORPORATIVOS";
 	console.log("entro en if corporativos");
 	//params += "&country="+permiso;
 	console.log("valor country" +document.forms["corporativos"]["country"].value);
