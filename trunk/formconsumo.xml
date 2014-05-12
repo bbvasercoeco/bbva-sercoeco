@@ -408,6 +408,10 @@ function getData(){
 		 }
 		 console.log("country aki "+ country);
 	}
+	
+	console.log("country83 "+country);
+	console.log("anio83 "+anio);
+	console.log("meses83 "+meses);
 	if(permiso=="USA"){
 		document.getElementsByClassName('medida')[2].innerHTML = "lbs";
 		document.getElementsByClassName('medida')[1].innerHTML = "gal";
