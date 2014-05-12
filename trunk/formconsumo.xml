@@ -572,8 +572,8 @@ else if(newpermission=="PERU"){
 		html +='<li><label class="top" for="country">País:</label>';
         html +='<label style="display:inline-block;"><span class="c-form-combo" id="combo">';
         html +='<select  name="country" id="country" onchange="selectDateOption(this.options[this.selectedIndex].value);">';
-        html +='<option value="ESPAÑAyPORTUGAL" selected="selected">España (E y P)</option>';
-		html +='<option value="ESPAÑA" >España (Inmuebles corp.)</option>';
+        html +='<option value="ESPAÑA" >España (Inmuebles corp.)</option>';
+		html +='<option value="ESPAÑAyPORTUGAL" selected="selected">España (E y P)</option>';		
         html +='<option value="ARGENTINA">Argentina</option>';
         html +='<option value="CHILE">Chile</option>';
         html +='<option value="COLOMBIA">Colombia</option>';
