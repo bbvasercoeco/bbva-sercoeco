@@ -63,13 +63,13 @@ function backCall(){
 			
 		}else{
 			$('#papelkg').val(arguments[0].papel.toString().replace(/\./,","));
-			if(permiso!="ESPAÑA"){
+			
 			$('#tonerkg').val(arguments[0].toner.toString().replace(/\./,","));
-			}
+			
 			$('#rraaees').val(arguments[0].rraaee.toString().replace(/\./,","));
 			
 		    $('#numequipos').val(arguments[0].numequipos.toString().replace(/\./,","));
-			if(permiso=="ADMIN"){
+			if((permiso=="ADMIN")||(permiso=="ESPAÑA")){
 			$('#residuos').val(arguments[0].residuos.toString().replace(/\./,","));
 			}
 		}
