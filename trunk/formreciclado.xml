@@ -85,7 +85,7 @@ function getData(){
         var meses = $('#meses').val();
         var country = $('#country').val();
 		
-		if((permiso != "ADMIN")&&(permiso !="ESPAÑA CORPORATIVOS")){ 
+		if((permiso != "ADMIN")&&(permiso !="ESPAÑAyPORTUGAL")){ 
 			country = permiso;
 		}else if(permiso =="ESPAÑA CORPORATIVOS"){
 			country = "CORPORATIVOS";
@@ -715,16 +715,17 @@ return false;
 	var residuos = document.forms[idform]["residuos"].value;
   
   
-  }else if(permiso=="ESPAÑA"){
+  }else if(permiso=="ESPAÑAyPORTUGAL"){
 	var papelkg = document.forms[idform]["papelkg"].value;
-	var rraaees = document.forms[idform]["rraaees"].value;
-	var numequipos = document.forms[idform]["numequipos"].value;
+	//var rraaees = document.forms[idform]["rraaees"].value;
+	//var numequipos = document.forms[idform]["numequipos"].value;
   
   }else{
   var papelkg = document.forms[idform]["papelkg"].value;
   var tonerkg = document.forms[idform]["tonerkg"].value;
   var residuos = document.forms[idform]["residuos"].value;
-  
+  var rraaees = document.forms[idform]["rraaees"].value;
+  var numequipos = document.forms[idform]["numequipos"].value;
   
   }
   params = decodeURIComponent(params);
@@ -770,7 +771,7 @@ return false;
  
  }
  
- }else if((permiso=="ADMIN") && (document.getElementById('country')!="ESPAÑA")){
+ }else if((permiso=="ADMIN") && (document.getElementById('country')!="ESPAÑAyPORTUGAL")){
   if((papelkg!="")&&(tonerkg!="")&&(rraaees!="")&&(numequipos!="")){
   $.ajax({
     type: "GET",      
