@@ -700,7 +700,7 @@ return false;
 		idform ="resto";
   }
  //console.log("entro3 "+permiso);
- if((permiso!="ESPAÑA CORPORATIVOS")&&(permiso!="ESPAÑA")&&(permiso!="ADMIN")){
+ if((permiso!="ESPAÑAyPORTUGAL")&&(permiso!="ESPAÑA")&&(permiso!="ADMIN")){
   //console.log("entro2 "+params);
   var papelkg = document.forms[idform]["papelkg"].value;
   var tonerkg = document.forms[idform]["tonerkg"].value;
@@ -730,7 +730,7 @@ return false;
   }
   params = decodeURIComponent(params);
  //console.log("params "+params);
- if((permiso!="ESPAÑA CORPORATIVOS")&&(permiso!="ESPAÑA")&&(permiso!="ADMIN")){ 
+ if((permiso!="ESPAÑAyPORTUGAL")&&(permiso!="ESPAÑA")&&(permiso!="ADMIN")){ 
  if((papelkg!="")&&(tonerkg!="")&&(rraaees!="")&&(numequipos!="")){
   $.ajax({
     type: "GET",      
