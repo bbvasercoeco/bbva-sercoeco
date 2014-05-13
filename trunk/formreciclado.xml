@@ -717,6 +717,7 @@ return false;
   
   }else if(permiso=="ESPAÑAyPORTUGAL"){
 	var papelkg = document.forms[idform]["papelkg"].value;
+	console.log("entro en if ESPAÑAyPORTUGAL "+papelkg);
 	//var rraaees = document.forms[idform]["rraaees"].value;
 	//var numequipos = document.forms[idform]["numequipos"].value;
   
@@ -729,7 +730,11 @@ return false;
   
   }
   params = decodeURIComponent(params);
- console.log("params1 "+params);
+  console.log("params2 "+params);
+  console.log("permiso antes "+permiso);
+ 
+ 
+ 
  if((permiso!="ESPAÑAyPORTUGAL")&&(permiso!="ESPAÑA")&&(permiso!="ADMIN")){ 
  if((papelkg!="")&&(tonerkg!="")&&(rraaees!="")&&(numequipos!="")){
   $.ajax({
