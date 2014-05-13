@@ -728,7 +728,7 @@ return false;
   var numequipos = document.forms[idform]["numequipos"].value;
   
   }
- // params = decodeURIComponent(params);
+  params = decodeURIComponent(params);
  console.log("params "+params);
  if((permiso!="ESPAÑAyPORTUGAL")&&(permiso!="ESPAÑA")&&(permiso!="ADMIN")){ 
  if((papelkg!="")&&(tonerkg!="")&&(rraaees!="")&&(numequipos!="")){
