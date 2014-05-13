@@ -380,6 +380,7 @@ function backCall(){
 		$('#gasl').val(arguments[0].gasoleo.replace(/\./,","));
 		$('#gaseuro').val(arguments[0].gasoleoEur.replace(/\./,","));
 	}else if((permiso=="ADMIN")&&(pais=="ESPAÑAyPORTUGAL")){
+		document.getElementById("admin").reset();
 		$('#eleckw').val(arguments[0].elect.replace(/\./,","));
 		$('#eleceuro').val(arguments[0].electEur.replace(/\./,","));
 		$('#aguam').val(arguments[0].agua.replace(/\./,","));
@@ -389,14 +390,7 @@ function backCall(){
 		$('#gasnaturalm').val(arguments[0].gas.replace(/\./,","));
 		$('#gasnaturaleuro').val(arguments[0].gasEur.replace(/\./,","));
 		
-		document.forms[admin]["viajeavion"].value="";
-		document.forms[admin]["viajeavion2"].value="";
-		document.forms[admin]["viajeavion3"].value="";
-		document.forms[admin]["videotele"].value="";
-		document.forms[admin]["audioconf"].value="";
-		document.forms[admin]["telepres"].value="";
-		document.forms[admin]["papelm"].value="";
-		document.forms[admin]["papeleuro"].value="";
+		
 		
 		
 	}else{
