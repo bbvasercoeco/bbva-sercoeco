@@ -687,7 +687,7 @@ return false;
   }
   console.log("params "+params);
   if((permiso!="ESPAÑAyPORTUGAL")&&(document.getElementById('country').innerHTML != "ESPAÑAyPORTUGAL")){
-  //console.log("entro11");
+  console.log("entro11");
   var certiso14001 = document.forms[idform]["certiso14001"].value;
   var certisoem = document.forms[idform]["certisoem"].value;
   var certifleededif = document.forms[idform]["certifleededif"].value;
