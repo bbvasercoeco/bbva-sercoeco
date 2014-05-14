@@ -420,60 +420,21 @@ if(permiso != "ADMIN"){
 	document.getElementsByClassName('medida')[1].innerHTML = "lbs";
 	document.getElementsByClassName('medida')[2].innerHTML = "lbs";
 	document.getElementsByClassName('medida')[4].innerHTML = "lbs";
- } 
- if(newpermission!="ESPAÑA"){
+ }/*else if((newpermission!="ESPAÑA")&&(newpermission!="ESPAÑAyPORTUGAL")){
 	document.getElementsByClassName('bottom negrita')[4].style.display="none";
 	document.getElementById('residuos').style.display="none";
 	document.getElementsByClassName('medida')[4].style.display="none";
- }else if(newpermission=="ESPAÑAyPORTUGAL"){
- console.log("entro en if((newpermission==ESPAÑAyPORTUGAL))");
-		var html="";
-		html +='<div class="container_24">';
-        html +='<form name="admin" id="admin" action="javascript:writeReciclado();" method="get">';
-        html +='<li><label class="top" for="country">País:</label>';
-        html +='<label style="display:inline-block;"><span class="c-form-combo" id="combo">';
-        html +='<select  name="country" id="country" onchange="selectDateOption(this.options[this.selectedIndex].value);">';
-        html +='<option value="ESPAÑA" selected="selected">España (Inmuebles corp.)</option>';
-		html +='<option value="ESPAÑAyPORTUGAL" >España (E y P)</option>';
-        html +='<option value="ARGENTINA">Argentina</option>';
-        html +='<option value="CHILE">Chile</option>';
-        html +='<option value="COLOMBIA">Colombia</option>';
-        html +='<option value="MEXICO">Mexico</option>';
-       // html +='<option value="PANAMA">Panamá</option>';
-        html +='<option value="PARAGUAY">Paraguay</option>';
-        html +='<option value="PERU">Perú</option>';
-        html +='<option value="PORTUGAL">Portugal</option>';
-        html +='<option value="URUGUAY">Uruguay</option>';
-        html +='<option value="VENEZUELA">Venezuela</option>';
-        html +='<option value="USA">USA</option>';
-        html +='</select></span></label></li>';
-        html +='<li><label class="top" for="anyo">Año:</label>';
-        html +='<label style="display:inline-block;">';
-        html +='<span class="c-form-combo" id="combo">';
-        html +='<select id="anyo" name="anyo" style="display: none;">';
-        //html +='<option selected="selected" value="2013">2013</option>';
-        html +='<option selected="selected" value="2014">2014</option><option value="2015">2015</option>';
-        html +='<option value="2016">2016</option><option value="2017">2017</option>';
-        html +='</select></span></label></li>';
-        html +='<li><label class="top" for="meses">Periodo:</label>';
-        html +='<label style="display:inline-block;">';
-        html +='<span class="c-form-combo" id="combo">';
-        html +='<select id="meses" name="meses" style="display: none;">';
-        html +='<option value="1">ENE - MAY</option>';
-        html +='<option value="2">JUN - OCT</option>';
-        html +='<option value="3">NOV - DIC</option>';
-        html +='</select></span></label></li>';
-        html +='&nbsp;&nbsp;&nbsp;&nbsp;';
-        html +='<input type="button" class="btn2" onClick="getData()" value="Consultar"/><br/><br/>';
-        html +='<label class="bottom negrita" for="papelkg">Papel enviado a reciclar</label>';
-        html +='<input type="text" name="papelkg" id="papelkg" class="textbox"/>';
-        html +='<span class="medida">Kg</span><br/><br/>';
-		html +='<img src="https://0f392fd5-a-8e9718e0-s-sites.googlegroups.com/a/bbva.com/sercoeco/barra-separador-boton.png?attachauth=ANoY7cpMyU5rPXCtYNrm_wxhUBEOj12W5bIU1V0H1ttSYU4PAg3vt2VqxnNcAd31Og8qj6pdn_7LB_-HuOhRcNh5yJkK4Qyy3mnBWrcsCM9e1Lfpc2878p230yQDOf0-bfTDjhbXXQllCuH6BYjhQS4cYjRBinauPZoAlEYENcTFqUi4_9Q7biy4x9HB_a8v2g3bwY-svEqfQ1uCVsaFMx76GyP8pu7X6A%3D%3D" alt="separador"> ';
-        html +='<br/><br/>';
-        html +='<input type="submit" class="btn" value="Guardar"></form>';
-        html +='</div>';
-		document.getElementById('formularioreciclado').innerHTML = html;
-		Loaditems();
+ }*/else if(newpermission=="ESPAÑAyPORTUGAL"){
+		console.log("entro en if((newpermission==ESPAÑAyPORTUGAL))");
+		//document.getElementsByClassName('bottom negrita')[4].style.display="none";
+		document.getElementById('tonerkg').style.display="none";
+		document.getElementById('rraaees').style.display="none";
+		document.getElementById('numequipos').style.display="none";
+		document.getElementById('residuos').style.display="none";
+		document.getElementsByClassName('medida')[1].style.display="none";
+		document.getElementsByClassName('medida')[2].style.display="none";
+		document.getElementsByClassName('medida')[3].style.display="none";
+		document.getElementsByClassName('medida')[4].style.display="none";
  }else{
 	document.getElementsByClassName('bottom negrita')[4].style.display="";
 	document.getElementById('residuos').style.display="";
