@@ -363,6 +363,8 @@ var permiso="";
         $('#certisoem').val(arguments[0].isoEdificios.toString().replace(/\./,","));
         $('#certifleedem').val(arguments[0].leedEmpleados.toString().replace(/\./,","));
         $('#certifleededif').val(arguments[0].leedEdificios.toString().replace(/\./,","));
+	  }else if(permiso == "ESPAÑAyPORTUGAL"){
+		$('#ocunoem').val(arguments[0].ocupantes.toString().replace(/\./,","));
 	  }else if ((permiso =="ADMIN")&&(document.getElementById('country').value == "ESPAÑAyPORTUGAL")){
         $('#ocunoem').val(arguments[0].ocupantes.toString().replace(/\./,","));
         
