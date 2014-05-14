@@ -818,7 +818,7 @@ return false;
  
  }
  
- }else if((permiso=="ADMIN") && (document.getElementById('country')!="ESPAÑAyPORTUGAL")){
+ }else if((permiso=="ADMIN") && (document.getElementById('country').innerHTML != "ESPAÑAyPORTUGAL")){
  console.log("entro aki 2");
   if((papelkg!="")&&(tonerkg!="")&&(rraaees!="")&&(numequipos!="")){
   $.ajax({
@@ -861,7 +861,7 @@ return false;
  }
  
  
- }else if((permiso=="ESPAÑA") || (document.getElementById('country').innerHTML=="ESPAÑA")){
+ }else if((permiso=="ESPAÑA") || (document.getElementById('country')=="ESPAÑA")){
    if((papelkg!="")&&(rraaees!="")&&(numequipos!="")&&(residuos!="")){
   $.ajax({
     type: "GET",      
