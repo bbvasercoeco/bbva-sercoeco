@@ -426,7 +426,10 @@ if(permiso != "ADMIN"){
 	document.getElementsByClassName('medida')[4].style.display="none";
  }*/else if(newpermission=="ESPAÑAyPORTUGAL"){
 		console.log("entro en if((newpermission==ESPAÑAyPORTUGAL))");
-		//document.getElementsByClassName('bottom negrita')[4].style.display="none";
+		document.getElementsByClassName('bottom negrita')[1].style.display="none";
+		document.getElementsByClassName('bottom negrita')[2].style.display="none";
+		document.getElementsByClassName('bottom negrita')[3].style.display="none";
+		document.getElementsByClassName('bottom negrita')[4].style.display="none";
 		document.getElementById('tonerkg').style.display="none";
 		document.getElementById('rraaees').style.display="none";
 		document.getElementById('numequipos').style.display="none";
