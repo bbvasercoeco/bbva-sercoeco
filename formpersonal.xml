@@ -400,6 +400,32 @@ if(permiso != "ADMIN"){
 	permiso = newpermission;
 	}else if(newpermission=="ESPAÑAyPORTUGAL"){
 		country="ESPAÑAyPORTUGAL";
+		document.getElementsByClassName('bottom negrita')[0].style.display="none";
+		document.getElementsByClassName('bottom negrita')[1].style.display="none";
+		document.getElementsByClassName('bottom negrita')[2].style.display="none";
+		document.getElementsByClassName('bottom negrita')[3].style.display="none";
+		document.getElementById('certiso14001').style.display="none";
+		document.getElementById('certisoem').style.display="none";
+		document.getElementById('certifleededif').style.display="none";
+		document.getElementById('certifleedem').style.display="none";
+		document.getElementsByClassName('medida')[0].style.display="none";
+		document.getElementsByClassName('medida')[1].style.display="none";
+		document.getElementsByClassName('medida')[2].style.display="none";
+		document.getElementsByClassName('medida')[3].style.display="none";
+	}else{
+		document.getElementsByClassName('bottom negrita')[0].style.display="";
+		document.getElementsByClassName('bottom negrita')[1].style.display="";
+		document.getElementsByClassName('bottom negrita')[2].style.display="";
+		document.getElementsByClassName('bottom negrita')[3].style.display="";
+		document.getElementById('certiso14001').style.display="";
+		document.getElementById('certisoem').style.display="";
+		document.getElementById('certifleededif').style.display="";
+		document.getElementById('certifleedem').style.display="";
+		document.getElementsByClassName('medida')[0].style.display="";
+		document.getElementsByClassName('medida')[1].style.display="";
+		document.getElementsByClassName('medida')[2].style.display="";
+		document.getElementsByClassName('medida')[3].style.display="";
+	
 	}
 	
 	//console.log("llego1 "+newpermission);
