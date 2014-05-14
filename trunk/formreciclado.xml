@@ -714,7 +714,7 @@ return false;
 
 //inicio
  function writeReciclado(){
- //console.log("permiso en writeReciclado "+permiso);
+ console.log("permiso en writeReciclado "+permiso);
  
 	var auxiliar="";
 	var idform="";
@@ -740,7 +740,7 @@ return false;
         params += "&country="+permiso;
 		idform ="resto";
   }
- //console.log("entro3 "+permiso);
+ console.log("entro3 "+document.getElementById('country').value);
  if((permiso!="ESPAÑAyPORTUGAL")&&(permiso!="ESPAÑA")&&(permiso!="ADMIN")){
   //console.log("entro2 "+params);
   var papelkg = document.forms[idform]["papelkg"].value;
