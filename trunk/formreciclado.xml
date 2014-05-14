@@ -436,7 +436,7 @@ if(permiso != "ADMIN"){
 		document.getElementsByClassName('medida')[4].style.display="";
  }else if(newpermission=="ESPAÑAyPORTUGAL"){
 		console.log("entro en if((newpermission==ESPAÑAyPORTUGAL))");
-		console.log($(#country).val);
+		console.log($(#country).val());
 		console.log($(#country).val("ESPAÑAyPORTUGAL"));
 		document.getElementById('country').value="ESPAÑAyPORTUGAL";
 		document.getElementsByClassName('bottom negrita')[1].style.display="none";
