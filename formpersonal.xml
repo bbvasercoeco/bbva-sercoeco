@@ -357,7 +357,7 @@ var permiso="";
         }
  function backCall(){
 		console.log("permiso backCall "+permiso);
-      if(permiso != "ESPAÑAyPORTUGAL"){  
+      if((permiso != "ESPAÑAyPORTUGAL") && (country !="ESPAÑAyPORTUGAL")){  
         $('#certiso14001').val(arguments[0].isoEmpleados.toString().replace(/\./,","));
         $('#certisoem').val(arguments[0].isoEdificios.toString().replace(/\./,","));
         $('#certifleedem').val(arguments[0].leedEmpleados.toString().replace(/\./,","));
