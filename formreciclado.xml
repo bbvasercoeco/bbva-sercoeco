@@ -724,6 +724,7 @@ return false;
         var params = $("#admin").serialize();
 		params = params.replace(/\./g,",");
 		idform ="admin";
+		params += "&country="+document.getElementById('country').innerHTML;
   }else if(permiso=="USA"){
         var params = $("#usa").serialize();
 		params = params.replace(/\./g,",");
