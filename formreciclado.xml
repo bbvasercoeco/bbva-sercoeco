@@ -740,7 +740,7 @@ return false;
         params += "&country="+permiso;
 		idform ="resto";
   }
- console.log("entro3 "+document.getElementById('country').value);
+ console.log("entro3 "+document.getElementById('country').innerHTML);
  if((permiso!="ESPAÑAyPORTUGAL")&&(permiso!="ESPAÑA")&&(permiso!="ADMIN")){
   //console.log("entro2 "+params);
   var papelkg = document.forms[idform]["papelkg"].value;
