@@ -425,6 +425,7 @@ if(permiso != "ADMIN"){
 	document.getElementById('residuos').style.display="none";
 	document.getElementsByClassName('medida')[4].style.display="none";
  }else if((newpermission=="ESPAÑAyPORTUGAL")&&(permiso=="ADMIN")){
+ console.log("entro en if((newpermission==ESPAÑAyPORTUGAL)&&(permiso==ADMIN))");
 		var html="";
 		html +='<div class="container_24">';
         html +='<form name="admin" id="admin" action="javascript:writeReciclado();" method="get">';
