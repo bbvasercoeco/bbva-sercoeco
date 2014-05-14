@@ -357,15 +357,20 @@ var permiso="";
         }
  function backCall(){
 		console.log("permiso backCall "+permiso);
-      if((permiso != "ESPAÑAyPORTUGAL") && (country !="ESPAÑAyPORTUGAL")){  
+      if((permiso != "ESPAÑAyPORTUGAL")&&(permiso !="ADMIN")) {  
         $('#certiso14001').val(arguments[0].isoEmpleados.toString().replace(/\./,","));
         $('#certisoem').val(arguments[0].isoEdificios.toString().replace(/\./,","));
         $('#certifleedem').val(arguments[0].leedEmpleados.toString().replace(/\./,","));
         $('#certifleededif').val(arguments[0].leedEdificios.toString().replace(/\./,","));
-	  }
+	  }else if ((permiso =="ADMIN")&&(document.getElementById('country').innerHTML == "ESPAÑAyPORTUGAL")){
         $('#ocunoem').val(arguments[0].ocupantes.toString().replace(/\./,","));
         
-        
+        }else{
+			$('#certiso14001').val(arguments[0].isoEmpleados.toString().replace(/\./,","));
+			$('#certisoem').val(arguments[0].isoEdificios.toString().replace(/\./,","));
+			$('#certifleedem').val(arguments[0].leedEmpleados.toString().replace(/\./,","));
+			$('#certifleededif').val(arguments[0].leedEdificios.toString().replace(/\./,","));
+		}
         
         
 }		
