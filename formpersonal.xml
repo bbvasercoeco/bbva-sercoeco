@@ -400,6 +400,7 @@ if(permiso != "ADMIN"){
 	permiso = newpermission;
 	}else if(newpermission=="ESPAÑAyPORTUGAL"){
 		country="ESPAÑAyPORTUGAL";
+		
 		document.getElementsByClassName('bottom')[0].style.display="none";
 		document.getElementsByClassName('bottom')[1].style.display="none";
 		document.getElementById('certiso14001').style.display="none";
@@ -410,6 +411,8 @@ if(permiso != "ADMIN"){
 		document.getElementsByClassName('medida2')[0].style.display="none";
 		document.getElementsByClassName('medida')[1].style.display="none";
 		document.getElementsByClassName('medida2')[1].style.display="none";
+		document.getElementsByTagName('img')[0].style.display="none";
+		document.getElementsByTagName('img')[1].style.display="none";
 	}else{
 		document.getElementsByClassName('bottom')[0].style.display="";
 		document.getElementsByClassName('bottom')[1].style.display="";
@@ -421,6 +424,8 @@ if(permiso != "ADMIN"){
 		document.getElementsByClassName('medida2')[0].style.display="";
 		document.getElementsByClassName('medida')[1].style.display="";
 		document.getElementsByClassName('medida2')[1].style.display="";
+		document.getElementsByTagName('img')[0].style.display="";
+		document.getElementsByTagName('img')[1].style.display="";
 	
 	}
 	
