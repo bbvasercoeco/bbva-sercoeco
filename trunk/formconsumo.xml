@@ -494,7 +494,7 @@ if((newpermission=="USA")&&(permiso != "ADMIN")){
 	document.getElementsByClassName('moneda')[2].innerHTML =" Dollar (unit price)";
 	document.getElementsByClassName('moneda')[3].innerHTML =" Dollar (unit price)";
 	document.getElementsByClassName('moneda')[4].innerHTML =" Dollar (unit price)";
-}else if((newpermission=="ESPAÑA") || (newpermission=="ESPAÑAyPORTUGAL") || (newpermission=="PORTUGAL")){
+}else if((newpermission=="ESPAÑA") || (newpermission=="PORTUGAL")){
 	document.getElementsByClassName('medida')[0].innerHTML = "Kw";
     document.getElementsByClassName('medida')[2].innerHTML = "Kg";
 	document.getElementsByClassName('medida')[4].innerHTML = "litros";
@@ -562,7 +562,7 @@ else if(newpermission=="PERU"){
 	document.getElementsByClassName('moneda')[3].innerHTML =" Dollar (unit price)";
 	document.getElementsByClassName('moneda')[4].innerHTML =" Dollar (unit price)";
 
-}else if((permiso="ESPAÑAyPORTUGAL")||(newpermission=="ESPAÑAyPORTUGAL")){
+}else if((permiso=="ESPAÑAyPORTUGAL")||(newpermission=="ESPAÑAyPORTUGAL")){
 	document.getElementsByClassName('bottom negrita')[2].style.display="none";
 	document.getElementsByClassName('bottom negrita')[5].style.display="none";
 	document.getElementsByClassName('bottom negrita')[6].style.display="none";
