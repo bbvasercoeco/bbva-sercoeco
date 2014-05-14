@@ -773,6 +773,7 @@ return false;
  
  
  if((permiso!="ESPAÑAyPORTUGAL")&&(permiso!="ESPAÑA")&&(permiso!="ADMIN")){ 
+ console.log("entro aki 1");
  if((papelkg!="")&&(tonerkg!="")&&(rraaees!="")&&(numequipos!="")){
   $.ajax({
     type: "GET",      
@@ -814,6 +815,7 @@ return false;
  }
  
  }else if((permiso=="ADMIN") && (document.getElementById('country')!="ESPAÑAyPORTUGAL")){
+ console.log("entro aki 2");
   if((papelkg!="")&&(tonerkg!="")&&(rraaees!="")&&(numequipos!="")){
   $.ajax({
     type: "GET",      
@@ -899,6 +901,7 @@ return false;
  
  }else{
   if(papelkg!=""){
+  console.log("entro ult");
   $.ajax({
     type: "GET",      
     url: "https://script.google.com/macros/s/AKfycbzfSDlpdJf_eIAV8ws_ltQyIEnNnXU_E5NCPGf1v1FKiNVUQX1G/exec", //"https://script.google.com/macros/s/AKfycbzfSDlpdJf_eIAV8ws_ltQyIEnNnXU_E5NCPGf1v1FKiNVUQX1G/exec",
