@@ -566,6 +566,7 @@ else if(newpermission=="PERU"){
 	document.getElementsByClassName('bottom negrita')[2].style.display="none";
 	document.getElementsByClassName('bottom negrita')[5].style.display="none";
 	document.getElementsByClassName('bottom negrita')[6].style.display="none";
+	document.getElementsByClassName('medida')[2].style.display="none";
 	document.getElementsByClassName('km')[0].style.display="none";
 	document.getElementsByClassName('km')[1].style.display="none";
 	document.getElementsByClassName('km')[2].style.display="none";
