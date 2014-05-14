@@ -439,7 +439,7 @@ if(permiso != "ADMIN"){
 		console.log("entro en if((newpermission==ESPAÑAyPORTUGAL))");
 	
 		
-		document.getElementById('country').innerHTML="ESPAÑAyPORTUGAL";
+		//document.getElementById('country').innerHTML="ESPAÑAyPORTUGAL";
 		document.getElementsByClassName('bottom negrita')[1].style.display="none";
 		document.getElementsByClassName('bottom negrita')[2].style.display="none";
 		document.getElementsByClassName('bottom negrita')[3].style.display="none";
