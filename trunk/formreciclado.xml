@@ -861,7 +861,7 @@ return false;
  }
  
  
- }else if((permiso=="ESPAÑA") || (document.getElementById('country')=="ESPAÑA")){
+ }else if((permiso=="ESPAÑA") || (document.getElementById('country').innerHTML=="ESPAÑA")){
    if((papelkg!="")&&(rraaees!="")&&(numequipos!="")&&(residuos!="")){
   $.ajax({
     type: "GET",      
