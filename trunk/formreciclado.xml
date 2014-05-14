@@ -420,11 +420,21 @@ if(permiso != "ADMIN"){
 	document.getElementsByClassName('medida')[1].innerHTML = "lbs";
 	document.getElementsByClassName('medida')[2].innerHTML = "lbs";
 	document.getElementsByClassName('medida')[4].innerHTML = "lbs";
- }/*else if((newpermission!="ESPAÑA")&&(newpermission!="ESPAÑAyPORTUGAL")){
-	document.getElementsByClassName('bottom negrita')[4].style.display="none";
-	document.getElementById('residuos').style.display="none";
-	document.getElementsByClassName('medida')[4].style.display="none";
- }*/else if(newpermission=="ESPAÑAyPORTUGAL"){
+ }else if(newpermission=="ESPAÑA"){
+		console.log("entro en if((newpermission==ESPAÑA))");
+		document.getElementsByClassName('bottom negrita')[1].style.display="";
+		document.getElementsByClassName('bottom negrita')[2].style.display="";
+		document.getElementsByClassName('bottom negrita')[3].style.display="";
+		document.getElementsByClassName('bottom negrita')[4].style.display="";
+		document.getElementById('tonerkg').style.display="";
+		document.getElementById('rraaees').style.display="";
+		document.getElementById('numequipos').style.display="";
+		document.getElementById('residuos').style.display="";
+		document.getElementsByClassName('medida')[1].style.display="";
+		document.getElementsByClassName('medida')[2].style.display="";
+		document.getElementsByClassName('medida')[3].style.display="";
+		document.getElementsByClassName('medida')[4].style.display="";
+ }else if(newpermission=="ESPAÑAyPORTUGAL"){
 		console.log("entro en if((newpermission==ESPAÑAyPORTUGAL))");
 		document.getElementsByClassName('bottom negrita')[1].style.display="none";
 		document.getElementsByClassName('bottom negrita')[2].style.display="none";
@@ -437,6 +447,19 @@ if(permiso != "ADMIN"){
 		document.getElementsByClassName('medida')[1].style.display="none";
 		document.getElementsByClassName('medida')[2].style.display="none";
 		document.getElementsByClassName('medida')[3].style.display="none";
+		document.getElementsByClassName('medida')[4].style.display="none";
+ }else if((newpermission!="ESPAÑA")){
+		document.getElementsByClassName('bottom negrita')[1].style.display="";
+		document.getElementsByClassName('bottom negrita')[2].style.display="";
+		document.getElementsByClassName('bottom negrita')[3].style.display="";		
+		document.getElementById('tonerkg').style.display="";
+		document.getElementById('rraaees').style.display="";
+		document.getElementById('numequipos').style.display="";
+		document.getElementsByClassName('medida')[1].style.display="";
+		document.getElementsByClassName('medida')[2].style.display="";
+		document.getElementsByClassName('medida')[3].style.display="";
+		document.getElementsByClassName('bottom negrita')[4].style.display="none";
+		document.getElementById('residuos').style.display="none";
 		document.getElementsByClassName('medida')[4].style.display="none";
  }else{
 	document.getElementsByClassName('bottom negrita')[4].style.display="";
