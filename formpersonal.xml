@@ -398,7 +398,10 @@ var permiso="";
 function selectDateOption(newpermission){
 if(permiso != "ADMIN"){
 	permiso = newpermission;
+	}else if(newpermission=="ESPAÑAyPORTUGAL"){
+		country="ESPAÑAyPORTUGAL";
 	}
+	
 	//console.log("llego1 "+newpermission);
  
 }      
@@ -655,6 +658,7 @@ return false;
 	params += "&country="+permiso;
 	idform ="resto";
   }
+  console.log("params "+params);
   if((permiso!="ESPAÑAyPORTUGAL")){
   //console.log("entro11");
   var certiso14001 = document.forms[idform]["certiso14001"].value;
