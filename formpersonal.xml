@@ -685,7 +685,7 @@ return false;
 	params += "&country="+permiso;
 	idform ="resto";
   }
-  console.log("document.getElementById(country).innerHTML "+document.getElementById('country').innerHTML);
+  console.log("country "+country);
   console.log("params "+params);
   if((permiso!="ESPAÑAyPORTUGAL")&&(country != "ESPAÑAyPORTUGAL")){
   console.log("entro11");
