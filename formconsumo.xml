@@ -344,11 +344,11 @@ function backCall(){
 	if(permiso=="ADMIN"){
 		pais = document.forms["admin"]["country"].value;
 	}
-	console.log("permiso en backCall "+permiso);
+	//console.log("permiso en backCall "+permiso);
 	if(permiso=="USA"){
 		$('#aguam').val(arguments[0].agua);
 		$('#aguaeuro').val(arguments[0].aguaEur);
-		console.log("arguments[0].avion1 "+arguments[0].avion1);
+		//console.log("arguments[0].avion1 "+arguments[0].avion1);
 		$('#viajeavion').val(arguments[0].avion1);
 		$('#viajeavion2').val(arguments[0].avion2);
 		$('#viajeavion3').val(arguments[0].avion3);
@@ -425,19 +425,19 @@ function getData(){
 	var anio = $('#anyo').val();
 	var meses = $('#meses').val();
 	var country = $('#country').val();
-	console.log("country82 "+country);
+	//console.log("country82 "+country);
 	if(permiso != "ADMIN"){
 	     if(permiso=="ESPAÑAyPORTUGAL"){ 
 			country ="ESPAÑAyPORTUGAL";
 		 }else{
 			country = permiso;
 		 }
-		 console.log("country aki "+ country);
+		// console.log("country aki "+ country);
 	}
 	
-	console.log("country83 "+country);
-	console.log("anio83 "+anio);
-	console.log("meses83 "+meses);
+	//console.log("country83 "+country);
+	//console.log("anio83 "+anio);
+	//console.log("meses83 "+meses);
 	if(permiso=="USA"){
 		document.getElementsByClassName('medida')[2].innerHTML = "lbs";
 		document.getElementsByClassName('medida')[1].innerHTML = "gal";
@@ -477,8 +477,8 @@ function selectDateOption(newpermission){
 if(permiso != "ADMIN"){
 	permiso = newpermission;
 }
-console.log("permiso en selectDateOption "+permiso);
-console.log("newpermission "+newpermission);
+//console.log("permiso en selectDateOption "+permiso);
+//console.log("newpermission "+newpermission);
 if((newpermission=="USA")&&(permiso != "ADMIN")){
     document.getElementsByClassName('medida')[1].innerHTML = "gal";
     document.getElementsByClassName('medida')[3].innerHTML = "ccf";
@@ -748,7 +748,7 @@ else if(newpermission=="PERU"){
 	
   
   }else if (permiso=="ESPAÑAyPORTUGAL"){
-		console.log("Entro en España corp");
+		//console.log("Entro en España corp");
 		html +='<div class="container_24">';
         html +='<form name="EyP" id="eyp" action="javascript:writeConsumo()" method="get" >';
         html +='<li><label class="top" for="anyo">Año:</label>';
@@ -896,7 +896,7 @@ return false;
 function writeConsumo(){
   var auxiliar="";
   var idform="";
-  console.log("entro en writeConsumo vers 19");
+  //console.log("entro en writeConsumo vers 19");
   /*if(permiso=="ADMIN"){
   var aux = document.forms["admin"]["country"].value;
   alert(aux);
@@ -907,9 +907,9 @@ function writeConsumo(){
  alert($("#country").val);*/
 // alert(permiso);
   if(permiso=="ADMIN"){
-  console.log("entro en permiso = ADMIN ");
+  //console.log("entro en permiso = ADMIN ");
   var aux1 = document.forms["admin"]["country"].value;
-  console.log("aux1 "+aux1);
+  //console.log("aux1 "+aux1);
   idform ="admin";
 	var params = $("#admin").serialize();
   }else if(permiso=="USA"){
@@ -921,12 +921,12 @@ function writeConsumo(){
 	var params = $("#eyp").serialize();
 	params = params.replace(/\./g,",");
 	document.forms["eyp"]["country"].value = "ESPAÑAyPORTUGAL";
-	console.log("entro en if españa y portugal");
+	//console.log("entro en if españa y portugal");
 	//params += "&country="+permiso;
-	console.log("valor country" +document.forms["eyp"]["country"].value);
+	//console.log("valor country" +document.forms["eyp"]["country"].value);
 	idform ="eyp";
   }else{
-    console.log("entro en este else");
+    //console.log("entro en este else");
 	var params = $("#resto").serialize();
 	params = params.replace(/\./g,",");
 	
@@ -957,7 +957,7 @@ function writeConsumo(){
   }
   
   params = decodeURIComponent(params);
-  console.log("params "+params);
+  //console.log("params "+params);
   
   if(idform =="eyp"){
 	if((eleckw!="")&&(eleceuro!="")&&(aguam!="")&&(aguaeuro!="")&&(papelm!="")&&(papeleuro!="")&&(gasnaturalm!="")&&(gasnaturaleuro!="")&&(gasl!="")&&(gaseuro!="")){
@@ -969,7 +969,7 @@ function writeConsumo(){
     data: params,
     prefix: "doGet",
     success: function doGet(){
-				  console.log("entro en success");
+				  //console.log("entro en success");
 				  document.getElementById('formularioconsumo').innerHTML = "<p>"+ msg +"</p>";
                   return alert("Data Saved:");
 				  window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/consumo";
@@ -994,7 +994,7 @@ function writeConsumo(){
     data: params,
     prefix: "doGet",
     success: function doGet(){
-				  console.log("entro en success");
+				  //console.log("entro en success");
 				  document.getElementById('formularioconsumo').innerHTML = "<p>"+ msg +"</p>";
                   return alert("Data Saved:");
 				  window.parent.location.href="https://sites.google.com/a/bbva.com/sercoeco/home/consumo";
