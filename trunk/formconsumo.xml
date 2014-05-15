@@ -479,9 +479,9 @@ function selectDateOption(newpermission){
 if(permiso != "ADMIN"){
 	permiso = newpermission;
 }else if(newpermission=="ESPAÑAyPORTUGAL"){
-console.log("akiiiii5");
+console.log("akiiiii6");
 	//country="ESPAÑAyPORTUGAL";
-	document.forms["admin"]["country"].value="ESPAÑAyPORTUGAL";
+	document.forms["admin"]["country"].value.innerHTML="ESPAÑAyPORTUGAL";
 	//document.getElementById('country').value="ESPAÑAyPORTUGAL";
 }
 console.log("permiso en selectDateOption "+permiso);
