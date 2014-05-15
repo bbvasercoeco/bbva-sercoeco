@@ -897,14 +897,14 @@ function writeConsumo(){
   var auxiliar="";
   var idform="";
   //console.log("entro en writeConsumo vers 19");
-  /*if(permiso=="ADMIN"){
+  if(permiso=="ADMIN"){
   var aux = document.forms["admin"]["country"].value;
-  alert(aux);
+  //alert(aux);
   aux = decodeURIComponent(aux);
-  alert(aux);
+  //alert(aux);
   document.forms["admin"]["country"].value = aux;
  }
- alert($("#country").val);*/
+ console.log($("#country").val);
 // alert(permiso);
   if(permiso=="ADMIN"){
   //console.log("entro en permiso = ADMIN ");
