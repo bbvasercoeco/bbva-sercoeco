@@ -476,6 +476,8 @@ function getData(){
 function selectDateOption(newpermission){
 if(permiso != "ADMIN"){
 	permiso = newpermission;
+}else if(newpermission=="ESPAÑAyPORTUGAL"){
+	country="ESPAÑAyPORTUGAL";
 }
 console.log("permiso en selectDateOption "+permiso);
 console.log("newpermission "+newpermission);
