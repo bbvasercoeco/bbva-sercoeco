@@ -425,7 +425,7 @@ function getData(){
 	var anio = $('#anyo').val();
 	var meses = $('#meses').val();
 	var country = $('#country').val();
-	//console.log("country82 "+country);
+	console.log("country82 "+country);
 	if(permiso != "ADMIN"){
 	     if(permiso=="ESPAÑAyPORTUGAL"){ 
 			country ="ESPAÑAyPORTUGAL";
@@ -437,7 +437,7 @@ function getData(){
 		// console.log("country aki "+ country);
 	}
 	
-	//console.log("country83 "+country);
+	console.log("country83 "+country);
 	//console.log("anio83 "+anio);
 	//console.log("meses83 "+meses);
 	if(permiso=="USA"){
