@@ -477,8 +477,8 @@ function selectDateOption(newpermission){
 if(permiso != "ADMIN"){
 	permiso = newpermission;
 }
-//console.log("permiso en selectDateOption "+permiso);
-//console.log("newpermission "+newpermission);
+console.log("permiso en selectDateOption "+permiso);
+console.log("newpermission "+newpermission);
 if((newpermission=="USA")&&(permiso != "ADMIN")){
     document.getElementsByClassName('medida')[1].innerHTML = "gal";
     document.getElementsByClassName('medida')[3].innerHTML = "ccf";
@@ -907,7 +907,7 @@ function writeConsumo(){
  console.log($("#country").val);*/
 // alert(permiso);
   if(permiso=="ADMIN"){
-  //console.log("entro en permiso = ADMIN ");
+  console.log("entro en permiso = ADMIN ");
   var aux1 = document.forms["admin"]["country"].value;
   //console.log("aux1 "+aux1);
   idform ="admin";
