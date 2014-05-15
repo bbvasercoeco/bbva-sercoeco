@@ -477,7 +477,7 @@ function selectDateOption(newpermission){
 if(permiso != "ADMIN"){
 	permiso = newpermission;
 }else if(newpermission=="ESPAÑAyPORTUGAL"){
-console.log("akiiiii2");
+console.log("akiiiii3");
 	//country="ESPAÑAyPORTUGAL";
 	document.forms["admin"]["country"].value="ESPAÑAyPORTUGAL";
 	//document.getElementById('country').value="ESPAÑAyPORTUGAL";
@@ -568,6 +568,7 @@ else if(newpermission=="PERU"){
 	document.getElementsByClassName('moneda')[4].innerHTML =" Dollar (unit price)";
 
 }else if((permiso=="ESPAÑAyPORTUGAL")||(newpermission=="ESPAÑAyPORTUGAL")){
+	document.forms["admin"]["country"].value="ESPAÑAyPORTUGAL";
 	document.getElementsByClassName('bottom negrita')[2].style.display="none";
 	document.getElementsByClassName('bottom negrita')[5].style.display="none";
 	document.getElementsByClassName('bottom negrita')[6].style.display="none";
