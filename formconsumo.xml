@@ -914,7 +914,7 @@ function writeConsumo(){
   if(permiso=="ADMIN"){
   console.log("entro en permiso = ADMIN ");
   var aux1 = document.forms["admin"]["country"].value;
-  //console.log("aux1 "+aux1);
+  console.log("aux1 "+aux1);
   idform ="admin";
 	var params = $("#admin").serialize();
   }else if(permiso=="USA"){
