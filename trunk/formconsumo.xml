@@ -429,6 +429,8 @@ function getData(){
 	if(permiso != "ADMIN"){
 	     if(permiso=="ESPAÑAyPORTUGAL"){ 
 			country ="ESPAÑAyPORTUGAL";
+		 }else if((permiso=="ADMIN")&&(document.forms["admin"]["country"].value=="ESPAÑAyPORTUGAL")){
+			country = "ESPAÑAyPORTUGAL";
 		 }else{
 			country = permiso;
 		 }
@@ -477,7 +479,7 @@ function selectDateOption(newpermission){
 if(permiso != "ADMIN"){
 	permiso = newpermission;
 }else if(newpermission=="ESPAÑAyPORTUGAL"){
-console.log("akiiiii4");
+console.log("akiiiii5");
 	//country="ESPAÑAyPORTUGAL";
 	document.forms["admin"]["country"].value="ESPAÑAyPORTUGAL";
 	//document.getElementById('country').value="ESPAÑAyPORTUGAL";
