@@ -426,7 +426,7 @@ function getData(){
 	var anio = $('#anyo').val();
 	var meses = $('#meses').val();
 	var country = $('#country').val();
-	console.log("country82 "+country);
+	//console.log("country82 "+country);
 	if(permiso != "ADMIN"){
 	     if(permiso=="ESPAÑAyPORTUGAL"){ 
 			country ="ESPAÑAyPORTUGAL";
@@ -438,7 +438,7 @@ function getData(){
 		// console.log("country aki "+ country);
 	}
 	
-	console.log("country83 "+country);
+	//console.log("country83 "+country);
 	//console.log("anio83 "+anio);
 	//console.log("meses83 "+meses);
 	if(permiso=="USA"){
@@ -484,10 +484,10 @@ if(permiso != "ADMIN"){
 	//country="ESPAÑAyPORTUGAL";
 	//document.forms["admin"]["country"].value = newpermission;
 	newpermissionaux = newpermission;
-	console.log("akiiiii91 "+document.forms["admin"]["country"].value);
+	//console.log("akiiiii91 "+document.forms["admin"]["country"].value);
 }
-console.log("permiso en selectDateOption "+permiso);
-console.log("newpermission "+newpermission);
+//console.log("permiso en selectDateOption "+permiso);
+//console.log("newpermission "+newpermission);
 if((newpermission=="USA")&&(permiso != "ADMIN")){
     document.getElementsByClassName('medida')[1].innerHTML = "gal";
     document.getElementsByClassName('medida')[3].innerHTML = "ccf";
@@ -1069,7 +1069,7 @@ function writeConsumo(){
   alert(aux);
   document.forms["admin"]["country"].value = aux;
  }
- console.log($("#country").val);*/
+ //console.log($("#country").val);*/
 // alert(permiso);
   if(permiso=="ADMIN"){
   console.log("entro en permiso = ADMIN ");
@@ -1079,7 +1079,7 @@ function writeConsumo(){
 	document.forms["admin"]["country"].value = "ESPAÑA";
   }
   aux1 = document.forms["admin"]["country"].value;
-  console.log("aux1 "+aux1);
+  //console.log("aux1 "+aux1);
   idform ="admin";
 	var params = $("#admin").serialize();
   }else if(permiso=="USA"){
@@ -1127,7 +1127,7 @@ function writeConsumo(){
   }
   
   params = decodeURIComponent(params);
-  console.log("params "+params);
+  //console.log("params "+params);
   
   if(idform =="eyp"){
 	if((eleckw!="")&&(eleceuro!="")&&(aguam!="")&&(aguaeuro!="")&&(papelm!="")&&(papeleuro!="")&&(gasnaturalm!="")&&(gasnaturaleuro!="")&&(gasl!="")&&(gaseuro!="")){
