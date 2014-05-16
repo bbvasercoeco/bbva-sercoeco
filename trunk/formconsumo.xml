@@ -479,10 +479,9 @@ function selectDateOption(newpermission){
 if(permiso != "ADMIN"){
 	permiso = newpermission;
 }else if(newpermission=="ESPAÑAyPORTUGAL"){
-console.log("akiiiii7");
-	//country="ESPAÑAyPORTUGAL";
-	document.forms["admin"]["country"].value.innerHTML="ESPAÑAyPORTUGAL";
-	//document.getElementById('country').value="ESPAÑAyPORTUGAL";
+console.log("akiiiii8");
+	country="ESPAÑAyPORTUGAL";
+	
 }
 console.log("permiso en selectDateOption "+permiso);
 console.log("newpermission "+newpermission);
@@ -621,7 +620,7 @@ else if(newpermission=="PERU"){
         html +='<label style="display:inline-block;"><span class="c-form-combo" id="combo">';
         html +='<select  name="country" id="country" value="this.options[this.selectedIndex].value)" onchange="selectDateOption(this.options[this.selectedIndex].value);">';
         html +='<option value="ESPAÑA">España (Inmuebles corp.)</option>';
-		html +='<option value="ESPAÑAyPORTUGAL" >España (E y P)</option>';		
+		html +='<option value="ESPAÑAyPORTUGAL">España (E y P)</option>';		
         html +='<option value="ARGENTINA">Argentina</option>';
         html +='<option value="CHILE">Chile</option>';
         html +='<option value="COLOMBIA">Colombia</option>';
