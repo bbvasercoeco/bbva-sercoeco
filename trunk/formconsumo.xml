@@ -480,7 +480,7 @@ function selectDateOption(newpermission){
 if(permiso != "ADMIN"){
 	permiso = newpermission;
 }else{
-	console.log("akiiiii12");
+	console.log("akiiiii13");
 	//country="ESPAÑAyPORTUGAL";
 	//document.forms["admin"]["country"].value = newpermission;
 	newpermissionaux = newpermission;
@@ -503,6 +503,28 @@ if((newpermission=="USA")&&(permiso != "ADMIN")){
 	document.getElementsByClassName('moneda')[2].innerHTML =" Dollar (unit price)";
 	document.getElementsByClassName('moneda')[3].innerHTML =" Dollar (unit price)";
 	document.getElementsByClassName('moneda')[4].innerHTML =" Dollar (unit price)";
+	
+	document.getElementsByClassName('bottom negrita')[2].style.display="";
+	document.getElementsByClassName('bottom negrita')[5].style.display="";
+	document.getElementsByClassName('bottom negrita')[6].style.display="";
+	document.getElementsByClassName('medida')[2].style.display="";
+	document.getElementsByClassName('km')[0].style.display="";
+	document.getElementsByClassName('km')[1].style.display="";
+	document.getElementsByClassName('km')[2].style.display="";
+	document.getElementsByClassName('km')[3].style.display="";
+	document.getElementsByClassName('km')[4].style.display="";
+	document.getElementsByClassName('km')[5].style.display="";
+	document.getElementById('papelm').style.display="";
+	document.getElementById('papeleuro').style.display="";
+	document.getElementById('viajeavion').style.display="";
+	document.getElementById('viajeavion2').style.display="";
+	document.getElementById('viajeavion3').style.display="";
+	document.getElementById('videotele').style.display="";
+	document.getElementById('audioconf').style.display="";
+	document.getElementById('telepres').style.display="";
+	document.getElementsByClassName('moneda')[2].style.display="";
+	document.getElementsByTagName('img')[0].style.display="";
+	document.getElementsByTagName('img')[1].style.display="";
 }else if((newpermission=="ESPAÑA") || (newpermission=="PORTUGAL")){
 	document.getElementsByClassName('medida')[0].innerHTML = "Kw";
     document.getElementsByClassName('medida')[2].innerHTML = "Kg";
@@ -515,6 +537,28 @@ if((newpermission=="USA")&&(permiso != "ADMIN")){
 	document.getElementsByClassName('moneda')[2].innerHTML =" Euros (precio unitario)";
 	document.getElementsByClassName('moneda')[3].innerHTML =" Euros (precio unitario)";
 	document.getElementsByClassName('moneda')[4].innerHTML =" Euros (precio unitario)";
+	
+	document.getElementsByClassName('bottom negrita')[2].style.display="";
+	document.getElementsByClassName('bottom negrita')[5].style.display="";
+	document.getElementsByClassName('bottom negrita')[6].style.display="";
+	document.getElementsByClassName('medida')[2].style.display="";
+	document.getElementsByClassName('km')[0].style.display="";
+	document.getElementsByClassName('km')[1].style.display="";
+	document.getElementsByClassName('km')[2].style.display="";
+	document.getElementsByClassName('km')[3].style.display="";
+	document.getElementsByClassName('km')[4].style.display="";
+	document.getElementsByClassName('km')[5].style.display="";
+	document.getElementById('papelm').style.display="";
+	document.getElementById('papeleuro').style.display="";
+	document.getElementById('viajeavion').style.display="";
+	document.getElementById('viajeavion2').style.display="";
+	document.getElementById('viajeavion3').style.display="";
+	document.getElementById('videotele').style.display="";
+	document.getElementById('audioconf').style.display="";
+	document.getElementById('telepres').style.display="";
+	document.getElementsByClassName('moneda')[2].style.display="";
+	document.getElementsByTagName('img')[0].style.display="";
+	document.getElementsByTagName('img')[1].style.display="";
 }else if(newpermission=="VENEZUELA"){
     document.getElementsByClassName('medida')[0].innerHTML = "Kw";
 	document.getElementsByClassName('medida')[2].innerHTML = "Kg";
@@ -527,6 +571,28 @@ if((newpermission=="USA")&&(permiso != "ADMIN")){
 	document.getElementsByClassName('moneda')[2].innerHTML =" Bolívares (precio unitario)";
 	document.getElementsByClassName('moneda')[3].innerHTML =" Bolívares (precio unitario)";
 	document.getElementsByClassName('moneda')[4].innerHTML =" Bolívares (precio unitario)";
+	
+	document.getElementsByClassName('bottom negrita')[2].style.display="";
+	document.getElementsByClassName('bottom negrita')[5].style.display="";
+	document.getElementsByClassName('bottom negrita')[6].style.display="";
+	document.getElementsByClassName('medida')[2].style.display="";
+	document.getElementsByClassName('km')[0].style.display="";
+	document.getElementsByClassName('km')[1].style.display="";
+	document.getElementsByClassName('km')[2].style.display="";
+	document.getElementsByClassName('km')[3].style.display="";
+	document.getElementsByClassName('km')[4].style.display="";
+	document.getElementsByClassName('km')[5].style.display="";
+	document.getElementById('papelm').style.display="";
+	document.getElementById('papeleuro').style.display="";
+	document.getElementById('viajeavion').style.display="";
+	document.getElementById('viajeavion2').style.display="";
+	document.getElementById('viajeavion3').style.display="";
+	document.getElementById('videotele').style.display="";
+	document.getElementById('audioconf').style.display="";
+	document.getElementById('telepres').style.display="";
+	document.getElementsByClassName('moneda')[2].style.display="";
+	document.getElementsByTagName('img')[0].style.display="";
+	document.getElementsByTagName('img')[1].style.display="";
 
 }else if(newpermission=="PARAGUAY"){
     document.getElementsByClassName('medida')[0].innerHTML = "Kw";
@@ -540,6 +606,28 @@ if((newpermission=="USA")&&(permiso != "ADMIN")){
 	document.getElementsByClassName('moneda')[2].innerHTML =" Guaraníes (precio unitario)";
 	document.getElementsByClassName('moneda')[3].innerHTML =" Guaraníes (precio unitario)";
 	document.getElementsByClassName('moneda')[4].innerHTML =" Guaraníes (precio unitario)";
+	
+	document.getElementsByClassName('bottom negrita')[2].style.display="";
+	document.getElementsByClassName('bottom negrita')[5].style.display="";
+	document.getElementsByClassName('bottom negrita')[6].style.display="";
+	document.getElementsByClassName('medida')[2].style.display="";
+	document.getElementsByClassName('km')[0].style.display="";
+	document.getElementsByClassName('km')[1].style.display="";
+	document.getElementsByClassName('km')[2].style.display="";
+	document.getElementsByClassName('km')[3].style.display="";
+	document.getElementsByClassName('km')[4].style.display="";
+	document.getElementsByClassName('km')[5].style.display="";
+	document.getElementById('papelm').style.display="";
+	document.getElementById('papeleuro').style.display="";
+	document.getElementById('viajeavion').style.display="";
+	document.getElementById('viajeavion2').style.display="";
+	document.getElementById('viajeavion3').style.display="";
+	document.getElementById('videotele').style.display="";
+	document.getElementById('audioconf').style.display="";
+	document.getElementById('telepres').style.display="";
+	document.getElementsByClassName('moneda')[2].style.display="";
+	document.getElementsByTagName('img')[0].style.display="";
+	document.getElementsByTagName('img')[1].style.display="";
 
 }
 else if(newpermission=="PERU"){
@@ -554,6 +642,28 @@ else if(newpermission=="PERU"){
 	document.getElementsByClassName('moneda')[2].innerHTML =" Soles (precio unitario)";
 	document.getElementsByClassName('moneda')[3].innerHTML =" Soles (precio unitario)";
 	document.getElementsByClassName('moneda')[4].innerHTML =" Soles (precio unitario)";
+	
+	document.getElementsByClassName('bottom negrita')[2].style.display="";
+	document.getElementsByClassName('bottom negrita')[5].style.display="";
+	document.getElementsByClassName('bottom negrita')[6].style.display="";
+	document.getElementsByClassName('medida')[2].style.display="";
+	document.getElementsByClassName('km')[0].style.display="";
+	document.getElementsByClassName('km')[1].style.display="";
+	document.getElementsByClassName('km')[2].style.display="";
+	document.getElementsByClassName('km')[3].style.display="";
+	document.getElementsByClassName('km')[4].style.display="";
+	document.getElementsByClassName('km')[5].style.display="";
+	document.getElementById('papelm').style.display="";
+	document.getElementById('papeleuro').style.display="";
+	document.getElementById('viajeavion').style.display="";
+	document.getElementById('viajeavion2').style.display="";
+	document.getElementById('viajeavion3').style.display="";
+	document.getElementById('videotele').style.display="";
+	document.getElementById('audioconf').style.display="";
+	document.getElementById('telepres').style.display="";
+	document.getElementsByClassName('moneda')[2].style.display="";
+	document.getElementsByTagName('img')[0].style.display="";
+	document.getElementsByTagName('img')[1].style.display="";
 
 }else if(newpermission=="USA"){
     document.getElementsByClassName('medida')[0].innerHTML = "Kwh";
@@ -570,6 +680,28 @@ else if(newpermission=="PERU"){
 	document.getElementsByClassName('moneda')[2].innerHTML =" Dollar (unit price)";
 	document.getElementsByClassName('moneda')[3].innerHTML =" Dollar (unit price)";
 	document.getElementsByClassName('moneda')[4].innerHTML =" Dollar (unit price)";
+	
+	document.getElementsByClassName('bottom negrita')[2].style.display="";
+	document.getElementsByClassName('bottom negrita')[5].style.display="";
+	document.getElementsByClassName('bottom negrita')[6].style.display="";
+	document.getElementsByClassName('medida')[2].style.display="";
+	document.getElementsByClassName('km')[0].style.display="";
+	document.getElementsByClassName('km')[1].style.display="";
+	document.getElementsByClassName('km')[2].style.display="";
+	document.getElementsByClassName('km')[3].style.display="";
+	document.getElementsByClassName('km')[4].style.display="";
+	document.getElementsByClassName('km')[5].style.display="";
+	document.getElementById('papelm').style.display="";
+	document.getElementById('papeleuro').style.display="";
+	document.getElementById('viajeavion').style.display="";
+	document.getElementById('viajeavion2').style.display="";
+	document.getElementById('viajeavion3').style.display="";
+	document.getElementById('videotele').style.display="";
+	document.getElementById('audioconf').style.display="";
+	document.getElementById('telepres').style.display="";
+	document.getElementsByClassName('moneda')[2].style.display="";
+	document.getElementsByTagName('img')[0].style.display="";
+	document.getElementsByTagName('img')[1].style.display="";
 
 }else if((permiso=="ESPAÑAyPORTUGAL")||(newpermission=="ESPAÑAyPORTUGAL")){
 	document.forms["admin"]["country"].value="ESPAÑAyPORTUGAL";
@@ -607,6 +739,29 @@ else if(newpermission=="PERU"){
 	document.getElementsByClassName('moneda')[2].innerHTML =" Pesos (precio unitario)";
 	document.getElementsByClassName('moneda')[3].innerHTML =" Pesos (precio unitario)";
 	document.getElementsByClassName('moneda')[4].innerHTML =" Pesos (precio unitario)";
+	
+	
+	document.getElementsByClassName('bottom negrita')[2].style.display="";
+	document.getElementsByClassName('bottom negrita')[5].style.display="";
+	document.getElementsByClassName('bottom negrita')[6].style.display="";
+	document.getElementsByClassName('medida')[2].style.display="";
+	document.getElementsByClassName('km')[0].style.display="";
+	document.getElementsByClassName('km')[1].style.display="";
+	document.getElementsByClassName('km')[2].style.display="";
+	document.getElementsByClassName('km')[3].style.display="";
+	document.getElementsByClassName('km')[4].style.display="";
+	document.getElementsByClassName('km')[5].style.display="";
+	document.getElementById('papelm').style.display="";
+	document.getElementById('papeleuro').style.display="";
+	document.getElementById('viajeavion').style.display="";
+	document.getElementById('viajeavion2').style.display="";
+	document.getElementById('viajeavion3').style.display="";
+	document.getElementById('videotele').style.display="";
+	document.getElementById('audioconf').style.display="";
+	document.getElementById('telepres').style.display="";
+	document.getElementsByClassName('moneda')[2].style.display="";
+	document.getElementsByTagName('img')[0].style.display="";
+	document.getElementsByTagName('img')[1].style.display="";
 
 }
 }
