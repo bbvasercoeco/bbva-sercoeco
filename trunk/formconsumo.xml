@@ -478,10 +478,11 @@ function getData(){
 function selectDateOption(newpermission){
 if(permiso != "ADMIN"){
 	permiso = newpermission;
-}else if(newpermission=="ESPAÑAyPORTUGAL"){
-console.log("akiiiii8");
-	country="ESPAÑAyPORTUGAL";
-	
+}else{
+	console.log("akiiiii9");
+	//country="ESPAÑAyPORTUGAL";
+	document.forms["admin"]["country"].value = newpermission;
+	console.log("akiiiii91 "+document.forms["admin"]["country"].value);
 }
 console.log("permiso en selectDateOption "+permiso);
 console.log("newpermission "+newpermission);
@@ -619,7 +620,7 @@ else if(newpermission=="PERU"){
 		html +='<li><label class="top" for="country">País:</label>';
         html +='<label style="display:inline-block;"><span class="c-form-combo" id="combo">';
         html +='<select  name="country" id="country" value="this.options[this.selectedIndex].value)" onchange="selectDateOption(this.options[this.selectedIndex].value);">';
-        html +='<option value="ESPAÑA">España (Inmuebles corp.)</option>';
+        html +='<option value="ESPAÑA" selected="selected">España (Inmuebles corp.)</option>';
 		html +='<option value="ESPAÑAyPORTUGAL">España (E y P)</option>';		
         html +='<option value="ARGENTINA">Argentina</option>';
         html +='<option value="CHILE">Chile</option>';
