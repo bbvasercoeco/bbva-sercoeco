@@ -480,7 +480,7 @@ function selectDateOption(newpermission){
 if(permiso != "ADMIN"){
 	permiso = newpermission;
 }else{
-	console.log("akiiiii10");
+	console.log("akiiiii11");
 	//country="ESPAÑAyPORTUGAL";
 	//document.forms["admin"]["country"].value = newpermission;
 	newpermissionaux = newpermission;
@@ -919,6 +919,7 @@ function writeConsumo(){
   if(permiso=="ADMIN"){
   console.log("entro en permiso = ADMIN ");
   document.forms["admin"]["country"].value = newpermissionaux;
+  aux1 = document.forms["admin"]["country"].value;
   console.log("aux1 "+aux1);
   idform ="admin";
 	var params = $("#admin").serialize();
