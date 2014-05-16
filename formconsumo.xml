@@ -322,6 +322,7 @@ ul li span.c-form-combo{
 
 <script type='text/javascript'>
 var permiso="";
+var newpermissionaux="";
 function Loaditems()
 	{
 		$(document).ready(function()
@@ -479,9 +480,10 @@ function selectDateOption(newpermission){
 if(permiso != "ADMIN"){
 	permiso = newpermission;
 }else{
-	console.log("akiiiii9");
+	console.log("akiiiii10");
 	//country="ESPAÑAyPORTUGAL";
-	document.forms["admin"]["country"].value = newpermission;
+	//document.forms["admin"]["country"].value = newpermission;
+	newpermissionaux = newpermission;
 	console.log("akiiiii91 "+document.forms["admin"]["country"].value);
 }
 console.log("permiso en selectDateOption "+permiso);
@@ -916,7 +918,7 @@ function writeConsumo(){
 // alert(permiso);
   if(permiso=="ADMIN"){
   console.log("entro en permiso = ADMIN ");
-  var aux1 = document.forms["admin"]["country"].value;
+  document.forms["admin"]["country"].value = newpermissionaux;
   console.log("aux1 "+aux1);
   idform ="admin";
 	var params = $("#admin").serialize();
