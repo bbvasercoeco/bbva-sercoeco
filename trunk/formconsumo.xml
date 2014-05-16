@@ -480,7 +480,7 @@ function selectDateOption(newpermission){
 if(permiso != "ADMIN"){
 	permiso = newpermission;
 }else{
-	console.log("akiiiii11");
+	console.log("akiiiii12");
 	//country="ESPAÑAyPORTUGAL";
 	//document.forms["admin"]["country"].value = newpermission;
 	newpermissionaux = newpermission;
@@ -918,7 +918,11 @@ function writeConsumo(){
 // alert(permiso);
   if(permiso=="ADMIN"){
   console.log("entro en permiso = ADMIN ");
-  document.forms["admin"]["country"].value = newpermissionaux;
+  if(newpermissionaux != ""){
+	document.forms["admin"]["country"].value = newpermissionaux;
+  }else{
+	document.forms["admin"]["country"].value = "ESPAÑA";
+  }
   aux1 = document.forms["admin"]["country"].value;
   console.log("aux1 "+aux1);
   idform ="admin";
