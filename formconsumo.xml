@@ -1072,7 +1072,7 @@ function writeConsumo(){
  //console.log($("#country").val);*/
 // alert(permiso);
   if(permiso=="ADMIN"){
-  console.log("entro en permiso = ADMIN ");
+  //console.log("entro en permiso = ADMIN ");
   if(newpermissionaux != ""){
 	document.forms["admin"]["country"].value = newpermissionaux;
   }else{
