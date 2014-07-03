@@ -1127,7 +1127,7 @@ function writeConsumo(){
   }
   
   params = decodeURIComponent(params);
-  //console.log("params "+params);
+  console.log("params "+params);
   
   if(idform =="eyp"){
 	if((eleckw!="")&&(eleceuro!="")&&(aguam!="")&&(aguaeuro!="")&&(papelm!="")&&(papeleuro!="")&&(gasnaturalm!="")&&(gasnaturaleuro!="")&&(gasl!="")&&(gaseuro!="")){
