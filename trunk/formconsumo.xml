@@ -1061,7 +1061,7 @@ return false;
 function writeConsumo(){
   var auxiliar="";
   var idform="";
-  //console.log("entro en writeConsumo vers 19");
+  console.log("entro en writeConsumo vers 19");
   /*if(permiso=="ADMIN"){
   var aux = document.forms["admin"]["country"].value;
   alert(aux);
@@ -1072,14 +1072,14 @@ function writeConsumo(){
  //console.log($("#country").val);*/
 // alert(permiso);
   if(permiso=="ADMIN"){
-  //console.log("entro en permiso = ADMIN ");
+  console.log("entro en permiso = ADMIN ");
   if(newpermissionaux != ""){
 	document.forms["admin"]["country"].value = newpermissionaux;
   }else{
 	document.forms["admin"]["country"].value = "ESPAÑA";
   }
   aux1 = document.forms["admin"]["country"].value;
-  //console.log("aux1 "+aux1);
+  console.log("aux1 "+aux1);
   idform ="admin";
 	var params = $("#admin").serialize();
   }else if(permiso=="USA"){
@@ -1127,7 +1127,7 @@ function writeConsumo(){
   }
   
   params = decodeURIComponent(params);
-  //console.log("params "+params);
+  console.log("params "+params);
   
   if(idform =="eyp"){
 	if((eleckw!="")&&(eleceuro!="")&&(aguam!="")&&(aguaeuro!="")&&(papelm!="")&&(papeleuro!="")&&(gasnaturalm!="")&&(gasnaturaleuro!="")&&(gasl!="")&&(gaseuro!="")){
